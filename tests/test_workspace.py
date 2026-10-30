@@ -20,7 +20,7 @@ class WorkspaceTests(unittest.TestCase):
         shutil.copytree(REPO / "templates", self.root / "templates")
         shutil.copyfile(REPO / ".gitignore", self.root / ".gitignore")
         self.git("init", "-q")
-        self.git("config", "user.name", "Worknet Test")
+        self.git("config", "user.name", "cn_ai_startups Test")
         self.git("config", "user.email", "test@example.invalid")
         self.git("config", "commit.gpgsign", "false")
 
