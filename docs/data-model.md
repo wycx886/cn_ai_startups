@@ -1,6 +1,6 @@
 # 数据字段与维护方式
 
-本页约定共享的公开研究数据。使用者的事实、偏好和进展不加入这些 JSON，按 [本地工作流](application-workflow.md) 保存在忽略的 `local/` 与 `applications/` 中。
+本页约定共享的公开研究数据。使用者的事实、偏好和进展不加入这些 JSON，按 [本地工作流](application-workflow.md) 保存在已配置的私人 `workspace/` 中。
 
 公司记录契约见 [company.schema.json](../schemas/company.schema.json)，分类契约见 [taxonomy.schema.json](../schemas/taxonomy.schema.json)。所有原始事实只维护在 `data/companies/*.json` 和 `data/taxonomy.json`。
 
@@ -38,7 +38,7 @@
 
 1. 修改目标公司 JSON，补齐对应来源和真正核查过的日期；保持来源 ID 稳定，新增来源追加新 ID。
 2. 运行 `.venv/bin/python scripts/validate.py`。
-3. 运行 `python3 scripts/build.py` 生成公司 Markdown、赛道文档、索引与两份 CSV。
+3. 运行 `python3 scripts/build.py` 生成 `catalog/` 下的公司／机构 Markdown、分类、CSV 和 `data/` 下的机器索引。
 4. 运行 `.venv/bin/python scripts/validate.py --check-generated`，检查提交差异。
 
 Agent 应从 [index.json](../data/index.json) 定位需要的记录，再读取单家公司文件。若按文本检索投资方，可以使用 `scripts/query.py --text`；投资方目前保留在有来源的叙述中，不把未经人工确认的名称提取结果当作精确股东关系。

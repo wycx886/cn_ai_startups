@@ -34,7 +34,7 @@
       "current_firm_case_count": 1,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/alphaist-partners.json",
-      "markdown_path": "investors/alphaist-partners.md"
+      "markdown_path": "catalog/investors/alphaist-partners.md"
     },
     {
       "id": "creek-stone",
@@ -59,7 +59,7 @@
       "current_firm_case_count": 1,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/creek-stone.json",
-      "markdown_path": "investors/creek-stone.md"
+      "markdown_path": "catalog/investors/creek-stone.md"
     },
     {
       "id": "ht-investment-yifeifan",
@@ -80,7 +80,7 @@
       "current_firm_case_count": 1,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/ht-investment-yifeifan.json",
-      "markdown_path": "investors/ht-investment-yifeifan.md"
+      "markdown_path": "catalog/investors/ht-investment-yifeifan.md"
     },
     {
       "id": "nebulon-ventures",
@@ -101,7 +101,7 @@
       "current_firm_case_count": 0,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/nebulon-ventures.json",
-      "markdown_path": "investors/nebulon-ventures.md"
+      "markdown_path": "catalog/investors/nebulon-ventures.md"
     },
     {
       "id": "panyan-fund",
@@ -123,7 +123,7 @@
       "current_firm_case_count": 0,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/panyan-fund.json",
-      "markdown_path": "investors/panyan-fund.md"
+      "markdown_path": "catalog/investors/panyan-fund.md"
     },
     {
       "id": "source-code-rhythm",
@@ -144,7 +144,7 @@
       "current_firm_case_count": 2,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/source-code-rhythm.json",
-      "markdown_path": "investors/source-code-rhythm.md"
+      "markdown_path": "catalog/investors/source-code-rhythm.md"
     },
     {
       "id": "yueqian-capital-zhenghualiang",
@@ -165,7 +165,7 @@
       "current_firm_case_count": 1,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/yueqian-capital-zhenghualiang.json",
-      "markdown_path": "investors/yueqian-capital-zhenghualiang.md"
+      "markdown_path": "catalog/investors/yueqian-capital-zhenghualiang.md"
     },
     {
       "id": "capital-o",
@@ -186,7 +186,7 @@
       "current_firm_case_count": 1,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/capital-o.json",
-      "markdown_path": "investors/capital-o.md"
+      "markdown_path": "catalog/investors/capital-o.md"
     },
     {
       "id": "jinqiu",
@@ -207,7 +207,7 @@
       "current_firm_case_count": 2,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/jinqiu.json",
-      "markdown_path": "investors/jinqiu.md"
+      "markdown_path": "catalog/investors/jinqiu.md"
     },
     {
       "id": "longriver",
@@ -229,7 +229,7 @@
       "current_firm_case_count": 1,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/longriver.json",
-      "markdown_path": "investors/longriver.md"
+      "markdown_path": "catalog/investors/longriver.md"
     },
     {
       "id": "monolith",
@@ -251,7 +251,7 @@
       "current_firm_case_count": 1,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/monolith.json",
-      "markdown_path": "investors/monolith.md"
+      "markdown_path": "catalog/investors/monolith.md"
     },
     {
       "id": "soul-capital",
@@ -274,7 +274,7 @@
       "current_firm_case_count": 1,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/soul-capital.json",
-      "markdown_path": "investors/soul-capital.md"
+      "markdown_path": "catalog/investors/soul-capital.md"
     },
     {
       "id": "trumed",
@@ -296,7 +296,7 @@
       "current_firm_case_count": 2,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/trumed.json",
-      "markdown_path": "investors/trumed.md"
+      "markdown_path": "catalog/investors/trumed.md"
     },
     {
       "id": "5y-capital",
@@ -320,7 +320,7 @@
       "current_firm_case_count": 3,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/5y-capital.json",
-      "markdown_path": "investors/5y-capital.md"
+      "markdown_path": "catalog/investors/5y-capital.md"
     },
     {
       "id": "gaorong",
@@ -345,7 +345,7 @@
       "current_firm_case_count": 3,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/gaorong.json",
-      "markdown_path": "investors/gaorong.md"
+      "markdown_path": "catalog/investors/gaorong.md"
     },
     {
       "id": "gsr-ventures",
@@ -368,7 +368,7 @@
       "current_firm_case_count": 3,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/gsr-ventures.json",
-      "markdown_path": "investors/gsr-ventures.md"
+      "markdown_path": "catalog/investors/gsr-ventures.md"
     },
     {
       "id": "hongshan",
@@ -392,7 +392,7 @@
       "current_firm_case_count": 2,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/hongshan.json",
-      "markdown_path": "investors/hongshan.md"
+      "markdown_path": "catalog/investors/hongshan.md"
     },
     {
       "id": "idg-capital",
@@ -413,7 +413,7 @@
       "current_firm_case_count": 3,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/idg-capital.json",
-      "markdown_path": "investors/idg-capital.md"
+      "markdown_path": "catalog/investors/idg-capital.md"
     },
     {
       "id": "lanchi",
@@ -437,7 +437,7 @@
       "current_firm_case_count": 2,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/lanchi.json",
-      "markdown_path": "investors/lanchi.md"
+      "markdown_path": "catalog/investors/lanchi.md"
     },
     {
       "id": "mpci",
@@ -460,7 +460,7 @@
       "current_firm_case_count": 3,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/mpci.json",
-      "markdown_path": "investors/mpci.md"
+      "markdown_path": "catalog/investors/mpci.md"
     },
     {
       "id": "qiming",
@@ -484,7 +484,7 @@
       "current_firm_case_count": 2,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/qiming.json",
-      "markdown_path": "investors/qiming.md"
+      "markdown_path": "catalog/investors/qiming.md"
     },
     {
       "id": "shunwei",
@@ -506,7 +506,7 @@
       "current_firm_case_count": 3,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/shunwei.json",
-      "markdown_path": "investors/shunwei.md"
+      "markdown_path": "catalog/investors/shunwei.md"
     },
     {
       "id": "source-code",
@@ -527,7 +527,7 @@
       "current_firm_case_count": 3,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/source-code.json",
-      "markdown_path": "investors/source-code.md"
+      "markdown_path": "catalog/investors/source-code.md"
     },
     {
       "id": "yunqi",
@@ -549,7 +549,7 @@
       "current_firm_case_count": 3,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/yunqi.json",
-      "markdown_path": "investors/yunqi.md"
+      "markdown_path": "catalog/investors/yunqi.md"
     },
     {
       "id": "zhenfund",
@@ -573,7 +573,7 @@
       "current_firm_case_count": 3,
       "checked_at": "2026-10-30",
       "json_path": "data/investors/zhenfund.json",
-      "markdown_path": "investors/zhenfund.md"
+      "markdown_path": "catalog/investors/zhenfund.md"
     }
   ]
 }

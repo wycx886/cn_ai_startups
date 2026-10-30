@@ -58,11 +58,18 @@ def main():
   print('Validated %d investor institutions and %d investor source records.'%(len(investors),sum(len(c['sources']) for c in investors)))
  if args.check_generated:
   subprocess.run([sys.executable,str(ROOT/'scripts/build.py'),'--check'],check=True)
-  for path in [ROOT/'AGENTS.md',ROOT/'README.md',ROOT/'taxonomy.md',*sorted((ROOT/'docs').glob('*.md')),*sorted((ROOT/'templates').glob('*.md')),*sorted((ROOT/'companies').glob('*.md')),*sorted((ROOT/'investors').glob('*.md'))]:
+  for path in [ROOT/'AGENTS.md',ROOT/'README.md',*sorted((ROOT/'docs').glob('*.md')),*sorted((ROOT/'templates').glob('*.md')),*sorted((ROOT/'catalog').rglob('*.md'))]:
    for target in re.findall(r'\[[^\]]+\]\(([^)]+)\)',path.read_text()):
     if target.startswith(('https://','http://','mailto:','#')):continue
     target=target.split('#',1)[0];resolved=(path.parent/target).resolve()
     assert ROOT==resolved or ROOT in resolved.parents,'Local link escapes repository: '+target
     assert resolved.exists(),'Broken local link: '+str(path.relative_to(ROOT))+' -> '+target
+ if args.check_generated:
+  for entity,index_name in [('companies','index.json'),('investors','investor-index.json')]:
+   manifest=load(ROOT/'data'/index_name)
+   for entry in manifest[entity]:
+    for field in ['json_path','markdown_path']:
+     target=(ROOT/entry[field]).resolve()
+     assert ROOT in target.parents and target.is_file(),'Invalid machine-index path: '+entry[field]
  print('Validated %d companies, %d categories and %d source records.'%(len(records),len(categories),sum(len(c['sources']) for c in records)))
 if __name__=='__main__':main()

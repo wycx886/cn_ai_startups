@@ -1,50 +1,61 @@
-# 本地个人工作流
+# 私人工作区与记录流程
 
-cn_ai_startups 分享规则、模板和公共资料。每个使用者的个人事实、简历、联系人和投递进展属于自己的本地工作区。
+共享仓库保存框架、公共资料和空白模板；私人工作区保存当前使用者的履历、简历、联系人和投递进展。每个使用者只维护一套个人档案。
 
-## 初始化
+## Fork 用户：创建本地工作区
 
-在仓库根目录运行：
+在克隆的仓库根目录执行：
 
 ```bash
 python3 scripts/init_local.py
+python3 scripts/workspace.py --json
 ```
 
-初始化只复制空白模板，重复运行保留已有内容。它不会读取其他职业资料库，也不会迁移个人记录。初始化后目录如下；这些目录全部被 `.gitignore` 排除：
+初始化创建被忽略的 `workspace/`，重复运行不覆盖已有文件，不从其他目录推断或导入个人事实：
 
 ```text
-local/
+workspace/
+  AGENTS.md
   README.md
-  profile.md          本人的事实基准
-  preferences.md      本人的方向、约束与授权
-  resumes/            本人简历及附件
-  drafts/             本人材料草稿
-applications/
-  AGENTS.md           本地记录规则
-  README.md           进度总览
-  <organization-id>/
-    log.md            有实际任务时才创建
-  inbox/              待核实或待合并的补充
-  archive/            已结束的记录
-  headhunters/        本人的猎头沟通记录
+  profile.md
+  preferences.md
+  resume/
+  drafts/
+  applications/
+    AGENTS.md
+    README.md
+    <organization-id>/log.md    有实际任务时才创建
+    inbox/done/
+    archive/
+    headhunters/
 ```
 
-这些路径不会出现在 GitHub；仓库中只保留 [空白模板](../templates/README.md)。只研究公司时可以不初始化；需要个人任务时补充所需字段即可，不要求一次填完整份履历。
+Fork 的 GitHub 内容只包含框架和空白模板，私人工作区由使用者的 Agent 在本地创建。仅查询公共资料时不必初始化或填写个人信息。
 
-## 每次任务
+## 已有私人工作区：只绑定，不复制
 
-1. 读根目录 [AGENTS.md](../AGENTS.md)，以及本人 `local/profile.md`、`local/preferences.md`。个人事实以使用者提供的材料为准；发现冲突时保留原文并核实，不选择对自己更有利的版本。
-2. 读本地 `applications/README.md` 和相关组织日志，检查归档、“不再接触”、已有联系人及岗位，避免重复投递。缺少组织身份时先记 `inbox/`。
-3. 按需查公共索引与单条 JSON。公共公司的核查日期不等于岗位今天仍开放；需要联系或投递时重查对应渠道，不猜邮箱。
-4. 新组织优先用公共资料 `id` 作为稳定目录名；库外组织另设稳定名称。复制 [application-log.md](../templates/application-log.md) 到 `applications/<organization-id>/log.md`。每个联系人或岗位设置独立联系线。
-5. 仅生成材料时，使用 [outreach-draft.md](../templates/outreach-draft.md)，保存在 `local/drafts/` 或组织目录，状态为草稿。实际发送、平台操作或预约须在已有明确授权范围内执行；模板和仓库不自动授权。已有授权可以继续使用。
-6. 真实动作、使用者确认或新回复到达后，追加日志并同步本地总览。每条包含实际发生日期、时区、渠道、联系人、岗位、事实依据、下一步及期限；补录时另写记录日期。不把推测写成承诺，不把草稿写成已投递。
-7. 某一联系线结束只关闭该联系线；全部结束后可归档，保留结果与原因。保留历史记录，不靠删除历史来清理总览。
+已有工作区至少应包含 `profile.md` 和 `preferences.md`：
 
-有新的沟通原文时，可先用 [communication-note.md](../templates/communication-note.md) 记录，再合并事实。没有明确的跟进授权时，只给建议或准备草稿。日历和提醒需要使用者提出相应需求。
+```bash
+python3 scripts/init_local.py --workspace ../my-private-workspace --use-existing
+```
 
-## 多 Agent 协作
+此命令只保存被忽略的 `workspace.local.json`；不创建内部 `workspace/`，不改原有个人文件。Agent 每次通过 `scripts/workspace.py --json` 读取有效位置，遵循该工作区自己的 `AGENTS.md` 和文件组织。个人工作区不能指向仓库本身、其父目录或仓库中的共享目录。
 
-协调 Agent 先分配组织范围。不同组织可并行整理；同一组织的补充先分别新建 `applications/inbox/<日期>-<agent>-<主题>.md`，保留来源与实际时间，再由协调 Agent 核实、合并到公司日志和总览。不要同时编辑同一份日志，也不要用另一个 Agent 的推测作为事实依据。
+如旧版本已存在 `local/`、根目录 `applications/`，先核对和归拢已有资料，再绑定；初始化会阻止在这些旧目录旁悄悄新建第二套空白工作区。用户用云端 Agent 时，应把同一工作区放在其账号下的私有持久存储；Git 忽略本身不提供跨会话备份。
 
-公共研究可以独立贡献到 `data/`；从个人沟通中得知的未公开信息留在本地。私人简历、原文、附件、薪酬、账号信息和授权记录不得复制到公共文件或远端讨论。同步方式见 [git-sync.md](git-sync.md)。
+## 每次个人任务
+
+1. 读共享仓库 [AGENTS.md](../AGENTS.md)，解析有效工作区，再读本人事实、偏好与既有规则。只询问当前任务缺少的信息，不要求先补全所有字段。
+2. 读工作区的投递总览、归档和目标组织日志，检查已有联系人及不再接触要求，避免重复联系。
+3. 按需读取公共索引和单条 JSON。公共核查日期不代表岗位今天仍开放；准备联系时实际重查渠道，不猜邮箱。
+4. 一家组织一个稳定目录；优先沿用既有目录名，新目录可采用公开资料 ID。每个岗位或联系人设置独立联系线。
+5. 草稿放 `drafts/` 或组织目录；简历代码与附件放 `resume/`。实际发送、投递或预约依照使用者明确授权范围执行；仓库和模板本身不授权。
+6. 真实动作或新回复到达后，追加组织日志并同步总览。保留实际日期、时区、记录日期、渠道、联系人、岗位、依据和下一步。补录不改写事件日期，不把猜测写成承诺。
+7. 一个联系人结束只关闭该联系线；全部结束或使用者明确决定后可归档，保留原因和历史。
+
+新记录使用 [日志模板](../templates/application-log.md)、[沟通模板](../templates/communication-note.md) 或 [草稿模板](../templates/outreach-draft.md)。保留原始材料作为事实依据，处理完成的 inbox 记录移到 `inbox/done/`，不重复生成同一进展。
+
+## 多 Agent 与同步
+
+协调 Agent 按组织分工。同一组织的并行补充分别新建唯一文件到私人 inbox，由协调 Agent 核实后合并。公共研究可独立贡献到 `data/`；从个人沟通获知的未公开事实留在私人工作区。原文、附件、薪酬、凭据与授权记录不得复制到共享文件和远端讨论。共享提交见 [git-sync.md](git-sync.md)。

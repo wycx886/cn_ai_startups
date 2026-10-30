@@ -6,6 +6,9 @@ __pycache__/
 .env.*
 
 # Per-user workspace: never shared with the framework repository.
+/workspace/
+/workspace.local.json
+/resume/
 /applications/
 /application/
 /local/

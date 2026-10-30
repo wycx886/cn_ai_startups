@@ -21,7 +21,7 @@
       "focus": "产业模型与企业决策AI",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/01-ai.json",
-      "markdown_path": "companies/01-ai.md"
+      "markdown_path": "catalog/companies/01-ai.md"
     },
     {
       "id": "baichuan",
@@ -35,7 +35,7 @@
       "focus": "医疗增强模型与AI家庭医生",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/baichuan.json",
-      "markdown_path": "companies/baichuan.md"
+      "markdown_path": "catalog/companies/baichuan.md"
     },
     {
       "id": "deepseek",
@@ -49,7 +49,7 @@
       "focus": "通用与推理基础模型、开源模型与API",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/deepseek.json",
-      "markdown_path": "companies/deepseek.md"
+      "markdown_path": "catalog/companies/deepseek.md"
     },
     {
       "id": "langboat",
@@ -63,7 +63,7 @@
       "focus": "认知模型与企业智能体",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/langboat.json",
-      "markdown_path": "companies/langboat.md"
+      "markdown_path": "catalog/companies/langboat.md"
     },
     {
       "id": "minimax",
@@ -77,7 +77,7 @@
       "focus": "多模态基础模型与全球消费应用",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/minimax.json",
-      "markdown_path": "companies/minimax.md"
+      "markdown_path": "catalog/companies/minimax.md"
     },
     {
       "id": "modelbest",
@@ -91,7 +91,7 @@
       "focus": "高效端侧模型与多模态",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/modelbest.json",
-      "markdown_path": "companies/modelbest.md"
+      "markdown_path": "catalog/companies/modelbest.md"
     },
     {
       "id": "moonshot",
@@ -105,7 +105,7 @@
       "focus": "通用模型、个人助手与代码Agent",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/moonshot.json",
-      "markdown_path": "companies/moonshot.md"
+      "markdown_path": "catalog/companies/moonshot.md"
     },
     {
       "id": "stepfun",
@@ -119,7 +119,7 @@
       "focus": "多模态基座模型与AI终端",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/stepfun.json",
-      "markdown_path": "companies/stepfun.md"
+      "markdown_path": "catalog/companies/stepfun.md"
     },
     {
       "id": "zhipu",
@@ -133,7 +133,7 @@
       "focus": "通用基座模型、模型服务与智能体",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/zhipu.json",
-      "markdown_path": "companies/zhipu.md"
+      "markdown_path": "catalog/companies/zhipu.md"
     },
     {
       "id": "approaching-ai",
@@ -147,7 +147,7 @@
       "focus": "异构推理与Token生产",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/approaching-ai.json",
-      "markdown_path": "companies/approaching-ai.md"
+      "markdown_path": "catalog/companies/approaching-ai.md"
     },
     {
       "id": "biren",
@@ -160,7 +160,7 @@
       "focus": "通用GPU与智算解决方案",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/biren.json",
-      "markdown_path": "companies/biren.md"
+      "markdown_path": "catalog/companies/biren.md"
     },
     {
       "id": "datacanvas",
@@ -174,7 +174,7 @@
       "focus": "AI基础软件与智算云",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/datacanvas.json",
-      "markdown_path": "companies/datacanvas.md"
+      "markdown_path": "catalog/companies/datacanvas.md"
     },
     {
       "id": "enflame",
@@ -187,7 +187,7 @@
       "focus": "云端AI芯片及数据中心训推系统",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/enflame.json",
-      "markdown_path": "companies/enflame.md"
+      "markdown_path": "catalog/companies/enflame.md"
     },
     {
       "id": "infinigence",
@@ -201,7 +201,7 @@
       "focus": "异构算力与AI原生基础设施",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/infinigence.json",
-      "markdown_path": "companies/infinigence.md"
+      "markdown_path": "catalog/companies/infinigence.md"
     },
     {
       "id": "infrawaves",
@@ -215,7 +215,7 @@
       "focus": "智算集群与高速算力网络",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/infrawaves.json",
-      "markdown_path": "companies/infrawaves.md"
+      "markdown_path": "catalog/companies/infrawaves.md"
     },
     {
       "id": "luchentech",
@@ -229,7 +229,7 @@
       "focus": "分布式训练、推理系统与算力云",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/luchentech.json",
-      "markdown_path": "companies/luchentech.md"
+      "markdown_path": "catalog/companies/luchentech.md"
     },
     {
       "id": "metax",
@@ -242,7 +242,7 @@
       "focus": "全栈GPU芯片与计算平台",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/metax.json",
-      "markdown_path": "companies/metax.md"
+      "markdown_path": "catalog/companies/metax.md"
     },
     {
       "id": "moore-threads",
@@ -255,7 +255,7 @@
       "focus": "全功能GPU与软件生态",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/moore-threads.json",
-      "markdown_path": "companies/moore-threads.md"
+      "markdown_path": "catalog/companies/moore-threads.md"
     },
     {
       "id": "qingcheng-ai",
@@ -269,7 +269,7 @@
       "focus": "国产算力系统软件与推理评测路由",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/qingcheng-ai.json",
-      "markdown_path": "companies/qingcheng-ai.md"
+      "markdown_path": "catalog/companies/qingcheng-ai.md"
     },
     {
       "id": "siliconflow",
@@ -283,7 +283,7 @@
       "focus": "多模型API、推理服务与私有化MaaS",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/siliconflow.json",
-      "markdown_path": "companies/siliconflow.md"
+      "markdown_path": "catalog/companies/siliconflow.md"
     },
     {
       "id": "aixcoder",
@@ -297,7 +297,7 @@
       "focus": "企业级 AI 软件研发",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/aixcoder.json",
-      "markdown_path": "companies/aixcoder.md"
+      "markdown_path": "catalog/companies/aixcoder.md"
     },
     {
       "id": "dify",
@@ -311,7 +311,7 @@
       "focus": "开源LLM应用开发与Agent编排平台",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/dify.json",
-      "markdown_path": "companies/dify.md"
+      "markdown_path": "catalog/companies/dify.md"
     },
     {
       "id": "caiyun",
@@ -324,7 +324,7 @@
       "focus": "AI天气、机器翻译与智能写作",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/caiyun.json",
-      "markdown_path": "companies/caiyun.md"
+      "markdown_path": "catalog/companies/caiyun.md"
     },
     {
       "id": "flowith",
@@ -337,7 +337,7 @@
       "focus": "画布式AI创作与Agent工作空间",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/flowith.json",
-      "markdown_path": "companies/flowith.md"
+      "markdown_path": "catalog/companies/flowith.md"
     },
     {
       "id": "genspark",
@@ -351,7 +351,7 @@
       "focus": "多模型协同的AI工作空间与Agent",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/genspark.json",
-      "markdown_path": "companies/genspark.md"
+      "markdown_path": "catalog/companies/genspark.md"
     },
     {
       "id": "manus",
@@ -365,7 +365,7 @@
       "focus": "通用任务执行Agent",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/manus.json",
-      "markdown_path": "companies/manus.md"
+      "markdown_path": "catalog/companies/manus.md"
     },
     {
       "id": "metasota",
@@ -379,7 +379,7 @@
       "focus": "AI搜索、深度研究与专业文字工具",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/metasota.json",
-      "markdown_path": "companies/metasota.md"
+      "markdown_path": "catalog/companies/metasota.md"
     },
     {
       "id": "today-ai",
@@ -393,7 +393,7 @@
       "focus": "主动式个人Agent与长期记忆",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/today-ai.json",
-      "markdown_path": "companies/today-ai.md"
+      "markdown_path": "catalog/companies/today-ai.md"
     },
     {
       "id": "aisphere",
@@ -407,7 +407,7 @@
       "focus": "视频基础模型与创作者应用",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/aisphere.json",
-      "markdown_path": "companies/aisphere.md"
+      "markdown_path": "catalog/companies/aisphere.md"
     },
     {
       "id": "avolution",
@@ -421,7 +421,7 @@
       "focus": "二次元视频生成",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/avolution.json",
-      "markdown_path": "companies/avolution.md"
+      "markdown_path": "catalog/companies/avolution.md"
     },
     {
       "id": "creativefitting",
@@ -435,7 +435,7 @@
       "focus": "AI 原生娱乐与内容 Agent 系统",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/creativefitting.json",
-      "markdown_path": "companies/creativefitting.md"
+      "markdown_path": "catalog/companies/creativefitting.md"
     },
     {
       "id": "deemos",
@@ -449,7 +449,7 @@
       "focus": "3D 资产生成、数字人与世界生成",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/deemos.json",
-      "markdown_path": "companies/deemos.md"
+      "markdown_path": "catalog/companies/deemos.md"
     },
     {
       "id": "gaoding",
@@ -462,7 +462,7 @@
       "focus": "商业视觉设计与 AI 内容工具",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/gaoding.json",
-      "markdown_path": "companies/gaoding.md"
+      "markdown_path": "catalog/companies/gaoding.md"
     },
     {
       "id": "guiji",
@@ -475,7 +475,7 @@
       "focus": "AI 数字人与智能交互",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/guiji.json",
-      "markdown_path": "companies/guiji.md"
+      "markdown_path": "catalog/companies/guiji.md"
     },
     {
       "id": "jsdesign",
@@ -488,7 +488,7 @@
       "focus": "UI 设计协作与 AI 设计工具",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/jsdesign.json",
-      "markdown_path": "companies/jsdesign.md"
+      "markdown_path": "catalog/companies/jsdesign.md"
     },
     {
       "id": "liblib",
@@ -502,7 +502,7 @@
       "focus": "AI 创意生产平台与模型社区",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/liblib.json",
-      "markdown_path": "companies/liblib.md"
+      "markdown_path": "catalog/companies/liblib.md"
     },
     {
       "id": "shengshu",
@@ -516,7 +516,7 @@
       "focus": "视频生成与世界模型",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/shengshu.json",
-      "markdown_path": "companies/shengshu.md"
+      "markdown_path": "catalog/companies/shengshu.md"
     },
     {
       "id": "vast",
@@ -530,7 +530,7 @@
       "focus": "3D 生成基础模型与创作工作台",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/vast.json",
-      "markdown_path": "companies/vast.md"
+      "markdown_path": "catalog/companies/vast.md"
     },
     {
       "id": "xmov",
@@ -544,7 +544,7 @@
       "focus": "3D 数字人视频、直播与交互智能体",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/xmov.json",
-      "markdown_path": "companies/xmov.md"
+      "markdown_path": "catalog/companies/xmov.md"
     },
     {
       "id": "ai-indeed",
@@ -558,7 +558,7 @@
       "focus": "屏幕理解与企业执行 Agent",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/ai-indeed.json",
-      "markdown_path": "companies/ai-indeed.md"
+      "markdown_path": "catalog/companies/ai-indeed.md"
     },
     {
       "id": "cyclone",
@@ -571,7 +571,7 @@
       "focus": "企业行动智能体与超自动化",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/cyclone.json",
-      "markdown_path": "companies/cyclone.md"
+      "markdown_path": "catalog/companies/cyclone.md"
     },
     {
       "id": "deepexi",
@@ -585,7 +585,7 @@
       "focus": "企业大模型、数据语义与智能体平台",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/deepexi.json",
-      "markdown_path": "companies/deepexi.md"
+      "markdown_path": "catalog/companies/deepexi.md"
     },
     {
       "id": "intsig",
@@ -598,7 +598,7 @@
       "focus": "文档智能、OCR 与商业数据 AI",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/intsig.json",
-      "markdown_path": "companies/intsig.md"
+      "markdown_path": "catalog/companies/intsig.md"
     },
     {
       "id": "laiye",
@@ -611,7 +611,7 @@
       "focus": "智能自动化、智能文档与数字员工",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/laiye.json",
-      "markdown_path": "companies/laiye.md"
+      "markdown_path": "catalog/companies/laiye.md"
     },
     {
       "id": "powerlaw",
@@ -625,7 +625,7 @@
       "focus": "法律 AI 与合同全生命周期管理",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/powerlaw.json",
-      "markdown_path": "companies/powerlaw.md"
+      "markdown_path": "catalog/companies/powerlaw.md"
     },
     {
       "id": "recurrent-ai",
@@ -639,7 +639,7 @@
       "focus": "销售智能与对话分析",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/recurrent-ai.json",
-      "markdown_path": "companies/recurrent-ai.md"
+      "markdown_path": "catalog/companies/recurrent-ai.md"
     },
     {
       "id": "yingdao",
@@ -653,7 +653,7 @@
       "focus": "RPA、AI 工作流与数字员工",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/yingdao.json",
-      "markdown_path": "companies/yingdao.md"
+      "markdown_path": "catalog/companies/yingdao.md"
     },
     {
       "id": "deepdraw",
@@ -666,7 +666,7 @@
       "focus": "时尚商品中台与商品数字化",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/deepdraw.json",
-      "markdown_path": "companies/deepdraw.md"
+      "markdown_path": "catalog/companies/deepdraw.md"
     },
     {
       "id": "infimind",
@@ -680,7 +680,7 @@
       "focus": "电商内容生成与商品数字化",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/infimind.json",
-      "markdown_path": "companies/infimind.md"
+      "markdown_path": "catalog/companies/infimind.md"
     },
     {
       "id": "kuaizi",
@@ -694,7 +694,7 @@
       "focus": "商业内容 AIGC 与广告创意自动化",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/kuaizi.json",
-      "markdown_path": "companies/kuaizi.md"
+      "markdown_path": "catalog/companies/kuaizi.md"
     },
     {
       "id": "leyan",
@@ -707,7 +707,7 @@
       "focus": "电商客服与营销 SaaS",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/leyan.json",
-      "markdown_path": "companies/leyan.md"
+      "markdown_path": "catalog/companies/leyan.md"
     },
     {
       "id": "quickcep",
@@ -721,7 +721,7 @@
       "focus": "全球消费者互动与客服/语音 Agent",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/quickcep.json",
-      "markdown_path": "companies/quickcep.md"
+      "markdown_path": "catalog/companies/quickcep.md"
     },
     {
       "id": "shoplazza",
@@ -735,7 +735,7 @@
       "focus": "跨境独立站与零售商业基础设施",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/shoplazza.json",
-      "markdown_path": "companies/shoplazza.md"
+      "markdown_path": "catalog/companies/shoplazza.md"
     },
     {
       "id": "shulex",
@@ -749,7 +749,7 @@
       "focus": "客户服务 Agent 与 VOC 消费者洞察",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/shulex.json",
-      "markdown_path": "companies/shulex.md"
+      "markdown_path": "catalog/companies/shulex.md"
     },
     {
       "id": "tabcut",
@@ -763,7 +763,7 @@
       "focus": "TikTok 电商数据与视频内容 SaaS",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/tabcut.json",
-      "markdown_path": "companies/tabcut.md"
+      "markdown_path": "catalog/companies/tabcut.md"
     },
     {
       "id": "tec-do",
@@ -776,7 +776,7 @@
       "focus": "全球效果营销与 AI 广告内容",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/tec-do.json",
-      "markdown_path": "companies/tec-do.md"
+      "markdown_path": "catalog/companies/tec-do.md"
     },
     {
       "id": "xiaoduo",
@@ -789,7 +789,7 @@
       "focus": "客服 AI、商家服务与语流 Agent",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/xiaoduo.json",
-      "markdown_path": "companies/xiaoduo.md"
+      "markdown_path": "catalog/companies/xiaoduo.md"
     },
     {
       "id": "agibot",
@@ -803,7 +803,7 @@
       "focus": "通用机器人、具身模型、量产与应用生态",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/agibot.json",
-      "markdown_path": "companies/agibot.md"
+      "markdown_path": "catalog/companies/agibot.md"
     },
     {
       "id": "fourier",
@@ -817,7 +817,7 @@
       "focus": "人形机器人与康复机器人两条业务线",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/fourier.json",
-      "markdown_path": "companies/fourier.md"
+      "markdown_path": "catalog/companies/fourier.md"
     },
     {
       "id": "galaxea",
@@ -831,7 +831,7 @@
       "focus": "整机、具身基础模型与开发平台",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/galaxea.json",
-      "markdown_path": "companies/galaxea.md"
+      "markdown_path": "catalog/companies/galaxea.md"
     },
     {
       "id": "galbot",
@@ -845,7 +845,7 @@
       "focus": "通用具身模型与机器人在零售、工业场景的部署",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/galbot.json",
-      "markdown_path": "companies/galbot.md"
+      "markdown_path": "catalog/companies/galbot.md"
     },
     {
       "id": "limx",
@@ -859,7 +859,7 @@
       "focus": "全身运动控制、具身智能与模块化足式机器人",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/limx.json",
-      "markdown_path": "companies/limx.md"
+      "markdown_path": "catalog/companies/limx.md"
     },
     {
       "id": "noematrix",
@@ -873,7 +873,7 @@
       "focus": "以力为中心的具身基础模型与通用机器人大脑",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/noematrix.json",
-      "markdown_path": "companies/noematrix.md"
+      "markdown_path": "catalog/companies/noematrix.md"
     },
     {
       "id": "robotera",
@@ -887,7 +887,7 @@
       "focus": "全栈人形机器人、灵巧手与具身模型",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/robotera.json",
-      "markdown_path": "companies/robotera.md"
+      "markdown_path": "catalog/companies/robotera.md"
     },
     {
       "id": "spirit-ai",
@@ -901,7 +901,7 @@
       "focus": "具身大模型、数据与通用机器人",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/spirit-ai.json",
-      "markdown_path": "companies/spirit-ai.md"
+      "markdown_path": "catalog/companies/spirit-ai.md"
     },
     {
       "id": "tars",
@@ -915,7 +915,7 @@
       "focus": "物理AI、通用具身模型及软硬一体机器人",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/tars.json",
-      "markdown_path": "companies/tars.md"
+      "markdown_path": "catalog/companies/tars.md"
     },
     {
       "id": "unitree",
@@ -929,7 +929,7 @@
       "focus": "消费级与行业级足式、人形机器人本体",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/unitree.json",
-      "markdown_path": "companies/unitree.md"
+      "markdown_path": "catalog/companies/unitree.md"
     },
     {
       "id": "x-square",
@@ -943,7 +943,7 @@
       "focus": "端到端具身基础模型及通用机器人",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/x-square.json",
-      "markdown_path": "companies/x-square.md"
+      "markdown_path": "catalog/companies/x-square.md"
     },
     {
       "id": "haivivi",
@@ -957,7 +957,7 @@
       "focus": "AI玩具、语音互动与陪伴",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/haivivi.json",
-      "markdown_path": "companies/haivivi.md"
+      "markdown_path": "catalog/companies/haivivi.md"
     },
     {
       "id": "hypershell",
@@ -971,7 +971,7 @@
       "focus": "消费级穿戴外骨骼与户外助力",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/hypershell.json",
-      "markdown_path": "companies/hypershell.md"
+      "markdown_path": "catalog/companies/hypershell.md"
     },
     {
       "id": "plaud",
@@ -985,7 +985,7 @@
       "focus": "AI录音硬件与专业人士对话智能软件",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/plaud.json",
-      "markdown_path": "companies/plaud.md"
+      "markdown_path": "catalog/companies/plaud.md"
     },
     {
       "id": "sharge",
@@ -999,7 +999,7 @@
       "focus": "消费电子、AI眼镜与智能穿戴",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/sharge.json",
-      "markdown_path": "companies/sharge.md"
+      "markdown_path": "catalog/companies/sharge.md"
     },
     {
       "id": "viaim",
@@ -1013,7 +1013,7 @@
       "focus": "AI办公耳机、录音转写及会议智能",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/viaim.json",
-      "markdown_path": "companies/viaim.md"
+      "markdown_path": "catalog/companies/viaim.md"
     },
     {
       "id": "biomap",
@@ -1027,7 +1027,7 @@
       "focus": "生命科学基础模型与蛋白质、生物系统设计",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/biomap.json",
-      "markdown_path": "companies/biomap.md"
+      "markdown_path": "catalog/companies/biomap.md"
     },
     {
       "id": "dp-technology",
@@ -1041,7 +1041,7 @@
       "focus": "科学智能基础设施、科学模型与研发工具",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/dp-technology.json",
-      "markdown_path": "companies/dp-technology.md"
+      "markdown_path": "catalog/companies/dp-technology.md"
     },
     {
       "id": "insilico",
@@ -1055,7 +1055,7 @@
       "focus": "生成式AI药物发现平台与自研创新药管线",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/insilico.json",
-      "markdown_path": "companies/insilico.md"
+      "markdown_path": "catalog/companies/insilico.md"
     },
     {
       "id": "matwings",
@@ -1068,7 +1068,7 @@
       "focus": "蛋白质设计大模型、AI生物设计及干湿实验闭环",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/matwings.json",
-      "markdown_path": "companies/matwings.md"
+      "markdown_path": "catalog/companies/matwings.md"
     },
     {
       "id": "megarobo",
@@ -1081,7 +1081,7 @@
       "focus": "智慧实验室与智能制造自主智能体、自动化平台",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/megarobo.json",
-      "markdown_path": "companies/megarobo.md"
+      "markdown_path": "catalog/companies/megarobo.md"
     },
     {
       "id": "xtalpi",
@@ -1095,7 +1095,7 @@
       "focus": "AI、量子物理与自动化实验支撑药物及材料研发",
       "checked_at": "2026-10-30",
       "json_path": "data/companies/xtalpi.json",
-      "markdown_path": "companies/xtalpi.md"
+      "markdown_path": "catalog/companies/xtalpi.md"
     }
   ],
   "investor_index_path": "data/investor-index.json"

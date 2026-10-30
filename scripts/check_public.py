@@ -5,15 +5,15 @@ from pathlib import Path, PurePosixPath
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC_FILES = frozenset({
-    ".gitignore", "AGENTS.md", "README.md", "taxonomy.md", "requirements-dev.txt",
+    ".gitignore", "AGENTS.md", "README.md", "requirements-dev.txt",
     "LICENSE", "LICENSE.md",
 })
 PUBLIC_DIRS = frozenset({
-    ".github", "companies", "data", "docs", "exports", "investors",
+    ".github", "catalog", "data", "docs",
     "schemas", "scripts", "templates", "tests",
 })
 PRIVATE_PARTS = frozenset({
-    "applications", "application", "local", "private", "resumes", "drafts",
+    "workspace", "workspace.local.json", "resume", "applications", "application", "local", "private", "resumes", "drafts",
     ".venv", "__pycache__", ".git",
 })
 CONTENT_PATTERNS = (
@@ -28,7 +28,7 @@ def git(root, *args):
     return subprocess.check_output(["git", "-C", str(root), *args])
 
 
-def path_problem(name):
+def path_problem(name, historical=False):
     parts = PurePosixPath(name).parts
     folded = [part.casefold() for part in parts]
     if any(part in PRIVATE_PARTS or part == ".env" or part.startswith(".env.") for part in folded):
@@ -36,6 +36,8 @@ def path_problem(name):
     if PurePosixPath(name).suffix.casefold() in {".eml", ".msg", ".pem", ".key", ".p12"}:
         return "personal message or credential file"
     if name in PUBLIC_FILES or (len(parts) > 1 and parts[0] in PUBLIC_DIRS):
+        return None
+    if historical and (name == "taxonomy.md" or (len(parts) > 1 and parts[0] in {"companies", "investors", "exports"})):
         return None
     return "outside the shared file allowlist"
 
@@ -72,7 +74,7 @@ def audit(root=ROOT):
     historical_names = {name.decode("utf-8", errors="replace").strip("\n")
                         for name in history.split(b"\0") if name.strip(b"\n")}
     for name in sorted(historical_names):
-        reason = path_problem(name)
+        reason = path_problem(name, historical=True)
         if reason:
             problems.append("History: %s (%s)" % (name, reason))
     return problems

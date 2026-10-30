@@ -1,16 +1,17 @@
 # 空白模板
 
-这里提交通用结构。使用者或 Agent 复制到被忽略的本地目录后填写，不把模板改成真实个人档案。
+这里只维护通用结构，不填写真实个人信息。首次初始化将模板复制到被忽略的 `workspace/`；若使用已有私人工作区，初始化只保存本地路径配置，不复制另一套档案。
 
-| 模板 | 本地用途 |
+| 模板 | 私人工作区中的用途 |
 | --- | --- |
-| [profile.md](profile.md) | 本人的事实基准，初始化到 `local/profile.md` |
-| [preferences.md](preferences.md) | 本人的目标与约束，初始化到 `local/preferences.md` |
-| [local-guide.md](local-guide.md) | 本地资料说明，初始化到 `local/README.md` |
-| [applications-agent-rules.md](applications-agent-rules.md) | 初始化到 `applications/AGENTS.md` |
-| [applications-index.md](applications-index.md) | 初始化到 `applications/README.md` |
+| [workspace-guide.md](workspace-guide.md) | `README.md`，本人的目录导航 |
+| [workspace-agent-rules.md](workspace-agent-rules.md) | `AGENTS.md`，本人的维护规则 |
+| [profile.md](profile.md) | `profile.md`，本人事实基准 |
+| [preferences.md](preferences.md) | `preferences.md`，目标和约束 |
+| [applications-agent-rules.md](applications-agent-rules.md) | `applications/AGENTS.md` |
+| [applications-index.md](applications-index.md) | `applications/README.md` |
 | [application-log.md](application-log.md) | 有实际任务时复制到 `applications/<organization-id>/log.md` |
-| [communication-note.md](communication-note.md) | 具体沟通补充，保存在组织目录或 `applications/inbox/` |
-| [outreach-draft.md](outreach-draft.md) | 未发送的联系草稿，保存在 `local/drafts/` 或组织目录 |
+| [communication-note.md](communication-note.md) | 组织目录或 `applications/inbox/` 中的沟通补充 |
+| [outreach-draft.md](outreach-draft.md) | `drafts/` 或组织目录中的未发送草稿 |
 
-在仓库根目录运行 `python3 scripts/init_local.py` 可初始化空白工作区；重复运行不覆盖已有记录。实际维护遵循 [Agent 规则](../AGENTS.md) 和 [本地工作流](../docs/application-workflow.md)。
+初始化与复用已有资料的命令见 [本地工作流](../docs/application-workflow.md)。

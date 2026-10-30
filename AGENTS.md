@@ -1,50 +1,34 @@
 # cn_ai_startups · Agent 规则
 
-本仓库是可复用的职业研究与跟进框架，附带 AI 公司与 VC 机构的公开资料。每个使用者拥有自己的本地工作区；框架不预设个人背景、行业偏好或目标岗位。先读本文件和 README.md。
+本仓库共享职业研究框架、空白模板和有来源的 AI 公司／VC 资料；不预设使用者背景、行业偏好或目标岗位。人类入口是 [README.md](README.md)。
 
-## 共享与本地边界
+## 仓库与个人工作区
 
-本目录是独立 Git 仓库，即使放在私人工作区的子目录里，提交与推送范围也只能是本目录。不得在私人父目录初始化或推送 Git，不得把父目录或同级目录的履历、简历、投递和研究中间文件复制进来。提交工具会检查实际 Git 根目录，发现操作范围扩大到父目录时停止。
+- 本目录是独立 Git 根目录。提交与推送只能覆盖本目录中的共享文件，不得扩大到私人父目录；提交检查会核对实际 Git 根目录。
+- `data/companies/`、`data/investors/` 和 `data/taxonomy.json` 是公开研究的唯一维护源。`catalog/` 与机器索引自动生成；README、规则和流程人工维护。
+- 个人事实、简历、草稿、联系人、投递与聊天只写私人工作区，不写公共数据、模板、提交信息、Issue 或 PR。
+- 每次个人任务先运行 `python3 scripts/workspace.py --json` 解析工作区。默认是被忽略的 `workspace/`；已有工作区可通过被忽略的 `workspace.local.json` 指向外部位置。不要仅凭目录名猜个人资料在哪，也不要另建第二套档案。
+- 尚未初始化时，Fork 用户运行 `python3 scripts/init_local.py`。使用已有档案时按 [本地工作流](docs/application-workflow.md) 绑定；`--use-existing` 只写路径配置，不复制个人资料。
 
-| 内容 | 位置 | 是否提交 GitHub |
-| --- | --- | --- |
-| Agent 规则、流程、空白模板、工具 | `AGENTS.md`、`docs/`、`templates/`、`scripts/`、`tests/` | 是，只写通用内容 |
-| 有来源的公开公司与机构资料 | `data/`；阅读版 `companies/`、`investors/`、`exports/` | 是 |
-| 使用者的事实、偏好、简历、个人草稿 | `local/` | 否，已忽略 |
-| 投递、联系人、沟通、面试与跟进记录 | `applications/` | 否，已忽略 |
+## 任务路由
 
-首次需要个人任务时，运行 `python3 scripts/init_local.py`。它只复制空白模板，不覆盖已有文件、不导入其他目录的个人信息。不要在 GitHub 建立 `applications/` 占位目录；使用者的 Agent 在本地按需创建组织日志。仅查公共资料时不必填写个人信息。
+| 任务 | 读取或执行 |
+| --- | --- |
+| 查公司／分类 | `data/index.json` → 单条公司 JSON；人类阅读版 `catalog/README.md`、`catalog/taxonomy.md` |
+| 查 VC | `data/investor-index.json` → 单条机构 JSON；先读 `docs/investor-methodology.md` |
+| 按关键词查找 | `python3 scripts/query.py --text 关键词`；机构加 `--entity investors` |
+| 更新公共资料 | 只编辑对应 JSON；遵守下列证据规则与 schemas |
+| 个人材料与机会筛选 | 解析工作区 → 其 `AGENTS.md`、`profile.md`、`preferences.md`；遵循本人既有构建和表达规则 |
+| 投递与沟通 | [本地工作流](docs/application-workflow.md) → 工作区 `applications/README.md` → 组织 `log.md` |
+| 新日志或草稿 | 复制 `templates/` 中的空白模板到解析出的私人工作区，再填写事实 |
+| 多 Agent 协作 | 不同组织可并行；同一日志的补充先分别写工作区 inbox，由协调 Agent 合并 |
+| 提交与推送 | [Git 同步](docs/git-sync.md)；检查差异后运行共享提交工具 |
 
-## 个人任务路由
-
-- 初始化与记录规则：先读 [docs/application-workflow.md](docs/application-workflow.md)。
-- 写个人材料或筛选适合本人的机会：读 `local/profile.md`、`local/preferences.md`；缺少事实时保留待确认，只询问当前任务需要的信息。
-- 查看或更新进展：读 `applications/AGENTS.md`、`applications/README.md`，再读目标组织的 `log.md`；先查归档和“不再接触”要求。
-- 新建组织日志、沟通补充或草稿：复制 `templates/` 中相应空白模板到本地工作区，再填写真实内容。不要把模板本身改成个人记录。
-- 多 Agent 协作：协调 Agent 分配不同组织；对同一日志的补充先分别写 `applications/inbox/`，由协调 Agent 合并。不要并发覆盖同一个文件。
-- 同步框架或公共资料：读 [docs/git-sync.md](docs/git-sync.md)，先查看差异，再运行共享提交工具。私人记录不参与同步。
-
-## 个人事实与动作
-
-1. 所有个人数字、时间、公司、学历和成果以当前使用者明确提供的本地事实为准。可调整表达，不得虚构或夸大。
-2. 草稿、待发送、已发送、收到回复分别记录。只有实际动作或使用者明确确认，才能写“已投递”“已联系”等进展。
-3. 按公司、联系人和岗位区分状态；一个人拒绝不等于整家公司结束。保留真实发生日期、记录日期、来源和下一步。
-4. 框架和模板不授予任何对外动作权限。邮件、平台打招呼、投递、约见或联系他人依照使用者明确授权的范围执行；已有有效授权可继续使用，不重复索要。仅要求草稿时停留在草稿。
-5. 不把个人资料、原始聊天、薪酬、未公开交易、附件或凭据移入共享文件、提交信息、Issue 或 PR。无法由检查脚本识别的个人信息仍须人工审阅。
-
-## 阅读路由
-
-- 快速找公司：读取 `data/index.json`，再读取 `data/companies/<id>.json`，不必一次载入全部公司。
-- 按赛道浏览：读取 `taxonomy.md` 或 `data/taxonomy.json`；人类阅读版在 `companies/<id>.md`。
-- 按名称、投资方或业务词检索：`python3 scripts/query.py --text 关键词`。
-- 比较公司：读取双方 JSON 中的产品、比较分析、投资披露及来源；不得把编辑分析当作性能测试。
-- 更新公司：只编辑 `data/companies/<id>.json`。分类规则只编辑 `data/taxonomy.json`。
-- 找 VC：读取 `data/investor-index.json`，再读取 `data/investors/<id>.json`；人类阅读入口为 `investors/README.md`。筛选口径先读 `docs/investor-methodology.md`。
-- 检索机构：`python3 scripts/query.py --entity investors --text 关键词`；更新只编辑 `data/investors/<id>.json`，遵守 `schemas/investor.schema.json`。
+个人数字、学历、时间和成果以本人明确提供的事实为准。草稿、真实发送和回复分开记录；未知项待确认。框架不自动授权对外动作，按使用者明确授权范围执行，已有有效授权可沿用；本人只要求草稿时只生成草稿。
 
 ## 数据边界
 
-1. JSON 是唯一维护源。`README.md`、`taxonomy.md`、`companies/*.md`、`investors/*.md`、`data/index.json`、`data/investor-index.json` 和 `exports/*` 是生成内容，不手工改。
+1. JSON 是唯一维护源。`catalog/`、`data/index.json` 和 `data/investor-index.json` 是生成内容，不手工改。
 2. 不编造公司、投资方、轮次、金额、联系方式或来源。未取得证据的联系字段用 `null`，不能按邮箱格式猜测地址。
 3. 投资背景是历史公开披露，不是完整现股东名册。`confirmed_disclosure` 仅表示该摘要有披露证据，不能推断当前持仓、控制权或完整股东。
 4. `partial` 保留未确认范围和冲突，`not_found` 表示未找到可靠披露，不表示确定没有融资。不得因迁移文件格式而提升核验状态。
