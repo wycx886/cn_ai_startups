@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "xiaoduo",
+  "name": "晓多科技 / Xiaoduo AI",
+  "aliases": [
+    "晓多科技"
+  ],
+  "category_id": "07",
+  "focus": "客服 AI、商家服务与语流 Agent",
+  "products": "晓多客服、语流Agent、自研晓模型",
+  "locations_text": "成都及国内多地",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：与乐言同邻近国内电商客服；产品集中服务对话、客服训练与智能质检，和以建站交易系统为核心的店匠不同。",
+    "peer_names": [
+      "乐言科技、Shulex"
+    ]
+  },
+  "investment": {
+    "summary": "官方产品介绍资料披露2020年B+和C轮；原表嘉御/祥峰/BV完整名单未在本次官方材料中完整核实。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://www.xiaoduoai.com/",
+    "careers_url": "https://xiaoduoai.zhiye.com/Social",
+    "recruitment_email": null,
+    "other_email": null,
+    "other_email_purpose": null
+  },
+  "notes": "未查到当前公开招聘投递邮箱，优先使用官方招聘入口。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "晓多官网",
+      "url": "https://www.xiaoduoai.com/",
+      "supports": "产品方向",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "晓多官方招聘系统",
+      "url": "https://xiaoduoai.zhiye.com/Social",
+      "supports": "社招入口",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "晓多官方产品方案",
+      "url": "https://cdnpic.xiaoduoai.com/uploads/20240919/58b97269ce1283af6c57087155af42ff.pdf",
+      "supports": "历史轮次",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "晓多科技",
+    "original_track": "06",
+    "original_subtrack": "跨境独立站Agent、AI客服与VOC洞察"
+  }
+}

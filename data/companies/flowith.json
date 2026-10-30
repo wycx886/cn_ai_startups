@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "flowith",
+  "name": "Flowith",
+  "aliases": [
+    "Flowith"
+  ],
+  "category_id": "04",
+  "focus": "画布式AI创作与Agent工作空间",
+  "products": "Infinite Canvas、Knowledge Garden、Agent Neo、FlowithOS",
+  "locations_text": "上海、旧金山（公司官方LinkedIn招聘）",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：用无限画布、多线程知识组织和Agent执行结合，区别于线性聊天与以文档套件为主的办公Agent。",
+    "peer_names": [
+      "Manus",
+      "Genspark",
+      "Dify"
+    ]
+  },
+  "investment": {
+    "summary": "上海证券报2026年3月报道：种子轮有祥峰，种子+轮由红杉中国种子基金、江远投资等联合领投。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://flowith.io/",
+    "careers_url": "https://apply.workable.com/flowith/",
+    "recruitment_email": null,
+    "other_email": "support@flowith.cc",
+    "other_email_purpose": "客服/条款联系邮箱（非招聘）"
+  },
+  "notes": "未查到可核验公开投递邮箱；官方/career已核验跳转至Workable。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "上海证券报：Flowith融资",
+      "url": "https://finance.sina.com.cn/roll/2026-03-04/doc-inhpvtwp3773487.shtml",
+      "supports": "投资方及产品定位",
+      "published_date": "2026-03-04",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "Flowith公司官方LinkedIn",
+      "url": "https://www.linkedin.com/company/flowith",
+      "supports": "上海/旧金山招聘与产品",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "Flowith官方招聘跳转",
+      "url": "https://flowith.io/career",
+      "supports": "跳转Workable职位页",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "Flowith官方条款",
+      "url": "https://flowith.io/compliance/terms-of-service/",
+      "supports": "支持邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "Flowith",
+    "original_track": "03",
+    "original_subtrack": "通用执行Agent与个人主动式助理"
+  }
+}

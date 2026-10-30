@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "galbot",
+  "name": "银河通用",
+  "aliases": [
+    "银河通用(Galbot)",
+    "Galbot"
+  ],
+  "category_id": "08",
+  "focus": "通用具身模型与机器人在零售、工业场景的部署",
+  "products": "Galbot G1 / S1 / ET1；银河星脑 AstraBrain",
+  "locations_text": "北京、苏州、深圳（校招公布地域）",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较宇树的足式本体产品，银河更突出具身大脑与抓取、零售作业闭环。",
+    "peer_names": [
+      "宇树科技；星海图；自变量机器人"
+    ]
+  },
+  "investment": {
+    "summary": "2025-06 披露11亿元融资，投资方包括宁德时代战投、溥泉资本、国开科创、北京机器人产业基金、纪源资本；2026-03 财新报道新一轮投资方含国家AI产业投资基金、中国石化、中信投资控股等。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.galbot.com/",
+    "careers_url": "https://app.mokahr.com/social-recruitment/yinhetongyong/165929",
+    "recruitment_email": "hr@galbot.com",
+    "other_email": null,
+    "other_email_purpose": "未查到通用邮箱"
+  },
+  "notes": "hr@galbot.com 见高校发布的公司校招材料；社会招聘使用官网跳转入口。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "银河通用官网",
+      "url": "https://www.galbot.com/",
+      "supports": "产品与官方招聘跳转",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "银河通用完成11亿元融资",
+      "url": "https://finance.people.com.cn/n1/2025/0623/c1004-40507025.html",
+      "supports": "投资背景",
+      "published_date": "2025-06-23",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "银河通用再融25亿元",
+      "url": "https://companies.caixin.com/m/2026-03-02/102418622.html",
+      "supports": "2026轮投资方",
+      "published_date": "2026-03-02",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "银河通用2027校招",
+      "url": "https://career.nankai.edu.cn/correcruit/content/id/116497.html",
+      "supports": "招聘邮箱及工作地域",
+      "published_date": "2026-07-27",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "银河通用(Galbot)",
+    "original_track": "07",
+    "original_subtrack": "具身大模型（大脑/VLA）与通用操作"
+  }
+}

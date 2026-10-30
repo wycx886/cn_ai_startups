@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "tabcut",
+  "name": "特看科技 / Tabcut",
+  "aliases": [
+    "特看科技(Tabcut)",
+    "Tabcut"
+  ],
+  "category_id": "07",
+  "focus": "TikTok 电商数据与视频内容 SaaS",
+  "products": "Tabcut、主播宝",
+  "locations_text": "泉州/杭州、广州",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较极睿服饰商品内容，Tabcut以TikTok数据/运营和数字人直播等场景切入；不是基础视频大模型公司。",
+    "peer_names": [
+      "极睿科技、筷子科技"
+    ]
+  },
+  "investment": {
+    "summary": "36氪确认2022年数千万元天使轮峰瑞资本领投、嘉程资本跟投。未取得原表高瓴、线性、碧桂园创投参与证据。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.tabcut.com/",
+    "careers_url": "https://m.liepin.com/company/13969591/",
+    "recruitment_email": null,
+    "other_email": "service@tabcut.com",
+    "other_email_purpose": "产品客服"
+  },
+  "notes": "更正投资方；未将工商记录huahua@tabcut.com认定为招聘邮箱。；未查到通用公开投递邮箱。；第三方公司招聘页，岗位开放状态以平台实时显示为准。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "36氪特看科技融资档案",
+      "url": "https://pitchhub.36kr.com/project/2011456818382086",
+      "supports": "产品、投资方与法人主体",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "特看公司档案",
+      "url": "https://www.innohere.com/ir/100532/frame.html",
+      "supports": "泉州主体、杭州子公司、广州分支",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "Tabcut官网页脚",
+      "url": "https://www.tabcut.com/",
+      "supports": "公开客服邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "猎聘杭州特看科技公司招聘页",
+      "url": "https://m.liepin.com/company/13969591/",
+      "supports": "招聘渠道与公司/品牌身份",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "特看科技(Tabcut)",
+    "original_track": "06",
+    "original_subtrack": "电商AIGC商拍、直播切片与商业视频"
+  }
+}

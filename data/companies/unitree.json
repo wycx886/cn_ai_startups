@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "unitree",
+  "name": "宇树科技",
+  "aliases": [
+    "宇树科技(Unitree)",
+    "Unitree"
+  ],
+  "category_id": "08",
+  "focus": "消费级与行业级足式、人形机器人本体",
+  "products": "Go / B系列四足；G1 / H系列人形；机械臂",
+  "locations_text": "杭州总部；深圳、上海",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较模型优先的具身公司，宇树突出足式硬件、运动控制、标准化产品与开发接口。",
+    "peer_names": [
+      "智元机器人；逐际动力；傅利叶"
+    ]
+  },
+  "investment": {
+    "summary": "官网公司介绍披露2024年B2轮由美团、金石投资、源码资本及深创投等参与。此处为历史投资背景，不将未核实的IPO或最新估值写为事实。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.unitree.com/",
+    "careers_url": "https://www.unitree.com/position/",
+    "recruitment_email": "hr@unitree.com",
+    "other_email": "sales_global@unitree.com",
+    "other_email_purpose": "销售"
+  },
+  "notes": "邮箱为公开招聘渠道；岗位及开放状态以招聘页面为准。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "宇树公司介绍",
+      "url": "https://www.unitree.com/operate/company/",
+      "supports": "业务及历史投资方",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "宇树联系我们",
+      "url": "https://www.unitree.com/cn/contact/",
+      "supports": "招聘和商务邮箱及地址",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "宇树加入我们",
+      "url": "https://www.unitree.com/position/",
+      "supports": "招聘入口与产品研发方向",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "宇树科技(Unitree)",
+    "original_track": "07",
+    "original_subtrack": "人形与四足机器人主机及商业RaaS"
+  }
+}

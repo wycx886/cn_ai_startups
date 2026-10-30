@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "stepfun",
+  "name": "阶跃星辰 StepFun",
+  "aliases": [
+    "阶跃星辰(StepFun)",
+    "StepFun"
+  ],
+  "category_id": "01",
+  "focus": "多模态基座模型与AI终端",
+  "products": "Step模型/API、手机与汽车Agent",
+  "locations_text": "上海、北京、深圳",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较以聊天助手为主要入口的公司，更强调模型与手机、汽车终端集成；招聘材料将AI+终端列为战略重点。",
+    "peer_names": [
+      "MiniMax",
+      "月之暗面",
+      "面壁智能"
+    ]
+  },
+  "investment": {
+    "summary": "2024年12月B轮公开档案列上海国投、腾讯、五源、启明；2026年1月B+轮另有国寿股权、浦东创投、徐汇资本等。原表Pre-IPO美元金额不直接沿用。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://www.stepfun.com/",
+    "careers_url": "https://app.mokahr.com/campus-recruitment/step/94905#/",
+    "recruitment_email": "campus@stepfun.com",
+    "other_email": null,
+    "other_email_purpose": null
+  },
+  "notes": "campus@stepfun.com为校招/实习渠道，不应标为通用社招投递邮箱；社招从官网进入。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "企业在南开发布2027招聘",
+      "url": "https://career.nankai.edu.cn/correcruit/content/id/119440.html",
+      "supports": "产品方向、地点、官方网申链接",
+      "published_date": "2026-09-30",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "企业在湖南大学发布招聘",
+      "url": "https://scc.hnu.edu.cn/detail/online?id=3604020",
+      "supports": "campus邮箱，仅校招/实习",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "泰伯企业融资档案",
+      "url": "https://www.taibo.cn/company/101343",
+      "supports": "2024与2026融资投资方",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "阶跃官方模型页面",
+      "url": "https://www.stepfun.com/step-3.7-flash",
+      "supports": "Step产品与API",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "阶跃星辰(StepFun)",
+    "original_track": "01",
+    "original_subtrack": "通用基座大模型 (“AI四小强”+开源旗舰)"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "metasota",
+  "name": "秘塔科技 MetaSota",
+  "aliases": [
+    "秘塔科技(秘塔AI搜索)",
+    "秘塔AI搜索"
+  ],
+  "category_id": "04",
+  "focus": "AI搜索、深度研究与专业文字工具",
+  "products": "秘塔AI搜索、秘塔写作猫、MetaLaw、秘塔翻译",
+  "locations_text": "上海、北京、成都",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较通用执行Agent，搜索与可追溯资料研究是核心入口，另有法律翻译和检索积累。",
+    "peer_names": [
+      "Kimi",
+      "Genspark",
+      "Manus"
+    ]
+  },
+  "investment": {
+    "summary": "公司官方LinkedIn介绍确认历史Pre-A投资方源渡、丰元，老股东明势加码；非完整当前股东名单。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://metasota.ai/",
+    "careers_url": "https://m.zhipin.com/companys/771430a350de19a40H173dW_FA~~.html",
+    "recruitment_email": null,
+    "other_email": "wutingting@metasota.ai",
+    "other_email_purpose": "官网一般联系邮箱（未明确招聘）"
+  },
+  "notes": "补查找到与上海秘塔网络科技有限公司主体、品牌及官网对应的BOSS公司招聘页；页面可能显示历史/已过期岗位，职位有效性请在平台内核对。未查到独立官方招聘站或通用官方投递邮箱；旧脉脉HR个人邮箱不当作长期官方渠道。wutingting邮箱官网未标招聘。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "秘塔官方公司页",
+      "url": "https://metasota.ai/",
+      "supports": "产品、地址与wutingting联系邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "秘塔公司官方LinkedIn",
+      "url": "https://www.linkedin.com/company/metasota/",
+      "supports": "历史投资方与法律AI定位",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "秘塔官方隐私政策",
+      "url": "https://files.metaso.cn/meta-private-policy",
+      "supports": "用户服务联系，支持邮箱另为support-1@metasota.ai",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "BOSS直聘上海秘塔网络科技有限公司企业页",
+      "url": "https://m.zhipin.com/companys/771430a350de19a40H173dW_FA~~.html",
+      "supports": "品牌、主体、官网与公开招聘入口对应；不能保证当前岗位仍开放",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "title": "猎聘上海秘塔网络科技有限公司企业页",
+      "url": "https://m.liepin.com/company/9596565/",
+      "supports": "备用平台招聘入口，直接读取遇验证码，搜索索引可辨主体",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "秘塔科技(秘塔AI搜索)",
+    "original_track": "03",
+    "original_subtrack": "LLM应用/Agent开源开发平台與AI搜索"
+  }
+}

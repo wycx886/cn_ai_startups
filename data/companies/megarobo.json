@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "megarobo",
+  "name": "镁伽科技 MEGAROBO",
+  "aliases": [
+    "镁伽科技"
+  ],
+  "category_id": "10",
+  "focus": "智慧实验室与智能制造自主智能体、自动化平台",
+  "products": "Scilia药研智慧工厂；Labillion；CellVue；实验室及制造自动化",
+  "locations_text": "北京、上海、苏州、深圳",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较主要开发科学模型的深势、百图，镁伽以实验执行、自动化设备、软件与多智能体系统落地为切入口。",
+    "peer_names": [
+      "晶泰科技；深势科技；天鹜科技"
+    ]
+  },
+  "investment": {
+    "summary": "公司官网2022-06-15公告3亿美元C轮，由高盛资管、亚投资本、纪源资本联合领投，创新工场持续加注，Pavilion、Starr等跟投；该事件为历史融资，不代表最新轮次。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.megarobo.com/",
+    "careers_url": "https://megarobo.zhiye.com/Campus",
+    "recruitment_email": "zhaopin@megarobo.com",
+    "other_email": "officialmail@megarobo.com",
+    "other_email_purpose": "业务合作/一般联系"
+  },
+  "notes": "高校校招页同时列zhaopin@megarobo.com和campus@megarobo.tech（校招）；本条recruitEmail用投递邮箱，careersUrl为材料中的校招入口。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "镁伽C轮公司公告",
+      "url": "https://www.megarobo.com/news/255",
+      "supports": "投资背景",
+      "published_date": "2022-06-15",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "镁伽当前官网",
+      "url": "https://www.megarobo.com/",
+      "supports": "产品定位及合作邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "镁伽2027校招",
+      "url": "https://career.nankai.edu.cn/correcruit/content/id/118191.html",
+      "supports": "招聘邮箱、摩卡/智业入口及城市",
+      "published_date": "2026-09-08",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "镁伽科技",
+    "original_track": "08",
+    "original_subtrack": "AI制药、生命科学大模型与微尺度研究"
+  }
+}

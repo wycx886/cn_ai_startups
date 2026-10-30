@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "siliconflow",
+  "name": "硅基流动 SiliconFlow",
+  "aliases": [
+    "硅基流动(SiliconFlow)",
+    "SiliconFlow"
+  ],
+  "category_id": "02",
+  "focus": "多模型API、推理服务与私有化MaaS",
+  "products": "SiliconCloud、专属实例、模型服务网关、私有化MaaS",
+  "locations_text": "北京",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：官网强调不研发基础模型、不涉足终端应用；与智谱等模型商不同，主要帮助开发者调用和部署各家模型。",
+    "peer_names": [
+      "无问芯穹",
+      "趋境科技",
+      "智谱"
+    ]
+  },
+  "investment": {
+    "summary": "公司官网2025年融资公告明确阿里云领投、创新工场等老股东跟投；不沿用原表未逐项证实的五源、红杉等名单。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.siliconflow.cn/",
+    "careers_url": "https://www.siliconflow.cn/about",
+    "recruitment_email": null,
+    "other_email": "contact@siliconflow.cn",
+    "other_email_purpose": "市场合作邮箱（非招聘）"
+  },
+  "notes": "未查到可核验的公开投递邮箱或独立招聘官网；about页只是官网公司介绍，需从官网/认证招聘平台查岗位，勿投市场邮箱。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "硅基流动官方融资公告",
+      "url": "https://siliconflow.cn/news/dl5ov97pt579ortwy57woavu",
+      "supports": "阿里云领投、创新工场跟投",
+      "published_date": "2025-06",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "硅基流动官方介绍",
+      "url": "https://www.siliconflow.cn/about",
+      "supports": "定位、产品、地址",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "硅基流动官网",
+      "url": "https://www.siliconflow.cn/",
+      "supports": "市场合作邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "硅基流动(SiliconFlow)",
+    "original_track": "02",
+    "original_subtrack": "异构推理加速与“Token工厂” (MaaS)"
+  }
+}

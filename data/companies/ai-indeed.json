@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "ai-indeed",
+  "name": "实在智能",
+  "aliases": [
+    "实在智能(AI-Indeed)",
+    "AI-Indeed"
+  ],
+  "category_id": "06",
+  "focus": "屏幕理解与企业执行 Agent",
+  "products": "实在Agent、塔斯模型、RPA、信创版本",
+  "locations_text": "杭州、上海、深圳、北京等",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：与仅编排API的工作流平台不同，重点是GUI屏幕理解和跨系统执行；与影刀/来也同属数字员工邻近赛道。",
+    "peer_names": [
+      "影刀、来也科技"
+    ]
+  },
+  "investment": {
+    "summary": "已核历史君联资本天使轮、松禾/中赢等Pre-A、光云科技A轮；原表高瓴及C轮最新名单暂未取得足够正式披露。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://www.ai-indeed.com/",
+    "careers_url": "https://www.ai-indeed.com/apply",
+    "recruitment_email": "campus@i-i.ai",
+    "other_email": "contact@i-i.ai",
+    "other_email_purpose": "一般联系"
+  },
+  "notes": "当前主站招聘页只明确公开校园招聘campus@i-i.ai；旧开发站及旧招聘帖的社会招聘talent@i-i.ai不作为当前有效社招入口。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "实在智能官网关于我们",
+      "url": "https://www.ai-indeed.com/about",
+      "supports": "当前产品、城市和一般联系邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "实在智能企业投融展资料",
+      "url": "https://developer.cloud.tencent.com/article/2232603",
+      "supports": "历史投资方",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "实在智能主站加入我们",
+      "url": "https://www.ai-indeed.com/apply",
+      "supports": "官方招聘入口及校园邮箱；主站未显示社会邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "实在智能(AI-Indeed)",
+    "original_track": "05",
+    "original_subtrack": "RPA超自动化与屏幕语义CUA数字员工"
+  }
+}

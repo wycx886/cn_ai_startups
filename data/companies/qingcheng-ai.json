@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "qingcheng-ai",
+  "name": "清程极智 Qingcheng.AI",
+  "aliases": [
+    "清程极智(赤兔/八卦炉)",
+    "赤兔/八卦炉"
+  ],
+  "category_id": "02",
+  "focus": "国产算力系统软件与推理评测路由",
+  "products": "赤兔Chitu、八卦炉、AI Ping",
+  "locations_text": "北京、深圳（公开招聘资料）",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：从编译器、算子库到并行训推的软件栈，并提供API评测路由；相较基流更偏系统软件，相较硅基流动还有自研加速引擎。",
+    "peer_names": [
+      "趋境科技",
+      "硅基流动",
+      "基流科技"
+    ]
+  },
+  "investment": {
+    "summary": "2026年10月A轮由中国电信、瀚晖资本联合领投；星连资本追加，华胜天成、建信（北京）投资、直真科技、商汤等跟投。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.qc-ai.cn/",
+    "careers_url": "https://www.qc-ai.cn/about",
+    "recruitment_email": "career@qingcheng.ai",
+    "other_email": "contact@qingcheng.ai",
+    "other_email_purpose": "商务合作邮箱"
+  },
+  "notes": "招聘邮箱为2024年公开企业招聘资料，建议同时核对官网加入我们入口。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "清程官网",
+      "url": "https://www.qc-ai.cn/",
+      "supports": "产品与商务邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "清程官方介绍",
+      "url": "https://www.qc-ai.cn/about",
+      "supports": "系统软件路线",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "科创板日报融资报道",
+      "url": "https://api3.cls.cn/share/article/2502686?app=stib&os=stibWeb&sv=143",
+      "supports": "A轮投资方",
+      "published_date": "2026-10-12",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "CCF会议手册企业招聘页",
+      "url": "https://ccf-tc.oss-cn-beijing.aliyuncs.com/ConferenceManual-CCFHPCChina2024.pdf",
+      "supports": "career邮箱与办公城市",
+      "published_date": "2024",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "清程极智(赤兔/八卦炉)",
+    "original_track": "02",
+    "original_subtrack": "异构推理加速与“Token工厂” (MaaS)"
+  }
+}

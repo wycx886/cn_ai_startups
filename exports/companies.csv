@@ -1,0 +1,270 @@
+id,name,category_id,category,focus,products,comparison,peers,investment,investment_status,locations,website,careers_url,recruitment_email,other_email,other_email_purpose,notes,checked_at,sources
+01-ai,零一万物 01.AI,01,基础模型,产业模型与企业决策AI,Yi模型、老板AI、投资官AI、销冠AI,分析：从通用基座转向企业决策场景与FDE共创；区别于Dify提供通用可视化编排底座，偏应用交付与业务结果。,Dify；澜舟科技；智谱,创新工场孵化，阿里云有历史投资；2025年与阿里云建立产业大模型联合实验室。合作不等于被收购。,partial,北京、上海（原表；当前具体岗位待招聘页核对）,https://www.lingyiwanwu.com/,https://www.lingyiwanwu.com/careers.html,,,,原表careers.html入口本次读取失败，暂保留历史链接并标待确认；未查到可核验公开投递邮箱，勿凭命名规则猜测。,2026-10-30,"https://www.lingyiwanwu.com/yi
+https://pitchhub.36kr.com/project/2506385361198722
+https://36kr.com/p/3115390169927685"
+baichuan,百川智能 Baichuan,01,基础模型,医疗增强模型与AI家庭医生,百小医、Baichuan-M3、模型API,分析：与通用助手公司相比，当前官网明确聚焦就医准备、医嘱解读和家庭健康管理。,智谱；月之暗面；面壁智能,2024年7月A轮公司向第一财经确认投资方含阿里、小米、腾讯、亚投、中金，以及北京/上海AI产业基金、深创投等。,confirmed_disclosure,北京,https://www.baichuan-ai.com/,https://careers.baichuan-inc.com/,,bd@baichuan-inc.com,商务联系（非招聘；公开档案所列）,未查到可核验的公开招聘投递邮箱；优先使用招聘入口。,2026-10-30,"https://www.baichuan-ai.com/
+https://careers.baichuan-inc.com/
+https://www.yicai.com/news/102205877.html
+https://www.crunchbase.com/organization/baichuan-intelligence"
+deepseek,深度求索 DeepSeek,01,基础模型,通用与推理基础模型、开源模型与API,DeepSeek模型、聊天应用、开发者API,分析：与应用聚合型Agent公司不同，自研和开放模型权重；初创资金来自幻方背景，不能视作普通VC孵化。,智谱；月之暗面；MiniMax,幻方/梁文锋创办并支持；路透2026年10月22日报道称约1000亿元新融资接近完成，参与者包括兆易创新、美团、吉利等，消息源为知情人士，并非公司公告。,partial,杭州；岗位城市以招聘官网为准,https://www.deepseek.com/,https://talent.deepseek.com/,,api-service@deepseek.com,API服务咨询（非招聘）,融资是媒体引述知情人士，不能写成公司已官宣；原表国家基金/腾讯等名单及CFO说法未逐项确认。API邮箱非招聘，来自公开产品服务资料。,2026-10-30,"https://apnews.com/article/0673d5c39d90108189cc31b88d85b9f8
+https://uk.marketscreener.com/news/deepseek-raises-15-billion-in-challenge-to-leading-us-labs-bloomberg-news-reports-ce785cd9df8afe20
+https://talent.deepseek.com/
+https://api-docs.deepseek.com/
+https://api-docs.deepseek.com/api/deepseek-api/"
+langboat,澜舟科技 Langboat,01,基础模型,认知模型与企业智能体,孟子大模型、LangClaw企业智能体OS、智库/智会/智搭,分析：相较纯通用聊天产品，围绕知识、会议和企业流程落地；同时有自研模型与企业Agent产品。,零一万物；Dify；智谱,创新工场孵化；Eight Roads官网确认近亿元Pre-A由Eight Roads与联想创投联合领投、创新工场跟投。,confirmed_disclosure,北京,https://www.langboat.com/,https://www.langboat.com/about,hr@langboat.com,bd@langboat.com,商务合作邮箱,邮箱为公开招聘渠道；具体岗位以招聘页为准。,2026-10-30,"https://www.langboat.com/about
+https://www.langboat.com/document/general/other/contact
+https://eightroads.com/cn/news/our-investment-in-langboat"
+minimax,MiniMax,01,基础模型,多模态基础模型与全球消费应用,MiniMax 模型/API、海螺AI、Talkie/星野,分析：同时做底层模型、音视频生成和消费产品；与面壁的端侧小模型路线、百川的医疗聚焦不同。,智谱；月之暗面；百川智能,2026年1月港股上市；招股书相关报道确认阿里、米哈游、IDG、腾讯等历史投资方。此为部分投资背景，不等同完整当前股东表。,partial,上海、北京,https://www.minimax.io/,https://www.minimax.io/careers,,ir@minimax.io,投资者关系邮箱（非招聘）,未查到可核验的公开招聘投递邮箱；优先使用招聘入口。,2026-10-30,"https://www.minimax.io/careers
+https://www.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202119_c.pdf
+https://www2.yicaiglobal.com/news/chinese-ai-startup-minimaxs-stock-pops-in-hong-kong-trading-debut"
+modelbest,面壁智能 ModelBest,01,基础模型,高效端侧模型与多模态,MiniCPM、MiniCPM-V、MiniCPM-o、ChatDev,分析：聚焦有限内存和设备算力下的模型效率，区别于主要依赖云端大模型API的通用模型公司。,智谱；阶跃星辰；DeepSeek,清华NLP科研成果转化；公开融资档案列2026年中国电信投资、中信金石/中信投资控股，以及后续深创投、汇川产投等。,partial,北京、上海,https://www.modelbest.cn/en/,https://modelbest.jobs.feishu.cn/career,career@modelbest.cn,,,招聘邮箱来自高校公开招聘资料；飞书入口由公开招聘索引确认，具体开放岗位需看实时页面。,2026-10-30,"https://www.modelbest.cn/en/
+https://ccs.cuc.edu.cn/2025/0918/c5547a260190/page.htm
+https://pitchhub.36kr.com/project/2214864842159235"
+moonshot,月之暗面 Kimi,01,基础模型,通用模型、个人助手与代码Agent,Kimi、Kimi Code、模型API,分析：将自研模型与Kimi用户产品、代码Agent衔接；与Dify开放编排平台不同，直接提供模型与终端体验。,智谱；MiniMax；Dify,2024年2月融资公开报道列阿里、小红书、美团、红杉等；后续轮次与原表估值范围未在本轮逐项核定。,partial,北京、上海,https://www.moonshot.cn/,https://careers.kimi.com/,,growth@moonshot.cn,官网一般联系/增长邮箱（未明确招聘）,未查到可核验的公开招聘投递邮箱；优先使用招聘入口。,2026-10-30,"https://www.moonshot.cn/about
+https://careers.kimi.com/about-us
+https://www.nbd.com.cn/articles/2024-02-19/3247754.html
+https://github.com/MoonshotAI/kimi-code/issues/2628"
+stepfun,阶跃星辰 StepFun,01,基础模型,多模态基座模型与AI终端,Step模型/API、手机与汽车Agent,分析：相较以聊天助手为主要入口的公司，更强调模型与手机、汽车终端集成；招聘材料将AI+终端列为战略重点。,MiniMax；月之暗面；面壁智能,2024年12月B轮公开档案列上海国投、腾讯、五源、启明；2026年1月B+轮另有国寿股权、浦东创投、徐汇资本等。原表Pre-IPO美元金额不直接沿用。,partial,上海、北京、深圳,https://www.stepfun.com/,https://app.mokahr.com/campus-recruitment/step/94905#/,campus@stepfun.com,,,campus@stepfun.com为校招/实习渠道，不应标为通用社招投递邮箱；社招从官网进入。,2026-10-30,"https://career.nankai.edu.cn/correcruit/content/id/119440.html
+https://scc.hnu.edu.cn/detail/online?id=3604020
+https://www.taibo.cn/company/101343
+https://www.stepfun.com/step-3.7-flash"
+zhipu,智谱 Z.ai,01,基础模型,通用基座模型、模型服务与智能体,GLM、BigModel、智谱清言、CogAgent、CodeGeeX,分析：相较纯消费助手，将自研模型、MaaS 与企业销售同时展开；与硅基流动的模型聚合服务不同，自身研发模型。,月之暗面；MiniMax；硅基流动,历轮有VC、产业与地方国资参与；36氪载2024年12月融资方含北京AI产业基金、君联资本、招商局创投等。官网披露港股招股书与2025年报，可据其继续核对股东。,partial,北京；招聘页另列上海、杭州、深圳、成都、吉隆坡,https://www.zhipuai.cn/,https://www.zhipuai.cn/zh/joinus,talent@zhipuai.cn,ir@aminer.cn,投资者关系邮箱（非招聘）,招聘邮箱来自2024年技术团队公开招聘，历史渠道，建议优先官网社招。未照抄原表全部投资机构。,2026-10-30,"https://www.zhipuai.cn/zh/joinus
+https://developer.volcengine.com/articles/7329842394735034418
+https://www.zhipuai.cn/investor_relations/
+https://pitchhub.36kr.com/project/1958565851436035"
+approaching-ai,趋境科技 Approaching.AI,02,算力与基础设施,异构推理与Token生产,KTransformers、Mooncake、ATaaS、Token Machine、AI Studio,分析：以存换算、CPU/GPU及存储协同推理是技术切入点；区别于只售算力资源或纯API聚合。,清程极智；无问芯穹；硅基流动,官方GitHub组织资料写2023年末获ZhenCapital种子资金；2026年10月媒体报道完成超13亿元B轮。原表启明/蓝驰名单本轮未获直接证实，不作为确定投资方。,partial,北京；公开岗位另有上海,https://approaching-ai.com/,https://m.zhipin.com/companys/bd7696840f41eea403By3d66EFc~.html,,quxin@approaching.ai,GitHub组织公开联系邮箱（未标招聘）,未查到官方公开招聘邮箱；quxin邮箱是组织联系，非确认投递渠道。官网www子域本次读取失败，根域可访问。,2026-10-30,"https://approaching-ai.com/
+https://github.com/Approaching-AI
+https://finance.eastmoney.com/a/202610263907819429.html
+https://m.zhipin.com/companys/bd7696840f41eea403By3d66EFc~.html"
+biren,壁仞科技 Biren,02,算力与基础设施,通用GPU与智算解决方案,壁砺GPU、软硬协同算力基础设施,分析：从自研GPU架构与芯片切入，服务AI数据中心和训推集群；与硅基流动等软件/服务层不同。,摩尔线程；沐曦股份；燧原科技,官网投资者阵容列启明、IDG、上海国投、上海AI产业基金、源码、高瓴创投等；公司官网称2026年1月港股上市。,confirmed_disclosure,上海；具体岗位见官方招聘,https://www.birentech.com/,https://www.birentech.com/,recruiting@birentech.com,business@birentech.com,商务合作邮箱,careersUrl指官网，使用加入我们菜单；投资者阵容是官网列举，非完整当前持股表。,2026-10-30,"https://www.birentech.com/about
+https://www.birentech.com/"
+datacanvas,九章云极 DataCanvas,02,算力与基础设施,AI基础软件与智算云,数据科学平台、训推平台、智算云服务,分析：相比只提供芯片或API，覆盖企业数据科学工作流与AI基础软件，并扩展智算云。,无问芯穹；硅基流动；基流科技,官网D1轮公告列中国电子旗下中电智慧基金、华民投、太平创新、东方嘉富、卓源资本；历史C+轮由龙门投资领投，达泰、领沨等跟投。,confirmed_disclosure,北京、上海、济南、成都,https://www.datacanvas.com/,https://www.datacanvas.com/about/,hr@zetyun.com,css@zetyun.com,商务合作邮箱,邮箱为公开招聘渠道；具体岗位以招聘页为准。,2026-10-30,"https://www.datacanvas.com/about/
+https://www.datacanvas.com/news/338.html
+https://www.datacanvas.com/news/468.html"
+enflame,燧原科技 Enflame,02,算力与基础设施,云端AI芯片及数据中心训推系统,邃思芯片、云燧加速卡、驭算软件平台,分析：聚焦云端AI训练/推理加速，不以消费级图形显卡为主要产品入口；与摩尔线程的全功能GPU路线不同。,摩尔线程；沐曦股份；壁仞科技,腾讯是重要历史投资方；上海政府英文新闻确认腾讯支持背景，官方上交所页面确认2026年9月11日上市；其他历史VC背景不在此扩列。,confirmed_disclosure,上海、北京等，具体岗位需核,https://www.enflame-tech.com/,https://www.linkedin.com/company/enflame/,hr@enflame-tech.com,IR@enflame-tech.com,投资者关系邮箱（非招聘）,招聘邮箱来自较早的公司LinkedIn帖子，需确认时效；招聘页暂用官方LinkedIn而非猜测官网路径。IR邮箱不可替代投递邮箱。,2026-10-30,"https://touch.shio.gov.cn/jsp/zfxw_detail.jsp?id=20260913195158966
+https://www.sse.com.cn/star/market/stocklist/info/overview/index.shtml?COMPANY_CODE=688801
+https://www.linkedin.com/posts/enflame_燧原科技-社招岗位-更多职位及相关信息咨询请联系企业hr-hrenflame-techcom-activity-6534314198002958336-LiFW
+https://static.sse.com.cn/stock/disclosure/announcement/c/202601/002175_20260122_654W.pdf"
+infinigence,无问芯穹 Infinigence AI,02,算力与基础设施,异构算力与AI原生基础设施,M×N软硬协同、训推优化、Agent服务平台,分析：相较单一模型API聚合，侧重多芯片/多模型协同及训练推理全链路；与基流的集群互联重心不同。,硅基流动；趋境科技；基流科技,启明官网确认被投关系及2026年新轮融资；历轮还包括君联/社保中关村基金、洪泰、小米、联想等。2026年10月C轮另有红杉、腾讯、百度等，属媒体/数据库披露。,partial,上海、北京,https://www.infinigence-ai.com/,https://www.infinigence-ai.com/about-us.html,hr@infini-ai.com,pre-sales@infini-ai.com,业务咨询邮箱,邮箱用途官网明确；招聘页由about-us联系区进入，人力资源邮箱可直接使用。,2026-10-30,"https://www.infinigence-ai.com/about-us.html
+https://www.qimingvc.com/cn/news/启明星-无问芯穹夏立雪：打造“最高效的token工厂”
+https://vc.pedaily.cn/invest/427290.html"
+infrawaves,基流科技 Infrawaves,02,算力与基础设施,智算集群与高速算力网络,高速交换机、集合通信、集群管控及Venus算力系统,分析：核心是多卡、多机之间的通信互联和集群利用率，区别于芯片设计公司，也区别于直接面向开发者售Token的API平台。,无问芯穹；九章云极；摩尔线程,2025年初Pre-A+/A融资披露招商局创投、华泰数智、星连、国方创新联合投资，光速光合、卓源亚洲跟投。原表高瓴/启明名单未据此得到确认。,partial,上海、北京（报道及历史招聘）,https://www.infrawaves.com/,https://k.sina.com.cn/article_2674405451_9f68304b019015ivm.html,HR-Public@infrawaves.com,,,官网本次读取失败；careersUrl为历史招聘转载而非官方招聘站。邮箱见2024公开招聘，时效需复核；不使用同名印度Infrawave或Inforwaves网站。,2026-10-30,"https://finance.sina.com.cn/jjxw/2025-01-27/doc-inehmenv9274790.shtml
+https://k.sina.com.cn/article_2674405451_9f68304b019015ivm.html
+https://finance.sina.com.cn/roll/2026-05-07/doc-inhwzrtr5296412.shtml"
+luchentech,潞晨科技 Colossal-AI,02,算力与基础设施,分布式训练、推理系统与算力云,Colossal-AI、Colossal-Cloud、Open-Sora,分析：以开源分布式深度学习系统和训练优化为起点，训练与推理兼顾，区别于只做API推理聚合的平台。,无问芯穹；清程极智；硅基流动,36氪融资档案记载2023年A轮为红杉中国、创新工场；后续有新电投资、北京市AI产业基金、领沨、石溪、亦庄国投等历史参与方，2026年B轮列博华资本。,partial,北京；另有新加坡（原表，岗位需核）,https://www.luchentech.com/,https://www.luchentech.com/join,resume@hpc-ai.com,,,邮箱为公开招聘渠道；具体岗位以招聘页为准。,2026-10-30,"https://www.luchentech.com/join
+https://pitchhub.36kr.com/project/1678554927068166"
+metax,沐曦股份 MetaX,02,算力与基础设施,全栈GPU芯片与计算平台,GPU芯片、AI训练推理、图形渲染及AI4S计算平台,分析：官网同时覆盖训推、渲染、科学计算；相较推理云公司，商业核心是GPU芯片及软硬件生态。,壁仞科技；摩尔线程；燧原科技,官网历史A轮公告：国调基金、中网投联合领投，经纬、和利、红杉、光速超额投资，上海科创、联想创投等跟投；官网确认2025年12月科创板上市。,confirmed_disclosure,上海；另有北京、南京、成都、深圳、杭州、武汉、香港、长沙,https://www.metax-tech.com/,https://www.metax-tech.com/join,,Business@metax-tech.com,商务合作邮箱（IR另为ir@metax-tech.com）,未查到可核验的公开招聘投递邮箱；优先使用招聘入口。,2026-10-30,"https://www.metax-tech.com/en/ndetail/29.html
+https://www.metax-tech.com/en/about/about.html
+https://www.metax-tech.com/contact.html
+https://www.metax-tech.com/join"
+moore-threads,摩尔线程 Moore Threads,02,算力与基础设施,全功能GPU与软件生态,MTT GPU、MUSA、训推与图形计算平台,分析：除AI训推也强调图形渲染与全功能GPU生态；与燧原偏云端AI芯片的定位有所区别。,壁仞科技；沐曦股份；燧原科技,财联社2023年融资报道确认五源、红杉曾多次投资，新增厚雪等；这是历史融资背景，未扩写为当前完整股东名单。,partial,北京；官网称九大办公集群，具体城市看岗位,https://www.mthreads.com/,https://www.mthreads.com/jobs,,,,未查到可核验公开投递邮箱，使用官网社招/校招网申；不把财报或IR邮箱当招聘邮箱。,2026-10-30,"https://www.mthreads.com/jobs
+https://www.cls.cn/detail/1523388
+https://mthreads.zhiye.com/campus"
+qingcheng-ai,清程极智 Qingcheng.AI,02,算力与基础设施,国产算力系统软件与推理评测路由,赤兔Chitu、八卦炉、AI Ping,分析：从编译器、算子库到并行训推的软件栈，并提供API评测路由；相较基流更偏系统软件，相较硅基流动还有自研加速引擎。,趋境科技；硅基流动；基流科技,2026年10月A轮由中国电信、瀚晖资本联合领投；星连资本追加，华胜天成、建信（北京）投资、直真科技、商汤等跟投。,confirmed_disclosure,北京、深圳（公开招聘资料）,https://www.qc-ai.cn/,https://www.qc-ai.cn/about,career@qingcheng.ai,contact@qingcheng.ai,商务合作邮箱,招聘邮箱为2024年公开企业招聘资料，建议同时核对官网加入我们入口。,2026-10-30,"https://www.qc-ai.cn/
+https://www.qc-ai.cn/about
+https://api3.cls.cn/share/article/2502686?app=stib&os=stibWeb&sv=143
+https://ccf-tc.oss-cn-beijing.aliyuncs.com/ConferenceManual-CCFHPCChina2024.pdf"
+siliconflow,硅基流动 SiliconFlow,02,算力与基础设施,多模型API、推理服务与私有化MaaS,SiliconCloud、专属实例、模型服务网关、私有化MaaS,分析：官网强调不研发基础模型、不涉足终端应用；与智谱等模型商不同，主要帮助开发者调用和部署各家模型。,无问芯穹；趋境科技；智谱,公司官网2025年融资公告明确阿里云领投、创新工场等老股东跟投；不沿用原表未逐项证实的五源、红杉等名单。,confirmed_disclosure,北京,https://www.siliconflow.cn/,https://www.siliconflow.cn/about,,contact@siliconflow.cn,市场合作邮箱（非招聘）,未查到可核验的公开投递邮箱或独立招聘官网；about页只是官网公司介绍，需从官网/认证招聘平台查岗位，勿投市场邮箱。,2026-10-30,"https://siliconflow.cn/news/dl5ov97pt579ortwy57woavu
+https://www.siliconflow.cn/about
+https://www.siliconflow.cn/"
+aixcoder,硅心科技 / aiXcoder,03,开发平台与编程工具,企业级 AI 软件研发,CodeAgent、TestAgent、CodeWiki、企业智能体管控,分析：与通用办公Agent不同，围绕企业私有代码库、开发测试和研发治理，支持内网及定制部署。,Dify、弘玑Cyclone,官网确认2025-01完成A++轮并获国资投资；2022-03 A轮由高瓴创投投资。2025轮次在数据库有B轮异称，采用官网A++称谓。,partial,北京,https://www.aixcoder.com/,https://m.zhipin.com/companys/b214b9e6761d3a150HR-2964GA~~.html,,business@aixcoder.com,商务邮箱，非招聘,未查到当前公开招聘投递邮箱，优先使用官方招聘入口。,2026-10-30,"https://www.aixcoder.com/zh/about
+https://www.aixcoder.com/zh/products
+https://cn.technode.com/post/2022-03-22/aixcoder-a/
+https://m.zhipin.com/companys/b214b9e6761d3a150HR-2964GA~~.html
+https://www.aixcoder.com/zh/contact"
+dify,Dify / LangGenius,03,开发平台与编程工具,开源LLM应用开发与Agent编排平台,Dify Workflow、Agent、RAG、模型管理、企业版,分析：是给开发者和企业搭建应用的底座，区别于Manus/Genspark直接提供通用个人Agent成品；不宜只归入消费Agent。,澜舟科技；零一万物；Manus,官网2026年Pre-A公告：3000万美元由HSG领投，GL Ventures、Alt-Alpha、5Y、Mizuho Leaguer、NYX参与。原表阿里云/绿洲/线性等未据该公告证实。,confirmed_disclosure,Menlo Park总部、东京、苏州、上海；部分岗位远程,https://dify.ai/,https://join.dify.ai/,joinus@dify.ai,business@dify.ai,合作伙伴/商务邮箱,更正原表“苏州总部”：当前官方招聘页标Menlo Park HQ，苏州Engineering、上海GTM；苏州语灵仅是原表中国主体称呼，不能等同全球总部。,2026-10-30,"https://dify.ai/blog/dify-raises-30m-tomorrow-s-organizations-will-be-built-by-people-and-agents
+https://join.dify.ai/
+https://dify.ai/partners"
+caiyun,彩云科技,04,通用 Agent、个人应用与搜索,AI天气、机器翻译与智能写作,彩云天气、彩云小译、彩云小梦、天气/翻译API,分析：产品重心含气象预测和翻译/写作，不能仅按AI搜索归类；与秘塔搜索、Dify开发平台均不同。,秘塔科技；MiniMax；Genspark,公司招聘页确认2021年B1；创始人采访披露天使来自云天使/宽带资本、A1五源、A2快手、B1大湾区共同家园基金。,partial,北京、上海,https://www.caiyunapp.com/,https://www.caiyunapp.com/jobs/,hr@caiyunapp.com,platform@caiyunapp.com,开放平台邮箱（非招聘）,产品横跨多个赛道；建议加行业AI/消费应用标签，不把气象业务硬塞进AI搜索。,2026-10-30,"https://www.caiyunapp.com/?lang=zh
+https://www.caiyunapp.com/jobs/
+https://finance.sina.com.cn/cj/2024-11-17/doc-incwinct8191921.shtml"
+flowith,Flowith,04,通用 Agent、个人应用与搜索,画布式AI创作与Agent工作空间,Infinite Canvas、Knowledge Garden、Agent Neo、FlowithOS,分析：用无限画布、多线程知识组织和Agent执行结合，区别于线性聊天与以文档套件为主的办公Agent。,Manus；Genspark；Dify,上海证券报2026年3月报道：种子轮有祥峰，种子+轮由红杉中国种子基金、江远投资等联合领投。,confirmed_disclosure,上海、旧金山（公司官方LinkedIn招聘）,https://flowith.io/,https://apply.workable.com/flowith/,,support@flowith.cc,客服/条款联系邮箱（非招聘）,未查到可核验公开投递邮箱；官方/career已核验跳转至Workable。,2026-10-30,"https://finance.sina.com.cn/roll/2026-03-04/doc-inhpvtwp3773487.shtml
+https://www.linkedin.com/company/flowith
+https://flowith.io/career
+https://flowith.io/compliance/terms-of-service/"
+genspark,Genspark / MainFunc,04,通用 Agent、个人应用与搜索,多模型协同的AI工作空间与Agent,Genspark AI Workspace、文档/表格/演示等办公Agent,分析：在单个工作空间编排多个模型与工具，输出办公成品；相较Flowith强调画布/发散创作，更偏成套办公交付。,Manus；Flowith；Dify,蓝驰官网确认早期领投；2025年11月B轮由Emergence、SBI、LG Technology Ventures、Pavilion、Uphonest等支持，老股东继续投资。,confirmed_disclosure,美国；当前官方招聘页另列日本、韩国及部分远程,https://www.genspark.ai/,https://www.genspark.ai/business/careers,,support@genspark.ai,用户支持邮箱（非招聘）,未查到公开招聘邮箱；通过官方招聘页连接职位系统投递，不使用同名genspark.net培训公司的邮箱。,2026-10-30,"https://lanchiventures.com/lanchi-ventures-backed-genspark-raises-275m-series-b-launches-ai-workspace-to-put-busywork-on-autopilot/
+https://www.genspark.ai/business/careers
+https://www.genspark.ai/helpcenter/account-management"
+manus,蝴蝶效应 / Manus,04,通用 Agent、个人应用与搜索,通用任务执行Agent,Manus、Wide Research、网页/代码/产物生成工具,分析：把用户目标拆为可执行任务并在云端电脑中完成；区别于秘塔以搜索研究结果为主要入口，Dify以开发编排平台为入口。,Genspark；Flowith；秘塔科技,公司官方博客确认曾获Benchmark领投7500万美元，Benchmark合伙人入董事会。原表2026年博裕/IDG新融资需另证，本记录不将其写成确认股东。,partial,按当前招聘岗位确认；历史官方稿列新加坡、东京、旧金山、巴黎,https://manus.im/,https://careers.manus.im/en,hiring@manus.ai,media@manus.ai,媒体邮箱（非招聘）,官网历史博客未显年份，仅显示12月17日；融资保留为历史披露，不将页脚2026当成融资时间。招聘邮箱已在当前招聘页核验。,2026-10-30,"https://www.manus.im/blog/manus-100m-arr
+https://careers.manus.im/en"
+metasota,秘塔科技 MetaSota,04,通用 Agent、个人应用与搜索,AI搜索、深度研究与专业文字工具,秘塔AI搜索、秘塔写作猫、MetaLaw、秘塔翻译,分析：相较通用执行Agent，搜索与可追溯资料研究是核心入口，另有法律翻译和检索积累。,Kimi；Genspark；Manus,公司官方LinkedIn介绍确认历史Pre-A投资方源渡、丰元，老股东明势加码；非完整当前股东名单。,partial,上海、北京、成都,https://metasota.ai/,https://m.zhipin.com/companys/771430a350de19a40H173dW_FA~~.html,,wutingting@metasota.ai,官网一般联系邮箱（未明确招聘）,补查找到与上海秘塔网络科技有限公司主体、品牌及官网对应的BOSS公司招聘页；页面可能显示历史/已过期岗位，职位有效性请在平台内核对。未查到独立官方招聘站或通用官方投递邮箱；旧脉脉HR个人邮箱不当作长期官方渠道。wutingting邮箱官网未标招聘。,2026-10-30,"https://metasota.ai/
+https://www.linkedin.com/company/metasota/
+https://files.metaso.cn/meta-private-policy
+https://m.zhipin.com/companys/771430a350de19a40H173dW_FA~~.html
+https://m.liepin.com/company/9596565/"
+today-ai,此间无限 Today AI,04,通用 Agent、个人应用与搜索,主动式个人Agent与长期记忆,Today个人助手、日程/邮件/文档连接、主动提醒,分析：强调跨天持续记忆、上下文与主动行动，区别于Manus/Genspark一次性任务委派与交付工作流。,Manus；Flowith；Genspark,2026年3月天使融资公开报道列IDG与阶跃星辰。原表后续腾讯、五源等大额融资名单未在本轮以官方公告核定，不沿用为确认投资人。,partial,上海；全球产品运营主体见应用商店新加坡公司,https://today.ai/,https://weibo.com/2/detail/5348624412445354,hr@today.ai,support@today.ai,用户支持邮箱（非招聘）,careersUrl为官方微博招聘帖，并非独立招聘站；未把支持邮箱用作投递。,2026-10-30,"https://www.36kr.com/p/3719509378512261
+https://weibo.com/2/detail/5348624412445354
+https://today.ai/articles/blog/what-is-today
+https://today.ai/support?language=en"
+aisphere,爱诗科技 / PixVerse,05,多模态生成与创作工具,视频基础模型与创作者应用,PixVerse / 拍我AI；视频生成 API,分析：与 Vidu 同属模型及 API 层；面向全球创作者的生成工具和企业接口并行，而非单一广告混剪或短剧分发。,生数科技、筷子科技,官网披露2026-01-12 C轮融资由鼎晖领投；其他历史投资方需逐轮核对，不沿用原表全名单。,partial,北京,https://aishiai.com/,https://pixverse.ai/en/careers,,support@pai.video,产品支持,未查到当前公开招聘投递邮箱，优先使用官方招聘入口。,2026-10-30,"https://aishiai.com/
+https://pixverse.ai/en/careers?trk=public_post_comment-text"
+avolution,鹿影科技 / Avolution.ai（历史项目）,05,多模态生成与创作工具,二次元视频生成,YoYo 动漫视频生成,分析：区别于 Vidu/PixVerse 的通用视频路线，早期聚焦二次元；存在被 MiniMax 收购的报道，不能默认是独立在招公司。,爱诗科技、生数科技,36氪披露天使轮由蓝驰创投、红点中国参与；2025年有并入MiniMax报道，未以官方收购公告确认。,partial,深圳,https://avolution.ai/,,,,,官网域名来自历史融资报道，现行独立官网与招聘状态待核实；原表将米哈游相关关系用于该公司缺乏本轮证据。；未查到当前公开招聘入口或投递邮箱。,2026-10-30,"https://pitchhub.36kr.com/project/2587574655725317
+https://epaper.stcn.com/att/202506/11/e1e0a9e1-7ac9-40ef-8bf2-7ace1e579c90.pdf"
+creativefitting,井英科技 / CreativeFitting,05,多模态生成与创作工具,AI 原生娱乐与内容 Agent 系统,Reel.AI；内容生成、评估和市场反馈闭环,分析：与卖模型 API 的 Vidu/PixVerse 不同，自己做 AI 短剧消费应用与互动内容，并构建内容生产和反馈系统。,生数科技、爱诗科技,官网记录2024-07百度Pre-A+轮、2026-06新融资；36氪记录种子轮真格、种子+轮小苗朗程、2023-11 Pre-A九合与众麟。,confirmed_disclosure,上海,https://creativefitting.cn/,https://m.zhipin.com/companys/7d2cdcbf5b86a8441Hd7292_F1Y~.html,,,,官网未列公开招聘入口或投递邮箱；历史报道所述ARR未使用。；未查到通用公开投递邮箱。；页面主体及CreativeFitting/Reel.AI品牌对应；排除了平台通用介绍中的BOSS创始人信息。,2026-10-30,"https://creativefitting.cn/
+https://pitchhub.36kr.com/project/1678270547325961
+https://m.zhipin.com/companys/7d2cdcbf5b86a8441Hd7292_F1Y~.html"
+deemos,影眸科技 / Deemos / Hyper3D,05,多模态生成与创作工具,3D 资产生成、数字人与世界生成,Rodin、Hyper3D；研究覆盖生成与机器人交互环境,分析：与 VAST 同属3D生成；影眸源于数字人采集与神经图形学技术，Rodin面向生产资产，与魔珐的数字人直播应用定位不同。,VAST、魔珐科技,已核到早期投资包括红杉中国种子基金、奇绩创坛，以及后续字节跳动/蓝驰的企业档案记录；最新轮次未以官方融资稿完整确认。,partial,上海,https://hyper3d.ai/,https://finance.sina.com.cn/stock/t/2026-07-23/doc-iniiuwti2117525.shtml,hello@deemos.com,hello@help.hyper3d.ai,产品客服,招聘邮箱来自团队采访结尾公开邀请；官网客服与招聘邮箱分开。,2026-10-30,"https://www.taibo.cn/company/1327
+https://finance.sina.com.cn/stock/t/2026-07-23/doc-iniiuwti2117525.shtml
+https://hyper3d.ai/es/help/articles/official-hyper3d-links-and-scam-safety"
+gaoding,稿定科技 / 稿定设计,05,多模态生成与创作工具,商业视觉设计与 AI 内容工具,稿定设计、稿定AI、营销设计模板；咔神自动拍摄,分析：与即时设计面向产研UI协作不同，主要解决非专业设计者的海报、电商和品牌营销素材生产。,即时设计、LiblibAI,未找到可可靠确认的官方投资方及轮次；招聘平台曾列“不需要融资”，与部分SEO站的C轮/被收购说法冲突，不采纳后者。,not_found,厦门、深圳、杭州,https://www.gaoding.com/,https://app.mokahr.com/m/recommendation-apply/huanleguang/1955,,,,招聘链接为2021年公开招聘稿的历史入口，当前开放状态待核实；不采用美图收购等未证实说法。；未查到当前公开招聘投递邮箱，优先使用官方招聘入口。,2026-10-30,"https://carson.gaoding.com/cooperation
+https://www.nowcoder.com/enterprise/2336
+https://edge.v2ex.com/t/789028"
+guiji,硅基智能（南京）,05,多模态生成与创作工具,AI 数字人与智能交互,数字人、语音交互、直播和内容生成,分析：相较魔珐的3D表达和开放平台，硅基覆盖语音交互、真人数字分身与规模化内容服务；具体性能不作排名。,魔珐科技,Dealroom记录2019年B轮腾讯参与，2025年D轮扬州杭集高新区产业基金；最新融资及原表红杉/招银名单未获足够官方证据。,partial,南京,https://www.guiji.ai/,https://www.zhipin.com/zhaopin/0e02877ac64324b81ndz3Nm6/,,,,排除guijizhinengcn.com及苏州同名企业szguiji.cn，未采用个人工商邮箱作为招聘邮箱。；未查到通用招聘投递邮箱。；平台职位检索页，含南京硅基智能职位；非公司自建官招站。,2026-10-30,"https://app.dealroom.co/companies/silicon_based_intelligent_technology
+https://marketplace.huaweicloud.com/seller/9bfa23d1461f4a6cacfdcad8715edbe7
+https://www.zhipin.com/zhaopin/0e02877ac64324b81ndz3Nm6/"
+jsdesign,即时设计 / JSDesign,05,多模态生成与创作工具,UI 设计协作与 AI 设计工具,即时设计、即时AI、A1.art入口,分析：与稿定面向营销设计模板不同，核心是UI设计、原型、开发交付的多人协作；不是视频或3D基础模型厂商。,稿定科技、LiblibAI,投资方靖亚官网披露A轮靖亚领投，A+源码/SIG领投，A++高瓴/SIG，B轮Coatue领投；未将旧轮次当成最新融资。,confirmed_disclosure,北京,https://js.design/,https://www.uisdc.com/job/440540.html,,contact@js.design,产品反馈/一般联系,未采用jsshejicn.com等非官方SEO站；未将旧个人内推QQ邮箱作为统一投递入口。；未查到通用招聘投递邮箱。；企业招聘帖，含定向岗位投递方式；发布时点未确认，不保证岗位仍开放。,2026-10-30,"https://js.design/
+https://js.design/tutorial
+https://www.emventures.cn/blog/vc
+https://www.uisdc.com/job/440540.html"
+liblib,LiblibAI / 哩布哩布,05,多模态生成与创作工具,AI 创意生产平台与模型社区,图像生成、模型/工作流社区、ComfyUI在线创作,分析：相较 Vidu/PixVerse 的自研视频模型API，主要入口是创作社区和模型/工作流资产；相较即时设计，不以UI多人协作为主要产品。,即时设计、生数科技,官方加入我们页列投资方：红杉中国、CMC资本、顺为资本、源码资本、明势创投、渶策资本；未据此推断各自轮次/持股。,confirmed_disclosure,北京、上海,https://www.liblib.art/,https://www.liblib.art/us/joinus,join@liblib.ai,support@liblib.ai,客服支持,投资名单与原表不同，按官方招聘页改。,2026-10-30,"https://www.liblib.art/us/joinus
+https://www.liblib.art/document/article_member"
+shengshu,生数科技 / Vidu,05,多模态生成与创作工具,视频生成与世界模型,Vidu；世界动作模型 Motubrain,分析：与 PixVerse 同属视频模型厂商；生数同时向机器人动作/物理世界模型延伸，区别于仅提供短剧消费 App 的井英。,爱诗科技、井英科技,2026-04 B轮由阿里云领投，中网投、九安海棠、好未来、光合创投等参与；早期股东含启明创投、BV百度风投、星连、达泰等。,confirmed_disclosure,北京,https://www.genspi.com/zh/,https://shengshu.jobs.feishu.cn/index/,hr@shengshu.ai,marketing@shengshu.ai,市场商务合作,hr@shengshu.ai 出现在官方招聘隐私摘要；职位状态以招聘系统为准。旧域名 shengshu.com 已出现 genspi.com 官方站。,2026-10-30,"https://www.genspi.com/zh/news/
+https://www.ncsti.gov.cn/kjdt/scyq/zgckxc/zgcdt/202604/t20260414_243817.html
+https://www.genspi.com/zh/privacy-summary/
+https://www.genspi.com/zh/"
+vast,VAST / Tripo,05,多模态生成与创作工具,3D 生成基础模型与创作工作台,Tripo 基础模型、Tripo Studio、API,分析：与影眸同为3D生成；VAST以原生3D资产生成和工作台/接口为中心，和魔珐以数字人视频及直播为中心的产品不同。,影眸科技、魔珐科技,恒旭资本官方2026-09披露B及B+轮经纬领投，产业方包括完美世界、蓝色光标等，老股东含达晨、春华、绿洲、渶策等。,confirmed_disclosure,北京、上海、杭州、深圳,https://www.vastworld.ai/,https://www.vastworld.ai/research#careers,careers@vastai3d.com,enterprise@vastai3d.com,企业销售,官方联系页为careers复数；高校/人社历史招聘稿另有career单数，优先官方现行地址。,2026-10-30,"https://www.vastworld.ai/contact
+https://www.hengxucapital.com/index.php?c=show&id=729
+https://www.vastworld.ai/"
+xmov,魔珐科技 / Xmov,05,多模态生成与创作工具,3D 数字人视频、直播与交互智能体,魔珐有言、有光、有灵、星云开放平台,分析：相较 Tripo/Rodin 生成可交付3D资产，魔珐直接交付会表达、直播和交互的数字人应用及开放能力。,影眸科技、VAST、硅基智能,36氪档案确认A轮红杉中国、五源、头头是道；2022年C轮报道为软银愿景基金、北极光、指数资本，勿误记为红点。,partial,上海,https://www.xmov.ai/,https://www.yupao.com/qiye/1846165860981542987.html,,business@xmov.ai,商务合作,未查到通用招聘投递邮箱。；第三方招聘平台页，主体为魔珐（上海）信息科技；非公司自建官招站。,2026-10-30,"https://www.xmov.ai/
+https://pitchhub.36kr.com/project/1688024582505735
+https://13115299.s21i.faiusr.com/61/1/ABUIABA9GAAgyZ3llQYo48mJ0wY.pdf
+https://www.yupao.com/qiye/1846165860981542987.html"
+ai-indeed,实在智能,06,企业与垂直行业软件,屏幕理解与企业执行 Agent,实在Agent、塔斯模型、RPA、信创版本,分析：与仅编排API的工作流平台不同，重点是GUI屏幕理解和跨系统执行；与影刀/来也同属数字员工邻近赛道。,影刀、来也科技,已核历史君联资本天使轮、松禾/中赢等Pre-A、光云科技A轮；原表高瓴及C轮最新名单暂未取得足够正式披露。,partial,杭州、上海、深圳、北京等,https://www.ai-indeed.com/,https://www.ai-indeed.com/apply,campus@i-i.ai,contact@i-i.ai,一般联系,当前主站招聘页只明确公开校园招聘campus@i-i.ai；旧开发站及旧招聘帖的社会招聘talent@i-i.ai不作为当前有效社招入口。,2026-10-30,"https://www.ai-indeed.com/about
+https://developer.cloud.tencent.com/article/2232603
+https://www.ai-indeed.com/apply"
+cyclone,弘玑 Cyclone,06,企业与垂直行业软件,企业行动智能体与超自动化,弘玑知行平台、RPA、行动智能体、决策智能体,分析：与影刀邻近，但强调数据—模型—工具—智能体—应用的全栈治理和政企/金融行业方案。,影刀、来也科技、滴普科技,融资资料记录经纬中国领投、DCM超额跟投，联想创投、源码、仁智参与；具体最新轮次以官方后续公告为准。,partial,上海及国内外多地,https://www.cyclone-robotics.com/,https://www.cyclone-robotics.com/h-col-222.html,hr@cyclone-robotics.com,marketing@cyclone-robotics.com,市场合作,HR邮箱来源于2021年校招公开材料，现行有效性需确认；市场邮箱见经纬对公司介绍。,2026-10-30,"https://www.cyclone-robotics.com/
+https://www.zhaopin.com/companydetail/CZ284680080.htm
+https://xsb.seiee.sjtu.edu.cn/xsb/detail/2494_2422.htm?nocache=1
+https://www.cyclone-robotics.com/h-col-222.html"
+deepexi,滴普科技 / Deepexi,06,企业与垂直行业软件,企业大模型、数据语义与智能体平台,Deepexi企业大模型、Deepology、DeepWorks、DeepexiOS,分析：相较影刀以自动化工具切入，滴普组合企业数据、本体、模型和智能体平台，面向企业系统级部署。,弘玑Cyclone、来也科技,历史投资方包括高瓴、晨兴（现五源）、IDG资本、BAI等：2019-09 A轮3500万美元由晨兴、高瓴、IDG联合领投，BAI、初心等跟投。2025-10-28港股上市（01384.HK），以官方投资者关系披露为准。,partial,北京、深圳、广州、杭州、苏州、成都、香港,https://www.deepexi.com/,https://www.deepexi.com/join-us/campus/c5,zhaopin@deepexi.com,IR@deepexi.com,投资者关系（非招聘）,未沿用原表博裕投资，尚未取得足够证据。,2026-10-30,"https://www.deepexi.com/investor-relations
+https://job.tju.edu.cn/recruitment/content/type/2/id/6673.html
+https://www.deepexi.com/join-us/campus/c5
+https://m.21jingji.com/article/20190924/herald/55cdc0794c1004069ea3d54a60d20f6a.html"
+intsig,合合信息 / Intsig,06,企业与垂直行业软件,文档智能、OCR 与商业数据 AI,扫描全能王、名片全能王、启信宝；企业文档解析,分析：与幂律只做法律合同不同，覆盖通用文档识别和商业数据，C端应用与B端标准化能力并行。,幂律智能、来也科技,历史机构股东包括经纬（杭州）创投、东方富海（芜湖）及东方富海二号等，见2024-09招股说明书及2025年报披露；2024-09登陆科创板（688615.SH），应区分上市前投资与当前持仓。,confirmed_disclosure,上海,https://www.intsig.com/,https://intsig.zhiye.com/social/jobs,,ir@intsig.net,投资者关系（非招聘）,未查到当前公开招聘投递邮箱，优先使用官方招聘入口。,2026-10-30,"https://www.intsig.com/investor-relation
+https://www.intsig.com/join
+https://static.cninfo.com.cn/finalpage/2026-03-17/1225013125.PDF
+https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2024-09-23/688615_20240923_A0D6.pdf"
+laiye,来也科技 / Laiye,06,企业与垂直行业软件,智能自动化、智能文档与数字员工,RPA、智能文档处理、企业智能体平台,分析：与影刀邻近，但产品表达更偏政企规模化治理、人机协同及文档处理，非单一桌面脚本工具。,影刀、弘玑Cyclone,已核历史A轮微软、红杉中国、光速中国参与；后续融资轮次与完整名单待官方逐轮确认。,partial,北京、上海、深圳、长沙及海外,https://laiye.com/,https://laiye.zhiye.com/home,,mkt@laiye.com,合作咨询,未查到当前公开招聘投递邮箱，优先使用官方招聘入口。,2026-10-30,"https://laiye.com/
+https://laiye.com/about
+https://www.vbdata.cn/companyDetail/efd50b329ed651930a793e9c79341fa8"
+powerlaw,幂律智能 / PowerLaw AI,06,企业与垂直行业软件,法律 AI 与合同全生命周期管理,MeCheck、MeFlow、无忧吾律、PowerLawGLM,分析：与循环智能的销售对话、aiXcoder的软件工程不同，聚焦合同审查、法务流程和法律服务。,循环智能、硅心科技,2023-12近8000万元Pre-B由蓝驰领投、e签宝跟投，红杉中国、华宇科创、源码、线性、智谱AI等老股东参与；以蓝驰官方披露为据。,confirmed_disclosure,北京,https://www.milvai.cn/,https://www.zhipin.com/gongsir/25a357d750036d3e1XV53du7FA~~.html?ka=company-jobs,,contacts@powerlaw.ai,商务合作,官网含加入我们入口，但尚未取得可确认当前投递邮箱。；未查到当前公开招聘投递邮箱，优先使用官方招聘入口。,2026-10-30,"https://www.milvai.cn/
+https://www.lanchivc.com/7296/
+https://www.milvai.cn/"
+recurrent-ai,循环智能 / Recurrent AI,06,企业与垂直行业软件,销售智能与对话分析,SalesMate、智能工牌、会话洞察、质检,分析：与客服自动接待平台不同，更偏销售人员与客户沟通数据的洞察、辅导和销售过程管理。,乐言科技、晓多科技、Shulex,官网里程碑披露B轮博裕和红杉中国联合领投；36氪历史档案还列金沙江、靖亚、真格、万物等。,confirmed_disclosure,北京、上海、深圳、成都及海外,https://www.rcrai.com/,https://www.rcrai.com/about-us/about,hr@rcrai.com,market@rcrai.com,商务/市场合作,,2026-10-30,"https://www.rcrai.com/about-us/about
+https://pitchhub.36kr.com/project/1745257247972481"
+yingdao,影刀 / 杭州分叉智能,06,企业与垂直行业软件,RPA、AI 工作流与数字员工,影刀RPA、影刀AI,分析：与来也/弘玑相比，产品强调业务人员可用的自动化搭建；与实在智能同覆盖屏幕操作，但不据此推断算法优劣。,来也科技、弘玑Cyclone、实在智能,2022-04完成1亿美元C轮，高盛及产业CVC领投，GGV、高瓴跟投；历史B轮Coatue领投。未核到红杉投资，删除原表该项。,confirmed_disclosure,杭州及多地分部,https://www.yingdao.com/,https://ying-dao.jobs.feishu.cn/index/position/list,,fc@yingdao.com,企业咨询/商务,fc为官网一般联系邮箱，不能当作投递邮箱。；未查到当前公开招聘投递邮箱，优先使用官方招聘入口。,2026-10-30,"https://www.yingdao.com/contactus/?from=community
+https://m.ebrun.com/ebrungo/zb/482074.html
+https://www.yingdao.com/ai
+https://www.yingdao.com/"
+deepdraw,深绘智能 / Deepdraw,07,零售、电商与营销应用,时尚商品中台与商品数字化,PIM商品中台、美工机器人、商品数据平台,分析：与极睿生成商拍内容相邻，但重点是商品主数据与内容中台，且已是上市公司光云旗下主体。,极睿科技,光云科技2021年以1.2亿元收购100%股权，2021-01完成工商变更并纳入合并；应标为产业收购背景，而非独立VC融资企业。,confirmed_disclosure,杭州,https://www.deepdraw.cn/,,,,,现行独立招聘入口与邮箱未查到，可从光云体系核实。；未查到当前公开招聘入口或投递邮箱。,2026-10-30,"https://www.deepdraw.cn/
+https://static.sse.com.cn/stock/disclosure/announcement/c/202208/688365_20220805_6WXN.pdf"
+infimind,极睿科技 / Infimind,07,零售、电商与营销应用,电商内容生成与商品数字化,PhotoMagic、ECPro、iClip；商品图文和短视频,分析：与筷子偏广告创意不同，强调服饰商品资产、商拍、详情页和内容运营流程；与深绘商品中台邻近。,筷子科技、深绘智能,官网大事记确认2020年红杉A轮、2022年B轮，官网当前简介融资标签与大事记存在B/C轮不一致，故不主张最新轮次。,partial,北京、杭州、广州等,https://www.infimind.com/,,hr@infimind.com,liwei@infimind.com,商务合作,hr@infimind.com来自旗下旧品牌AIFashion产品页页脚“求职”，属历史公开邮箱；不是现行招聘系统，careersUrl留空。官网融资阶段B/C自身不一致，未扩大断言。,2026-10-30,"https://www.infimind.com/about
+https://www.aifashion.com/"
+kuaizi,筷子科技 / Kuaizi,07,零售、电商与营销应用,商业内容 AIGC 与广告创意自动化,Kuaizi 企业内容生成平台、创意管理与批量视频,分析：与Vidu/PixVerse底层视频模型不同，面向商业广告工作流的生成、测试和素材管理；与极睿偏商品视觉不同。,极睿科技、爱诗科技,金沙江官方被投页确认投资；36氪记录2024B轮金沙江等参与，2025-06 B+追远、海珠城发、赛意产业基金、清智参与。,confirmed_disclosure,广州,https://kuaizi.ai/,https://m.zhipin.com/companys/1daa18f2ebdeb5cd1nx-0tW4.html,,,,未用工商财务邮箱及疑似代理QQ邮箱作为商务/招聘入口；原表ARR数字未纳入。；未查到通用招聘投递邮箱。；原档案/zh/pc/页面当前返回404，根域会跳转现行/en/pc/home。；页面对应广州筷子信息科技有限公司及Kuaizi.ai品牌。,2026-10-30,"https://gsrventuresglobal.com/details/kuaizi
+https://pitchhub.36kr.com/project/1679679398531845
+https://kuaizi.ai/
+https://m.zhipin.com/companys/1daa18f2ebdeb5cd1nx-0tW4.html"
+leyan,乐言科技,07,零售、电商与营销应用,电商客服与营销 SaaS,乐语助人、乐销客、工单RPA与电商服务,分析：与QuickCEP/Shulex更聚焦跨境不同，乐言从国内平台电商客服与营销切入，并延伸东南亚。,晓多科技、Shulex、QuickCEP,官网披露2021-04数亿元D轮中金资本、上海人工智能产业投资基金领投；完整历史股东未据此推断。,confirmed_disclosure,上海、杭州及多地,https://www.leyantech.com/,https://www.leyantech.com/joinUS.html,talents@leyantech.com,,,,2026-10-30,"https://www.leyantech.com/portal/
+https://www.leyantech.com/joinUS.html
+https://www.leyantech.com/aboutUs.html"
+quickcep,快牛智营 / QuickCEP,07,零售、电商与营销应用,全球消费者互动与客服/语音 Agent,QuickCEP AI Agent、Voice Agent、工单与CDP,分析：与Shulex客服/VOC相邻，QuickCEP更强调CDP、全渠道互动与导购营销串联；与店匠不同，不以建站为核心。,Shulex、店匠科技,复星锐正官网2025-11披露近亿元融资啟赋领投、复星锐正超额跟投；更早投资方有源数创投、初心等。,confirmed_disclosure,北京,https://www.quickcep.cn/,https://www.yupao.com/qiye/202334541.html,,support@quickcep.com,产品支持,未将源数创投等同源码资本；轮次标签报道有A+/B分歧，正文以新一轮表述。；未查到通用招聘投递邮箱。；第三方招聘平台页，主体为北京快牛智营科技有限公司；非公司自建官招站。,2026-10-30,"https://www.quickcep.cn/
+https://www.quickcep.com/
+https://www.frzcapital.cn/news/index_7.html
+https://pitchhub.36kr.com/project/1958431415880964
+https://www.yupao.com/qiye/202334541.html"
+shoplazza,店匠科技 / Shoplazza,07,零售、电商与营销应用,跨境独立站与零售商业基础设施,独立站SaaS、订单/支付/营销、POS、AI运营,分析：与Shulex/QuickCEP是可集成的上下游关系：店匠承载店铺与交易系统，后两者侧重客户互动服务。,Shulex、QuickCEP,官方大事记：2018年Pre-A/A获嘉程、大观、红杉、云九等；2022年C1轮1.5亿美元，软银愿景、Chimera、StepStone等参与。,confirmed_disclosure,深圳及海外,https://www.shoplazza.cn/,https://www.shoplazza.cn/pages/join-us,,cs@shoplazza.com,客户支持,原表将部分机构如云启列入，现按官方历史披露名单写。；未查到当前公开招聘投递邮箱，优先使用官方招聘入口。,2026-10-30,"https://www.shoplazza.cn/pages/about-us
+https://m.zhipin.com/companys/ddcf41eb4e9388b21HR939q5FA~~.html
+https://www.shoplazza.cn/pages/join-us
+https://www.shoplazza.cn/"
+shulex,Shulex / 杭州数里行间科技有限公司,07,零售、电商与营销应用,客户服务 Agent 与 VOC 消费者洞察,Shulex AI客服、语音客服、智能服务台、VOC,分析：与QuickCEP的客户互动/营销自动化相邻；Shulex突出客服执行与评论洞察双产品，而非独立站建站。,QuickCEP、晓多科技、店匠科技,2025-03新一轮融资由盛大资本领投，北极光和Starting Gate Fund参与；资料库将后者写作大观资本。未核到原表红杉/线性投资。,confirmed_disclosure,杭州及海外等,https://www.shulex.com/,https://www.tanzhi.cn/companies/8554cd7e-6bc6-4bb1-bc47-1c79232c15a7/,,marketing@shulex-tech.com,商务合作（非招聘）,原表“笃行科技”与官方运营主体不一致，已更正为杭州数里行间；邮箱不是投递邮箱。；未查到通用公开投递邮箱。；第三方招聘聚合公司页，非官网自建投递系统；页面contact@tanzhi.cn是平台邮箱，不属于Shulex。,2026-10-30,"https://www.shulex.com/terms.html
+https://www.shulex.com/
+https://finance.ifeng.com/c/8hyza1BTDsm
+https://vc.pedaily.cn/company/715173.html
+https://www.shulex.com/
+https://www.tanzhi.cn/companies/8554cd7e-6bc6-4bb1-bc47-1c79232c15a7/"
+tabcut,特看科技 / Tabcut,07,零售、电商与营销应用,TikTok 电商数据与视频内容 SaaS,Tabcut、主播宝,分析：相较极睿服饰商品内容，Tabcut以TikTok数据/运营和数字人直播等场景切入；不是基础视频大模型公司。,极睿科技、筷子科技,36氪确认2022年数千万元天使轮峰瑞资本领投、嘉程资本跟投。未取得原表高瓴、线性、碧桂园创投参与证据。,confirmed_disclosure,泉州/杭州、广州,https://www.tabcut.com/,https://m.liepin.com/company/13969591/,,service@tabcut.com,产品客服,更正投资方；未将工商记录huahua@tabcut.com认定为招聘邮箱。；未查到通用公开投递邮箱。；第三方公司招聘页，岗位开放状态以平台实时显示为准。,2026-10-30,"https://pitchhub.36kr.com/project/2011456818382086
+https://www.innohere.com/ir/100532/frame.html
+https://www.tabcut.com/
+https://m.liepin.com/company/13969591/"
+tec-do,钛动科技 / Tec-Do,07,零售、电商与营销应用,全球效果营销与 AI 广告内容,Tec-Creative；全球广告营销与AI投放服务,分析：与筷子内容生产平台相邻，但钛动同时覆盖全球媒体投放和营销服务，面向出海广告主的增长结果。,筷子科技、极睿科技,2026-08公司新闻稿披露新一轮华泰泛大西洋领投，鲲鹏光远、广汽资本、金沙江等跟投；官网披露历史B轮。,confirmed_disclosure,广州,https://www.tec-do.com/,https://app.mokahr.com/social-recruitment/tec-do/46639?locale=zh-CN#/,,Brand@tec-do.com,媒体联络（非招聘）,未查到当前公开招聘投递邮箱，优先使用官方招聘入口。,2026-10-30,"https://www.tec-do.com/about.html
+https://www.globenewswire.com/news-release/2026/08/20/3348067/0/zh-hans/%E9%92%9B%E5%8A%A8%E7%A7%91%E6%8A%80%E5%AE%A3%E5%B8%83%E5%AE%8C%E6%88%90%E6%96%B0%E4%B8%80%E8%BD%AE%E8%9E%8D%E8%B5%84.html
+https://cn.linkedin.com/company/tecdocn/jobs
+https://www.tec-do.com/"
+xiaoduo,晓多科技 / Xiaoduo AI,07,零售、电商与营销应用,客服 AI、商家服务与语流 Agent,晓多客服、语流Agent、自研晓模型,分析：与乐言同邻近国内电商客服；产品集中服务对话、客服训练与智能质检，和以建站交易系统为核心的店匠不同。,乐言科技、Shulex,官方产品介绍资料披露2020年B+和C轮；原表嘉御/祥峰/BV完整名单未在本次官方材料中完整核实。,partial,成都及国内多地,https://www.xiaoduoai.com/,https://xiaoduoai.zhiye.com/Social,,,,未查到当前公开招聘投递邮箱，优先使用官方招聘入口。,2026-10-30,"https://www.xiaoduoai.com/
+https://xiaoduoai.zhiye.com/Social
+https://cdnpic.xiaoduoai.com/uploads/20240919/58b97269ce1283af6c57087155af42ff.pdf"
+agibot,智元机器人,08,具身智能与机器人,通用机器人、具身模型、量产与应用生态,远征/灵犀系列；AGIBOT机器人与租赁服务,分析：相较宇树以足式运动产品起家，智元覆盖多形态本体、数据、模型、量产和应用生态。,宇树科技；星海图；傅利叶,财新2025-03-25报道公司确认完成腾讯领投的B轮，跟投包括龙旗科技、卧龙电气、华发集团、蓝驰创投等。,confirmed_disclosure,上海,https://www.agibot.com/,https://agirobot.jobs.feishu.cn/,,sales@agibot.com,销售,未查到通用招聘邮箱；用官方飞书职位投递。agibot.cn 为敏捷医疗，不属于智元，已排除混淆。,2026-10-30,"https://www.caixin.com/2025-03-25/102301793.html
+https://store.agibot.com/pages/contact
+https://agirobot.jobs.feishu.cn/"
+fourier,傅利叶,08,具身智能与机器人,人形机器人与康复机器人两条业务线,GR-3系列；GRW；RehabHub康复港,分析：相较多数人形新创公司，傅利叶具有康复产品和医疗场景积累，另发展通用人形与轮式双臂。,智元机器人；宇树科技；极壳科技,2025-01公司披露E系列两轮合计近8亿元，参与方包括国鑫投资、浦东创投、张江科投、张科垚坤基金、Prosperity7、钧山资本。,partial,上海,https://www.fftai.com/en/,https://app.mokahr.com/campus-recruitment/fftai/147078,job@fftai.com,generalrobot@fftai.com,通用机器人商务,招聘邮箱在校招材料转载中明确列出；官方招聘页为材料所给摩卡入口。此邮箱也用于求职申请协助。,2026-10-30,"https://www.fftai.com/en/
+https://www.yicai.com/news/102430454.html
+https://www.fftai.com/uploads/upload/files/20250519/9367c1adcb832047765641f301645c90.pdf
+https://www.91-tanhua.net/news/detail/103"
+galaxea,星海图,08,具身智能与机器人,整机、具身基础模型与开发平台,R1 Pro / Lite；G0系列；A1机械臂；EDP,分析：相较只做模型或本体的团队，同时提供机器人平台、模型和开发生态；轮式双臂是重要产品形态。,银河通用；自变量机器人；智元机器人,官网披露2025年A4/A5轮由美团、美团龙珠、今日资本领投；2026年官网列有B/B+轮融资进展。仅列可核实事件，不将原表全部机构默认视为当前股东。,confirmed_disclosure,北京；苏州、深圳等岗位城市,https://galaxea-ai.com/,https://www.galaxea-ai.com/zh/jobs.html,hr@galaxea.ai,product@galaxea-ai.com,产品咨询,邮箱为公开招聘渠道；岗位及开放状态以招聘页面为准。,2026-10-30,"https://galaxea-ai.com/cn
+https://www.galaxea-ai.com/zh/company.html
+https://www.galaxea-ai.com/zh/jobs.html
+https://galaxea.zhiye.com/campus/jobs
+https://galaxea-ai.com/zh/apply.html"
+galbot,银河通用,08,具身智能与机器人,通用具身模型与机器人在零售、工业场景的部署,Galbot G1 / S1 / ET1；银河星脑 AstraBrain,分析：相较宇树的足式本体产品，银河更突出具身大脑与抓取、零售作业闭环。,宇树科技；星海图；自变量机器人,2025-06 披露11亿元融资，投资方包括宁德时代战投、溥泉资本、国开科创、北京机器人产业基金、纪源资本；2026-03 财新报道新一轮投资方含国家AI产业投资基金、中国石化、中信投资控股等。,confirmed_disclosure,北京、苏州、深圳（校招公布地域）,https://www.galbot.com/,https://app.mokahr.com/social-recruitment/yinhetongyong/165929,hr@galbot.com,,未查到通用邮箱,hr@galbot.com 见高校发布的公司校招材料；社会招聘使用官网跳转入口。,2026-10-30,"https://www.galbot.com/
+https://finance.people.com.cn/n1/2025/0623/c1004-40507025.html
+https://companies.caixin.com/m/2026-03-02/102418622.html
+https://career.nankai.edu.cn/correcruit/content/id/116497.html"
+limx,逐际动力,08,具身智能与机器人,全身运动控制、具身智能与模块化足式机器人,Oli / Luna；TRON 1/2；COSA；FluxVLA Engine,分析：相较宇树，逐际强调多形态研究平台、大小脑融合和具身智能操作系统组合。,宇树科技；智元机器人；星动纪元,官网2026-07-14披露近2亿美元Pre-IPO轮，新投资方包括IDG、蓝思科技、GGG Group、Redstone、WestSummit、合肥滨湖等；蔚来资本、尚颀资本、基石资本等继续投资。,confirmed_disclosure,深圳,https://www.limxdynamics.com/,https://www.limxdynamics.com/en/faq,recruit@limxdynamics.com,bd@limxdynamics.com,业务合作,招聘邮箱由官网FAQ明确列出；careersUrl 为包含招聘联系信息的官方FAQ。,2026-10-30,"https://www.limxdynamics.com/en/news/BK000064
+https://www.limxdynamics.com/en/faq"
+noematrix,穹彻智能,08,具身智能与机器人,以力为中心的具身基础模型与通用机器人大脑,Noe-0；无本体数据与机器人应用工具平台,分析：相较本体整机厂，突出力交互、无本体数据和可适配机器人的智能系统。,星海图；自变量机器人；千寻智能,官网2026-06-18披露新一轮数亿元战略投资，投资方包括上海交大AI未来基金、上海创之智、无锡数据集团、一村资本。原表其他投资方在本轮核验中不自动保留。,confirmed_disclosure,上海,https://www.noematrix.ai/,https://www.noematrix.ai/join-us,hr@noematrix.cn,,未查到通用邮箱,邮箱为公开招聘渠道；岗位及开放状态以招聘页面为准。,2026-10-30,"https://www.noematrix.ai/
+https://www.noematrix.ai/about
+https://www.noematrix.ai/join-us"
+robotera,星动纪元,08,具身智能与机器人,全栈人形机器人、灵巧手与具身模型,L7 / Q5 / M7；XHAND系列；ERA-42 VLA,分析：相较只提供机器人本体的公司，将灵巧手、整机与VLA模型放在同一产品体系。,宇树科技；智元机器人；逐际动力,官网2026-05-08披露新一轮逾2亿美元融资，由顺丰、红杉中国、IDG资本领投；另有2026年3月战略轮公告。,confirmed_disclosure,北京,https://www.robotera.com/en/,https://k0fqxcszc9.jobs.feishu.cn/,HR@robotera.com,MKT@robotera.com,商务,邮箱为公开招聘渠道；岗位及开放状态以招聘页面为准。,2026-10-30,"https://www.robotera.com/en/
+https://k0fqxcszc9.jobs.feishu.cn/"
+spirit-ai,千寻智能,08,具身智能与机器人,具身大模型、数据与通用机器人,具身模型；机器人本体与遥操作数据采集体系,分析：相较宇树的硬件产品线，千寻更强调多样性真实交互数据、模型学习与操作泛化。,自变量机器人；银河通用；星海图,顺为资本官网披露与云锋基金联合领投融资，达晨财智、银河源汇、图灵基金、新鼎资本、庚辛资本等参与；公开机构库另记录多轮融资，轮次口径不一，不照抄原表A+轮金额。,partial,杭州、北京、深圳,https://www.spirit-ai.com/,https://www.spirit-ai.com/career,,sales@spirit-ai.com,商业合作,未查到公开招聘邮箱；官网提供招聘岗位。原表2026年6月“15亿元A+轮”与外部库轮次口径有差异，改用明确来源的投资方背景。,2026-10-30,"https://shunwei.com/?taxonomy=&term=
+https://www.spirit-ai.com/about
+https://www.spirit-ai.com/career"
+tars,它石智航,08,具身智能与机器人,物理AI、通用具身模型及软硬一体机器人,AWE具身模型；A1机器人；Human-centric数据体系,分析：相较以机器人遥操作为中心的数据路线，公开材料强调以人为中心的数据和模型、本体、应用三线闭环。,自变量机器人；银河通用；千寻智能,2026-04-16 Pre-A轮由高瓴创投、红杉中国、美团战投联合领投；恒旭资本官方确认追加投资，其他参与方含美团龙珠、中金资本、北京机器人产业基金、上海国投先导等。,confirmed_disclosure,上海,https://www.tarsrobot.com/,https://tarsrobot.jobs.feishu.cn/021343/,,,未查到公开邮箱,未查到公开招聘邮箱，使用高校发布的公司官方飞书投递入口；tarsrobot.com 本轮读取超时。,2026-10-30,"https://eng.hengxucapital.com/index.php?c=show&id=539
+https://job.ustc.edu.cn/Recruitment/info.aspx?itemid=80004"
+unitree,宇树科技,08,具身智能与机器人,消费级与行业级足式、人形机器人本体,Go / B系列四足；G1 / H系列人形；机械臂,分析：相较模型优先的具身公司，宇树突出足式硬件、运动控制、标准化产品与开发接口。,智元机器人；逐际动力；傅利叶,官网公司介绍披露2024年B2轮由美团、金石投资、源码资本及深创投等参与。此处为历史投资背景，不将未核实的IPO或最新估值写为事实。,confirmed_disclosure,杭州总部；深圳、上海,https://www.unitree.com/,https://www.unitree.com/position/,hr@unitree.com,sales_global@unitree.com,销售,邮箱为公开招聘渠道；岗位及开放状态以招聘页面为准。,2026-10-30,"https://www.unitree.com/operate/company/
+https://www.unitree.com/cn/contact/
+https://www.unitree.com/position/"
+x-square,自变量机器人,08,具身智能与机器人,端到端具身基础模型及通用机器人,WALL-B世界统一模型；量子系列机器人与数据基础设施,分析：相较以运动控制为主的足式公司，突出从感知到动作统一学习、模型与机器人协同。,银河通用；千寻智能；星海图,公司2026-06-29公告披露连续四轮融资至C轮，估值超过28亿美元；公司公告介绍字节、阿里云、美团、小米等战略资本背景。融资金额和估值为该时点公司披露。,confirmed_disclosure,深圳；北京,https://x2robot.com/,https://x2-robot.jobs.feishu.cn/,hr@x2robot.com,coop@x2robot.com,商业合作,邮箱为公开招聘渠道；岗位及开放状态以招聘页面为准。,2026-10-30,"https://www.prnewswire.com/news-releases/x-square-robot-secures-four-consecutive-financing-rounds-surpasses-us2-8-billion-valuation-in-push-for-physical-ai-foundation-models-302813091.html
+https://x2robot.com/join
+https://x2-robot.jobs.feishu.cn/"
+haivivi,跃然创新 Haivivi,09,AI 消费硬件,AI玩具、语音互动与陪伴,BubblePal；CocoMate；Haivivi App,分析：相较Plaud和viaim的办公生产力硬件，Haivivi以玩具和IP角色互动、儿童及情感陪伴为主要产品场景。,未来智能 viaim；Plaud,2025-08-25披露2亿元A轮系列融资，中金资本旗下基金、红杉中国、华山资本、愉悦资本领投，招银国际等参投，Brizan Ventures等老股东加注。,confirmed_disclosure,深圳（公司总部联系地址）,https://www.haivivi.cn/,https://m.zhipin.com/companys/ff637f836e8ccf6b03B43N69FlE~.html,,bd@haivivi.com,经销商/商业合作,未查到公开招聘邮箱；可通过BOSS直聘深圳跃然创新公司页投递。页面明确对应HAIVIVI品牌且展示人事经理等招聘者。bd@为经销合作，不能当投递邮箱。,2026-10-30,"https://m.jiemian.com/article/13234208.html
+https://www.haivivi.cn/
+https://www.haivivi.cn/contact-us
+https://m.zhipin.com/companys/ff637f836e8ccf6b03B43N69FlE~.html"
+hypershell,极壳科技 Hypershell,09,AI 消费硬件,消费级穿戴外骨骼与户外助力,Hypershell X系列；Hypershell Halo髋膝助力外骨骼,分析：相较傅利叶面向医疗康复的机器人，极壳主要以消费级穿戴助力、户外和日常移动为产品入口。,傅利叶；宇树科技,2026-05-18 披露5000万美元B+轮由蚂蚁集团、美团龙珠领投，Sofina、Granite Asia跟投；历史股东名单另含IDG、红杉中国、五源资本等。,confirmed_disclosure,深圳；上海（创立地）,https://hypershell.tech/,https://career.hypershell.cn/,,business@hypershell.tech,商务合作,未查到公开招聘邮箱；已从hypershell.cn官网“加入我们”核实官招入口。商务邮箱不是投递邮箱；hypershell.com为加拿大同名工程公司，已排除。,2026-10-30,"https://www.nbd.com.cn/articles/2026-05-18/4396408.html
+https://hypershell.tech/pages/contact-us/_%7Burl%7D
+https://www.linkedin.com/company/hypershell-tech
+https://hypershell.cn/
+https://career.hypershell.cn/"
+plaud,Plaud / 机智连接,09,AI 消费硬件,AI录音硬件与专业人士对话智能软件,Plaud Note / Note Pro / NotePin；Plaud Intelligence,分析：相较viaim把录音融入耳机，Plaud以专用录音硬件、转写总结和付费软件服务组成产品。,未来智能 viaim；闪极科技,公司公开招聘页自述 bootstrapped（自筹起步）。Forbes报道创始人自筹与众筹，并提到Carbide Ventures、Patrick Kavanagh等小额外部支持；外部库的融资金额口径存在冲突，未确认大规模机构融资或完整股东名单。,partial,旧金山；深圳及全球招聘城市,https://www.plaud.ai/,https://jobs.ashbyhq.com/plaud,,sales@plaud.ai,企业销售,未查到通用招聘邮箱；以官方Ashby招聘站为准。第三方出现个人招聘邮箱或旧岗位邮箱，未作为通用投递渠道。投资口径有冲突，不能强行归入头部PE/VC被投。,2026-10-30,"https://www.plaud.cn/
+https://jobs.ashbyhq.com/plaud/c477787c-bf6b-422f-aeef-2493f2d47fbe/
+https://www.forbes.com.au/news/innovation/how-an-ai-notetaker-became-one-of-the-few-profitable-ai-startups/
+https://eu.plaud.ai/policies/contact-information
+https://jobs.ashbyhq.com/plaud"
+sharge,闪极科技 SHARGE,09,AI 消费硬件,消费电子、AI眼镜与智能穿戴,AI眼镜；充储电产品,分析：相较Plaud的录音设备、Haivivi的玩具，闪极从充储电消费电子延伸至AI眼镜和可穿戴交互。,Plaud；未来智能 viaim；Haivivi,2024-12-18 披露绿洲资本独家投资数千万元A+轮；此前A轮由光远投资领投、未来光锥前沿科技基金与云天励飞跟投。,confirmed_disclosure,深圳,https://www.shargetech.com/,https://www.shargetech.com/lxwm,hr@shargetech.com,zhangbo@shargetech.com,分销/加盟与媒体合作,官网用 hr#shargetech.com 与 zhangbo#shargetech.com 防爬显示，已按邮箱惯例将明确占位符#还原为@；未猜测新邮箱。careersUrl为含投递说明的官方联系页。,2026-10-30,"https://finance.sina.com.cn/tech/roll/2024-12-18/doc-inczwpwu0990527.shtml
+https://www.shargetech.com/lxwm"
+viaim,未来智能 viaim,09,AI 消费硬件,AI办公耳机、录音转写及会议智能,viaim RecDot / OpenNote / NoteKit / Nano+；iFLYBUDS,分析：相较Plaud的专用录音机，viaim把录音、电话、听音和会议总结整合进耳机或电脑USB设备。,Plaud；闪极科技,启明创投2025年官方周报确认参与未来智能亿元级A轮；36氪融资表另记录万物资本、初心资本、启明创投、孚腾资本及后续产业方。以官方确认的启明投资关系为主。,partial,合肥总部；深圳等,https://www.viaim.ai/,https://m.zhipin.com/companys/3c2c021c1f89cff21H1729y0Flo~.html,,service@viaim.ai,客户服务,未查到公开招聘邮箱，所列careersUrl为BOSS公司页而非公司官网招聘站。service@仅客服勿用于求职；不要与北京同名无人机公司混淆。,2026-10-30,"https://www.qimingvc.com/cn/news/启明周报-启明创投投资企业融资及动态速递-vol-36-2025
+https://pitchhub.36kr.com/project/3264263460172807
+https://store.viaim.ai/pages/faq
+https://store.viaim.ai/pages/support-1
+https://m.zhipin.com/companys/3c2c021c1f89cff21H1729y0Flo~.html"
+biomap,百图生科 BioMap,10,科学智能与生物医药,生命科学基础模型与蛋白质、生物系统设计,xTrimo体系；生命科学AI模型与蛋白设计平台,分析：相较英矽的药物候选管线，百图更强调通用生命科学基础模型及为药物、生物制造客户提供模型能力。,天鹜科技；深势科技；英矽智能,由李彦宏等发起。36氪记录2021年A轮亿级美元融资，投资方包括纪源资本、百度、君联资本、蓝驰创投、真知创投、襄禾资本、李彦宏；未将商业合作额记作股权融资。,confirmed_disclosure,北京、苏州、香港、硅谷,https://www.biomap.com/,https://www.biomap.com/company,talent@biomap.com,info@biomap.com,一般咨询,官网当前明确列talent@biomap.com；hr@biomap.com亦见历史招聘材料，但优先使用官网当前邮箱。,2026-10-30,"https://pitchhub.36kr.com/project/1679649196921600
+https://www.biomap.com/company
+https://hub.baai.ac.cn/view/44767"
+dp-technology,深势科技,10,科学智能与生物医药,科学智能基础设施、科学模型与研发工具,深势·宇知；玻尔/Bohrium；Hermite；Piloteye；SciMaster,分析：相较英矽的自研药物管线，深势横跨生命科学和物质科学，偏科学计算平台、模型、软件及AI科学家。,晶泰科技；英矽智能；百图生科,启明创投官方2025年第46期周报确认深势为被投企业，且完成超8亿元C轮；公开投融资库记录历史源码、高瓴、经纬等参与。以启明官方确认为一手基础。,confirmed_disclosure,北京、上海、深圳、宜宾等,https://www.dp.tech/,https://www.dp.tech/about,hr@dp.tech,bd@dp.tech,商务合作,careersUrl为含求职邮箱的官网关于页。注意 dp.tech 为深势，dptech.com 为迪普网络安全公司，已排除混淆。,2026-10-30,"https://www.qimingvc.com/en/node/7551
+https://m.pedaily.cn/vc/company/122114.html
+https://www.dp.tech/
+https://www.dp.tech/about"
+insilico,英矽智能 Insilico Medicine,10,科学智能与生物医药,生成式AI药物发现平台与自研创新药管线,Pharma.AI；PandaOmics；Chemistry42；inClinico,分析：相较晶泰的研发服务及实验室平台，英矽同时推进自有药物候选管线，商业化包含平台合作与药物授权。,晶泰科技；深势科技；百图生科,官网列出的长期科技和医疗投资者包括华平、启明、药明康德、B Capital、Prosperity7、OrbiMed、Deerfield、兰亭、礼来亚洲、Eight Roads、百度风投、创新工场等。,confirmed_disclosure,上海、香港、波士顿、阿布扎比等,https://insilico.com/,https://insilico.com/careers_sc,career@insilico.com,bd@insilicomedicine.com,业务拓展,原表“多款新药临床II/III期”不作为本次更新结论；临床阶段须逐条查项目管线，避免把合作/授权与股权投资混淆。,2026-10-30,"https://insilico.com/about/
+https://insilico.com/contact_sc
+https://insilico.com/careers_sc"
+matwings,天鹜科技 Matwings,10,科学智能与生物医药,蛋白质设计大模型、AI生物设计及干湿实验闭环,MatwingsVenus大模型、Agent、Pod数据平台、Auto实验自动化,分析：相较百图的生命科学基础模型，天鹜明确围绕蛋白质功能设计、酶工程与设计到验证/工艺放大的闭环。,百图生科；深势科技；镁伽科技,官网关于页列出的投资方包括上海国投先导、国投创新、中石油昆仑资本、启明创投、涌铧投资、上海未来产业基金、本草资本、金沙江联合资本等；未披露到每轮的明细不补造。,confirmed_disclosure,上海,https://www.matwings.com/,https://www.liepin.com/company/13336567,,bd@matwings.com,商务合作,未查到有可靠一手或高校材料支持的招聘邮箱；官网“加入我们”跳转猎聘此公司页（本轮读取触发验证码）。第三方AI生成资料提到hr@matwings.com，未采纳。bd@仅商务。,2026-10-30,"https://www.matwings.com/site/about-us
+https://www.matwings.com/
+https://career.ecnu.edu.cn/commonpage/CorpInfDetail.aspx?oid=CEEV4VnnO%2FbBgpaLUHFcTw%3D%3D"
+megarobo,镁伽科技 MEGAROBO,10,科学智能与生物医药,智慧实验室与智能制造自主智能体、自动化平台,Scilia药研智慧工厂；Labillion；CellVue；实验室及制造自动化,分析：相较主要开发科学模型的深势、百图，镁伽以实验执行、自动化设备、软件与多智能体系统落地为切入口。,晶泰科技；深势科技；天鹜科技,公司官网2022-06-15公告3亿美元C轮，由高盛资管、亚投资本、纪源资本联合领投，创新工场持续加注，Pavilion、Starr等跟投；该事件为历史融资，不代表最新轮次。,confirmed_disclosure,北京、上海、苏州、深圳,https://www.megarobo.com/,https://megarobo.zhiye.com/Campus,zhaopin@megarobo.com,officialmail@megarobo.com,业务合作/一般联系,高校校招页同时列zhaopin@megarobo.com和campus@megarobo.tech（校招）；本条recruitEmail用投递邮箱，careersUrl为材料中的校招入口。,2026-10-30,"https://www.megarobo.com/news/255
+https://www.megarobo.com/
+https://career.nankai.edu.cn/correcruit/content/id/118191.html"
+xtalpi,晶泰科技 XtalPi,10,科学智能与生物医药,AI、量子物理与自动化实验支撑药物及材料研发,药物设计；晶型与固态研究；XtalDynamics实验室自动化,分析：相较英矽以自研药物管线为重点，晶泰更突出计算、实验机器人与研发服务/平台结合，并覆盖材料科学。,英矽智能；深势科技；镁伽科技,已上市企业（公司IR站）。历史D轮于2021-08披露近4亿美元，投资方包括奥博资本、五源资本、厚朴、腾讯、红杉中国等；历史投资背景不等于当前完整股东名册。,confirmed_disclosure,深圳、上海、北京、波士顿等,https://www.xtalpi.com/,https://en.xtalpi.com/careers/,,bd@xtalpi.com,业务合作,未查到公开通用招聘邮箱；使用官网招聘入口。bd@业务、ir@投资者关系、contact@一般咨询，均不冒充招聘邮箱。,2026-10-30,"https://ir.xtalpi.com/
+https://www.cyzone.cn/article/645770.html
+https://www.xtalpi.com/contact-us/
+https://en.xtalpi.com/careers/"

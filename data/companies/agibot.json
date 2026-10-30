@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "agibot",
+  "name": "智元机器人",
+  "aliases": [
+    "智元机器人(AgiBot)",
+    "AgiBot"
+  ],
+  "category_id": "08",
+  "focus": "通用机器人、具身模型、量产与应用生态",
+  "products": "远征/灵犀系列；AGIBOT机器人与租赁服务",
+  "locations_text": "上海",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较宇树以足式运动产品起家，智元覆盖多形态本体、数据、模型、量产和应用生态。",
+    "peer_names": [
+      "宇树科技；星海图；傅利叶"
+    ]
+  },
+  "investment": {
+    "summary": "财新2025-03-25报道公司确认完成腾讯领投的B轮，跟投包括龙旗科技、卧龙电气、华发集团、蓝驰创投等。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.agibot.com/",
+    "careers_url": "https://agirobot.jobs.feishu.cn/",
+    "recruitment_email": null,
+    "other_email": "sales@agibot.com",
+    "other_email_purpose": "销售"
+  },
+  "notes": "未查到通用招聘邮箱；用官方飞书职位投递。agibot.cn 为敏捷医疗，不属于智元，已排除混淆。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "智元完成B轮融资",
+      "url": "https://www.caixin.com/2025-03-25/102301793.html",
+      "supports": "投资背景",
+      "published_date": "2025-03-25",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "智元官方商店联系页",
+      "url": "https://store.agibot.com/pages/contact",
+      "supports": "产品应用及销售邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "智元官方招聘",
+      "url": "https://agirobot.jobs.feishu.cn/",
+      "supports": "招聘入口及公司业务",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "智元机器人(AgiBot)",
+    "original_track": "07",
+    "original_subtrack": "人形与四足机器人主机及商业RaaS"
+  }
+}

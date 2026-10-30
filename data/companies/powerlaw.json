@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "powerlaw",
+  "name": "幂律智能 / PowerLaw AI",
+  "aliases": [
+    "幂律智能(PowerLaw AI)",
+    "PowerLaw AI"
+  ],
+  "category_id": "06",
+  "focus": "法律 AI 与合同全生命周期管理",
+  "products": "MeCheck、MeFlow、无忧吾律、PowerLawGLM",
+  "locations_text": "北京",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：与循环智能的销售对话、aiXcoder的软件工程不同，聚焦合同审查、法务流程和法律服务。",
+    "peer_names": [
+      "循环智能、硅心科技"
+    ]
+  },
+  "investment": {
+    "summary": "2023-12近8000万元Pre-B由蓝驰领投、e签宝跟投，红杉中国、华宇科创、源码、线性、智谱AI等老股东参与；以蓝驰官方披露为据。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.milvai.cn/",
+    "careers_url": "https://www.zhipin.com/gongsir/25a357d750036d3e1XV53du7FA~~.html?ka=company-jobs",
+    "recruitment_email": null,
+    "other_email": "contacts@powerlaw.ai",
+    "other_email_purpose": "商务合作"
+  },
+  "notes": "官网含加入我们入口，但尚未取得可确认当前投递邮箱。；未查到当前公开招聘投递邮箱，优先使用官方招聘入口。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "幂律官方站",
+      "url": "https://www.milvai.cn/",
+      "supports": "产品、一般合作邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "蓝驰幂律融资公告",
+      "url": "https://www.lanchivc.com/7296/",
+      "supports": "投资方与产品",
+      "published_date": "2023-12-07",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "幂律官网加入我们导航",
+      "url": "https://www.milvai.cn/",
+      "supports": "直接跳转BOSS官方公司职位页",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "幂律智能(PowerLaw AI)",
+    "original_track": "05",
+    "original_subtrack": "法律、金融、销售与编程垂直Agent"
+  }
+}

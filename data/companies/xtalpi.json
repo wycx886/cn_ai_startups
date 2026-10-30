@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "xtalpi",
+  "name": "晶泰科技 XtalPi",
+  "aliases": [
+    "晶泰科技(XtalPi, 2228.HK)",
+    "XtalPi, 2228.HK"
+  ],
+  "category_id": "10",
+  "focus": "AI、量子物理与自动化实验支撑药物及材料研发",
+  "products": "药物设计；晶型与固态研究；XtalDynamics实验室自动化",
+  "locations_text": "深圳、上海、北京、波士顿等",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较英矽以自研药物管线为重点，晶泰更突出计算、实验机器人与研发服务/平台结合，并覆盖材料科学。",
+    "peer_names": [
+      "英矽智能；深势科技；镁伽科技"
+    ]
+  },
+  "investment": {
+    "summary": "已上市企业（公司IR站）。历史D轮于2021-08披露近4亿美元，投资方包括奥博资本、五源资本、厚朴、腾讯、红杉中国等；历史投资背景不等于当前完整股东名册。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.xtalpi.com/",
+    "careers_url": "https://en.xtalpi.com/careers/",
+    "recruitment_email": null,
+    "other_email": "bd@xtalpi.com",
+    "other_email_purpose": "业务合作"
+  },
+  "notes": "未查到公开通用招聘邮箱；使用官网招聘入口。bd@业务、ir@投资者关系、contact@一般咨询，均不冒充招聘邮箱。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "晶泰投资者关系",
+      "url": "https://ir.xtalpi.com/",
+      "supports": "上市身份与业务",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "晶泰D轮融资报道",
+      "url": "https://www.cyzone.cn/article/645770.html",
+      "supports": "历史投资方",
+      "published_date": "2021-08-11",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "晶泰官方联系页",
+      "url": "https://www.xtalpi.com/contact-us/",
+      "supports": "商务邮箱与IR邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "晶泰官方招聘",
+      "url": "https://en.xtalpi.com/careers/",
+      "supports": "投递入口",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "晶泰科技(XtalPi, 2228.HK)",
+    "original_track": "08",
+    "original_subtrack": "AI制药、生命科学大模型与微尺度研究"
+  }
+}

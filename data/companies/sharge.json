@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "sharge",
+  "name": "闪极科技 SHARGE",
+  "aliases": [
+    "闪极科技(Sharge)",
+    "Sharge"
+  ],
+  "category_id": "09",
+  "focus": "消费电子、AI眼镜与智能穿戴",
+  "products": "AI眼镜；充储电产品",
+  "locations_text": "深圳",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较Plaud的录音设备、Haivivi的玩具，闪极从充储电消费电子延伸至AI眼镜和可穿戴交互。",
+    "peer_names": [
+      "Plaud；未来智能 viaim；Haivivi"
+    ]
+  },
+  "investment": {
+    "summary": "2024-12-18 披露绿洲资本独家投资数千万元A+轮；此前A轮由光远投资领投、未来光锥前沿科技基金与云天励飞跟投。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.shargetech.com/",
+    "careers_url": "https://www.shargetech.com/lxwm",
+    "recruitment_email": "hr@shargetech.com",
+    "other_email": "zhangbo@shargetech.com",
+    "other_email_purpose": "分销/加盟与媒体合作"
+  },
+  "notes": "官网用 hr#shargetech.com 与 zhangbo#shargetech.com 防爬显示，已按邮箱惯例将明确占位符#还原为@；未猜测新邮箱。careersUrl为含投递说明的官方联系页。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "投中网：闪极获A+轮融资",
+      "url": "https://finance.sina.com.cn/tech/roll/2024-12-18/doc-inczwpwu0990527.shtml",
+      "supports": "投资方与产品转型",
+      "published_date": "2024-12-18",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "闪极官方联系我们",
+      "url": "https://www.shargetech.com/lxwm",
+      "supports": "招聘及商务邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "闪极科技(Sharge)",
+    "original_track": "08",
+    "original_subtrack": "AI穿戴/外骨骼、录音生产力与陪伴硬件"
+  }
+}

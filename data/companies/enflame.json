@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "enflame",
+  "name": "燧原科技 Enflame",
+  "aliases": [
+    "燧原科技"
+  ],
+  "category_id": "02",
+  "focus": "云端AI芯片及数据中心训推系统",
+  "products": "邃思芯片、云燧加速卡、驭算软件平台",
+  "locations_text": "上海、北京等，具体岗位需核",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：聚焦云端AI训练/推理加速，不以消费级图形显卡为主要产品入口；与摩尔线程的全功能GPU路线不同。",
+    "peer_names": [
+      "摩尔线程",
+      "沐曦股份",
+      "壁仞科技"
+    ]
+  },
+  "investment": {
+    "summary": "腾讯是重要历史投资方；上海政府英文新闻确认腾讯支持背景，官方上交所页面确认2026年9月11日上市；其他历史VC背景不在此扩列。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.enflame-tech.com/",
+    "careers_url": "https://www.linkedin.com/company/enflame/",
+    "recruitment_email": "hr@enflame-tech.com",
+    "other_email": "IR@enflame-tech.com",
+    "other_email_purpose": "投资者关系邮箱（非招聘）"
+  },
+  "notes": "招聘邮箱来自较早的公司LinkedIn帖子，需确认时效；招聘页暂用官方LinkedIn而非猜测官网路径。IR邮箱不可替代投递邮箱。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "上海政府新闻：燧原上市",
+      "url": "https://touch.shio.gov.cn/jsp/zfxw_detail.jsp?id=20260913195158966",
+      "supports": "腾讯支持与芯片业务",
+      "published_date": "2026-09-13",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "上交所官方公司页",
+      "url": "https://www.sse.com.cn/star/market/stocklist/info/overview/index.shtml?COMPANY_CODE=688801",
+      "supports": "公司身份与上市日期",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "燧原官方LinkedIn招聘帖",
+      "url": "https://www.linkedin.com/posts/enflame_燧原科技-社招岗位-更多职位及相关信息咨询请联系企业hr-hrenflame-techcom-activity-6534314198002958336-LiFW",
+      "supports": "hr招聘邮箱（历史帖子）",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "上交所披露文件",
+      "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202601/002175_20260122_654W.pdf",
+      "supports": "IR邮箱与公司业务",
+      "published_date": "2026-01-22",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "燧原科技",
+    "original_track": "02",
+    "original_subtrack": "AI智算网络、基础软件与AI芯片"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "deepseek",
+  "name": "深度求索 DeepSeek",
+  "aliases": [
+    "深度求索(DeepSeek)",
+    "DeepSeek"
+  ],
+  "category_id": "01",
+  "focus": "通用与推理基础模型、开源模型与API",
+  "products": "DeepSeek模型、聊天应用、开发者API",
+  "locations_text": "杭州；岗位城市以招聘官网为准",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：与应用聚合型Agent公司不同，自研和开放模型权重；初创资金来自幻方背景，不能视作普通VC孵化。",
+    "peer_names": [
+      "智谱",
+      "月之暗面",
+      "MiniMax"
+    ]
+  },
+  "investment": {
+    "summary": "幻方/梁文锋创办并支持；路透2026年10月22日报道称约1000亿元新融资接近完成，参与者包括兆易创新、美团、吉利等，消息源为知情人士，并非公司公告。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://www.deepseek.com/",
+    "careers_url": "https://talent.deepseek.com/",
+    "recruitment_email": null,
+    "other_email": "api-service@deepseek.com",
+    "other_email_purpose": "API服务咨询（非招聘）"
+  },
+  "notes": "融资是媒体引述知情人士，不能写成公司已官宣；原表国家基金/腾讯等名单及CFO说法未逐项确认。API邮箱非招聘，来自公开产品服务资料。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "美联社：DeepSeek创办背景",
+      "url": "https://apnews.com/article/0673d5c39d90108189cc31b88d85b9f8",
+      "supports": "幻方与梁文锋支持",
+      "published_date": "2025-01-28",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "路透转载：DeepSeek融资",
+      "url": "https://uk.marketscreener.com/news/deepseek-raises-15-billion-in-challenge-to-leading-us-labs-bloomberg-news-reports-ce785cd9df8afe20",
+      "supports": "2026融资报道及参与者",
+      "published_date": "2026-10-22",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "DeepSeek官方招聘",
+      "url": "https://talent.deepseek.com/",
+      "supports": "招聘入口",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "DeepSeek官方API文档",
+      "url": "https://api-docs.deepseek.com/",
+      "supports": "产品/API入口",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "title": "DeepSeek官方API参考",
+      "url": "https://api-docs.deepseek.com/api/deepseek-api/",
+      "supports": "明确列api-service@deepseek.com为DeepSeek Support",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "深度求索(DeepSeek)",
+    "original_track": "01",
+    "original_subtrack": "通用基座大模型 (“AI四小强”+开源旗舰)"
+  }
+}

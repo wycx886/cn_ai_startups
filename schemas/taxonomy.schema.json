@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Worknet taxonomy",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "version": {
+      "type": "string",
+      "format": "date"
+    },
+    "method": {
+      "type": "string",
+      "minLength": 1
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "organization": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https?://"
+          },
+          "date": {
+            "type": "string",
+            "minLength": 1
+          },
+          "finding": {
+            "type": "string",
+            "minLength": 1
+          },
+          "adopted": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "organization",
+          "title",
+          "url",
+          "date",
+          "finding",
+          "adopted"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[0-9]{2}$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "boundary": {
+            "type": "string",
+            "minLength": 1
+          },
+          "subtracks": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "boundary",
+          "subtracks"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "caveats": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "schema_version",
+    "version",
+    "method",
+    "references",
+    "categories",
+    "caveats"
+  ],
+  "additionalProperties": false
+}

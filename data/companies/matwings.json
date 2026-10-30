@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "matwings",
+  "name": "天鹜科技 Matwings",
+  "aliases": [
+    "天鹜科技"
+  ],
+  "category_id": "10",
+  "focus": "蛋白质设计大模型、AI生物设计及干湿实验闭环",
+  "products": "MatwingsVenus大模型、Agent、Pod数据平台、Auto实验自动化",
+  "locations_text": "上海",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较百图的生命科学基础模型，天鹜明确围绕蛋白质功能设计、酶工程与设计到验证/工艺放大的闭环。",
+    "peer_names": [
+      "百图生科；深势科技；镁伽科技"
+    ]
+  },
+  "investment": {
+    "summary": "官网关于页列出的投资方包括上海国投先导、国投创新、中石油昆仑资本、启明创投、涌铧投资、上海未来产业基金、本草资本、金沙江联合资本等；未披露到每轮的明细不补造。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.matwings.com/",
+    "careers_url": "https://www.liepin.com/company/13336567",
+    "recruitment_email": null,
+    "other_email": "bd@matwings.com",
+    "other_email_purpose": "商务合作"
+  },
+  "notes": "未查到有可靠一手或高校材料支持的招聘邮箱；官网“加入我们”跳转猎聘此公司页（本轮读取触发验证码）。第三方AI生成资料提到hr@matwings.com，未采纳。bd@仅商务。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "天鹜官方关于页",
+      "url": "https://www.matwings.com/site/about-us",
+      "supports": "投资背景与业务范围",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "天鹜官网",
+      "url": "https://www.matwings.com/",
+      "supports": "产品系列、商务邮箱、地址与猎聘官招跳转",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "华东师大公司招聘资料",
+      "url": "https://career.ecnu.edu.cn/commonpage/CorpInfDetail.aspx?oid=CEEV4VnnO%2FbBgpaLUHFcTw%3D%3D",
+      "supports": "存在招聘资料但未给通用投递邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "天鹜科技",
+    "original_track": "08",
+    "original_subtrack": "AI制药、生命科学大模型与微尺度研究"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "modelbest",
+  "name": "面壁智能 ModelBest",
+  "aliases": [
+    "面壁智能(ModelBest)",
+    "ModelBest"
+  ],
+  "category_id": "01",
+  "focus": "高效端侧模型与多模态",
+  "products": "MiniCPM、MiniCPM-V、MiniCPM-o、ChatDev",
+  "locations_text": "北京、上海",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：聚焦有限内存和设备算力下的模型效率，区别于主要依赖云端大模型API的通用模型公司。",
+    "peer_names": [
+      "智谱",
+      "阶跃星辰",
+      "DeepSeek"
+    ]
+  },
+  "investment": {
+    "summary": "清华NLP科研成果转化；公开融资档案列2026年中国电信投资、中信金石/中信投资控股，以及后续深创投、汇川产投等。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://www.modelbest.cn/en/",
+    "careers_url": "https://modelbest.jobs.feishu.cn/career",
+    "recruitment_email": "career@modelbest.cn",
+    "other_email": null,
+    "other_email_purpose": null
+  },
+  "notes": "招聘邮箱来自高校公开招聘资料；飞书入口由公开招聘索引确认，具体开放岗位需看实时页面。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "ModelBest官网",
+      "url": "https://www.modelbest.cn/en/",
+      "supports": "端侧模型和产品",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "中传就业信息：面壁招聘",
+      "url": "https://ccs.cuc.edu.cn/2025/0918/c5547a260190/page.htm",
+      "supports": "投递邮箱与北京/上海",
+      "published_date": "2025-09-18",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "36氪面壁融资档案",
+      "url": "https://pitchhub.36kr.com/project/2214864842159235",
+      "supports": "2026部分融资方",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "面壁智能(ModelBest)",
+    "original_track": "01",
+    "original_subtrack": "端侧大模型与垂直转型基座"
+  }
+}

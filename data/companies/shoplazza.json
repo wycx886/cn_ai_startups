@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "shoplazza",
+  "name": "店匠科技 / Shoplazza",
+  "aliases": [
+    "店匠科技(Shoplazza)",
+    "Shoplazza"
+  ],
+  "category_id": "07",
+  "focus": "跨境独立站与零售商业基础设施",
+  "products": "独立站SaaS、订单/支付/营销、POS、AI运营",
+  "locations_text": "深圳及海外",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：与Shulex/QuickCEP是可集成的上下游关系：店匠承载店铺与交易系统，后两者侧重客户互动服务。",
+    "peer_names": [
+      "Shulex、QuickCEP"
+    ]
+  },
+  "investment": {
+    "summary": "官方大事记：2018年Pre-A/A获嘉程、大观、红杉、云九等；2022年C1轮1.5亿美元，软银愿景、Chimera、StepStone等参与。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.shoplazza.cn/",
+    "careers_url": "https://www.shoplazza.cn/pages/join-us",
+    "recruitment_email": null,
+    "other_email": "cs@shoplazza.com",
+    "other_email_purpose": "客户支持"
+  },
+  "notes": "原表将部分机构如云启列入，现按官方历史披露名单写。；未查到当前公开招聘投递邮箱，优先使用官方招聘入口。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "店匠官网关于我们",
+      "url": "https://www.shoplazza.cn/pages/about-us",
+      "supports": "投资方和产品",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "BOSS店匠企业招聘页",
+      "url": "https://m.zhipin.com/companys/ddcf41eb4e9388b21HR939q5FA~~.html",
+      "supports": "深圳主体与公开岗位",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "店匠官方招聘页",
+      "url": "https://www.shoplazza.cn/pages/join-us",
+      "supports": "招聘入口有效",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "店匠官网页脚",
+      "url": "https://www.shoplazza.cn/",
+      "supports": "公开客户支持邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "店匠科技(Shoplazza)",
+    "original_track": "06",
+    "original_subtrack": "跨境独立站Agent、AI客服与VOC洞察"
+  }
+}

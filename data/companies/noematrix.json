@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "noematrix",
+  "name": "穹彻智能",
+  "aliases": [
+    "穹彻智能(Noematrix)",
+    "Noematrix"
+  ],
+  "category_id": "08",
+  "focus": "以力为中心的具身基础模型与通用机器人大脑",
+  "products": "Noe-0；无本体数据与机器人应用工具平台",
+  "locations_text": "上海",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较本体整机厂，突出力交互、无本体数据和可适配机器人的智能系统。",
+    "peer_names": [
+      "星海图；自变量机器人；千寻智能"
+    ]
+  },
+  "investment": {
+    "summary": "官网2026-06-18披露新一轮数亿元战略投资，投资方包括上海交大AI未来基金、上海创之智、无锡数据集团、一村资本。原表其他投资方在本轮核验中不自动保留。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.noematrix.ai/",
+    "careers_url": "https://www.noematrix.ai/join-us",
+    "recruitment_email": "hr@noematrix.cn",
+    "other_email": null,
+    "other_email_purpose": "未查到通用邮箱"
+  },
+  "notes": "邮箱为公开招聘渠道；岗位及开放状态以招聘页面为准。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "穹彻官网新闻",
+      "url": "https://www.noematrix.ai/",
+      "supports": "Noe-0和战略投资",
+      "published_date": "2026-06-18",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "关于穹彻",
+      "url": "https://www.noematrix.ai/about",
+      "supports": "技术方向",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "加入穹彻",
+      "url": "https://www.noematrix.ai/join-us",
+      "supports": "招聘邮箱、岗位及城市",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "穹彻智能(Noematrix)",
+    "original_track": "07",
+    "original_subtrack": "具身大模型（大脑/VLA）与通用操作"
+  }
+}

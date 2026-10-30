@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "01-ai",
+  "name": "零一万物 01.AI",
+  "aliases": [
+    "零一万物(ToB转型)",
+    "ToB转型"
+  ],
+  "category_id": "01",
+  "focus": "产业模型与企业决策AI",
+  "products": "Yi模型、老板AI、投资官AI、销冠AI",
+  "locations_text": "北京、上海（原表；当前具体岗位待招聘页核对）",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：从通用基座转向企业决策场景与FDE共创；区别于Dify提供通用可视化编排底座，偏应用交付与业务结果。",
+    "peer_names": [
+      "Dify",
+      "澜舟科技",
+      "智谱"
+    ]
+  },
+  "investment": {
+    "summary": "创新工场孵化，阿里云有历史投资；2025年与阿里云建立产业大模型联合实验室。合作不等于被收购。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://www.lingyiwanwu.com/",
+    "careers_url": "https://www.lingyiwanwu.com/careers.html",
+    "recruitment_email": null,
+    "other_email": null,
+    "other_email_purpose": null
+  },
+  "notes": "原表careers.html入口本次读取失败，暂保留历史链接并标待确认；未查到可核验公开投递邮箱，勿凭命名规则猜测。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "零一万物官方产品",
+      "url": "https://www.lingyiwanwu.com/yi",
+      "supports": "当前企业决策产品与FDE方向",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "36氪零一万物融资档案",
+      "url": "https://pitchhub.36kr.com/project/2506385361198722",
+      "supports": "阿里云历史投资",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "李开复采访",
+      "url": "https://36kr.com/p/3115390169927685",
+      "supports": "产业联合实验室与路线调整",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "零一万物(ToB转型)",
+    "original_track": "01",
+    "original_subtrack": "端侧大模型与垂直转型基座"
+  }
+}

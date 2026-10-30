@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "plaud",
+  "name": "Plaud / 机智连接",
+  "aliases": [
+    "机智连接(Plaud.ai)",
+    "Plaud.ai"
+  ],
+  "category_id": "09",
+  "focus": "AI录音硬件与专业人士对话智能软件",
+  "products": "Plaud Note / Note Pro / NotePin；Plaud Intelligence",
+  "locations_text": "旧金山；深圳及全球招聘城市",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较viaim把录音融入耳机，Plaud以专用录音硬件、转写总结和付费软件服务组成产品。",
+    "peer_names": [
+      "未来智能 viaim；闪极科技"
+    ]
+  },
+  "investment": {
+    "summary": "公司公开招聘页自述 bootstrapped（自筹起步）。Forbes报道创始人自筹与众筹，并提到Carbide Ventures、Patrick Kavanagh等小额外部支持；外部库的融资金额口径存在冲突，未确认大规模机构融资或完整股东名单。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://www.plaud.ai/",
+    "careers_url": "https://jobs.ashbyhq.com/plaud",
+    "recruitment_email": null,
+    "other_email": "sales@plaud.ai",
+    "other_email_purpose": "企业销售"
+  },
+  "notes": "未查到通用招聘邮箱；以官方Ashby招聘站为准。第三方出现个人招聘邮箱或旧岗位邮箱，未作为通用投递渠道。投资口径有冲突，不能强行归入头部PE/VC被投。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "Plaud中国官网",
+      "url": "https://www.plaud.cn/",
+      "supports": "公司实体与当前产品",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "Plaud官方职位",
+      "url": "https://jobs.ashbyhq.com/plaud/c477787c-bf6b-422f-aeef-2493f2d47fbe/",
+      "supports": "自筹起步、旧金山及业务定位",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "Forbes Plaud创始人报道",
+      "url": "https://www.forbes.com.au/news/innovation/how-an-ai-notetaker-became-one-of-the-few-profitable-ai-startups/",
+      "supports": "自筹、众筹及小额外部资本",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "Plaud官方联系信息",
+      "url": "https://eu.plaud.ai/policies/contact-information",
+      "supports": "销售与客服邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "title": "Plaud官方Ashby招聘站",
+      "url": "https://jobs.ashbyhq.com/plaud",
+      "supports": "官方招聘入口",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "机智连接(Plaud.ai)",
+    "original_track": "08",
+    "original_subtrack": "AI穿戴/外骨骼、录音生产力与陪伴硬件"
+  }
+}

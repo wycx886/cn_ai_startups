@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "moore-threads",
+  "name": "摩尔线程 Moore Threads",
+  "aliases": [
+    "摩尔线程"
+  ],
+  "category_id": "02",
+  "focus": "全功能GPU与软件生态",
+  "products": "MTT GPU、MUSA、训推与图形计算平台",
+  "locations_text": "北京；官网称九大办公集群，具体城市看岗位",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：除AI训推也强调图形渲染与全功能GPU生态；与燧原偏云端AI芯片的定位有所区别。",
+    "peer_names": [
+      "壁仞科技",
+      "沐曦股份",
+      "燧原科技"
+    ]
+  },
+  "investment": {
+    "summary": "财联社2023年融资报道确认五源、红杉曾多次投资，新增厚雪等；这是历史融资背景，未扩写为当前完整股东名单。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://www.mthreads.com/",
+    "careers_url": "https://www.mthreads.com/jobs",
+    "recruitment_email": null,
+    "other_email": null,
+    "other_email_purpose": null
+  },
+  "notes": "未查到可核验公开投递邮箱，使用官网社招/校招网申；不把财报或IR邮箱当招聘邮箱。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "摩尔线程官方招聘",
+      "url": "https://www.mthreads.com/jobs",
+      "supports": "官网招聘与GPU业务",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "科创板日报：摩尔线程融资",
+      "url": "https://www.cls.cn/detail/1523388",
+      "supports": "历史五源、红杉、厚雪投资",
+      "published_date": "2023",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "摩尔线程官方招聘门户",
+      "url": "https://mthreads.zhiye.com/campus",
+      "supports": "校园投递入口",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "摩尔线程",
+    "original_track": "02",
+    "original_subtrack": "AI智算网络、基础软件与AI芯片"
+  }
+}

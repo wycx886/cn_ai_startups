@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "zhipu",
+  "name": "智谱 Z.ai",
+  "aliases": [
+    "智谱华章(02513.HK)",
+    "02513.HK"
+  ],
+  "category_id": "01",
+  "focus": "通用基座模型、模型服务与智能体",
+  "products": "GLM、BigModel、智谱清言、CogAgent、CodeGeeX",
+  "locations_text": "北京；招聘页另列上海、杭州、深圳、成都、吉隆坡",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较纯消费助手，将自研模型、MaaS 与企业销售同时展开；与硅基流动的模型聚合服务不同，自身研发模型。",
+    "peer_names": [
+      "月之暗面",
+      "MiniMax",
+      "硅基流动"
+    ]
+  },
+  "investment": {
+    "summary": "历轮有VC、产业与地方国资参与；36氪载2024年12月融资方含北京AI产业基金、君联资本、招商局创投等。官网披露港股招股书与2025年报，可据其继续核对股东。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://www.zhipuai.cn/",
+    "careers_url": "https://www.zhipuai.cn/zh/joinus",
+    "recruitment_email": "talent@zhipuai.cn",
+    "other_email": "ir@aminer.cn",
+    "other_email_purpose": "投资者关系邮箱（非招聘）"
+  },
+  "notes": "招聘邮箱来自2024年技术团队公开招聘，历史渠道，建议优先官网社招。未照抄原表全部投资机构。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "智谱招聘",
+      "url": "https://www.zhipuai.cn/zh/joinus",
+      "supports": "业务岗位、招聘入口、工作城市",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "GLM技术团队公开招聘",
+      "url": "https://developer.volcengine.com/articles/7329842394735034418",
+      "supports": "talent@zhipuai.cn",
+      "published_date": "2024-01-30",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "智谱投资者关系",
+      "url": "https://www.zhipuai.cn/investor_relations/",
+      "supports": "年报、招股书与IR邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "36氪智谱档案",
+      "url": "https://pitchhub.36kr.com/project/1958565851436035",
+      "supports": "历史融资方（非完整当前股东）",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "智谱华章(02513.HK)",
+    "original_track": "01",
+    "original_subtrack": "通用基座大模型 (“AI四小强”+开源旗舰)"
+  }
+}

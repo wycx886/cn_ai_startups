@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "luchentech",
+  "name": "潞晨科技 Colossal-AI",
+  "aliases": [
+    "潞晨科技(Colossal-AI)",
+    "Colossal-AI"
+  ],
+  "category_id": "02",
+  "focus": "分布式训练、推理系统与算力云",
+  "products": "Colossal-AI、Colossal-Cloud、Open-Sora",
+  "locations_text": "北京；另有新加坡（原表，岗位需核）",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：以开源分布式深度学习系统和训练优化为起点，训练与推理兼顾，区别于只做API推理聚合的平台。",
+    "peer_names": [
+      "无问芯穹",
+      "清程极智",
+      "硅基流动"
+    ]
+  },
+  "investment": {
+    "summary": "36氪融资档案记载2023年A轮为红杉中国、创新工场；后续有新电投资、北京市AI产业基金、领沨、石溪、亦庄国投等历史参与方，2026年B轮列博华资本。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://www.luchentech.com/",
+    "careers_url": "https://www.luchentech.com/join",
+    "recruitment_email": "resume@hpc-ai.com",
+    "other_email": null,
+    "other_email_purpose": null
+  },
+  "notes": "邮箱为公开招聘渠道；具体岗位以招聘页为准。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "潞晨官方招聘",
+      "url": "https://www.luchentech.com/join",
+      "supports": "产品研发方向及resume投递邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "36氪潞晨融资档案",
+      "url": "https://pitchhub.36kr.com/project/1678554927068166",
+      "supports": "历轮投资背景",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "潞晨科技(Colossal-AI)",
+    "original_track": "02",
+    "original_subtrack": "异构推理加速与“Token工厂” (MaaS)"
+  }
+}

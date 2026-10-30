@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "approaching-ai",
+  "name": "趋境科技 Approaching.AI",
+  "aliases": [
+    "趋境科技(KTransformers)",
+    "KTransformers"
+  ],
+  "category_id": "02",
+  "focus": "异构推理与Token生产",
+  "products": "KTransformers、Mooncake、ATaaS、Token Machine、AI Studio",
+  "locations_text": "北京；公开岗位另有上海",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：以存换算、CPU/GPU及存储协同推理是技术切入点；区别于只售算力资源或纯API聚合。",
+    "peer_names": [
+      "清程极智",
+      "无问芯穹",
+      "硅基流动"
+    ]
+  },
+  "investment": {
+    "summary": "官方GitHub组织资料写2023年末获ZhenCapital种子资金；2026年10月媒体报道完成超13亿元B轮。原表启明/蓝驰名单本轮未获直接证实，不作为确定投资方。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://approaching-ai.com/",
+    "careers_url": "https://m.zhipin.com/companys/bd7696840f41eea403By3d66EFc~.html",
+    "recruitment_email": null,
+    "other_email": "quxin@approaching.ai",
+    "other_email_purpose": "GitHub组织公开联系邮箱（未标招聘）"
+  },
+  "notes": "未查到官方公开招聘邮箱；quxin邮箱是组织联系，非确认投递渠道。官网www子域本次读取失败，根域可访问。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "趋境官网",
+      "url": "https://approaching-ai.com/",
+      "supports": "产品与技术定位",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "Approaching-AI公开组织介绍",
+      "url": "https://github.com/Approaching-AI",
+      "supports": "种子背景、联系邮箱、技术",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "上证报：趋境B轮",
+      "url": "https://finance.eastmoney.com/a/202610263907819429.html",
+      "supports": "B轮融资报道",
+      "published_date": "2026-10-26",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "BOSS趋境企业页",
+      "url": "https://m.zhipin.com/companys/bd7696840f41eea403By3d66EFc~.html",
+      "supports": "公开招聘入口与岗位城市",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "趋境科技(KTransformers)",
+    "original_track": "02",
+    "original_subtrack": "异构推理加速与“Token工厂” (MaaS)"
+  }
+}

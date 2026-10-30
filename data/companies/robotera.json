@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "robotera",
+  "name": "星动纪元",
+  "aliases": [
+    "星动纪元(Robot Era)",
+    "Robot Era"
+  ],
+  "category_id": "08",
+  "focus": "全栈人形机器人、灵巧手与具身模型",
+  "products": "L7 / Q5 / M7；XHAND系列；ERA-42 VLA",
+  "locations_text": "北京",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较只提供机器人本体的公司，将灵巧手、整机与VLA模型放在同一产品体系。",
+    "peer_names": [
+      "宇树科技；智元机器人；逐际动力"
+    ]
+  },
+  "investment": {
+    "summary": "官网2026-05-08披露新一轮逾2亿美元融资，由顺丰、红杉中国、IDG资本领投；另有2026年3月战略轮公告。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.robotera.com/en/",
+    "careers_url": "https://k0fqxcszc9.jobs.feishu.cn/",
+    "recruitment_email": "HR@robotera.com",
+    "other_email": "MKT@robotera.com",
+    "other_email_purpose": "商务"
+  },
+  "notes": "邮箱为公开招聘渠道；岗位及开放状态以招聘页面为准。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "星动纪元官网",
+      "url": "https://www.robotera.com/en/",
+      "supports": "产品、投资方及招聘/商务邮箱",
+      "published_date": "2026-05-08",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "星动纪元官方招聘",
+      "url": "https://k0fqxcszc9.jobs.feishu.cn/",
+      "supports": "招聘入口及城市",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "星动纪元(Robot Era)",
+    "original_track": "07",
+    "original_subtrack": "人形与四足机器人主机及商业RaaS"
+  }
+}

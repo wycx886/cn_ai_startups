@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "liblib",
+  "name": "LiblibAI / 哩布哩布",
+  "aliases": [
+    "LiblibAI(哩布哩布)",
+    "哩布哩布"
+  ],
+  "category_id": "05",
+  "focus": "AI 创意生产平台与模型社区",
+  "products": "图像生成、模型/工作流社区、ComfyUI在线创作",
+  "locations_text": "北京、上海",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较 Vidu/PixVerse 的自研视频模型API，主要入口是创作社区和模型/工作流资产；相较即时设计，不以UI多人协作为主要产品。",
+    "peer_names": [
+      "即时设计、生数科技"
+    ]
+  },
+  "investment": {
+    "summary": "官方加入我们页列投资方：红杉中国、CMC资本、顺为资本、源码资本、明势创投、渶策资本；未据此推断各自轮次/持股。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.liblib.art/",
+    "careers_url": "https://www.liblib.art/us/joinus",
+    "recruitment_email": "join@liblib.ai",
+    "other_email": "support@liblib.ai",
+    "other_email_purpose": "客服支持"
+  },
+  "notes": "投资名单与原表不同，按官方招聘页改。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "LiblibAI官方加入我们",
+      "url": "https://www.liblib.art/us/joinus",
+      "supports": "投资方、城市、公开投递邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "LiblibAI协议",
+      "url": "https://www.liblib.art/document/article_member",
+      "supports": "客服邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "LiblibAI(哩布哩布)",
+    "original_track": "04",
+    "original_subtrack": "AI 3D生成、数字人与视觉设计工作流"
+  }
+}

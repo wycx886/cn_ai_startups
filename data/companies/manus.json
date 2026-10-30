@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "manus",
+  "name": "蝴蝶效应 / Manus",
+  "aliases": [
+    "蝴蝶效应(Manus / Monica / Cue)",
+    "Manus / Monica / Cue"
+  ],
+  "category_id": "04",
+  "focus": "通用任务执行Agent",
+  "products": "Manus、Wide Research、网页/代码/产物生成工具",
+  "locations_text": "按当前招聘岗位确认；历史官方稿列新加坡、东京、旧金山、巴黎",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：把用户目标拆为可执行任务并在云端电脑中完成；区别于秘塔以搜索研究结果为主要入口，Dify以开发编排平台为入口。",
+    "peer_names": [
+      "Genspark",
+      "Flowith",
+      "秘塔科技"
+    ]
+  },
+  "investment": {
+    "summary": "公司官方博客确认曾获Benchmark领投7500万美元，Benchmark合伙人入董事会。原表2026年博裕/IDG新融资需另证，本记录不将其写成确认股东。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://manus.im/",
+    "careers_url": "https://careers.manus.im/en",
+    "recruitment_email": "hiring@manus.ai",
+    "other_email": "media@manus.ai",
+    "other_email_purpose": "媒体邮箱（非招聘）"
+  },
+  "notes": "官网历史博客未显年份，仅显示12月17日；融资保留为历史披露，不将页脚2026当成融资时间。招聘邮箱已在当前招聘页核验。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "Manus官方历史经营更新",
+      "url": "https://www.manus.im/blog/manus-100m-arr",
+      "supports": "Benchmark历史融资、产品与办公城市",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "Manus官方招聘",
+      "url": "https://careers.manus.im/en",
+      "supports": "hiring@manus.ai与开放岗位",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "蝴蝶效应(Manus / Monica / Cue)",
+    "original_track": "03",
+    "original_subtrack": "通用执行Agent与个人主动式助理"
+  }
+}

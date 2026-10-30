@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "dp-technology",
+  "name": "深势科技",
+  "aliases": [
+    "深势科技(DP Tech)",
+    "DP Tech"
+  ],
+  "category_id": "10",
+  "focus": "科学智能基础设施、科学模型与研发工具",
+  "products": "深势·宇知；玻尔/Bohrium；Hermite；Piloteye；SciMaster",
+  "locations_text": "北京、上海、深圳、宜宾等",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较英矽的自研药物管线，深势横跨生命科学和物质科学，偏科学计算平台、模型、软件及AI科学家。",
+    "peer_names": [
+      "晶泰科技；英矽智能；百图生科"
+    ]
+  },
+  "investment": {
+    "summary": "启明创投官方2025年第46期周报确认深势为被投企业，且完成超8亿元C轮；公开投融资库记录历史源码、高瓴、经纬等参与。以启明官方确认为一手基础。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.dp.tech/",
+    "careers_url": "https://www.dp.tech/about",
+    "recruitment_email": "hr@dp.tech",
+    "other_email": "bd@dp.tech",
+    "other_email_purpose": "商务合作"
+  },
+  "notes": "careersUrl为含求职邮箱的官网关于页。注意 dp.tech 为深势，dptech.com 为迪普网络安全公司，已排除混淆。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "启明创投周报46/2025",
+      "url": "https://www.qimingvc.com/en/node/7551",
+      "supports": "投资关系及C轮",
+      "published_date": "2025-12",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "深势投融资库",
+      "url": "https://m.pedaily.cn/vc/company/122114.html",
+      "supports": "历史投资方",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "深势官网",
+      "url": "https://www.dp.tech/",
+      "supports": "最新业务产品",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "深势关于我们",
+      "url": "https://www.dp.tech/about",
+      "supports": "招聘与商务邮箱及办公地",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "深势科技(DP Tech)",
+    "original_track": "08",
+    "original_subtrack": "AI制药、生命科学大模型与微尺度研究"
+  }
+}

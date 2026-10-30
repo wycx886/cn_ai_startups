@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "caiyun",
+  "name": "彩云科技",
+  "aliases": [
+    "彩云科技"
+  ],
+  "category_id": "04",
+  "focus": "AI天气、机器翻译与智能写作",
+  "products": "彩云天气、彩云小译、彩云小梦、天气/翻译API",
+  "locations_text": "北京、上海",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：产品重心含气象预测和翻译/写作，不能仅按AI搜索归类；与秘塔搜索、Dify开发平台均不同。",
+    "peer_names": [
+      "秘塔科技",
+      "MiniMax",
+      "Genspark"
+    ]
+  },
+  "investment": {
+    "summary": "公司招聘页确认2021年B1；创始人采访披露天使来自云天使/宽带资本、A1五源、A2快手、B1大湾区共同家园基金。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://www.caiyunapp.com/",
+    "careers_url": "https://www.caiyunapp.com/jobs/",
+    "recruitment_email": "hr@caiyunapp.com",
+    "other_email": "platform@caiyunapp.com",
+    "other_email_purpose": "开放平台邮箱（非招聘）"
+  },
+  "notes": "产品横跨多个赛道；建议加行业AI/消费应用标签，不把气象业务硬塞进AI搜索。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "彩云官方主页",
+      "url": "https://www.caiyunapp.com/?lang=zh",
+      "supports": "产品与开放平台联系",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "彩云官方招聘",
+      "url": "https://www.caiyunapp.com/jobs/",
+      "supports": "hr邮箱、岗位城市与B1轮",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "钛媒体创始人采访转载",
+      "url": "https://finance.sina.com.cn/cj/2024-11-17/doc-incwinct8191921.shtml",
+      "supports": "历史投资方",
+      "published_date": "2024-11-17",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "彩云科技",
+    "original_track": "03",
+    "original_subtrack": "LLM应用/Agent开源开发平台與AI搜索"
+  }
+}

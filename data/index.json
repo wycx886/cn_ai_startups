@@ -1,0 +1,1101 @@
+{
+  "schema_version": 1,
+  "latest_company_check": "2026-10-30",
+  "counts": {
+    "companies": 79,
+    "categories": 10,
+    "source_records": 269,
+    "recruitment_links": 76,
+    "public_recruitment_emails": 38
+  },
+  "companies": [
+    {
+      "id": "01-ai",
+      "name": "零一万物 01.AI",
+      "aliases": [
+        "零一万物(ToB转型)",
+        "ToB转型"
+      ],
+      "category_id": "01",
+      "category_name": "基础模型",
+      "focus": "产业模型与企业决策AI",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/01-ai.json",
+      "markdown_path": "companies/01-ai.md"
+    },
+    {
+      "id": "baichuan",
+      "name": "百川智能 Baichuan",
+      "aliases": [
+        "百川智能(AI医疗转型)",
+        "AI医疗转型"
+      ],
+      "category_id": "01",
+      "category_name": "基础模型",
+      "focus": "医疗增强模型与AI家庭医生",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/baichuan.json",
+      "markdown_path": "companies/baichuan.md"
+    },
+    {
+      "id": "deepseek",
+      "name": "深度求索 DeepSeek",
+      "aliases": [
+        "深度求索(DeepSeek)",
+        "DeepSeek"
+      ],
+      "category_id": "01",
+      "category_name": "基础模型",
+      "focus": "通用与推理基础模型、开源模型与API",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/deepseek.json",
+      "markdown_path": "companies/deepseek.md"
+    },
+    {
+      "id": "langboat",
+      "name": "澜舟科技 Langboat",
+      "aliases": [
+        "澜舟科技(孟子大模型)",
+        "孟子大模型"
+      ],
+      "category_id": "01",
+      "category_name": "基础模型",
+      "focus": "认知模型与企业智能体",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/langboat.json",
+      "markdown_path": "companies/langboat.md"
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "aliases": [
+        "稀宇科技MiniMax(0100.HK)",
+        "0100.HK"
+      ],
+      "category_id": "01",
+      "category_name": "基础模型",
+      "focus": "多模态基础模型与全球消费应用",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/minimax.json",
+      "markdown_path": "companies/minimax.md"
+    },
+    {
+      "id": "modelbest",
+      "name": "面壁智能 ModelBest",
+      "aliases": [
+        "面壁智能(ModelBest)",
+        "ModelBest"
+      ],
+      "category_id": "01",
+      "category_name": "基础模型",
+      "focus": "高效端侧模型与多模态",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/modelbest.json",
+      "markdown_path": "companies/modelbest.md"
+    },
+    {
+      "id": "moonshot",
+      "name": "月之暗面 Kimi",
+      "aliases": [
+        "月之暗面(Kimi)",
+        "Kimi"
+      ],
+      "category_id": "01",
+      "category_name": "基础模型",
+      "focus": "通用模型、个人助手与代码Agent",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/moonshot.json",
+      "markdown_path": "companies/moonshot.md"
+    },
+    {
+      "id": "stepfun",
+      "name": "阶跃星辰 StepFun",
+      "aliases": [
+        "阶跃星辰(StepFun)",
+        "StepFun"
+      ],
+      "category_id": "01",
+      "category_name": "基础模型",
+      "focus": "多模态基座模型与AI终端",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/stepfun.json",
+      "markdown_path": "companies/stepfun.md"
+    },
+    {
+      "id": "zhipu",
+      "name": "智谱 Z.ai",
+      "aliases": [
+        "智谱华章(02513.HK)",
+        "02513.HK"
+      ],
+      "category_id": "01",
+      "category_name": "基础模型",
+      "focus": "通用基座模型、模型服务与智能体",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/zhipu.json",
+      "markdown_path": "companies/zhipu.md"
+    },
+    {
+      "id": "approaching-ai",
+      "name": "趋境科技 Approaching.AI",
+      "aliases": [
+        "趋境科技(KTransformers)",
+        "KTransformers"
+      ],
+      "category_id": "02",
+      "category_name": "算力与基础设施",
+      "focus": "异构推理与Token生产",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/approaching-ai.json",
+      "markdown_path": "companies/approaching-ai.md"
+    },
+    {
+      "id": "biren",
+      "name": "壁仞科技 Biren",
+      "aliases": [
+        "壁仞科技"
+      ],
+      "category_id": "02",
+      "category_name": "算力与基础设施",
+      "focus": "通用GPU与智算解决方案",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/biren.json",
+      "markdown_path": "companies/biren.md"
+    },
+    {
+      "id": "datacanvas",
+      "name": "九章云极 DataCanvas",
+      "aliases": [
+        "九章云极(DataCanvas)",
+        "DataCanvas"
+      ],
+      "category_id": "02",
+      "category_name": "算力与基础设施",
+      "focus": "AI基础软件与智算云",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/datacanvas.json",
+      "markdown_path": "companies/datacanvas.md"
+    },
+    {
+      "id": "enflame",
+      "name": "燧原科技 Enflame",
+      "aliases": [
+        "燧原科技"
+      ],
+      "category_id": "02",
+      "category_name": "算力与基础设施",
+      "focus": "云端AI芯片及数据中心训推系统",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/enflame.json",
+      "markdown_path": "companies/enflame.md"
+    },
+    {
+      "id": "infinigence",
+      "name": "无问芯穹 Infinigence AI",
+      "aliases": [
+        "无问芯穹(Infinigence)",
+        "Infinigence"
+      ],
+      "category_id": "02",
+      "category_name": "算力与基础设施",
+      "focus": "异构算力与AI原生基础设施",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/infinigence.json",
+      "markdown_path": "companies/infinigence.md"
+    },
+    {
+      "id": "infrawaves",
+      "name": "基流科技 Infrawaves",
+      "aliases": [
+        "基流科技(Infrawaves)",
+        "Infrawaves"
+      ],
+      "category_id": "02",
+      "category_name": "算力与基础设施",
+      "focus": "智算集群与高速算力网络",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/infrawaves.json",
+      "markdown_path": "companies/infrawaves.md"
+    },
+    {
+      "id": "luchentech",
+      "name": "潞晨科技 Colossal-AI",
+      "aliases": [
+        "潞晨科技(Colossal-AI)",
+        "Colossal-AI"
+      ],
+      "category_id": "02",
+      "category_name": "算力与基础设施",
+      "focus": "分布式训练、推理系统与算力云",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/luchentech.json",
+      "markdown_path": "companies/luchentech.md"
+    },
+    {
+      "id": "metax",
+      "name": "沐曦股份 MetaX",
+      "aliases": [
+        "沐曦股份"
+      ],
+      "category_id": "02",
+      "category_name": "算力与基础设施",
+      "focus": "全栈GPU芯片与计算平台",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/metax.json",
+      "markdown_path": "companies/metax.md"
+    },
+    {
+      "id": "moore-threads",
+      "name": "摩尔线程 Moore Threads",
+      "aliases": [
+        "摩尔线程"
+      ],
+      "category_id": "02",
+      "category_name": "算力与基础设施",
+      "focus": "全功能GPU与软件生态",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/moore-threads.json",
+      "markdown_path": "companies/moore-threads.md"
+    },
+    {
+      "id": "qingcheng-ai",
+      "name": "清程极智 Qingcheng.AI",
+      "aliases": [
+        "清程极智(赤兔/八卦炉)",
+        "赤兔/八卦炉"
+      ],
+      "category_id": "02",
+      "category_name": "算力与基础设施",
+      "focus": "国产算力系统软件与推理评测路由",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/qingcheng-ai.json",
+      "markdown_path": "companies/qingcheng-ai.md"
+    },
+    {
+      "id": "siliconflow",
+      "name": "硅基流动 SiliconFlow",
+      "aliases": [
+        "硅基流动(SiliconFlow)",
+        "SiliconFlow"
+      ],
+      "category_id": "02",
+      "category_name": "算力与基础设施",
+      "focus": "多模型API、推理服务与私有化MaaS",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/siliconflow.json",
+      "markdown_path": "companies/siliconflow.md"
+    },
+    {
+      "id": "aixcoder",
+      "name": "硅心科技 / aiXcoder",
+      "aliases": [
+        "硅心科技(aiXcoder)",
+        "aiXcoder"
+      ],
+      "category_id": "03",
+      "category_name": "开发平台与编程工具",
+      "focus": "企业级 AI 软件研发",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/aixcoder.json",
+      "markdown_path": "companies/aixcoder.md"
+    },
+    {
+      "id": "dify",
+      "name": "Dify / LangGenius",
+      "aliases": [
+        "Dify.AI(苏州语灵)",
+        "苏州语灵"
+      ],
+      "category_id": "03",
+      "category_name": "开发平台与编程工具",
+      "focus": "开源LLM应用开发与Agent编排平台",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/dify.json",
+      "markdown_path": "companies/dify.md"
+    },
+    {
+      "id": "caiyun",
+      "name": "彩云科技",
+      "aliases": [
+        "彩云科技"
+      ],
+      "category_id": "04",
+      "category_name": "通用 Agent、个人应用与搜索",
+      "focus": "AI天气、机器翻译与智能写作",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/caiyun.json",
+      "markdown_path": "companies/caiyun.md"
+    },
+    {
+      "id": "flowith",
+      "name": "Flowith",
+      "aliases": [
+        "Flowith"
+      ],
+      "category_id": "04",
+      "category_name": "通用 Agent、个人应用与搜索",
+      "focus": "画布式AI创作与Agent工作空间",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/flowith.json",
+      "markdown_path": "companies/flowith.md"
+    },
+    {
+      "id": "genspark",
+      "name": "Genspark / MainFunc",
+      "aliases": [
+        "Genspark(MainFunc)",
+        "MainFunc"
+      ],
+      "category_id": "04",
+      "category_name": "通用 Agent、个人应用与搜索",
+      "focus": "多模型协同的AI工作空间与Agent",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/genspark.json",
+      "markdown_path": "companies/genspark.md"
+    },
+    {
+      "id": "manus",
+      "name": "蝴蝶效应 / Manus",
+      "aliases": [
+        "蝴蝶效应(Manus / Monica / Cue)",
+        "Manus / Monica / Cue"
+      ],
+      "category_id": "04",
+      "category_name": "通用 Agent、个人应用与搜索",
+      "focus": "通用任务执行Agent",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/manus.json",
+      "markdown_path": "companies/manus.md"
+    },
+    {
+      "id": "metasota",
+      "name": "秘塔科技 MetaSota",
+      "aliases": [
+        "秘塔科技(秘塔AI搜索)",
+        "秘塔AI搜索"
+      ],
+      "category_id": "04",
+      "category_name": "通用 Agent、个人应用与搜索",
+      "focus": "AI搜索、深度研究与专业文字工具",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/metasota.json",
+      "markdown_path": "companies/metasota.md"
+    },
+    {
+      "id": "today-ai",
+      "name": "此间无限 Today AI",
+      "aliases": [
+        "此间无限(Today AI)",
+        "Today AI"
+      ],
+      "category_id": "04",
+      "category_name": "通用 Agent、个人应用与搜索",
+      "focus": "主动式个人Agent与长期记忆",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/today-ai.json",
+      "markdown_path": "companies/today-ai.md"
+    },
+    {
+      "id": "aisphere",
+      "name": "爱诗科技 / PixVerse",
+      "aliases": [
+        "爱诗科技(PixVerse / 拍我AI)",
+        "PixVerse / 拍我AI"
+      ],
+      "category_id": "05",
+      "category_name": "多模态生成与创作工具",
+      "focus": "视频基础模型与创作者应用",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/aisphere.json",
+      "markdown_path": "companies/aisphere.md"
+    },
+    {
+      "id": "avolution",
+      "name": "鹿影科技 / Avolution.ai（历史项目）",
+      "aliases": [
+        "鹿影科技(YOYO动漫)",
+        "YOYO动漫"
+      ],
+      "category_id": "05",
+      "category_name": "多模态生成与创作工具",
+      "focus": "二次元视频生成",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/avolution.json",
+      "markdown_path": "companies/avolution.md"
+    },
+    {
+      "id": "creativefitting",
+      "name": "井英科技 / CreativeFitting",
+      "aliases": [
+        "井英科技(Reel.Ai)",
+        "Reel.Ai"
+      ],
+      "category_id": "05",
+      "category_name": "多模态生成与创作工具",
+      "focus": "AI 原生娱乐与内容 Agent 系统",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/creativefitting.json",
+      "markdown_path": "companies/creativefitting.md"
+    },
+    {
+      "id": "deemos",
+      "name": "影眸科技 / Deemos / Hyper3D",
+      "aliases": [
+        "影眸科技(Rodin 3D)",
+        "Rodin 3D"
+      ],
+      "category_id": "05",
+      "category_name": "多模态生成与创作工具",
+      "focus": "3D 资产生成、数字人与世界生成",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/deemos.json",
+      "markdown_path": "companies/deemos.md"
+    },
+    {
+      "id": "gaoding",
+      "name": "稿定科技 / 稿定设计",
+      "aliases": [
+        "稿定科技"
+      ],
+      "category_id": "05",
+      "category_name": "多模态生成与创作工具",
+      "focus": "商业视觉设计与 AI 内容工具",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/gaoding.json",
+      "markdown_path": "companies/gaoding.md"
+    },
+    {
+      "id": "guiji",
+      "name": "硅基智能（南京）",
+      "aliases": [
+        "硅基智能"
+      ],
+      "category_id": "05",
+      "category_name": "多模态生成与创作工具",
+      "focus": "AI 数字人与智能交互",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/guiji.json",
+      "markdown_path": "companies/guiji.md"
+    },
+    {
+      "id": "jsdesign",
+      "name": "即时设计 / JSDesign",
+      "aliases": [
+        "即时设计"
+      ],
+      "category_id": "05",
+      "category_name": "多模态生成与创作工具",
+      "focus": "UI 设计协作与 AI 设计工具",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/jsdesign.json",
+      "markdown_path": "companies/jsdesign.md"
+    },
+    {
+      "id": "liblib",
+      "name": "LiblibAI / 哩布哩布",
+      "aliases": [
+        "LiblibAI(哩布哩布)",
+        "哩布哩布"
+      ],
+      "category_id": "05",
+      "category_name": "多模态生成与创作工具",
+      "focus": "AI 创意生产平台与模型社区",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/liblib.json",
+      "markdown_path": "companies/liblib.md"
+    },
+    {
+      "id": "shengshu",
+      "name": "生数科技 / Vidu",
+      "aliases": [
+        "生数科技(Vidu)",
+        "Vidu"
+      ],
+      "category_id": "05",
+      "category_name": "多模态生成与创作工具",
+      "focus": "视频生成与世界模型",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/shengshu.json",
+      "markdown_path": "companies/shengshu.md"
+    },
+    {
+      "id": "vast",
+      "name": "VAST / Tripo",
+      "aliases": [
+        "VAST(Tripo 3D)",
+        "Tripo 3D"
+      ],
+      "category_id": "05",
+      "category_name": "多模态生成与创作工具",
+      "focus": "3D 生成基础模型与创作工作台",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/vast.json",
+      "markdown_path": "companies/vast.md"
+    },
+    {
+      "id": "xmov",
+      "name": "魔珐科技 / Xmov",
+      "aliases": [
+        "魔珐科技(Xmov)",
+        "Xmov"
+      ],
+      "category_id": "05",
+      "category_name": "多模态生成与创作工具",
+      "focus": "3D 数字人视频、直播与交互智能体",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/xmov.json",
+      "markdown_path": "companies/xmov.md"
+    },
+    {
+      "id": "ai-indeed",
+      "name": "实在智能",
+      "aliases": [
+        "实在智能(AI-Indeed)",
+        "AI-Indeed"
+      ],
+      "category_id": "06",
+      "category_name": "企业与垂直行业软件",
+      "focus": "屏幕理解与企业执行 Agent",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/ai-indeed.json",
+      "markdown_path": "companies/ai-indeed.md"
+    },
+    {
+      "id": "cyclone",
+      "name": "弘玑 Cyclone",
+      "aliases": [
+        "弘玑Cyclone"
+      ],
+      "category_id": "06",
+      "category_name": "企业与垂直行业软件",
+      "focus": "企业行动智能体与超自动化",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/cyclone.json",
+      "markdown_path": "companies/cyclone.md"
+    },
+    {
+      "id": "deepexi",
+      "name": "滴普科技 / Deepexi",
+      "aliases": [
+        "滴普科技(Deepexi, 港股上市)",
+        "Deepexi, 港股上市"
+      ],
+      "category_id": "06",
+      "category_name": "企业与垂直行业软件",
+      "focus": "企业大模型、数据语义与智能体平台",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/deepexi.json",
+      "markdown_path": "companies/deepexi.md"
+    },
+    {
+      "id": "intsig",
+      "name": "合合信息 / Intsig",
+      "aliases": [
+        "合合信息"
+      ],
+      "category_id": "06",
+      "category_name": "企业与垂直行业软件",
+      "focus": "文档智能、OCR 与商业数据 AI",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/intsig.json",
+      "markdown_path": "companies/intsig.md"
+    },
+    {
+      "id": "laiye",
+      "name": "来也科技 / Laiye",
+      "aliases": [
+        "来也科技"
+      ],
+      "category_id": "06",
+      "category_name": "企业与垂直行业软件",
+      "focus": "智能自动化、智能文档与数字员工",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/laiye.json",
+      "markdown_path": "companies/laiye.md"
+    },
+    {
+      "id": "powerlaw",
+      "name": "幂律智能 / PowerLaw AI",
+      "aliases": [
+        "幂律智能(PowerLaw AI)",
+        "PowerLaw AI"
+      ],
+      "category_id": "06",
+      "category_name": "企业与垂直行业软件",
+      "focus": "法律 AI 与合同全生命周期管理",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/powerlaw.json",
+      "markdown_path": "companies/powerlaw.md"
+    },
+    {
+      "id": "recurrent-ai",
+      "name": "循环智能 / Recurrent AI",
+      "aliases": [
+        "循环智能(Recurrent AI)",
+        "Recurrent AI"
+      ],
+      "category_id": "06",
+      "category_name": "企业与垂直行业软件",
+      "focus": "销售智能与对话分析",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/recurrent-ai.json",
+      "markdown_path": "companies/recurrent-ai.md"
+    },
+    {
+      "id": "yingdao",
+      "name": "影刀 / 杭州分叉智能",
+      "aliases": [
+        "影刀RPA(分叉智能)",
+        "分叉智能"
+      ],
+      "category_id": "06",
+      "category_name": "企业与垂直行业软件",
+      "focus": "RPA、AI 工作流与数字员工",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/yingdao.json",
+      "markdown_path": "companies/yingdao.md"
+    },
+    {
+      "id": "deepdraw",
+      "name": "深绘智能 / Deepdraw",
+      "aliases": [
+        "深绘智能"
+      ],
+      "category_id": "07",
+      "category_name": "零售、电商与营销应用",
+      "focus": "时尚商品中台与商品数字化",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/deepdraw.json",
+      "markdown_path": "companies/deepdraw.md"
+    },
+    {
+      "id": "infimind",
+      "name": "极睿科技 / Infimind",
+      "aliases": [
+        "极睿科技(Infimind)",
+        "Infimind"
+      ],
+      "category_id": "07",
+      "category_name": "零售、电商与营销应用",
+      "focus": "电商内容生成与商品数字化",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/infimind.json",
+      "markdown_path": "companies/infimind.md"
+    },
+    {
+      "id": "kuaizi",
+      "name": "筷子科技 / Kuaizi",
+      "aliases": [
+        "筷子科技(Kuaizi.ai)",
+        "Kuaizi.ai"
+      ],
+      "category_id": "07",
+      "category_name": "零售、电商与营销应用",
+      "focus": "商业内容 AIGC 与广告创意自动化",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/kuaizi.json",
+      "markdown_path": "companies/kuaizi.md"
+    },
+    {
+      "id": "leyan",
+      "name": "乐言科技",
+      "aliases": [
+        "乐言科技"
+      ],
+      "category_id": "07",
+      "category_name": "零售、电商与营销应用",
+      "focus": "电商客服与营销 SaaS",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/leyan.json",
+      "markdown_path": "companies/leyan.md"
+    },
+    {
+      "id": "quickcep",
+      "name": "快牛智营 / QuickCEP",
+      "aliases": [
+        "快牛智营(QuickCEP)",
+        "QuickCEP"
+      ],
+      "category_id": "07",
+      "category_name": "零售、电商与营销应用",
+      "focus": "全球消费者互动与客服/语音 Agent",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/quickcep.json",
+      "markdown_path": "companies/quickcep.md"
+    },
+    {
+      "id": "shoplazza",
+      "name": "店匠科技 / Shoplazza",
+      "aliases": [
+        "店匠科技(Shoplazza)",
+        "Shoplazza"
+      ],
+      "category_id": "07",
+      "category_name": "零售、电商与营销应用",
+      "focus": "跨境独立站与零售商业基础设施",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/shoplazza.json",
+      "markdown_path": "companies/shoplazza.md"
+    },
+    {
+      "id": "shulex",
+      "name": "Shulex / 杭州数里行间科技有限公司",
+      "aliases": [
+        "笃行科技(Shulex VOC)",
+        "Shulex VOC"
+      ],
+      "category_id": "07",
+      "category_name": "零售、电商与营销应用",
+      "focus": "客户服务 Agent 与 VOC 消费者洞察",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/shulex.json",
+      "markdown_path": "companies/shulex.md"
+    },
+    {
+      "id": "tabcut",
+      "name": "特看科技 / Tabcut",
+      "aliases": [
+        "特看科技(Tabcut)",
+        "Tabcut"
+      ],
+      "category_id": "07",
+      "category_name": "零售、电商与营销应用",
+      "focus": "TikTok 电商数据与视频内容 SaaS",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/tabcut.json",
+      "markdown_path": "companies/tabcut.md"
+    },
+    {
+      "id": "tec-do",
+      "name": "钛动科技 / Tec-Do",
+      "aliases": [
+        "钛动科技"
+      ],
+      "category_id": "07",
+      "category_name": "零售、电商与营销应用",
+      "focus": "全球效果营销与 AI 广告内容",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/tec-do.json",
+      "markdown_path": "companies/tec-do.md"
+    },
+    {
+      "id": "xiaoduo",
+      "name": "晓多科技 / Xiaoduo AI",
+      "aliases": [
+        "晓多科技"
+      ],
+      "category_id": "07",
+      "category_name": "零售、电商与营销应用",
+      "focus": "客服 AI、商家服务与语流 Agent",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/xiaoduo.json",
+      "markdown_path": "companies/xiaoduo.md"
+    },
+    {
+      "id": "agibot",
+      "name": "智元机器人",
+      "aliases": [
+        "智元机器人(AgiBot)",
+        "AgiBot"
+      ],
+      "category_id": "08",
+      "category_name": "具身智能与机器人",
+      "focus": "通用机器人、具身模型、量产与应用生态",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/agibot.json",
+      "markdown_path": "companies/agibot.md"
+    },
+    {
+      "id": "fourier",
+      "name": "傅利叶",
+      "aliases": [
+        "傅利叶智能(Fourier)",
+        "Fourier"
+      ],
+      "category_id": "08",
+      "category_name": "具身智能与机器人",
+      "focus": "人形机器人与康复机器人两条业务线",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/fourier.json",
+      "markdown_path": "companies/fourier.md"
+    },
+    {
+      "id": "galaxea",
+      "name": "星海图",
+      "aliases": [
+        "星海图(Galaxea)",
+        "Galaxea"
+      ],
+      "category_id": "08",
+      "category_name": "具身智能与机器人",
+      "focus": "整机、具身基础模型与开发平台",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/galaxea.json",
+      "markdown_path": "companies/galaxea.md"
+    },
+    {
+      "id": "galbot",
+      "name": "银河通用",
+      "aliases": [
+        "银河通用(Galbot)",
+        "Galbot"
+      ],
+      "category_id": "08",
+      "category_name": "具身智能与机器人",
+      "focus": "通用具身模型与机器人在零售、工业场景的部署",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/galbot.json",
+      "markdown_path": "companies/galbot.md"
+    },
+    {
+      "id": "limx",
+      "name": "逐际动力",
+      "aliases": [
+        "逐际动力(LimX)",
+        "LimX"
+      ],
+      "category_id": "08",
+      "category_name": "具身智能与机器人",
+      "focus": "全身运动控制、具身智能与模块化足式机器人",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/limx.json",
+      "markdown_path": "companies/limx.md"
+    },
+    {
+      "id": "noematrix",
+      "name": "穹彻智能",
+      "aliases": [
+        "穹彻智能(Noematrix)",
+        "Noematrix"
+      ],
+      "category_id": "08",
+      "category_name": "具身智能与机器人",
+      "focus": "以力为中心的具身基础模型与通用机器人大脑",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/noematrix.json",
+      "markdown_path": "companies/noematrix.md"
+    },
+    {
+      "id": "robotera",
+      "name": "星动纪元",
+      "aliases": [
+        "星动纪元(Robot Era)",
+        "Robot Era"
+      ],
+      "category_id": "08",
+      "category_name": "具身智能与机器人",
+      "focus": "全栈人形机器人、灵巧手与具身模型",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/robotera.json",
+      "markdown_path": "companies/robotera.md"
+    },
+    {
+      "id": "spirit-ai",
+      "name": "千寻智能",
+      "aliases": [
+        "千寻智能(Spirit AI)",
+        "Spirit AI"
+      ],
+      "category_id": "08",
+      "category_name": "具身智能与机器人",
+      "focus": "具身大模型、数据与通用机器人",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/spirit-ai.json",
+      "markdown_path": "companies/spirit-ai.md"
+    },
+    {
+      "id": "tars",
+      "name": "它石智航",
+      "aliases": [
+        "它石智航(TARS)",
+        "TARS"
+      ],
+      "category_id": "08",
+      "category_name": "具身智能与机器人",
+      "focus": "物理AI、通用具身模型及软硬一体机器人",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/tars.json",
+      "markdown_path": "companies/tars.md"
+    },
+    {
+      "id": "unitree",
+      "name": "宇树科技",
+      "aliases": [
+        "宇树科技(Unitree)",
+        "Unitree"
+      ],
+      "category_id": "08",
+      "category_name": "具身智能与机器人",
+      "focus": "消费级与行业级足式、人形机器人本体",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/unitree.json",
+      "markdown_path": "companies/unitree.md"
+    },
+    {
+      "id": "x-square",
+      "name": "自变量机器人",
+      "aliases": [
+        "自变量机器人(X Square)",
+        "X Square"
+      ],
+      "category_id": "08",
+      "category_name": "具身智能与机器人",
+      "focus": "端到端具身基础模型及通用机器人",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/x-square.json",
+      "markdown_path": "companies/x-square.md"
+    },
+    {
+      "id": "haivivi",
+      "name": "跃然创新 Haivivi",
+      "aliases": [
+        "跃然创新(Haivivi)",
+        "Haivivi"
+      ],
+      "category_id": "09",
+      "category_name": "AI 消费硬件",
+      "focus": "AI玩具、语音互动与陪伴",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/haivivi.json",
+      "markdown_path": "companies/haivivi.md"
+    },
+    {
+      "id": "hypershell",
+      "name": "极壳科技 Hypershell",
+      "aliases": [
+        "极壳科技(Hypershell)",
+        "Hypershell"
+      ],
+      "category_id": "09",
+      "category_name": "AI 消费硬件",
+      "focus": "消费级穿戴外骨骼与户外助力",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/hypershell.json",
+      "markdown_path": "companies/hypershell.md"
+    },
+    {
+      "id": "plaud",
+      "name": "Plaud / 机智连接",
+      "aliases": [
+        "机智连接(Plaud.ai)",
+        "Plaud.ai"
+      ],
+      "category_id": "09",
+      "category_name": "AI 消费硬件",
+      "focus": "AI录音硬件与专业人士对话智能软件",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/plaud.json",
+      "markdown_path": "companies/plaud.md"
+    },
+    {
+      "id": "sharge",
+      "name": "闪极科技 SHARGE",
+      "aliases": [
+        "闪极科技(Sharge)",
+        "Sharge"
+      ],
+      "category_id": "09",
+      "category_name": "AI 消费硬件",
+      "focus": "消费电子、AI眼镜与智能穿戴",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/sharge.json",
+      "markdown_path": "companies/sharge.md"
+    },
+    {
+      "id": "viaim",
+      "name": "未来智能 viaim",
+      "aliases": [
+        "未来智能(viaim)",
+        "viaim"
+      ],
+      "category_id": "09",
+      "category_name": "AI 消费硬件",
+      "focus": "AI办公耳机、录音转写及会议智能",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/viaim.json",
+      "markdown_path": "companies/viaim.md"
+    },
+    {
+      "id": "biomap",
+      "name": "百图生科 BioMap",
+      "aliases": [
+        "百图生科(BioMap)",
+        "BioMap"
+      ],
+      "category_id": "10",
+      "category_name": "科学智能与生物医药",
+      "focus": "生命科学基础模型与蛋白质、生物系统设计",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/biomap.json",
+      "markdown_path": "companies/biomap.md"
+    },
+    {
+      "id": "dp-technology",
+      "name": "深势科技",
+      "aliases": [
+        "深势科技(DP Tech)",
+        "DP Tech"
+      ],
+      "category_id": "10",
+      "category_name": "科学智能与生物医药",
+      "focus": "科学智能基础设施、科学模型与研发工具",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/dp-technology.json",
+      "markdown_path": "companies/dp-technology.md"
+    },
+    {
+      "id": "insilico",
+      "name": "英矽智能 Insilico Medicine",
+      "aliases": [
+        "英矽智能(Insilico)",
+        "Insilico"
+      ],
+      "category_id": "10",
+      "category_name": "科学智能与生物医药",
+      "focus": "生成式AI药物发现平台与自研创新药管线",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/insilico.json",
+      "markdown_path": "companies/insilico.md"
+    },
+    {
+      "id": "matwings",
+      "name": "天鹜科技 Matwings",
+      "aliases": [
+        "天鹜科技"
+      ],
+      "category_id": "10",
+      "category_name": "科学智能与生物医药",
+      "focus": "蛋白质设计大模型、AI生物设计及干湿实验闭环",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/matwings.json",
+      "markdown_path": "companies/matwings.md"
+    },
+    {
+      "id": "megarobo",
+      "name": "镁伽科技 MEGAROBO",
+      "aliases": [
+        "镁伽科技"
+      ],
+      "category_id": "10",
+      "category_name": "科学智能与生物医药",
+      "focus": "智慧实验室与智能制造自主智能体、自动化平台",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/megarobo.json",
+      "markdown_path": "companies/megarobo.md"
+    },
+    {
+      "id": "xtalpi",
+      "name": "晶泰科技 XtalPi",
+      "aliases": [
+        "晶泰科技(XtalPi, 2228.HK)",
+        "XtalPi, 2228.HK"
+      ],
+      "category_id": "10",
+      "category_name": "科学智能与生物医药",
+      "focus": "AI、量子物理与自动化实验支撑药物及材料研发",
+      "checked_at": "2026-10-30",
+      "json_path": "data/companies/xtalpi.json",
+      "markdown_path": "companies/xtalpi.md"
+    }
+  ]
+}

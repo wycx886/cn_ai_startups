@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "hypershell",
+  "name": "极壳科技 Hypershell",
+  "aliases": [
+    "极壳科技(Hypershell)",
+    "Hypershell"
+  ],
+  "category_id": "09",
+  "focus": "消费级穿戴外骨骼与户外助力",
+  "products": "Hypershell X系列；Hypershell Halo髋膝助力外骨骼",
+  "locations_text": "深圳；上海（创立地）",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较傅利叶面向医疗康复的机器人，极壳主要以消费级穿戴助力、户外和日常移动为产品入口。",
+    "peer_names": [
+      "傅利叶；宇树科技"
+    ]
+  },
+  "investment": {
+    "summary": "2026-05-18 披露5000万美元B+轮由蚂蚁集团、美团龙珠领投，Sofina、Granite Asia跟投；历史股东名单另含IDG、红杉中国、五源资本等。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://hypershell.tech/",
+    "careers_url": "https://career.hypershell.cn/",
+    "recruitment_email": null,
+    "other_email": "business@hypershell.tech",
+    "other_email_purpose": "商务合作"
+  },
+  "notes": "未查到公开招聘邮箱；已从hypershell.cn官网“加入我们”核实官招入口。商务邮箱不是投递邮箱；hypershell.com为加拿大同名工程公司，已排除。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "极壳B+轮融资",
+      "url": "https://www.nbd.com.cn/articles/2026-05-18/4396408.html",
+      "supports": "投资方及历史资本背景",
+      "published_date": "2026-05-18",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "Hypershell官方联系页",
+      "url": "https://hypershell.tech/pages/contact-us/_%7Burl%7D",
+      "supports": "商务及客服邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "Hypershell官方公司页",
+      "url": "https://www.linkedin.com/company/hypershell-tech",
+      "supports": "产品定位与深圳总部",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "极壳中国官网",
+      "url": "https://hypershell.cn/",
+      "supports": "当前产品与加入我们跳转",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "title": "极壳官方招聘站",
+      "url": "https://career.hypershell.cn/",
+      "supports": "官方投递入口",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "极壳科技(Hypershell)",
+    "original_track": "08",
+    "original_subtrack": "AI穿戴/外骨骼、录音生产力与陪伴硬件"
+  }
+}

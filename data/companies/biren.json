@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "biren",
+  "name": "壁仞科技 Biren",
+  "aliases": [
+    "壁仞科技"
+  ],
+  "category_id": "02",
+  "focus": "通用GPU与智算解决方案",
+  "products": "壁砺GPU、软硬协同算力基础设施",
+  "locations_text": "上海；具体岗位见官方招聘",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：从自研GPU架构与芯片切入，服务AI数据中心和训推集群；与硅基流动等软件/服务层不同。",
+    "peer_names": [
+      "摩尔线程",
+      "沐曦股份",
+      "燧原科技"
+    ]
+  },
+  "investment": {
+    "summary": "官网投资者阵容列启明、IDG、上海国投、上海AI产业基金、源码、高瓴创投等；公司官网称2026年1月港股上市。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.birentech.com/",
+    "careers_url": "https://www.birentech.com/",
+    "recruitment_email": "recruiting@birentech.com",
+    "other_email": "business@birentech.com",
+    "other_email_purpose": "商务合作邮箱"
+  },
+  "notes": "careersUrl指官网，使用加入我们菜单；投资者阵容是官网列举，非完整当前持股表。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "壁仞官方介绍",
+      "url": "https://www.birentech.com/about",
+      "supports": "投资者阵容、产品、上市背景",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "壁仞官网",
+      "url": "https://www.birentech.com/",
+      "supports": "商务与招聘邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "壁仞科技",
+    "original_track": "02",
+    "original_subtrack": "AI智算网络、基础软件与AI芯片"
+  }
+}

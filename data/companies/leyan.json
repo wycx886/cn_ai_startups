@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "leyan",
+  "name": "乐言科技",
+  "aliases": [
+    "乐言科技"
+  ],
+  "category_id": "07",
+  "focus": "电商客服与营销 SaaS",
+  "products": "乐语助人、乐销客、工单RPA与电商服务",
+  "locations_text": "上海、杭州及多地",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：与QuickCEP/Shulex更聚焦跨境不同，乐言从国内平台电商客服与营销切入，并延伸东南亚。",
+    "peer_names": [
+      "晓多科技、Shulex、QuickCEP"
+    ]
+  },
+  "investment": {
+    "summary": "官网披露2021-04数亿元D轮中金资本、上海人工智能产业投资基金领投；完整历史股东未据此推断。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.leyantech.com/",
+    "careers_url": "https://www.leyantech.com/joinUS.html",
+    "recruitment_email": "talents@leyantech.com",
+    "other_email": null,
+    "other_email_purpose": null
+  },
+  "notes": null,
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "乐言官网",
+      "url": "https://www.leyantech.com/portal/",
+      "supports": "D轮领投与产品",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "乐言官方招聘页",
+      "url": "https://www.leyantech.com/joinUS.html",
+      "supports": "投递邮箱与城市",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "乐言关于我们",
+      "url": "https://www.leyantech.com/aboutUs.html",
+      "supports": "方向与覆盖区域",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "乐言科技",
+    "original_track": "06",
+    "original_subtrack": "跨境独立站Agent、AI客服与VOC洞察"
+  }
+}

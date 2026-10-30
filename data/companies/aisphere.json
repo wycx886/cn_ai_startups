@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "aisphere",
+  "name": "爱诗科技 / PixVerse",
+  "aliases": [
+    "爱诗科技(PixVerse / 拍我AI)",
+    "PixVerse / 拍我AI"
+  ],
+  "category_id": "05",
+  "focus": "视频基础模型与创作者应用",
+  "products": "PixVerse / 拍我AI；视频生成 API",
+  "locations_text": "北京",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：与 Vidu 同属模型及 API 层；面向全球创作者的生成工具和企业接口并行，而非单一广告混剪或短剧分发。",
+    "peer_names": [
+      "生数科技、筷子科技"
+    ]
+  },
+  "investment": {
+    "summary": "官网披露2026-01-12 C轮融资由鼎晖领投；其他历史投资方需逐轮核对，不沿用原表全名单。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://aishiai.com/",
+    "careers_url": "https://pixverse.ai/en/careers",
+    "recruitment_email": null,
+    "other_email": "support@pai.video",
+    "other_email_purpose": "产品支持"
+  },
+  "notes": "未查到当前公开招聘投递邮箱，优先使用官方招聘入口。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "爱诗科技官网",
+      "url": "https://aishiai.com/",
+      "supports": "产品、公司动态、加入我们；C轮领投方",
+      "published_date": "2026-01-12",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "PixVerse官方Join Us",
+      "url": "https://pixverse.ai/en/careers?trk=public_post_comment-text",
+      "supports": "招聘入口与开放团队",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "爱诗科技(PixVerse / 拍我AI)",
+    "original_track": "04",
+    "original_subtrack": "AI视频生成与世界模型"
+  }
+}

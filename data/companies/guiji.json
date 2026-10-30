@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "guiji",
+  "name": "硅基智能（南京）",
+  "aliases": [
+    "硅基智能"
+  ],
+  "category_id": "05",
+  "focus": "AI 数字人与智能交互",
+  "products": "数字人、语音交互、直播和内容生成",
+  "locations_text": "南京",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较魔珐的3D表达和开放平台，硅基覆盖语音交互、真人数字分身与规模化内容服务；具体性能不作排名。",
+    "peer_names": [
+      "魔珐科技"
+    ]
+  },
+  "investment": {
+    "summary": "Dealroom记录2019年B轮腾讯参与，2025年D轮扬州杭集高新区产业基金；最新融资及原表红杉/招银名单未获足够官方证据。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://www.guiji.ai/",
+    "careers_url": "https://www.zhipin.com/zhaopin/0e02877ac64324b81ndz3Nm6/",
+    "recruitment_email": null,
+    "other_email": null,
+    "other_email_purpose": null
+  },
+  "notes": "排除guijizhinengcn.com及苏州同名企业szguiji.cn，未采用个人工商邮箱作为招聘邮箱。；未查到通用招聘投递邮箱。；平台职位检索页，含南京硅基智能职位；非公司自建官招站。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "Dealroom硅基智能",
+      "url": "https://app.dealroom.co/companies/silicon_based_intelligent_technology",
+      "supports": "历史融资与官网、总部",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "华为云合作企业资料",
+      "url": "https://marketplace.huaweicloud.com/seller/9bfa23d1461f4a6cacfdcad8715edbe7",
+      "supports": "guiji.ai对应的产品和主体关联",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "BOSS南京硅基智能职位检索页",
+      "url": "https://www.zhipin.com/zhaopin/0e02877ac64324b81ndz3Nm6/",
+      "supports": "招聘渠道与公司主体",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "硅基智能",
+    "original_track": "04",
+    "original_subtrack": "AI 3D生成、数字人与视觉设计工作流"
+  }
+}

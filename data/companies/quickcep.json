@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "quickcep",
+  "name": "快牛智营 / QuickCEP",
+  "aliases": [
+    "快牛智营(QuickCEP)",
+    "QuickCEP"
+  ],
+  "category_id": "07",
+  "focus": "全球消费者互动与客服/语音 Agent",
+  "products": "QuickCEP AI Agent、Voice Agent、工单与CDP",
+  "locations_text": "北京",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：与Shulex客服/VOC相邻，QuickCEP更强调CDP、全渠道互动与导购营销串联；与店匠不同，不以建站为核心。",
+    "peer_names": [
+      "Shulex、店匠科技"
+    ]
+  },
+  "investment": {
+    "summary": "复星锐正官网2025-11披露近亿元融资啟赋领投、复星锐正超额跟投；更早投资方有源数创投、初心等。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.quickcep.cn/",
+    "careers_url": "https://www.yupao.com/qiye/202334541.html",
+    "recruitment_email": null,
+    "other_email": "support@quickcep.com",
+    "other_email_purpose": "产品支持"
+  },
+  "notes": "未将源数创投等同源码资本；轮次标签报道有A+/B分歧，正文以新一轮表述。；未查到通用招聘投递邮箱。；第三方招聘平台页，主体为北京快牛智营科技有限公司；非公司自建官招站。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "QuickCEP官网",
+      "url": "https://www.quickcep.cn/",
+      "supports": "产品及主体",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "QuickCEP国际官网",
+      "url": "https://www.quickcep.com/",
+      "supports": "产品与支持邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "复星锐正融资动态",
+      "url": "https://www.frzcapital.cn/news/index_7.html",
+      "supports": "新轮次投资背景",
+      "published_date": "2025-11-28",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "36氪QuickCEP档案",
+      "url": "https://pitchhub.36kr.com/project/1958431415880964",
+      "supports": "历史投资方",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "title": "鱼泡快牛智营公司招聘页",
+      "url": "https://www.yupao.com/qiye/202334541.html",
+      "supports": "招聘渠道与公司主体",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "快牛智营(QuickCEP)",
+    "original_track": "06",
+    "original_subtrack": "跨境独立站Agent、AI客服与VOC洞察"
+  }
+}

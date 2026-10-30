@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "avolution",
+  "name": "鹿影科技 / Avolution.ai（历史项目）",
+  "aliases": [
+    "鹿影科技(YOYO动漫)",
+    "YOYO动漫"
+  ],
+  "category_id": "05",
+  "focus": "二次元视频生成",
+  "products": "YoYo 动漫视频生成",
+  "locations_text": "深圳",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：区别于 Vidu/PixVerse 的通用视频路线，早期聚焦二次元；存在被 MiniMax 收购的报道，不能默认是独立在招公司。",
+    "peer_names": [
+      "爱诗科技、生数科技"
+    ]
+  },
+  "investment": {
+    "summary": "36氪披露天使轮由蓝驰创投、红点中国参与；2025年有并入MiniMax报道，未以官方收购公告确认。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://avolution.ai/",
+    "careers_url": null,
+    "recruitment_email": null,
+    "other_email": null,
+    "other_email_purpose": null
+  },
+  "notes": "官网域名来自历史融资报道，现行独立官网与招聘状态待核实；原表将米哈游相关关系用于该公司缺乏本轮证据。；未查到当前公开招聘入口或投递邮箱。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "36氪鹿影科技档案",
+      "url": "https://pitchhub.36kr.com/project/2587574655725317",
+      "supports": "投资方与产品",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "证券时报相关报道",
+      "url": "https://epaper.stcn.com/att/202506/11/e1e0a9e1-7ac9-40ef-8bf2-7ace1e579c90.pdf",
+      "supports": "被MiniMax收购的媒体报道",
+      "published_date": "2025-06-11",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "鹿影科技(YOYO动漫)",
+    "original_track": "04",
+    "original_subtrack": "AI视频生成与世界模型"
+  }
+}

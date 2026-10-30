@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "infimind",
+  "name": "极睿科技 / Infimind",
+  "aliases": [
+    "极睿科技(Infimind)",
+    "Infimind"
+  ],
+  "category_id": "07",
+  "focus": "电商内容生成与商品数字化",
+  "products": "PhotoMagic、ECPro、iClip；商品图文和短视频",
+  "locations_text": "北京、杭州、广州等",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：与筷子偏广告创意不同，强调服饰商品资产、商拍、详情页和内容运营流程；与深绘商品中台邻近。",
+    "peer_names": [
+      "筷子科技、深绘智能"
+    ]
+  },
+  "investment": {
+    "summary": "官网大事记确认2020年红杉A轮、2022年B轮，官网当前简介融资标签与大事记存在B/C轮不一致，故不主张最新轮次。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://www.infimind.com/",
+    "careers_url": null,
+    "recruitment_email": "hr@infimind.com",
+    "other_email": "liwei@infimind.com",
+    "other_email_purpose": "商务合作"
+  },
+  "notes": "hr@infimind.com来自旗下旧品牌AIFashion产品页页脚“求职”，属历史公开邮箱；不是现行招聘系统，careersUrl留空。官网融资阶段B/C自身不一致，未扩大断言。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "极睿官方关于我们",
+      "url": "https://www.infimind.com/about",
+      "supports": "产品、投资背景、城市与商务邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "极睿旗下AIFashion官网",
+      "url": "https://www.aifashion.com/",
+      "supports": "历史公开求职邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "极睿科技(Infimind)",
+    "original_track": "06",
+    "original_subtrack": "电商AIGC商拍、直播切片与商业视频"
+  }
+}

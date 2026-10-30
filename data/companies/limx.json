@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "limx",
+  "name": "逐际动力",
+  "aliases": [
+    "逐际动力(LimX)",
+    "LimX"
+  ],
+  "category_id": "08",
+  "focus": "全身运动控制、具身智能与模块化足式机器人",
+  "products": "Oli / Luna；TRON 1/2；COSA；FluxVLA Engine",
+  "locations_text": "深圳",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较宇树，逐际强调多形态研究平台、大小脑融合和具身智能操作系统组合。",
+    "peer_names": [
+      "宇树科技；智元机器人；星动纪元"
+    ]
+  },
+  "investment": {
+    "summary": "官网2026-07-14披露近2亿美元Pre-IPO轮，新投资方包括IDG、蓝思科技、GGG Group、Redstone、WestSummit、合肥滨湖等；蔚来资本、尚颀资本、基石资本等继续投资。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.limxdynamics.com/",
+    "careers_url": "https://www.limxdynamics.com/en/faq",
+    "recruitment_email": "recruit@limxdynamics.com",
+    "other_email": "bd@limxdynamics.com",
+    "other_email_purpose": "业务合作"
+  },
+  "notes": "招聘邮箱由官网FAQ明确列出；careersUrl 为包含招聘联系信息的官方FAQ。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "逐际Pre-IPO融资公告",
+      "url": "https://www.limxdynamics.com/en/news/BK000064",
+      "supports": "投资方与产品",
+      "published_date": "2026-07-14",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "逐际FAQ",
+      "url": "https://www.limxdynamics.com/en/faq",
+      "supports": "技术定位、总部、招聘及商务邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "逐际动力(LimX)",
+    "original_track": "07",
+    "original_subtrack": "人形与四足机器人主机及商业RaaS"
+  }
+}

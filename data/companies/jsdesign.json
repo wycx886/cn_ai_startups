@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "jsdesign",
+  "name": "即时设计 / JSDesign",
+  "aliases": [
+    "即时设计"
+  ],
+  "category_id": "05",
+  "focus": "UI 设计协作与 AI 设计工具",
+  "products": "即时设计、即时AI、A1.art入口",
+  "locations_text": "北京",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：与稿定面向营销设计模板不同，核心是UI设计、原型、开发交付的多人协作；不是视频或3D基础模型厂商。",
+    "peer_names": [
+      "稿定科技、LiblibAI"
+    ]
+  },
+  "investment": {
+    "summary": "投资方靖亚官网披露A轮靖亚领投，A+源码/SIG领投，A++高瓴/SIG，B轮Coatue领投；未将旧轮次当成最新融资。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://js.design/",
+    "careers_url": "https://www.uisdc.com/job/440540.html",
+    "recruitment_email": null,
+    "other_email": "contact@js.design",
+    "other_email_purpose": "产品反馈/一般联系"
+  },
+  "notes": "未采用jsshejicn.com等非官方SEO站；未将旧个人内推QQ邮箱作为统一投递入口。；未查到通用招聘投递邮箱。；企业招聘帖，含定向岗位投递方式；发布时点未确认，不保证岗位仍开放。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "即时设计官网",
+      "url": "https://js.design/",
+      "supports": "产品方向",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "即时设计官方教程",
+      "url": "https://js.design/tutorial",
+      "supports": "公开联系邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "靖亚关于即时设计融资",
+      "url": "https://www.emventures.cn/blog/vc",
+      "supports": "历史轮次与投资方",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "优设网即时设计企业招聘帖",
+      "url": "https://www.uisdc.com/job/440540.html",
+      "supports": "招聘渠道与公司主体",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "即时设计",
+    "original_track": "04",
+    "original_subtrack": "AI 3D生成、数字人与视觉设计工作流"
+  }
+}

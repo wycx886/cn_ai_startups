@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "deepexi",
+  "name": "滴普科技 / Deepexi",
+  "aliases": [
+    "滴普科技(Deepexi, 港股上市)",
+    "Deepexi, 港股上市"
+  ],
+  "category_id": "06",
+  "focus": "企业大模型、数据语义与智能体平台",
+  "products": "Deepexi企业大模型、Deepology、DeepWorks、DeepexiOS",
+  "locations_text": "北京、深圳、广州、杭州、苏州、成都、香港",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较影刀以自动化工具切入，滴普组合企业数据、本体、模型和智能体平台，面向企业系统级部署。",
+    "peer_names": [
+      "弘玑Cyclone、来也科技"
+    ]
+  },
+  "investment": {
+    "summary": "历史投资方包括高瓴、晨兴（现五源）、IDG资本、BAI等：2019-09 A轮3500万美元由晨兴、高瓴、IDG联合领投，BAI、初心等跟投。2025-10-28港股上市（01384.HK），以官方投资者关系披露为准。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://www.deepexi.com/",
+    "careers_url": "https://www.deepexi.com/join-us/campus/c5",
+    "recruitment_email": "zhaopin@deepexi.com",
+    "other_email": "IR@deepexi.com",
+    "other_email_purpose": "投资者关系（非招聘）"
+  },
+  "notes": "未沿用原表博裕投资，尚未取得足够证据。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "滴普官方投资者关系",
+      "url": "https://www.deepexi.com/investor-relations",
+      "supports": "上市及资本背景",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "天津大学滴普2027招聘简章",
+      "url": "https://job.tju.edu.cn/recruitment/content/type/2/id/6673.html",
+      "supports": "产品框架、城市和投递邮箱",
+      "published_date": "2026-10",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "滴普官方招聘职位",
+      "url": "https://www.deepexi.com/join-us/campus/c5",
+      "supports": "招聘入口",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "21财经滴普A轮融资",
+      "url": "https://m.21jingji.com/article/20190924/herald/55cdc0794c1004069ea3d54a60d20f6a.html",
+      "supports": "历史轮次和投资方",
+      "published_date": "2019-09-24",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "滴普科技(Deepexi, 港股上市)",
+    "original_track": "05",
+    "original_subtrack": "RPA超自动化与屏幕语义CUA数字员工"
+  }
+}

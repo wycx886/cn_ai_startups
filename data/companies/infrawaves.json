@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "infrawaves",
+  "name": "基流科技 Infrawaves",
+  "aliases": [
+    "基流科技(Infrawaves)",
+    "Infrawaves"
+  ],
+  "category_id": "02",
+  "focus": "智算集群与高速算力网络",
+  "products": "高速交换机、集合通信、集群管控及Venus算力系统",
+  "locations_text": "上海、北京（报道及历史招聘）",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：核心是多卡、多机之间的通信互联和集群利用率，区别于芯片设计公司，也区别于直接面向开发者售Token的API平台。",
+    "peer_names": [
+      "无问芯穹",
+      "九章云极",
+      "摩尔线程"
+    ]
+  },
+  "investment": {
+    "summary": "2025年初Pre-A+/A融资披露招商局创投、华泰数智、星连、国方创新联合投资，光速光合、卓源亚洲跟投。原表高瓴/启明名单未据此得到确认。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://www.infrawaves.com/",
+    "careers_url": "https://k.sina.com.cn/article_2674405451_9f68304b019015ivm.html",
+    "recruitment_email": "HR-Public@infrawaves.com",
+    "other_email": null,
+    "other_email_purpose": null
+  },
+  "notes": "官网本次读取失败；careersUrl为历史招聘转载而非官方招聘站。邮箱见2024公开招聘，时效需复核；不使用同名印度Infrawave或Inforwaves网站。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "光速光合融资消息转载",
+      "url": "https://finance.sina.com.cn/jjxw/2025-01-27/doc-inehmenv9274790.shtml",
+      "supports": "历史投资方",
+      "published_date": "2025-01-27",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "基流科技公开招聘转载",
+      "url": "https://k.sina.com.cn/article_2674405451_9f68304b019015ivm.html",
+      "supports": "投递邮箱及产品方向",
+      "published_date": "2024",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "沙利文IPO材料解读",
+      "url": "https://finance.sina.com.cn/roll/2026-05-07/doc-inhwzrtr5296412.shtml",
+      "supports": "业务、系统产品与公司身份",
+      "published_date": "2026-05-07",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "基流科技(Infrawaves)",
+    "original_track": "02",
+    "original_subtrack": "AI智算网络、基础软件与AI芯片"
+  }
+}

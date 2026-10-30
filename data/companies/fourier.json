@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "fourier",
+  "name": "傅利叶",
+  "aliases": [
+    "傅利叶智能(Fourier)",
+    "Fourier"
+  ],
+  "category_id": "08",
+  "focus": "人形机器人与康复机器人两条业务线",
+  "products": "GR-3系列；GRW；RehabHub康复港",
+  "locations_text": "上海",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较多数人形新创公司，傅利叶具有康复产品和医疗场景积累，另发展通用人形与轮式双臂。",
+    "peer_names": [
+      "智元机器人；宇树科技；极壳科技"
+    ]
+  },
+  "investment": {
+    "summary": "2025-01公司披露E系列两轮合计近8亿元，参与方包括国鑫投资、浦东创投、张江科投、张科垚坤基金、Prosperity7、钧山资本。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://www.fftai.com/en/",
+    "careers_url": "https://app.mokahr.com/campus-recruitment/fftai/147078",
+    "recruitment_email": "job@fftai.com",
+    "other_email": "generalrobot@fftai.com",
+    "other_email_purpose": "通用机器人商务"
+  },
+  "notes": "招聘邮箱在校招材料转载中明确列出；官方招聘页为材料所给摩卡入口。此邮箱也用于求职申请协助。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "傅利叶官网",
+      "url": "https://www.fftai.com/en/",
+      "supports": "当前产品方向",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "傅利叶完成近8亿元E轮",
+      "url": "https://www.yicai.com/news/102430454.html",
+      "supports": "投资方",
+      "published_date": "2025-01-07",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "傅利叶产品资料",
+      "url": "https://www.fftai.com/uploads/upload/files/20250519/9367c1adcb832047765641f301645c90.pdf",
+      "supports": "商务邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "傅利叶校招材料转载",
+      "url": "https://www.91-tanhua.net/news/detail/103",
+      "supports": "招聘邮箱及官方摩卡入口",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "傅利叶智能(Fourier)",
+    "original_track": "07",
+    "original_subtrack": "人形与四足机器人主机及商业RaaS"
+  }
+}

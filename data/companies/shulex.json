@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "shulex",
+  "name": "Shulex / 杭州数里行间科技有限公司",
+  "aliases": [
+    "笃行科技(Shulex VOC)",
+    "Shulex VOC"
+  ],
+  "category_id": "07",
+  "focus": "客户服务 Agent 与 VOC 消费者洞察",
+  "products": "Shulex AI客服、语音客服、智能服务台、VOC",
+  "locations_text": "杭州及海外等",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：与QuickCEP的客户互动/营销自动化相邻；Shulex突出客服执行与评论洞察双产品，而非独立站建站。",
+    "peer_names": [
+      "QuickCEP、晓多科技、店匠科技"
+    ]
+  },
+  "investment": {
+    "summary": "2025-03新一轮融资由盛大资本领投，北极光和Starting Gate Fund参与；资料库将后者写作大观资本。未核到原表红杉/线性投资。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.shulex.com/",
+    "careers_url": "https://www.tanzhi.cn/companies/8554cd7e-6bc6-4bb1-bc47-1c79232c15a7/",
+    "recruitment_email": null,
+    "other_email": "marketing@shulex-tech.com",
+    "other_email_purpose": "商务合作（非招聘）"
+  },
+  "notes": "原表“笃行科技”与官方运营主体不一致，已更正为杭州数里行间；邮箱不是投递邮箱。；未查到通用公开投递邮箱。；第三方招聘聚合公司页，非官网自建投递系统；页面contact@tanzhi.cn是平台邮箱，不属于Shulex。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "Shulex官方使用条款",
+      "url": "https://www.shulex.com/terms.html",
+      "supports": "运营主体与联络邮箱",
+      "published_date": "2026-09-17",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "Shulex官网",
+      "url": "https://www.shulex.com/",
+      "supports": "产品定位",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "Shulex新融资报道",
+      "url": "https://finance.ifeng.com/c/8hyza1BTDsm",
+      "supports": "投资背景",
+      "published_date": "2025-03-24",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "投资界Shulex档案",
+      "url": "https://vc.pedaily.cn/company/715173.html",
+      "supports": "融资中文投资方名称",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "title": "Shulex官网页脚",
+      "url": "https://www.shulex.com/",
+      "supports": "明确将marketing@shulex-tech.com标为商务合作",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s06",
+      "title": "谈职数里行间公司招聘页",
+      "url": "https://www.tanzhi.cn/companies/8554cd7e-6bc6-4bb1-bc47-1c79232c15a7/",
+      "supports": "招聘渠道与公司/品牌身份",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "笃行科技(Shulex VOC)",
+    "original_track": "06",
+    "original_subtrack": "跨境独立站Agent、AI客服与VOC洞察"
+  }
+}

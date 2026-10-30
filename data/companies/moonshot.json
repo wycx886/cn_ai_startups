@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "moonshot",
+  "name": "月之暗面 Kimi",
+  "aliases": [
+    "月之暗面(Kimi)",
+    "Kimi"
+  ],
+  "category_id": "01",
+  "focus": "通用模型、个人助手与代码Agent",
+  "products": "Kimi、Kimi Code、模型API",
+  "locations_text": "北京、上海",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：将自研模型与Kimi用户产品、代码Agent衔接；与Dify开放编排平台不同，直接提供模型与终端体验。",
+    "peer_names": [
+      "智谱",
+      "MiniMax",
+      "Dify"
+    ]
+  },
+  "investment": {
+    "summary": "2024年2月融资公开报道列阿里、小红书、美团、红杉等；后续轮次与原表估值范围未在本轮逐项核定。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://www.moonshot.cn/",
+    "careers_url": "https://careers.kimi.com/",
+    "recruitment_email": null,
+    "other_email": "growth@moonshot.cn",
+    "other_email_purpose": "官网一般联系/增长邮箱（未明确招聘）"
+  },
+  "notes": "未查到可核验的公开招聘投递邮箱；优先使用招聘入口。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "Moonshot官方介绍",
+      "url": "https://www.moonshot.cn/about",
+      "supports": "愿景、地址、growth邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "Kimi官方招聘",
+      "url": "https://careers.kimi.com/about-us",
+      "supports": "公司招聘入口",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "每经：月之暗面融资",
+      "url": "https://www.nbd.com.cn/articles/2024-02-19/3247754.html",
+      "supports": "2024年2月历史投资方",
+      "published_date": "2024-02-19",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "官方Kimi Code仓库招聘帖",
+      "url": "https://github.com/MoonshotAI/kimi-code/issues/2628",
+      "supports": "代码Agent与北京/上海",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "月之暗面(Kimi)",
+    "original_track": "01",
+    "original_subtrack": "通用基座大模型 (“AI四小强”+开源旗舰)"
+  }
+}

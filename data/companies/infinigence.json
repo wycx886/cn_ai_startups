@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "infinigence",
+  "name": "无问芯穹 Infinigence AI",
+  "aliases": [
+    "无问芯穹(Infinigence)",
+    "Infinigence"
+  ],
+  "category_id": "02",
+  "focus": "异构算力与AI原生基础设施",
+  "products": "M×N软硬协同、训推优化、Agent服务平台",
+  "locations_text": "上海、北京",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较单一模型API聚合，侧重多芯片/多模型协同及训练推理全链路；与基流的集群互联重心不同。",
+    "peer_names": [
+      "硅基流动",
+      "趋境科技",
+      "基流科技"
+    ]
+  },
+  "investment": {
+    "summary": "启明官网确认被投关系及2026年新轮融资；历轮还包括君联/社保中关村基金、洪泰、小米、联想等。2026年10月C轮另有红杉、腾讯、百度等，属媒体/数据库披露。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://www.infinigence-ai.com/",
+    "careers_url": "https://www.infinigence-ai.com/about-us.html",
+    "recruitment_email": "hr@infini-ai.com",
+    "other_email": "pre-sales@infini-ai.com",
+    "other_email_purpose": "业务咨询邮箱"
+  },
+  "notes": "邮箱用途官网明确；招聘页由about-us联系区进入，人力资源邮箱可直接使用。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "无问芯穹官方公司介绍",
+      "url": "https://www.infinigence-ai.com/about-us.html",
+      "supports": "产品、城市、HR与业务邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "启明官方被投访谈",
+      "url": "https://www.qimingvc.com/cn/news/启明星-无问芯穹夏立雪：打造“最高效的token工厂”",
+      "supports": "启明投资关系与融资",
+      "published_date": "2026-05",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "投资界C轮记录",
+      "url": "https://vc.pedaily.cn/invest/427290.html",
+      "supports": "2026年10月投资方名单",
+      "published_date": "2026-10-12",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "无问芯穹(Infinigence)",
+    "original_track": "02",
+    "original_subtrack": "异构推理加速与“Token工厂” (MaaS)"
+  }
+}

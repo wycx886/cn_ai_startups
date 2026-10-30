@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "galaxea",
+  "name": "星海图",
+  "aliases": [
+    "星海图(Galaxea)",
+    "Galaxea"
+  ],
+  "category_id": "08",
+  "focus": "整机、具身基础模型与开发平台",
+  "products": "R1 Pro / Lite；G0系列；A1机械臂；EDP",
+  "locations_text": "北京；苏州、深圳等岗位城市",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较只做模型或本体的团队，同时提供机器人平台、模型和开发生态；轮式双臂是重要产品形态。",
+    "peer_names": [
+      "银河通用；自变量机器人；智元机器人"
+    ]
+  },
+  "investment": {
+    "summary": "官网披露2025年A4/A5轮由美团、美团龙珠、今日资本领投；2026年官网列有B/B+轮融资进展。仅列可核实事件，不将原表全部机构默认视为当前股东。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://galaxea-ai.com/",
+    "careers_url": "https://www.galaxea-ai.com/zh/jobs.html",
+    "recruitment_email": "hr@galaxea.ai",
+    "other_email": "product@galaxea-ai.com",
+    "other_email_purpose": "产品咨询"
+  },
+  "notes": "邮箱为公开招聘渠道；岗位及开放状态以招聘页面为准。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "星海图官网新闻",
+      "url": "https://galaxea-ai.com/cn",
+      "supports": "A4/A5投资方",
+      "published_date": "2025-07-16",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "关于星海图",
+      "url": "https://www.galaxea-ai.com/zh/company.html",
+      "supports": "模型、本体与融资历史",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "加入星海图",
+      "url": "https://www.galaxea-ai.com/zh/jobs.html",
+      "supports": "招聘岗位与城市",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "星海图官方招聘站",
+      "url": "https://galaxea.zhiye.com/campus/jobs",
+      "supports": "hr@galaxea.ai",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "title": "星海图申请页",
+      "url": "https://galaxea-ai.com/zh/apply.html",
+      "supports": "产品联系邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "星海图(Galaxea)",
+    "original_track": "07",
+    "original_subtrack": "具身大模型（大脑/VLA）与通用操作"
+  }
+}

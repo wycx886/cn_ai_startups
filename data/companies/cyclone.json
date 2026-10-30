@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "cyclone",
+  "name": "弘玑 Cyclone",
+  "aliases": [
+    "弘玑Cyclone"
+  ],
+  "category_id": "06",
+  "focus": "企业行动智能体与超自动化",
+  "products": "弘玑知行平台、RPA、行动智能体、决策智能体",
+  "locations_text": "上海及国内外多地",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：与影刀邻近，但强调数据—模型—工具—智能体—应用的全栈治理和政企/金融行业方案。",
+    "peer_names": [
+      "影刀、来也科技、滴普科技"
+    ]
+  },
+  "investment": {
+    "summary": "融资资料记录经纬中国领投、DCM超额跟投，联想创投、源码、仁智参与；具体最新轮次以官方后续公告为准。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://www.cyclone-robotics.com/",
+    "careers_url": "https://www.cyclone-robotics.com/h-col-222.html",
+    "recruitment_email": "hr@cyclone-robotics.com",
+    "other_email": "marketing@cyclone-robotics.com",
+    "other_email_purpose": "市场合作"
+  },
+  "notes": "HR邮箱来源于2021年校招公开材料，现行有效性需确认；市场邮箱见经纬对公司介绍。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "弘玑官网",
+      "url": "https://www.cyclone-robotics.com/",
+      "supports": "当前产品框架",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "弘玑智联公司页",
+      "url": "https://www.zhaopin.com/companydetail/CZ284680080.htm",
+      "supports": "投资方、总部与招聘",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "上海交大弘玑宣讲会",
+      "url": "https://xsb.seiee.sjtu.edu.cn/xsb/detail/2494_2422.htm?nocache=1",
+      "supports": "公开投递邮箱",
+      "published_date": "2021-10-11",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "弘玑官方关于我们",
+      "url": "https://www.cyclone-robotics.com/h-col-222.html",
+      "supports": "包含当前加入我们栏目；邮箱仍是历史高校公开入口",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "弘玑Cyclone",
+    "original_track": "05",
+    "original_subtrack": "RPA超自动化与屏幕语义CUA数字员工"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "insilico",
+  "name": "英矽智能 Insilico Medicine",
+  "aliases": [
+    "英矽智能(Insilico)",
+    "Insilico"
+  ],
+  "category_id": "10",
+  "focus": "生成式AI药物发现平台与自研创新药管线",
+  "products": "Pharma.AI；PandaOmics；Chemistry42；inClinico",
+  "locations_text": "上海、香港、波士顿、阿布扎比等",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较晶泰的研发服务及实验室平台，英矽同时推进自有药物候选管线，商业化包含平台合作与药物授权。",
+    "peer_names": [
+      "晶泰科技；深势科技；百图生科"
+    ]
+  },
+  "investment": {
+    "summary": "官网列出的长期科技和医疗投资者包括华平、启明、药明康德、B Capital、Prosperity7、OrbiMed、Deerfield、兰亭、礼来亚洲、Eight Roads、百度风投、创新工场等。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://insilico.com/",
+    "careers_url": "https://insilico.com/careers_sc",
+    "recruitment_email": "career@insilico.com",
+    "other_email": "bd@insilicomedicine.com",
+    "other_email_purpose": "业务拓展"
+  },
+  "notes": "原表“多款新药临床II/III期”不作为本次更新结论；临床阶段须逐条查项目管线，避免把合作/授权与股权投资混淆。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "英矽关于我们",
+      "url": "https://insilico.com/about/",
+      "supports": "业务模式及投资者名单",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "英矽联系我们",
+      "url": "https://insilico.com/contact_sc",
+      "supports": "招聘、商务邮箱及城市",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "英矽加入我们",
+      "url": "https://insilico.com/careers_sc",
+      "supports": "招聘投递邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "英矽智能(Insilico)",
+    "original_track": "08",
+    "original_subtrack": "AI制药、生命科学大模型与微尺度研究"
+  }
+}

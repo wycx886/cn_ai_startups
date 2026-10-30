@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "datacanvas",
+  "name": "九章云极 DataCanvas",
+  "aliases": [
+    "九章云极(DataCanvas)",
+    "DataCanvas"
+  ],
+  "category_id": "02",
+  "focus": "AI基础软件与智算云",
+  "products": "数据科学平台、训推平台、智算云服务",
+  "locations_text": "北京、上海、济南、成都",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相比只提供芯片或API，覆盖企业数据科学工作流与AI基础软件，并扩展智算云。",
+    "peer_names": [
+      "无问芯穹",
+      "硅基流动",
+      "基流科技"
+    ]
+  },
+  "investment": {
+    "summary": "官网D1轮公告列中国电子旗下中电智慧基金、华民投、太平创新、东方嘉富、卓源资本；历史C+轮由龙门投资领投，达泰、领沨等跟投。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.datacanvas.com/",
+    "careers_url": "https://www.datacanvas.com/about/",
+    "recruitment_email": "hr@zetyun.com",
+    "other_email": "css@zetyun.com",
+    "other_email_purpose": "商务合作邮箱"
+  },
+  "notes": "邮箱为公开招聘渠道；具体岗位以招聘页为准。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "DataCanvas官方介绍",
+      "url": "https://www.datacanvas.com/about/",
+      "supports": "城市、业务与招聘/商务邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "官方D1轮融资公告",
+      "url": "https://www.datacanvas.com/news/338.html",
+      "supports": "投资方",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "官方C+轮融资公告",
+      "url": "https://www.datacanvas.com/news/468.html",
+      "supports": "历史投资方",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "九章云极(DataCanvas)",
+    "original_track": "02",
+    "original_subtrack": "AI智算网络、基础软件与AI芯片"
+  }
+}

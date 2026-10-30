@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "langboat",
+  "name": "澜舟科技 Langboat",
+  "aliases": [
+    "澜舟科技(孟子大模型)",
+    "孟子大模型"
+  ],
+  "category_id": "01",
+  "focus": "认知模型与企业智能体",
+  "products": "孟子大模型、LangClaw企业智能体OS、智库/智会/智搭",
+  "locations_text": "北京",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较纯通用聊天产品，围绕知识、会议和企业流程落地；同时有自研模型与企业Agent产品。",
+    "peer_names": [
+      "零一万物",
+      "Dify",
+      "智谱"
+    ]
+  },
+  "investment": {
+    "summary": "创新工场孵化；Eight Roads官网确认近亿元Pre-A由Eight Roads与联想创投联合领投、创新工场跟投。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.langboat.com/",
+    "careers_url": "https://www.langboat.com/about",
+    "recruitment_email": "hr@langboat.com",
+    "other_email": "bd@langboat.com",
+    "other_email_purpose": "商务合作邮箱"
+  },
+  "notes": "邮箱为公开招聘渠道；具体岗位以招聘页为准。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "澜舟官方介绍",
+      "url": "https://www.langboat.com/about",
+      "supports": "产品、孵化背景、招聘邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "澜舟官方联系页",
+      "url": "https://www.langboat.com/document/general/other/contact",
+      "supports": "招聘与商务邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "Eight Roads官方投资披露",
+      "url": "https://eightroads.com/cn/news/our-investment-in-langboat",
+      "supports": "Pre-A投资方",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "澜舟科技(孟子大模型)",
+    "original_track": "01",
+    "original_subtrack": "端侧大模型与垂直转型基座"
+  }
+}

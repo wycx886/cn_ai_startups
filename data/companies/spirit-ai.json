@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "spirit-ai",
+  "name": "千寻智能",
+  "aliases": [
+    "千寻智能(Spirit AI)",
+    "Spirit AI"
+  ],
+  "category_id": "08",
+  "focus": "具身大模型、数据与通用机器人",
+  "products": "具身模型；机器人本体与遥操作数据采集体系",
+  "locations_text": "杭州、北京、深圳",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较宇树的硬件产品线，千寻更强调多样性真实交互数据、模型学习与操作泛化。",
+    "peer_names": [
+      "自变量机器人；银河通用；星海图"
+    ]
+  },
+  "investment": {
+    "summary": "顺为资本官网披露与云锋基金联合领投融资，达晨财智、银河源汇、图灵基金、新鼎资本、庚辛资本等参与；公开机构库另记录多轮融资，轮次口径不一，不照抄原表A+轮金额。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://www.spirit-ai.com/",
+    "careers_url": "https://www.spirit-ai.com/career",
+    "recruitment_email": null,
+    "other_email": "sales@spirit-ai.com",
+    "other_email_purpose": "商业合作"
+  },
+  "notes": "未查到公开招聘邮箱；官网提供招聘岗位。原表2026年6月“15亿元A+轮”与外部库轮次口径有差异，改用明确来源的投资方背景。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "顺为资本动态",
+      "url": "https://shunwei.com/?taxonomy=&term=",
+      "supports": "千寻投资方与数据路线",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "千寻关于我们",
+      "url": "https://www.spirit-ai.com/about",
+      "supports": "办公地及商业邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "千寻加入我们",
+      "url": "https://www.spirit-ai.com/career",
+      "supports": "模型与机器人招聘方向",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "千寻智能(Spirit AI)",
+    "original_track": "07",
+    "original_subtrack": "具身大模型（大脑/VLA）与通用操作"
+  }
+}

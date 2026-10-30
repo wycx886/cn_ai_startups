@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "tec-do",
+  "name": "钛动科技 / Tec-Do",
+  "aliases": [
+    "钛动科技"
+  ],
+  "category_id": "07",
+  "focus": "全球效果营销与 AI 广告内容",
+  "products": "Tec-Creative；全球广告营销与AI投放服务",
+  "locations_text": "广州",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：与筷子内容生产平台相邻，但钛动同时覆盖全球媒体投放和营销服务，面向出海广告主的增长结果。",
+    "peer_names": [
+      "筷子科技、极睿科技"
+    ]
+  },
+  "investment": {
+    "summary": "2026-08公司新闻稿披露新一轮华泰泛大西洋领投，鲲鹏光远、广汽资本、金沙江等跟投；官网披露历史B轮。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.tec-do.com/",
+    "careers_url": "https://app.mokahr.com/social-recruitment/tec-do/46639?locale=zh-CN#/",
+    "recruitment_email": null,
+    "other_email": "Brand@tec-do.com",
+    "other_email_purpose": "媒体联络（非招聘）"
+  },
+  "notes": "未查到当前公开招聘投递邮箱，优先使用官方招聘入口。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "钛动官方企业介绍",
+      "url": "https://www.tec-do.com/about.html",
+      "supports": "产品、发展背景和媒体邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "钛动官方发布新闻稿",
+      "url": "https://www.globenewswire.com/news-release/2026/08/20/3348067/0/zh-hans/%E9%92%9B%E5%8A%A8%E7%A7%91%E6%8A%80%E5%AE%A3%E5%B8%83%E5%AE%8C%E6%88%90%E6%96%B0%E4%B8%80%E8%BD%AE%E8%9E%8D%E8%B5%84.html",
+      "supports": "投资背景",
+      "published_date": "2026-08-20",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "钛动领英职位页",
+      "url": "https://cn.linkedin.com/company/tecdocn/jobs",
+      "supports": "公开招聘入口",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "钛动官网加入我们",
+      "url": "https://www.tec-do.com/",
+      "supports": "当前官方Moka招聘链接",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "钛动科技",
+    "original_track": "06",
+    "original_subtrack": "跨境独立站Agent、AI客服与VOC洞察"
+  }
+}

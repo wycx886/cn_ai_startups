@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "kuaizi",
+  "name": "筷子科技 / Kuaizi",
+  "aliases": [
+    "筷子科技(Kuaizi.ai)",
+    "Kuaizi.ai"
+  ],
+  "category_id": "07",
+  "focus": "商业内容 AIGC 与广告创意自动化",
+  "products": "Kuaizi 企业内容生成平台、创意管理与批量视频",
+  "locations_text": "广州",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：与Vidu/PixVerse底层视频模型不同，面向商业广告工作流的生成、测试和素材管理；与极睿偏商品视觉不同。",
+    "peer_names": [
+      "极睿科技、爱诗科技"
+    ]
+  },
+  "investment": {
+    "summary": "金沙江官方被投页确认投资；36氪记录2024B轮金沙江等参与，2025-06 B+追远、海珠城发、赛意产业基金、清智参与。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://kuaizi.ai/",
+    "careers_url": "https://m.zhipin.com/companys/1daa18f2ebdeb5cd1nx-0tW4.html",
+    "recruitment_email": null,
+    "other_email": null,
+    "other_email_purpose": null
+  },
+  "notes": "未用工商财务邮箱及疑似代理QQ邮箱作为商务/招聘入口；原表ARR数字未纳入。；未查到通用招聘投递邮箱。；原档案/zh/pc/页面当前返回404，根域会跳转现行/en/pc/home。；页面对应广州筷子信息科技有限公司及Kuaizi.ai品牌。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "金沙江Kuaizi被投页",
+      "url": "https://gsrventuresglobal.com/details/kuaizi",
+      "supports": "投资关系和业务",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "36氪筷子档案",
+      "url": "https://pitchhub.36kr.com/project/1679679398531845",
+      "supports": "融资与官网",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "筷子官网根域",
+      "url": "https://kuaizi.ai/",
+      "supports": "现行官网跳转，避免旧目录404",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "BOSS筷子科技公司招聘页",
+      "url": "https://m.zhipin.com/companys/1daa18f2ebdeb5cd1nx-0tW4.html",
+      "supports": "招聘渠道与公司主体",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "筷子科技(Kuaizi.ai)",
+    "original_track": "06",
+    "original_subtrack": "电商AIGC商拍、直播切片与商业视频"
+  }
+}

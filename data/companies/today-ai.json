@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "today-ai",
+  "name": "此间无限 Today AI",
+  "aliases": [
+    "此间无限(Today AI)",
+    "Today AI"
+  ],
+  "category_id": "04",
+  "focus": "主动式个人Agent与长期记忆",
+  "products": "Today个人助手、日程/邮件/文档连接、主动提醒",
+  "locations_text": "上海；全球产品运营主体见应用商店新加坡公司",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：强调跨天持续记忆、上下文与主动行动，区别于Manus/Genspark一次性任务委派与交付工作流。",
+    "peer_names": [
+      "Manus",
+      "Flowith",
+      "Genspark"
+    ]
+  },
+  "investment": {
+    "summary": "2026年3月天使融资公开报道列IDG与阶跃星辰。原表后续腾讯、五源等大额融资名单未在本轮以官方公告核定，不沿用为确认投资人。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://today.ai/",
+    "careers_url": "https://weibo.com/2/detail/5348624412445354",
+    "recruitment_email": "hr@today.ai",
+    "other_email": "support@today.ai",
+    "other_email_purpose": "用户支持邮箱（非招聘）"
+  },
+  "notes": "careersUrl为官方微博招聘帖，并非独立招聘站；未把支持邮箱用作投递。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "36氪转载IT桔子：此间无限",
+      "url": "https://www.36kr.com/p/3719509378512261",
+      "supports": "早期投资背景",
+      "published_date": "2026-03-12",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "Today_AI官方招募",
+      "url": "https://weibo.com/2/detail/5348624412445354",
+      "supports": "hr@today.ai公开招聘",
+      "published_date": "2026-09-29",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "Today官方产品介绍",
+      "url": "https://today.ai/articles/blog/what-is-today",
+      "supports": "长期记忆/主动Agent",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "Today官方支持",
+      "url": "https://today.ai/support?language=en",
+      "supports": "support邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "此间无限(Today AI)",
+    "original_track": "03",
+    "original_subtrack": "通用执行Agent与个人主动式助理"
+  }
+}

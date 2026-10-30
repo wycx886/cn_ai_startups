@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "recurrent-ai",
+  "name": "循环智能 / Recurrent AI",
+  "aliases": [
+    "循环智能(Recurrent AI)",
+    "Recurrent AI"
+  ],
+  "category_id": "06",
+  "focus": "销售智能与对话分析",
+  "products": "SalesMate、智能工牌、会话洞察、质检",
+  "locations_text": "北京、上海、深圳、成都及海外",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：与客服自动接待平台不同，更偏销售人员与客户沟通数据的洞察、辅导和销售过程管理。",
+    "peer_names": [
+      "乐言科技、晓多科技、Shulex"
+    ]
+  },
+  "investment": {
+    "summary": "官网里程碑披露B轮博裕和红杉中国联合领投；36氪历史档案还列金沙江、靖亚、真格、万物等。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.rcrai.com/",
+    "careers_url": "https://www.rcrai.com/about-us/about",
+    "recruitment_email": "hr@rcrai.com",
+    "other_email": "market@rcrai.com",
+    "other_email_purpose": "商务/市场合作"
+  },
+  "notes": null,
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "循环智能官网关于我们",
+      "url": "https://www.rcrai.com/about-us/about",
+      "supports": "B轮领投、城市、HR及商务邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "36氪循环智能档案",
+      "url": "https://pitchhub.36kr.com/project/1745257247972481",
+      "supports": "历史投资方",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "循环智能(Recurrent AI)",
+    "original_track": "05",
+    "original_subtrack": "法律、金融、销售与编程垂直Agent"
+  }
+}

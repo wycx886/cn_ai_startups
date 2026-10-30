@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "metax",
+  "name": "沐曦股份 MetaX",
+  "aliases": [
+    "沐曦股份"
+  ],
+  "category_id": "02",
+  "focus": "全栈GPU芯片与计算平台",
+  "products": "GPU芯片、AI训练推理、图形渲染及AI4S计算平台",
+  "locations_text": "上海；另有北京、南京、成都、深圳、杭州、武汉、香港、长沙",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：官网同时覆盖训推、渲染、科学计算；相较推理云公司，商业核心是GPU芯片及软硬件生态。",
+    "peer_names": [
+      "壁仞科技",
+      "摩尔线程",
+      "燧原科技"
+    ]
+  },
+  "investment": {
+    "summary": "官网历史A轮公告：国调基金、中网投联合领投，经纬、和利、红杉、光速超额投资，上海科创、联想创投等跟投；官网确认2025年12月科创板上市。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.metax-tech.com/",
+    "careers_url": "https://www.metax-tech.com/join",
+    "recruitment_email": null,
+    "other_email": "Business@metax-tech.com",
+    "other_email_purpose": "商务合作邮箱（IR另为ir@metax-tech.com）"
+  },
+  "notes": "未查到可核验的公开招聘投递邮箱；优先使用招聘入口。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "沐曦官方A轮公告",
+      "url": "https://www.metax-tech.com/en/ndetail/29.html",
+      "supports": "历史投资方",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "沐曦官方介绍",
+      "url": "https://www.metax-tech.com/en/about/about.html",
+      "supports": "产品、上市、办公城市",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "沐曦官方联系",
+      "url": "https://www.metax-tech.com/contact.html",
+      "supports": "商务邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "沐曦官方招聘",
+      "url": "https://www.metax-tech.com/join",
+      "supports": "社招入口",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "沐曦股份",
+    "original_track": "02",
+    "original_subtrack": "AI智算网络、基础软件与AI芯片"
+  }
+}

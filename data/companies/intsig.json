@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "intsig",
+  "name": "合合信息 / Intsig",
+  "aliases": [
+    "合合信息"
+  ],
+  "category_id": "06",
+  "focus": "文档智能、OCR 与商业数据 AI",
+  "products": "扫描全能王、名片全能王、启信宝；企业文档解析",
+  "locations_text": "上海",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：与幂律只做法律合同不同，覆盖通用文档识别和商业数据，C端应用与B端标准化能力并行。",
+    "peer_names": [
+      "幂律智能、来也科技"
+    ]
+  },
+  "investment": {
+    "summary": "历史机构股东包括经纬（杭州）创投、东方富海（芜湖）及东方富海二号等，见2024-09招股说明书及2025年报披露；2024-09登陆科创板（688615.SH），应区分上市前投资与当前持仓。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.intsig.com/",
+    "careers_url": "https://intsig.zhiye.com/social/jobs",
+    "recruitment_email": null,
+    "other_email": "ir@intsig.net",
+    "other_email_purpose": "投资者关系（非招聘）"
+  },
+  "notes": "未查到当前公开招聘投递邮箱，优先使用官方招聘入口。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "合合信息官方投资者关系",
+      "url": "https://www.intsig.com/investor-relation",
+      "supports": "上市、产品与IR邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "合合信息官网加入我们",
+      "url": "https://www.intsig.com/join",
+      "supports": "当前社招、校招、实习入口",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "合合信息2025年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-03-17/1225013125.PDF",
+      "supports": "机构股东法定名称",
+      "published_date": "2026-03-17",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "合合信息招股说明书",
+      "url": "https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2024-09-23/688615_20240923_A0D6.pdf",
+      "supports": "历史投资方与股权",
+      "published_date": "2024-09-23",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "合合信息",
+    "original_track": "05",
+    "original_subtrack": "法律、金融、销售与编程垂直Agent"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "minimax",
+  "name": "MiniMax",
+  "aliases": [
+    "稀宇科技MiniMax(0100.HK)",
+    "0100.HK"
+  ],
+  "category_id": "01",
+  "focus": "多模态基础模型与全球消费应用",
+  "products": "MiniMax 模型/API、海螺AI、Talkie/星野",
+  "locations_text": "上海、北京",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：同时做底层模型、音视频生成和消费产品；与面壁的端侧小模型路线、百川的医疗聚焦不同。",
+    "peer_names": [
+      "智谱",
+      "月之暗面",
+      "百川智能"
+    ]
+  },
+  "investment": {
+    "summary": "2026年1月港股上市；招股书相关报道确认阿里、米哈游、IDG、腾讯等历史投资方。此为部分投资背景，不等同完整当前股东表。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://www.minimax.io/",
+    "careers_url": "https://www.minimax.io/careers",
+    "recruitment_email": null,
+    "other_email": "ir@minimax.io",
+    "other_email_purpose": "投资者关系邮箱（非招聘）"
+  },
+  "notes": "未查到可核验的公开招聘投递邮箱；优先使用招聘入口。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "MiniMax官方招聘",
+      "url": "https://www.minimax.io/careers",
+      "supports": "官方投递入口与模型/产品方向",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "MiniMax公司报告",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0422/2026042202119_c.pdf",
+      "supports": "IR邮箱",
+      "published_date": "2026-04-22",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "第一财经全球：MiniMax上市",
+      "url": "https://www2.yicaiglobal.com/news/chinese-ai-startup-minimaxs-stock-pops-in-hong-kong-trading-debut",
+      "supports": "投资方与消费产品",
+      "published_date": "2026-01-09",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "稀宇科技MiniMax(0100.HK)",
+    "original_track": "01",
+    "original_subtrack": "通用基座大模型 (“AI四小强”+开源旗舰)"
+  }
+}

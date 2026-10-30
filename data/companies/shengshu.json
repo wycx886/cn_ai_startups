@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "shengshu",
+  "name": "生数科技 / Vidu",
+  "aliases": [
+    "生数科技(Vidu)",
+    "Vidu"
+  ],
+  "category_id": "05",
+  "focus": "视频生成与世界模型",
+  "products": "Vidu；世界动作模型 Motubrain",
+  "locations_text": "北京",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：与 PixVerse 同属视频模型厂商；生数同时向机器人动作/物理世界模型延伸，区别于仅提供短剧消费 App 的井英。",
+    "peer_names": [
+      "爱诗科技、井英科技"
+    ]
+  },
+  "investment": {
+    "summary": "2026-04 B轮由阿里云领投，中网投、九安海棠、好未来、光合创投等参与；早期股东含启明创投、BV百度风投、星连、达泰等。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.genspi.com/zh/",
+    "careers_url": "https://shengshu.jobs.feishu.cn/index/",
+    "recruitment_email": "hr@shengshu.ai",
+    "other_email": "marketing@shengshu.ai",
+    "other_email_purpose": "市场商务合作"
+  },
+  "notes": "hr@shengshu.ai 出现在官方招聘隐私摘要；职位状态以招聘系统为准。旧域名 shengshu.com 已出现 genspi.com 官方站。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "生数官方新闻",
+      "url": "https://www.genspi.com/zh/news/",
+      "supports": "产品与融资日期",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "生数科技完成近20亿元B轮融资",
+      "url": "https://www.ncsti.gov.cn/kjdt/scyq/zgckxc/zgcdt/202604/t20260414_243817.html",
+      "supports": "投资方",
+      "published_date": "2026-04-14",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "生数官网隐私摘要",
+      "url": "https://www.genspi.com/zh/privacy-summary/",
+      "supports": "招聘平台与HR联络邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "生数官网页脚与加入我们",
+      "url": "https://www.genspi.com/zh/",
+      "supports": "现行官方招聘链接及marketing邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "生数科技(Vidu)",
+    "original_track": "04",
+    "original_subtrack": "AI视频生成与世界模型"
+  }
+}

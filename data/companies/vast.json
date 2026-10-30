@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "vast",
+  "name": "VAST / Tripo",
+  "aliases": [
+    "VAST(Tripo 3D)",
+    "Tripo 3D"
+  ],
+  "category_id": "05",
+  "focus": "3D 生成基础模型与创作工作台",
+  "products": "Tripo 基础模型、Tripo Studio、API",
+  "locations_text": "北京、上海、杭州、深圳",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：与影眸同为3D生成；VAST以原生3D资产生成和工作台/接口为中心，和魔珐以数字人视频及直播为中心的产品不同。",
+    "peer_names": [
+      "影眸科技、魔珐科技"
+    ]
+  },
+  "investment": {
+    "summary": "恒旭资本官方2026-09披露B及B+轮经纬领投，产业方包括完美世界、蓝色光标等，老股东含达晨、春华、绿洲、渶策等。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.vastworld.ai/",
+    "careers_url": "https://www.vastworld.ai/research#careers",
+    "recruitment_email": "careers@vastai3d.com",
+    "other_email": "enterprise@vastai3d.com",
+    "other_email_purpose": "企业销售"
+  },
+  "notes": "官方联系页为careers复数；高校/人社历史招聘稿另有career单数，优先官方现行地址。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "VAST官方联系页",
+      "url": "https://www.vastworld.ai/contact",
+      "supports": "官网、城市、商务及招聘邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "恒旭伙伴 VAST融资",
+      "url": "https://www.hengxucapital.com/index.php?c=show&id=729",
+      "supports": "B/B+轮投资背景",
+      "published_date": "2026-09-02",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "VAST官网导航",
+      "url": "https://www.vastworld.ai/",
+      "supports": "当前Careers跳转至官方research页面",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "VAST(Tripo 3D)",
+    "original_track": "04",
+    "original_subtrack": "AI 3D生成、数字人与视觉设计工作流"
+  }
+}

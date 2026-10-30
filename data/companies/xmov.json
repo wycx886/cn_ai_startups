@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "xmov",
+  "name": "魔珐科技 / Xmov",
+  "aliases": [
+    "魔珐科技(Xmov)",
+    "Xmov"
+  ],
+  "category_id": "05",
+  "focus": "3D 数字人视频、直播与交互智能体",
+  "products": "魔珐有言、有光、有灵、星云开放平台",
+  "locations_text": "上海",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较 Tripo/Rodin 生成可交付3D资产，魔珐直接交付会表达、直播和交互的数字人应用及开放能力。",
+    "peer_names": [
+      "影眸科技、VAST、硅基智能"
+    ]
+  },
+  "investment": {
+    "summary": "36氪档案确认A轮红杉中国、五源、头头是道；2022年C轮报道为软银愿景基金、北极光、指数资本，勿误记为红点。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://www.xmov.ai/",
+    "careers_url": "https://www.yupao.com/qiye/1846165860981542987.html",
+    "recruitment_email": null,
+    "other_email": "business@xmov.ai",
+    "other_email_purpose": "商务合作"
+  },
+  "notes": "未查到通用招聘投递邮箱。；第三方招聘平台页，主体为魔珐（上海）信息科技；非公司自建官招站。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "魔珐官网",
+      "url": "https://www.xmov.ai/",
+      "supports": "产品、总部、商务邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "36氪魔珐档案",
+      "url": "https://pitchhub.36kr.com/project/1688024582505735",
+      "supports": "A轮历史投资方",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "2022年元宇宙研究融资表",
+      "url": "https://13115299.s21i.faiusr.com/61/1/ABUIABA9GAAgyZ3llQYo48mJ0wY.pdf",
+      "supports": "C轮背景",
+      "published_date": "2022-05",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "鱼泡魔珐科技Xmov公司页",
+      "url": "https://www.yupao.com/qiye/1846165860981542987.html",
+      "supports": "招聘渠道与公司主体",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "魔珐科技(Xmov)",
+    "original_track": "04",
+    "original_subtrack": "AI 3D生成、数字人与视觉设计工作流"
+  }
+}

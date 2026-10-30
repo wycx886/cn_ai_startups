@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "tars",
+  "name": "它石智航",
+  "aliases": [
+    "它石智航(TARS)",
+    "TARS"
+  ],
+  "category_id": "08",
+  "focus": "物理AI、通用具身模型及软硬一体机器人",
+  "products": "AWE具身模型；A1机器人；Human-centric数据体系",
+  "locations_text": "上海",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较以机器人遥操作为中心的数据路线，公开材料强调以人为中心的数据和模型、本体、应用三线闭环。",
+    "peer_names": [
+      "自变量机器人；银河通用；千寻智能"
+    ]
+  },
+  "investment": {
+    "summary": "2026-04-16 Pre-A轮由高瓴创投、红杉中国、美团战投联合领投；恒旭资本官方确认追加投资，其他参与方含美团龙珠、中金资本、北京机器人产业基金、上海国投先导等。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.tarsrobot.com/",
+    "careers_url": "https://tarsrobot.jobs.feishu.cn/021343/",
+    "recruitment_email": null,
+    "other_email": null,
+    "other_email_purpose": "未查到公开邮箱"
+  },
+  "notes": "未查到公开招聘邮箱，使用高校发布的公司官方飞书投递入口；tarsrobot.com 本轮读取超时。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "恒旭资本投资公告",
+      "url": "https://eng.hengxucapital.com/index.php?c=show&id=539",
+      "supports": "投资背景及技术路线",
+      "published_date": "2026-04-16",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "它石智航2027校招",
+      "url": "https://job.ustc.edu.cn/Recruitment/info.aspx?itemid=80004",
+      "supports": "官方投递入口、产品及公司信息",
+      "published_date": "2026-08-17",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "它石智航(TARS)",
+    "original_track": "07",
+    "original_subtrack": "具身大模型（大脑/VLA）与通用操作"
+  }
+}

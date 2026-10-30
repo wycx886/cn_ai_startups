@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "baichuan",
+  "name": "百川智能 Baichuan",
+  "aliases": [
+    "百川智能(AI医疗转型)",
+    "AI医疗转型"
+  ],
+  "category_id": "01",
+  "focus": "医疗增强模型与AI家庭医生",
+  "products": "百小医、Baichuan-M3、模型API",
+  "locations_text": "北京",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：与通用助手公司相比，当前官网明确聚焦就医准备、医嘱解读和家庭健康管理。",
+    "peer_names": [
+      "智谱",
+      "月之暗面",
+      "面壁智能"
+    ]
+  },
+  "investment": {
+    "summary": "2024年7月A轮公司向第一财经确认投资方含阿里、小米、腾讯、亚投、中金，以及北京/上海AI产业基金、深创投等。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://www.baichuan-ai.com/",
+    "careers_url": "https://careers.baichuan-inc.com/",
+    "recruitment_email": null,
+    "other_email": "bd@baichuan-inc.com",
+    "other_email_purpose": "商务联系（非招聘；公开档案所列）"
+  },
+  "notes": "未查到可核验的公开招聘投递邮箱；优先使用招聘入口。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "百川官方产品页",
+      "url": "https://www.baichuan-ai.com/",
+      "supports": "医疗产品方向",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "百川官方招聘",
+      "url": "https://careers.baichuan-inc.com/",
+      "supports": "社招/校招/实习入口",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "第一财经：百川A轮",
+      "url": "https://www.yicai.com/news/102205877.html",
+      "supports": "公司确认投资方",
+      "published_date": "2024-07-25",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "Crunchbase百川档案",
+      "url": "https://www.crunchbase.com/organization/baichuan-intelligence",
+      "supports": "bd商务邮箱（第三方）",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "百川智能(AI医疗转型)",
+    "original_track": "01",
+    "original_subtrack": "端侧大模型与垂直转型基座"
+  }
+}

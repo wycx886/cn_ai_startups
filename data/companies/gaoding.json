@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "gaoding",
+  "name": "稿定科技 / 稿定设计",
+  "aliases": [
+    "稿定科技"
+  ],
+  "category_id": "05",
+  "focus": "商业视觉设计与 AI 内容工具",
+  "products": "稿定设计、稿定AI、营销设计模板；咔神自动拍摄",
+  "locations_text": "厦门、深圳、杭州",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：与即时设计面向产研UI协作不同，主要解决非专业设计者的海报、电商和品牌营销素材生产。",
+    "peer_names": [
+      "即时设计、LiblibAI"
+    ]
+  },
+  "investment": {
+    "summary": "未找到可可靠确认的官方投资方及轮次；招聘平台曾列“不需要融资”，与部分SEO站的C轮/被收购说法冲突，不采纳后者。",
+    "verification_status": "not_found"
+  },
+  "contacts": {
+    "website": "https://www.gaoding.com/",
+    "careers_url": "https://app.mokahr.com/m/recommendation-apply/huanleguang/1955",
+    "recruitment_email": null,
+    "other_email": null,
+    "other_email_purpose": null
+  },
+  "notes": "招聘链接为2021年公开招聘稿的历史入口，当前开放状态待核实；不采用美图收购等未证实说法。；未查到当前公开招聘投递邮箱，优先使用官方招聘入口。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "稿定旗下咔神官网",
+      "url": "https://carson.gaoding.com/cooperation",
+      "supports": "商业内容工具与合作入口",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "牛客稿定企业页",
+      "url": "https://www.nowcoder.com/enterprise/2336",
+      "supports": "招聘主体与融资标签，非融资公告",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "稿定团队历史招聘帖",
+      "url": "https://edge.v2ex.com/t/789028",
+      "supports": "公司与Moka招聘入口",
+      "published_date": "2021-07-12",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "稿定科技",
+    "original_track": "04",
+    "original_subtrack": "AI 3D生成、数字人与视觉设计工作流"
+  }
+}

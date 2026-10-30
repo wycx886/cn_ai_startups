@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "dify",
+  "name": "Dify / LangGenius",
+  "aliases": [
+    "Dify.AI(苏州语灵)",
+    "苏州语灵"
+  ],
+  "category_id": "03",
+  "focus": "开源LLM应用开发与Agent编排平台",
+  "products": "Dify Workflow、Agent、RAG、模型管理、企业版",
+  "locations_text": "Menlo Park总部、东京、苏州、上海；部分岗位远程",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：是给开发者和企业搭建应用的底座，区别于Manus/Genspark直接提供通用个人Agent成品；不宜只归入消费Agent。",
+    "peer_names": [
+      "澜舟科技",
+      "零一万物",
+      "Manus"
+    ]
+  },
+  "investment": {
+    "summary": "官网2026年Pre-A公告：3000万美元由HSG领投，GL Ventures、Alt-Alpha、5Y、Mizuho Leaguer、NYX参与。原表阿里云/绿洲/线性等未据该公告证实。",
+    "verification_status": "confirmed_disclosure"
+  },
+  "contacts": {
+    "website": "https://dify.ai/",
+    "careers_url": "https://join.dify.ai/",
+    "recruitment_email": "joinus@dify.ai",
+    "other_email": "business@dify.ai",
+    "other_email_purpose": "合作伙伴/商务邮箱"
+  },
+  "notes": "更正原表“苏州总部”：当前官方招聘页标Menlo Park HQ，苏州Engineering、上海GTM；苏州语灵仅是原表中国主体称呼，不能等同全球总部。",
+  "checked_at": "2026-10-30",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "Dify官方融资公告",
+      "url": "https://dify.ai/blog/dify-raises-30m-tomorrow-s-organizations-will-be-built-by-people-and-agents",
+      "supports": "2026年Pre-A投资方",
+      "published_date": "2026-03",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "Dify官方招聘",
+      "url": "https://join.dify.ai/",
+      "supports": "joinus邮箱、城市、总部与岗位",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "Dify官方伙伴计划",
+      "url": "https://dify.ai/partners",
+      "supports": "business邮箱与服务伙伴定位",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "provenance": {
+    "original_name": "Dify.AI(苏州语灵)",
+    "original_track": "03",
+    "original_subtrack": "LLM应用/Agent开源开发平台與AI搜索"
+  }
+}
