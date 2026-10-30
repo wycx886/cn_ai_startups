@@ -37,9 +37,28 @@ def main():
   if not contact['careers_url'] or not contact['recruitment_email']:assert c['notes'],'Missing contact needs a note: '+c['id']
  assert len(records)==len({c['id'] for c in records}),'Duplicate company ID'
  assert len(records)==len({c['provenance']['original_name'] for c in records}),'Duplicate imported identity; review merge'
+ investor_paths=sorted((ROOT/'data/investors').glob('*.json'))
+ if investor_paths:
+  investor_schema=load(ROOT/'schemas/investor.schema.json');Draft202012Validator.check_schema(investor_schema)
+  investors=[]
+  for path in investor_paths:
+   validate_schema(path,investor_schema);c=load(path);investors.append(c)
+   assert c['id']==path.stem,'Investor ID does not match filename'
+   assert iso_day(c['checked_at'])<=TODAY,'Future investor check: '+c['id']
+   if c['founded']['year'] is not None:assert c['founded']['year']<=iso_day(c['checked_at']).year,'Future foundation year'
+   source_ids=[x['id'] for x in c['sources']]
+   assert len(source_ids)==len(set(source_ids)),'Duplicate investor source ID'
+   for source in c['sources']:
+    assert iso_day(source['checked_at'])<=iso_day(c['checked_at']),'Investor source check newer than record'
+    if source['published_date']:assert iso_day(source['published_date'])<=iso_day(source['checked_at']),'Source published after check'
+   for case in c['representative_cases']:assert set(case['evidence_source_ids'])<=set(source_ids),'Case refers to missing source'
+   if c['contacts']['other_email']:assert c['contacts']['other_email_purpose'],'Other investor email needs a purpose'
+  assert len(investors)==len({c['id'] for c in investors}),'Duplicate investor ID'
+  assert len(investors)==len({c['name'] for c in investors}),'Duplicate institution name'
+  print('Validated %d investor institutions and %d investor source records.'%(len(investors),sum(len(c['sources']) for c in investors)))
  if args.check_generated:
   subprocess.run([sys.executable,str(ROOT/'scripts/build.py'),'--check'],check=True)
-  for path in [ROOT/'README.md',ROOT/'taxonomy.md',ROOT/'docs/data-model.md',*sorted((ROOT/'companies').glob('*.md'))]:
+  for path in [ROOT/'README.md',ROOT/'taxonomy.md',ROOT/'docs/data-model.md',ROOT/'docs/investor-methodology.md',*sorted((ROOT/'companies').glob('*.md')),*sorted((ROOT/'investors').glob('*.md'))]:
    for target in re.findall(r'\[[^\]]+\]\(([^)]+)\)',path.read_text()):
     if target.startswith(('https://','http://','mailto:','#')):continue
     target=target.split('#',1)[0];resolved=(path.parent/target).resolve()

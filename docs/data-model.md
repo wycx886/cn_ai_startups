@@ -42,3 +42,9 @@
 Agent 应从 [index.json](../data/index.json) 定位需要的记录，再读取单家公司文件。若按文本检索投资方，可以使用 `scripts/query.py --text`；投资方目前保留在有来源的叙述中，不把未经人工确认的名称提取结果当作精确股东关系。
 
 JSON Schema 和 CI 校验结构、日期、关联 ID 和生成同步；不能验证网页当前内容、邮件可达性、招聘开放状态或披露真实性，这些需要实际重查。
+
+## VC 机构资料
+
+机构资料独立放在 `data/investors/*.json`，契约见 [investor.schema.json](../schemas/investor.schema.json)，筛选与归因见 [investor-methodology.md](investor-methodology.md)。机构不是被投企业，不混入原有 79 家公司数据。
+
+机构字段包含成立年份及其口径、团队原平台、方向与阶段、原平台/本机构案例、近期活动、编辑分析、公开渠道和来源。阅读索引、机构 Markdown 和两个机构 CSV 同样由 `scripts/build.py` 自动生成。

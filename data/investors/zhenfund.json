@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "id": "zhenfund",
+  "name": "真格基金（ZhenFund）",
+  "aliases": [
+    "ZhenFund"
+  ],
+  "group": "established",
+  "coverage": {
+    "role": "main",
+    "reason": "团队或机构背景、具名案例和近期活动有公开出处，列入主要研究样本；不表示基金收益已核实。"
+  },
+  "founded": {
+    "year": 2011,
+    "basis": "官网中文机构介绍及团队自述。"
+  },
+  "team": [
+    {
+      "name": "徐小平",
+      "role": "创始人",
+      "previous_firms": [],
+      "background": "新东方联合创始人；新东方上市后开展天使投资。"
+    },
+    {
+      "name": "王强",
+      "role": "联合创始人",
+      "previous_firms": [],
+      "background": "新东方联合创始人。"
+    },
+    {
+      "name": "方爱之",
+      "role": "创始合伙人",
+      "previous_firms": [],
+      "background": null
+    },
+    {
+      "name": "戴雨森",
+      "role": "管理合伙人",
+      "previous_firms": [],
+      "background": "聚美优品联合创始人，2017年加入真格；官网自述关注AI。"
+    }
+  ],
+  "focus": "以人为起点的早期科技投资；AI模型、Agent、机器人、芯片等均有案例。",
+  "stage": "天使及早期；不将全部组合公司后续大额轮次都视为其参与。",
+  "representative_cases": [
+    {
+      "company": "小红书",
+      "attribution": "current_firm",
+      "investor_or_team": "真格基金",
+      "outcome": "官网称从早期陪伴；本条不为未上市公司计算回报。",
+      "evidence_source_ids": [
+        "s01"
+      ]
+    },
+    {
+      "company": "地平线",
+      "attribution": "current_firm",
+      "investor_or_team": "真格基金",
+      "outcome": "官网列为早期陪伴及上市公司案例。",
+      "evidence_source_ids": [
+        "s01"
+      ]
+    },
+    {
+      "company": "非夕科技（Flexiv）",
+      "attribution": "current_firm",
+      "investor_or_team": "真格基金",
+      "outcome": "真格2026年署名文章确认2017年参与A轮并持续陪伴。",
+      "evidence_source_ids": [
+        "s03"
+      ]
+    }
+  ],
+  "recent_activity": "2026-03-09真格署名文章披露非夕新一轮融资并说明2017年参与A轮；文章泛称老股东跟投，未逐一确认真格本轮出资，故仅作为当前组合与投后活动证据。官网旧版索引另有2026-01-12未来不远天使项目融资新闻。",
+  "why_follow": "编辑分析：适合观察创始人尚早、产品路线仍在形成时的判断，AI模型和Agent案例覆盖较广。",
+  "difference": "编辑分析：相较以成长轮和并购为主的平台，真格更侧重天使阶段人才判断；创始人的创业经历和机构投资成绩应分别看待。",
+  "contacts": {
+    "website": "https://www.zhenfund.com/",
+    "careers_url": "https://zhenfund.jobs.feishu.cn/",
+    "recruitment_email": null,
+    "other_email": "dream@zhenfund.com",
+    "other_email_purpose": "BP投递；media@zhenfund.com为媒体咨询，均非招聘邮箱"
+  },
+  "notes": "公开招聘入口不代表具体岗位始终开放。未将戴雨森作为聚美创业者的经历当作其在真格任内投资。",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "真格基金介绍",
+      "url": "https://www.zhenfund.com/zh/about",
+      "supports": "2011年成立、早期投资及小红书、地平线等案例",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "真格团队",
+      "url": "https://www.zhenfund.com/team",
+      "supports": "创始人、方爱之和戴雨森职衔、背景及AI关注",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "真格早期项目非夕科技完成新一轮融资",
+      "url": "https://finance.sina.com.cn/wm/2026-03-09/doc-inhqksxs0737357.shtml",
+      "supports": "真格署名2026文章；确认2017年参与非夕A轮",
+      "published_date": "2026-03-09",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "真格官方首页",
+      "url": "https://www.zhenfund.com/en",
+      "supports": "BP与媒体邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "title": "真格关于与工作机会",
+      "url": "https://www.zhenfund.com/en/about",
+      "supports": "官方链接到真格飞书招聘入口",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "checked_at": "2026-10-30"
+}

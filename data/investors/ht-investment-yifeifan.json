@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "ht-investment-yifeifan",
+  "name": "HT Investment",
+  "aliases": [
+    "HT investment（易飞凡）"
+  ],
+  "group": "emerging",
+  "coverage": {
+    "role": "adjacent",
+    "reason": "全球华人美元VC样本，机构注册主体及中国境内管理人身份未核定。"
+  },
+  "founded": {
+    "year": 2025,
+    "basis": "IT桔子将其列入2025年资深VC投资人独立创业样本；未找到官方品牌成立日及法律主体注册信息，年份可信度低于官方明确声明的机构。"
+  },
+  "team": [
+    {
+      "name": "易飞凡",
+      "role": "创始合伙人",
+      "previous_firms": [
+        "达晨创投",
+        "光远资本"
+      ],
+      "background": "曾任达晨投资总监、娱乐媒体基金合伙人及光远资本董事总经理；这些职位来自公开媒体梳理，未取得新机构官方履历页。"
+    }
+  ],
+  "focus": "AI驱动科技；社交娱乐；全球化应用",
+  "stage": "天使轮",
+  "representative_cases": [
+    {
+      "company": "云途腾",
+      "attribution": "prior_firm",
+      "investor_or_team": "易飞凡／原达晨创投时期",
+      "outcome": "IT桔子列为其原平台主导投资经历；未核实退出或回报。",
+      "evidence_source_ids": [
+        "s01"
+      ]
+    },
+    {
+      "company": "极致上下文科技（Apex Context）",
+      "attribution": "current_firm",
+      "investor_or_team": "HT Investment",
+      "outcome": "2025-10-29据BV百度风投消息，项目获HT Investment与BV数百万美元投资；IT桔子将本次投资与易飞凡的新机构对应。",
+      "evidence_source_ids": [
+        "s01",
+        "s02"
+      ]
+    }
+  ],
+  "recent_activity": "2025年投资Apex Context；2026年10月该项目被报道获得后续融资，属于组合公司进展，不能据此认定HT参与新轮或已实现退出。",
+  "why_follow": "已有独立投资案例，但需附身份与地域限制。资深中国VC投资人创立的全球美元基金，与中国AI创业团队相关；未核定为中国境内备案管理人。",
+  "difference": "媒体定位为源自硅谷、布局全球的美元基金，围绕AI与社交娱乐，适合与纯境内人民币新GP分开筛选。",
+  "contacts": {
+    "website": null,
+    "careers_url": null,
+    "recruitment_email": null,
+    "other_email": null,
+    "other_email_purpose": null
+  },
+  "notes": "属于中国投资人及中国AI创业生态相关样本，不将其描述为已验证中国境内管理人。；HT名称存在台湾、新加坡及其他同名实体；没有足够身份证据，未沿用其网站或邮箱。；成立年份及团队履历仍以媒体线索为主，机构官方身份材料待补。；不把原达晨项目或组合后续融资当作新基金已实现业绩。",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "VC新势力：2025年他们告别五源、达晨，自立门户｜IT桔子",
+      "url": "https://t.cj.sina.com.cn/articles/view/3276673424/c34e119001901ika0",
+      "supports": "2025年新机构样本；易飞凡履历及云途腾；HT与Apex Context对应；全球美元基金定位",
+      "published_date": "2025-12-18",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "极致上下文科技完成数百万美元投资｜界面新闻",
+      "url": "https://finance.eastmoney.com/a/202510293548414141.html",
+      "supports": "据BV消息HT Investment与BV共同投资Apex Context",
+      "published_date": "2025-10-29",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "Apex Context后续融资｜科创板日报",
+      "url": "https://longbridge.com/zh-CN/news/302382916",
+      "supports": "2026年组合公司后续融资；回溯2025年HT与BV投资",
+      "published_date": "2026-10-20",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "checked_at": "2026-10-30"
+}

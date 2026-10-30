@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "yueqian-capital-zhenghualiang",
+  "name": "跃迁资本（郑华良）",
+  "aliases": [
+    "杭州跃迁私募基金管理有限公司"
+  ],
+  "group": "emerging",
+  "coverage": {
+    "role": "watchlist",
+    "reason": "新机构投资主要来自创始人口述，尚未获得标的方或对应轮次交叉确认。"
+  },
+  "founded": {
+    "year": 2025,
+    "basis": "IT桔子报道管理公司成立于2025-07-08；创始人2026年公开演讲确认新机构于2025年下半年取得展业牌照。"
+  },
+  "team": [
+    {
+      "name": "郑华良",
+      "role": "创始合伙人",
+      "previous_firms": [
+        "敦鸿资产",
+        "凯泰资本"
+      ],
+      "background": "原敦鸿资产董事总经理、凯泰资本执行总裁；2017年中国新闻网报道可独立核实凯泰时期职位。"
+    }
+  ],
+  "focus": "智能终端硬件；AI硬件；机器人",
+  "stage": null,
+  "representative_cases": [
+    {
+      "company": "Rokid",
+      "attribution": "current_firm",
+      "investor_or_team": "跃迁资本／郑华良",
+      "outcome": "2026-06-23公开圆桌中创始人表示新机构已投Rokid；仅有投资人直接口述，尚未找到标的方或对应轮次公告交叉核实，不采纳其市场排名表述。",
+      "evidence_source_ids": [
+        "s02"
+      ]
+    }
+  ],
+  "recent_activity": "2026-06-23，创始人以跃迁资本身份参加WAVES2026圆桌，介绍新机构智能硬件策略并公开提及Rokid投资。",
+  "why_follow": "观察名单。成熟机构管理经验可核，已有创始人披露的投资案例；具名既往主导投资及新机构独立公告证据仍需补齐，尚不列为已验证退出业绩的新GP。",
+  "difference": "杭州起步，强调中国供应链与AI能力结合的终端硬件；2026年创始人公开口径比2025年成立盘点的赛道范围更聚焦终端产品。",
+  "contacts": {
+    "website": null,
+    "careers_url": null,
+    "recruitment_email": null,
+    "other_email": null,
+    "other_email_purpose": null
+  },
+  "notes": "本条指郑华良创立的杭州私募管理人，不能与同名医疗健康精品投行混并。；有具名新机构口述投资案例，但缺少标的方交叉证明，投资轮次及金额均不猜测。；早期盘点还提及低空经济；本条优先采用2026年创始人亲述的智能终端策略。；没有找到足够可归因的既往主导案例及回报数据，故不强行添加。",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "VC新势力：2025年他们告别五源、达晨，自立门户｜IT桔子",
+      "url": "https://t.cj.sina.com.cn/articles/view/3276673424/c34e119001901ika0",
+      "supports": "2025-07-08管理公司成立；前敦鸿及凯泰职位；新管理人登记与初步方向",
+      "published_date": "2025-12-18",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "主题圆桌：从无声到轰鸣，令人期待的消费硬件｜WAVES2026／36氪",
+      "url": "https://www.sohu.com/a/1040501250_114778",
+      "supports": "创始人直接确认2025下半年取得牌照；2026智能硬件策略；创始人披露新机构投资Rokid",
+      "published_date": "2026-06-23",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "凯泰资本郑华良：保持行业理解力，把控投资方向｜中国新闻网",
+      "url": "https://news.sina.com.cn/o/2017-09-26/doc-ifymeswe0034704.shtml",
+      "supports": "2017年已任凯泰资本执行总裁；此前人工智能及医疗投资机构管理经验",
+      "published_date": "2017-09-26",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "checked_at": "2026-10-30"
+}

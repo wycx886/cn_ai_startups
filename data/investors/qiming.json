@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "id": "qiming",
+  "name": "启明创投（Qiming Venture Partners）",
+  "aliases": [
+    "Qiming Venture Partners",
+    "Qiming"
+  ],
+  "group": "established",
+  "coverage": {
+    "role": "main",
+    "reason": "团队或机构背景、具名案例和近期活动有公开出处，列入主要研究样本；不表示基金收益已核实。"
+  },
+  "founded": {
+    "year": 2006,
+    "basis": "官网机构介绍。"
+  },
+  "team": [
+    {
+      "name": "邝子平",
+      "role": "创始主管合伙人",
+      "previous_firms": [
+        "英特尔投资"
+      ],
+      "background": "创立启明前任英特尔投资部中国区总监；此前在思科任职，早年为软件工程师。"
+    },
+    {
+      "name": "胡旭波",
+      "role": "主管合伙人",
+      "previous_firms": [],
+      "background": null
+    },
+    {
+      "name": "周志峰",
+      "role": "主管合伙人",
+      "previous_firms": [],
+      "background": null
+    }
+  ],
+  "focus": "科技与医疗创新；科技侧包括AI、自动化设备、智能硬件等。",
+  "stage": "早期及成长期。",
+  "representative_cases": [
+    {
+      "company": "石头科技",
+      "attribution": "current_firm",
+      "investor_or_team": "启明创投；邝子平",
+      "outcome": "官网将其列为邝子平负责投资的公司及上市案例。",
+      "evidence_source_ids": [
+        "s03"
+      ]
+    },
+    {
+      "company": "文远知行",
+      "attribution": "current_firm",
+      "investor_or_team": "启明创投；邝子平",
+      "outcome": "官网列为邝子平负责投资的公司；上市不代表启明已全部退出。",
+      "evidence_source_ids": [
+        "s03"
+      ]
+    }
+  ],
+  "recent_activity": "2026年官网新闻室持续披露投资：8月有芯光界亿元天使轮独家投资、安澜德健近亿元A轮独家投资；10月28日仍发布项目周报。",
+  "why_follow": "编辑分析：科技和医疗双线都具备可核对的上市项目历史，也仍有早期新投资。",
+  "difference": "编辑分析：相比只覆盖AI软件的基金，能同时查看机器人硬件、半导体及医疗技术；适合按科技和医疗两条线分别筛选。",
+  "contacts": {
+    "website": "https://www.qimingvc.com/cn/",
+    "careers_url": "https://www.qimingvc.com/cn/careers",
+    "recruitment_email": "HR@qimingvc.com",
+    "other_email": "BP@qimingvc.com",
+    "other_email_purpose": "BP投递；媒体PR@qimingvc.com及一般意见contactus@qimingvc.com均非招聘邮箱"
+  },
+  "notes": "按当前官网团队记录；未把已宣布离职的梁颕宇列入当前团队。 招聘邮箱的明确公开用途为2026医疗创新PhD秋冬实习，截止2026-11-20；不假定适用于所有岗位。",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "关于启明",
+      "url": "https://www.qimingvc.com/cn/about",
+      "supports": "2006年成立、科技和医疗、早期和成长期",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "启明团队",
+      "url": "https://www.qimingvc.com/cn/team",
+      "supports": "当前主管合伙人职衔及BP邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "邝子平官方简介",
+      "url": "https://www.qimingvc.com/cn/team/%E9%82%9D%E5%AD%90%E5%B9%B3",
+      "supports": "英特尔/思科背景及石头、文远等个人负责案例",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "启明新闻室",
+      "url": "https://www.qimingvc.com/cn/newsroom",
+      "supports": "2026年8月新投资与10月持续动态",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "title": "启明工作机会",
+      "url": "https://www.qimingvc.com/cn/careers",
+      "supports": "官方招聘入口",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s06",
+      "title": "芯光界亿元天使轮 — 启明独家投资",
+      "url": "https://www.qimingvc.com/cn/news/%E5%90%AF%E6%98%8E%E6%98%9F-%E8%8A%AF%E5%85%89%E7%95%8C%E5%AE%8C%E6%88%90%E4%BA%BF%E5%85%83%E5%A4%A9%E4%BD%BF%E8%BD%AE%E8%9E%8D%E8%B5%84%EF%BC%8C%E5%90%AF%E6%98%8E%E5%88%9B%E6%8A%95%E7%8B%AC%E5%AE%B6%E6%8A%95%E8%B5%84",
+      "supports": "2026年8月科技新投资",
+      "published_date": "2026-08-25",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s07",
+      "title": "安澜德健近亿元A轮 — 启明独家投资",
+      "url": "https://www.qimingvc.com/cn/news/%E5%90%AF%E6%98%8E%E6%98%9F-%E5%AE%89%E6%BE%9C%E5%BE%B7%E5%81%A5%E5%AE%8C%E6%88%90%E8%BF%91%E4%BA%BF%E5%85%83a%E8%BD%AE%E8%9E%8D%E8%B5%84%EF%BC%8C%E5%90%AF%E6%98%8E%E5%88%9B%E6%8A%95%E7%8B%AC%E5%AE%B6%E6%8A%95%E8%B5%84",
+      "supports": "2026年8月医疗新投资",
+      "published_date": "2026-08-18",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s08",
+      "title": "启明医疗创新团队2026PhD秋冬实习计划",
+      "url": "https://www.qimingvc.com/cn/news/%E5%90%AF%E6%98%8E%E5%A4%B4%E6%9D%A1-%E5%90%AF%E6%98%8E%E5%88%9B%E6%8A%95%E5%8C%BB%E7%96%97%E5%88%9B%E6%96%B0%E6%8A%95%E8%B5%84%E5%9B%A2%E9%98%9F2026phd%E7%A7%8B%E5%86%AC%E5%AD%A3%E5%AE%9E%E4%B9%A0%E7%94%9F%E8%AE%A1%E5%88%92%E5%90%AF%E5%8A%A8",
+      "supports": "招聘邮箱HR@qimingvc.com；限定2026PhD秋冬实习，截止11月20日",
+      "published_date": "2026-10-20",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "checked_at": "2026-10-30"
+}

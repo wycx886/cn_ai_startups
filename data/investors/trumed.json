@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "trumed",
+  "name": "真脉投资 TruMed",
+  "aliases": [
+    "TruMed Investment Management",
+    "真脈投資"
+  ],
+  "group": "emerging",
+  "coverage": {
+    "role": "adjacent",
+    "reason": "医疗私募与公开市场交叉机构，不是纯种子或早期VC。"
+  },
+  "founded": {
+    "year": 2021,
+    "basis": "官网称2021年成立；2022年公开报道和牌照/境内主体出现，二者不是同一设立时间。"
+  },
+  "team": [
+    {
+      "name": "王婷 Iris Wang",
+      "role": "创始人、首席投资官",
+      "previous_firms": [
+        "OrbiMed奥博资本"
+      ],
+      "background": "曾任奥博亚洲区公共股权投资总监并晋升全球合伙人；离职后建立真脉。"
+    }
+  ],
+  "focus": "医疗健康，创新药、医疗器械、诊断与医疗服务；覆盖私募与公开市场。",
+  "stage": "私募股权及Pre-IPO至上市后投资，不能当作纯种子VC。",
+  "representative_cases": [
+    {
+      "company": "圣因生物",
+      "attribution": "current_firm",
+      "investor_or_team": "真脉投资",
+      "outcome": "企业2025年12月B轮公告明确列真脉为跟投方；不是已实现退出案例。",
+      "evidence_source_ids": [
+        "s03"
+      ]
+    },
+    {
+      "company": "辐联科技",
+      "attribution": "current_firm",
+      "investor_or_team": "真脉投资",
+      "outcome": "企业2025年9月C轮公告列真脉为新投资方；并区分股权和债权融资，不能将全额算股权。",
+      "evidence_source_ids": [
+        "s04"
+      ]
+    }
+  ],
+  "recent_activity": "官网2026年7月公告王婷获任港交所上市委员会成员；2025年两家企业融资公告确认当期实际出手。",
+  "why_follow": "分析：成熟医疗投资体系走出的专业机构；更适合作为医疗与跨一二级投资样本关注。",
+  "difference": "分析：与江远的医疗加科技双板块不同，真脉的能力圈更集中医疗，并明确覆盖公开市场；不能拿其二级市场背景与纯早期AI VC简单排名。",
+  "contacts": {
+    "website": "https://www.trumed-inv.com/",
+    "careers_url": null,
+    "recruitment_email": null,
+    "other_email": "IR@TruMed-Inv.com",
+    "other_email_purpose": "投资者关系，非招聘邮箱"
+  },
+  "notes": "没有取得可核验的基金净IRR/DPI或王婷个人完整退出归因，故不以业绩倍数背书。其总部香港、在上海深圳有办公地，列入中国本土/华人团队样本，不是纯内地人民币早期VC。未查到公开统一招聘入口/邮箱。",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "真脉官方介绍",
+      "url": "https://www.trumed-inv.com/",
+      "supports": "2021年成立、医疗与跨一二级策略、办公地、IR邮箱及2026新闻",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "IT桔子新机构调研",
+      "url": "https://www.thepaper.cn/newsDetail_forward_24678632",
+      "supports": "王婷此前奥博任职及2022年开始公开亮相",
+      "published_date": "2023-09-24",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "圣因生物B轮融资官方公告",
+      "url": "https://zh-cn.sanegenebio.com/news/20",
+      "supports": "真脉投资方身份",
+      "published_date": "2025-12-08",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "辐联科技C轮公司公告",
+      "url": "https://www.full-life.com/Public/Uploads/uploadfile2/files/20250929/%5BCN%5DFLSeriesCPR0928.pdf",
+      "supports": "真脉投资方身份与股债融资区别",
+      "published_date": "2025-09-30",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "title": "中国医药创新与投资大会官方议程",
+      "url": "https://cbiic.phirda.com/portal/schedule/detail/id/11.html",
+      "supports": "王婷创始人及首席投资官身份",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "checked_at": "2026-10-30"
+}

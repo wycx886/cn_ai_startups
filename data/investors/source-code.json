@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "id": "source-code",
+  "name": "源码资本（Source Code Capital）",
+  "aliases": [
+    "Source Code Capital"
+  ],
+  "group": "established",
+  "coverage": {
+    "role": "main",
+    "reason": "团队或机构背景、具名案例和近期活动有公开出处，列入主要研究样本；不表示基金收益已核实。"
+  },
+  "founded": {
+    "year": 2014,
+    "basis": "官网说明2014年春成立。"
+  },
+  "team": [
+    {
+      "name": "曹毅（Yi Cao）",
+      "role": "创始合伙人",
+      "previous_firms": [
+        "红杉资本中国",
+        "策源创投"
+      ],
+      "background": "官网中文人物简介确认曾在红杉、策源投资机构任职，并有UC Mobile等企业经历；清华大学计算机学士。"
+    }
+  ],
+  "focus": "AI与机器人、智能制造、互联网消费、医疗与生物科技。",
+  "stage": "种子、早期及成长期。",
+  "representative_cases": [
+    {
+      "company": "字节跳动",
+      "attribution": "current_firm",
+      "investor_or_team": "源码资本；曹毅等",
+      "outcome": "官网曹毅页面列为成长阶段投资。",
+      "evidence_source_ids": [
+        "s03"
+      ]
+    },
+    {
+      "company": "美团",
+      "attribution": "current_firm",
+      "investor_or_team": "源码资本；曹毅等",
+      "outcome": "官网曹毅页面列为成长阶段投资并说明2018年港股上市。",
+      "evidence_source_ids": [
+        "s03"
+      ]
+    },
+    {
+      "company": "宇树科技",
+      "attribution": "current_firm",
+      "investor_or_team": "源码资本",
+      "outcome": "官网机构介绍列为被投企业；此处不补造投资轮次与个人归属。",
+      "evidence_source_ids": [
+        "s01"
+      ]
+    }
+  ],
+  "recent_activity": "2026年官方举办Code Class并在6月、7月发布AI和企业管理分享，包括源码投资负责人以及Meshy、深势创业者；可证实当期机构与创业者社群活动，本条不据此声称有新一轮投资。",
+  "why_follow": "编辑分析：可以从源码班观察其被投企业之间的经营交流，以及从互联网平台到AI、机器人投资的延伸。",
+  "difference": "编辑分析：相较只提供早期支票的小团队，源码的公开组织方式包括创业者LP与源码班资源交换；也覆盖成长投资，不能把所有案例叫天使项目。",
+  "contacts": {
+    "website": "https://sourcecodecap.com/",
+    "careers_url": "https://sourcecodecap.com/jobs-en/",
+    "recruitment_email": null,
+    "other_email": "cy@sourcecodecap.com",
+    "other_email_purpose": "官网曹毅个人联系邮箱；非招聘邮箱"
+  },
+  "notes": "官方工作页面为长期入口，不等于有开放职位。只使用机构官网明确列示的源码案例，未将曹毅在前机构的个人投资计入源码业绩。",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "About Source Code Capital",
+      "url": "https://sourcecodecap.com/about-en/",
+      "supports": "2014年成立、领域、阶段及宇树等组合",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "Source Code Capital Team",
+      "url": "https://sourcecodecap.com/team-en/",
+      "supports": "当前团队列示曹毅",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "Yi Cao官方投资案例页",
+      "url": "https://sourcecodecap.com/yi-cao/",
+      "supports": "字节、美团被列为成长阶段投资",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "Code Classes官方2026内容",
+      "url": "https://sourcecodecap.com/en/code-class-post/",
+      "supports": "2026年6–7月机构及创业者社群活动",
+      "published_date": "2026-07-07",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "title": "Join Source Code Capital",
+      "url": "https://sourcecodecap.com/jobs-en/",
+      "supports": "官方工作入口",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s06",
+      "title": "Source Code Capital Contact",
+      "url": "https://sourcecodecap.com/contact-en/",
+      "supports": "BP请联系团队页相应投资人，未提供通用招聘邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s07",
+      "title": "曹毅中文官方简介",
+      "url": "https://sourcecodecap.com/caoyi/",
+      "supports": "创始合伙人、红杉/策源背景及官方个人邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "checked_at": "2026-10-30"
+}

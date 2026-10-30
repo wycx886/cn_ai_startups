@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "creek-stone",
+  "name": "Creek Stone",
+  "aliases": [
+    "CreekStone",
+    "Creekstone",
+    "Creekstone Ventures",
+    "Creekstone Venture"
+  ],
+  "group": "emerging",
+  "coverage": {
+    "role": "watchlist",
+    "reason": "已有独立投资及后续融资证据，但创始人原平台明星案例归因和成熟退出记录尚不足。"
+  },
+  "founded": {
+    "year": 2025,
+    "basis": "2025年钟陆欢访谈确认已从弘毅独立；2025-12-20合伙人李一豪在采访中说明当年共同成立早期AI美元基金。品牌成立与具体法律主体注册日期未等同。"
+  },
+  "team": [
+    {
+      "name": "钟陆欢",
+      "role": "创始合伙人",
+      "previous_firms": [
+        "弘毅投资"
+      ],
+      "background": "访谈介绍其原为弘毅投资美元基金负责人；独立后创立美元天使基金。"
+    },
+    {
+      "name": "李一豪",
+      "role": "合伙人",
+      "previous_firms": [],
+      "background": "公开采访确认与钟陆欢共同创立新基金，参与AI早期投资与孵化；原机构履历未充分交叉核实。"
+    }
+  ],
+  "focus": "AI应用；AI原生硬件；中国AI创业者全球化",
+  "stage": "天使轮；早期；孵化",
+  "representative_cases": [
+    {
+      "company": "OdyssLife（Odyss AI项链）",
+      "attribution": "current_firm",
+      "investor_or_team": "Creek Stone／李一豪",
+      "outcome": "2025年创始人与投资人共同采访确认天使投资关系；2026-03-26融资报道确认Creekstone作为老股东继续投资。后续融资不是退出或基金收益。",
+      "evidence_source_ids": [
+        "s02",
+        "s03"
+      ]
+    }
+  ],
+  "recent_activity": "2026-03-26，OdyssLife披露累计近2亿元多轮融资，Creekstone作为老股东继续增资；由独立融资报道核实当前基金存在投资活动。",
+  "why_follow": "已有独立投资案例的年轻新GP，可作为AI早期与硬件方向的补充关注。公开证据尚不足以把创始团队定义为已经证明退出业绩的明星老将。",
+  "difference": "小团队、前置参与创始人与团队搭建、早期AI美元投资及孵化；公开采访强调独立后的决策速度与陪伴创业者。",
+  "contacts": {
+    "website": null,
+    "careers_url": null,
+    "recruitment_email": null,
+    "other_email": "yihaoli@creekstonevc.com",
+    "other_email_purpose": "李一豪在2025年公开播客及访谈说明中提供，供AI创业者交流，非招聘邮箱。"
+  },
+  "notes": "没有把两人在原机构推动过但未完成的MiniMax、Kimi等项目写为既有投资成绩。；符合近期从成熟投资平台独立的样本；既往可归因退出成绩不足，需与拥有清晰既往代表作的团队区分。；未验证独立官网；不能仅凭邮箱域名猜测可用网站。；采访中的hr@odyss.life属于被投企业招聘，不属于VC招聘。",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "对话钟陆欢：这个时点，AI Native的美元天使基金｜加先生播客",
+      "url": "https://www.xiaoyuzhoufm.com/episode/685e374808d8fd858643a0a1",
+      "supports": "钟陆欢原弘毅美元基金负责人；2025年已独立创立；美元天使投资策略",
+      "published_date": "2025-06-27",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "对谈Odyss创始人潘宇扬与CreekStone合伙人李一豪｜十字路口Crossing",
+      "url": "https://elsewhere.news/zh/crossing/aiodysscreekstone",
+      "supports": "两位合伙人与成立年份；Odyss天使投资关系；AI早期投资及孵化；创始人交流邮箱",
+      "published_date": "2025-12-20",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "OdyssLife完成累计近2亿元多轮融资｜36氪",
+      "url": "https://eu.36kr.com/en/newsflashes/3739503574515717",
+      "supports": "Creekstone作为老股东继续投资；2026年独立投资组合动态",
+      "published_date": "2026-03-26",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "checked_at": "2026-10-30"
+}

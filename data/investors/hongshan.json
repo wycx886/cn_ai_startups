@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "id": "hongshan",
+  "name": "红杉中国（HongShan / HSG）",
+  "aliases": [
+    "HongShan",
+    "HSG",
+    "Sequoia Capital China",
+    "红杉资本中国"
+  ],
+  "group": "established",
+  "coverage": {
+    "role": "main",
+    "reason": "团队或机构背景、具名案例和近期活动有公开出处，列入主要研究样本；不表示基金收益已核实。"
+  },
+  "founded": {
+    "year": 2005,
+    "basis": "官网机构介绍的创立年份；后续品牌变化不作为新设年份。"
+  },
+  "team": [
+    {
+      "name": "沈南鹏",
+      "role": "创始及执行合伙人",
+      "previous_firms": [],
+      "background": null
+    }
+  ],
+  "focus": "科技、医疗健康、消费；科技投资包括AI及机器人等。",
+  "stage": "覆盖种子、风险投资、成长及并购等阶段。",
+  "representative_cases": [
+    {
+      "company": "BOSS直聘",
+      "attribution": "current_firm",
+      "investor_or_team": "红杉中国",
+      "outcome": "官网列为被投企业；上市案例，不据此推断基金已退出或回报倍数。",
+      "evidence_source_ids": [
+        "s03"
+      ]
+    },
+    {
+      "company": "Dify",
+      "attribution": "current_firm",
+      "investor_or_team": "HSG",
+      "outcome": "2026年3月公司宣布3000万美元Pre-A轮，HSG领投；属于未上市成长中的案例。",
+      "evidence_source_ids": [
+        "s04"
+      ]
+    }
+  ],
+  "recent_activity": "2026-03-10，Dify官方公告由HSG领投3000万美元Pre-A轮，可核实近期直接投资。",
+  "why_follow": "编辑分析：既有互联网平台投资经历，也有Dify这类Agent基础设施新投资，适合同时观察成熟组织和新AI项目。",
+  "difference": "编辑分析：相比以天使轮为主的真格，阶段覆盖更宽；筛选时宜按具体投资团队和被投公司细分，而非把所有红杉项目视作同一种打法。",
+  "contacts": {
+    "website": "https://www.hongshan.com/",
+    "careers_url": "https://hongshan.jobs.feishu.cn/",
+    "recruitment_email": null,
+    "other_email": "bpchina@hongshan.com",
+    "other_email_purpose": "商业计划书/BP投递；非招聘邮箱"
+  },
+  "notes": "机构与品牌按当前官网记录；官网投资清单为部分清单。",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "关于红杉中国",
+      "url": "https://www.hongshan.com/about-us/",
+      "supports": "2005年创立、领域与阶段覆盖",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "红杉中国团队",
+      "url": "https://www.hongshan.com/team/",
+      "supports": "沈南鹏当前官网职衔",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "红杉中国部分被投企业",
+      "url": "https://www.hongshan.com/companies/",
+      "supports": "BOSS直聘等机构投资案例；列表非完整清单",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "Dify Raises $30M",
+      "url": "https://dify.ai/blog/dify-raises-30m-tomorrow-s-organizations-will-be-built-by-people-and-agents",
+      "supports": "2026年HSG领投Dify Pre-A及5Y参与",
+      "published_date": "2026-03-10",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "title": "联系我们",
+      "url": "https://www.hongshan.com/contact/",
+      "supports": "BP邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s06",
+      "title": "红杉中国工作机会",
+      "url": "https://www.hongshan.com/jobs/",
+      "supports": "官方链接到飞书职位入口",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "checked_at": "2026-10-30"
+}

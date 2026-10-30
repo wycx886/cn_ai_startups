@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "gsr-ventures",
+  "name": "金沙江创投（GSR Ventures）",
+  "aliases": [
+    "GSR Ventures",
+    "金沙江创业投资基金"
+  ],
+  "group": "established",
+  "coverage": {
+    "role": "main",
+    "reason": "团队或机构背景、具名案例和近期活动有公开出处，列入主要研究样本；不表示基金收益已核实。"
+  },
+  "founded": {
+    "year": 2004,
+    "basis": "机构官网简介。"
+  },
+  "team": [
+    {
+      "name": "朱啸虎（Allen Zhu）",
+      "role": "主管合伙人",
+      "previous_firms": [],
+      "background": "创办易保网络技术有限公司，曾任麦肯锡咨询顾问。"
+    },
+    {
+      "name": "丁健",
+      "role": "主管合伙人",
+      "previous_firms": [],
+      "background": null
+    }
+  ],
+  "focus": "科技初创企业，涵盖企业、消费互联网、医疗科技及AI商业应用。",
+  "stage": "以早期为主。",
+  "representative_cases": [
+    {
+      "company": "滴滴",
+      "attribution": "current_firm",
+      "investor_or_team": "金沙江创投；朱啸虎",
+      "outcome": "朱啸虎官网简介列为投资项目；不补造退出或回报。",
+      "evidence_source_ids": [
+        "s03"
+      ]
+    },
+    {
+      "company": "饿了么",
+      "attribution": "current_firm",
+      "investor_or_team": "金沙江创投",
+      "outcome": "机构官网列为案例；阿里巴巴收购属于企业结果，不代表本条已核实基金实际退出金额。",
+      "evidence_source_ids": [
+        "s01"
+      ]
+    },
+    {
+      "company": "商汤善惠",
+      "attribution": "current_firm",
+      "investor_or_team": "金沙江创投",
+      "outcome": "新华财经2025年1月报道金沙江数千万元领投A轮。",
+      "evidence_source_ids": [
+        "s04"
+      ]
+    }
+  ],
+  "recent_activity": "2025-01-21新华财经披露金沙江创投数千万元领投商汤善惠A轮，朱啸虎谈AI零售落地与商业变现；为有日期的近期直接投资证据。",
+  "why_follow": "编辑分析：适合观察商业化导向的早期AI应用判断，能够把消费互联网历史与线下效率提升项目放在一起比较。",
+  "difference": "编辑分析：比只看基础模型能力的投资主题更强调使用场景、效率和付费验证；这只是基于公开定位与本次案例的编辑判断，不代表其不投其他方向。",
+  "contacts": {
+    "website": "https://gsrventureschina.com/",
+    "careers_url": null,
+    "recruitment_email": null,
+    "other_email": "allen@gsrventures.com",
+    "other_email_purpose": "官网朱啸虎个人联系邮箱；未注明招聘用途"
+  },
+  "notes": "注意金沙江创投GSR Ventures与金沙江资本GSR Capital不是同一机构，本记录不使用gsrcapital.com的联系方式或案例。",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "金沙江创投官网",
+      "url": "https://gsrventureschina.com/",
+      "supports": "2004年设立、早期定位及饿了么等案例",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "金沙江创投团队",
+      "url": "https://gsrventureschina.com/team",
+      "supports": "当前官网主管合伙人",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "Allen Zhu官方简介",
+      "url": "https://gsrventureschina.com/details/allen-zhu",
+      "supports": "朱啸虎职衔、创业/麦肯锡背景、滴滴案例与个人官方邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "金沙江创投领投商汤善惠完成A轮融资",
+      "url": "https://www.cnfin.com/gs-lb/detail/20250121/4178027_1.html",
+      "supports": "2025年直接投资和商业化关注",
+      "published_date": "2025-01-21",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "checked_at": "2026-10-30"
+}

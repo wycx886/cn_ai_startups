@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "id": "shunwei",
+  "name": "顺为资本（Shunwei Capital）",
+  "aliases": [
+    "Shunwei Capital"
+  ],
+  "group": "established",
+  "coverage": {
+    "role": "main",
+    "reason": "团队或机构背景、具名案例和近期活动有公开出处，列入主要研究样本；不表示基金收益已核实。"
+  },
+  "founded": {
+    "year": 2011,
+    "basis": "官方创始人访谈确认2011年雷军与许达来共同创立。"
+  },
+  "team": [
+    {
+      "name": "雷军",
+      "role": "创始合伙人",
+      "previous_firms": [],
+      "background": "科技企业创业者，联合创立顺为。"
+    },
+    {
+      "name": "许达来",
+      "role": "创始合伙人",
+      "previous_firms": [],
+      "background": "与雷军于2011年共同创立顺为；官方2020年访谈称其为CEO，本条不据旧访谈断言当前CEO。"
+    }
+  ],
+  "focus": "科技驱动的产品、智能硬件、互联网及机器人等。",
+  "stage": "早期及成长；可多轮跟进。",
+  "representative_cases": [
+    {
+      "company": "小米",
+      "attribution": "current_firm",
+      "investor_or_team": "顺为资本",
+      "outcome": "官网列为组合案例；与雷军个人创业经历分别理解。",
+      "evidence_source_ids": [
+        "s01"
+      ]
+    },
+    {
+      "company": "宇树科技",
+      "attribution": "current_firm",
+      "investor_or_team": "顺为资本",
+      "outcome": "官方2026年8月回顾称2021年领投A轮、后续B轮持续投资；本条仅据此记录投资关系。",
+      "evidence_source_ids": [
+        "s03"
+      ]
+    },
+    {
+      "company": "破壳机器人（PokeBot）",
+      "attribution": "current_firm",
+      "investor_or_team": "顺为资本",
+      "outcome": "官方2026年8月回顾称2026年4月参与天使轮，8月与经纬联合领投Pre-A轮。",
+      "evidence_source_ids": [
+        "s03"
+      ]
+    }
+  ],
+  "recent_activity": "2026年8月官方回顾披露，4月投资破壳机器人天使轮，8月再与经纬联合领投Pre-A；显示近期机器人早期投资和连续追加。",
+  "why_follow": "编辑分析：科技创业者背景与智能硬件、机器人案例形成较清晰的产业观察窗口。",
+  "difference": "编辑分析：与小米生态有关联资源，但机构和单一企业不能等同；适合沿硬件研发、供应链和产品落地筛选，亦可与偏软件早期的基金对照。",
+  "contacts": {
+    "website": "https://shunwei.com/",
+    "careers_url": null,
+    "recruitment_email": null,
+    "other_email": null,
+    "other_email_purpose": null
+  },
+  "notes": "官网邮箱展示被反爬编码，未猜测联系方式。融资活动已核对到官方单篇公告。IPO及后续轮融资不等于基金已经退出。",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "顺为资本官网",
+      "url": "https://shunwei.com/",
+      "supports": "小米等组合与科技定位",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "许达来官方访谈",
+      "url": "https://shunwei.com/news/1140",
+      "supports": "2011年雷军、许达来共同创立及历史角色",
+      "published_date": "2020-07-02",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "顺为8月回顾",
+      "url": "https://shunwei.com/news/2804",
+      "supports": "官方2026年8月回顾：破壳机器人Pre-A由顺为与经纬联合领投；顺为于2026年4月投其天使轮，宇树于2021年A轮领投及B轮追加",
+      "published_date": "2026-09-03",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "checked_at": "2026-10-30"
+}

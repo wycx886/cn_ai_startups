@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "id": "yunqi",
+  "name": "云启资本（Yunqi Partners）",
+  "aliases": [
+    "Yunqi Partners"
+  ],
+  "group": "established",
+  "coverage": {
+    "role": "main",
+    "reason": "团队或机构背景、具名案例和近期活动有公开出处，列入主要研究样本；不表示基金收益已核实。"
+  },
+  "founded": {
+    "year": 2014,
+    "basis": "官网关于机构页面。"
+  },
+  "team": [
+    {
+      "name": "毛丞宇",
+      "role": "创始管理合伙人",
+      "previous_firms": [],
+      "background": null
+    },
+    {
+      "name": "陈昱",
+      "role": "管理合伙人",
+      "previous_firms": [],
+      "background": null
+    }
+  ],
+  "focus": "AI基础设施与应用、机器人、半导体、量子科技、能源等深科技。",
+  "stage": "早中期，并延伸高校早期创业支持。",
+  "representative_cases": [
+    {
+      "company": "MiniMax",
+      "attribution": "current_firm",
+      "investor_or_team": "云启资本",
+      "outcome": "官网将其列为早期被投，创始人闫俊杰出具合作自述；官网记载2026年1月9日港股上市。",
+      "evidence_source_ids": [
+        "s02"
+      ]
+    },
+    {
+      "company": "PingCAP",
+      "attribution": "current_firm",
+      "investor_or_team": "云启资本",
+      "outcome": "官网刘奇自述与云启的早期合作，强调技术研究和开源；不补造轮次及基金收益。",
+      "evidence_source_ids": [
+        "s02"
+      ]
+    },
+    {
+      "company": "群核科技",
+      "attribution": "current_firm",
+      "investor_or_team": "云启资本；毛丞宇",
+      "outcome": "官网记载首家机构投资人及2026年4月17日港股上市；上市不等于已退出。",
+      "evidence_source_ids": [
+        "s02"
+      ]
+    }
+  ],
+  "recent_activity": "官网2026年动态包括联合发布具身智能数据产业链报告、WAIC活动与AI Agent讨论；官网同时记载MiniMax、群核在2026年的上市节点。该组证据确认当期机构及投后活动，不把所有动态视为新出资。",
+  "why_follow": "编辑分析：既有开源基础软件与模型企业案例，又覆盖具身智能，便于沿技术栈理解AI投资。",
+  "difference": "编辑分析：与更偏消费平台的机构相比，公开案例和创始人叙述突出工程判断、开源生态与高校创业资源；适合技术密集型项目的筛选。",
+  "contacts": {
+    "website": "https://yunqi.vc/",
+    "careers_url": null,
+    "recruitment_email": null,
+    "other_email": "community@yunqi.vc",
+    "other_email_purpose": "一般社区/机构联系；未标为招聘邮箱"
+  },
+  "notes": "不将未有日期的官网被投进展都视为2026年投资；高校天使支持与主基金应在后续具体项目核验时分别记录。",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "云启资本官网",
+      "url": "https://yunqi.vc/",
+      "supports": "2014年、早中期、AI及深科技和一般联系邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "关于云启与创始人自述",
+      "url": "https://yunqi.vc/about",
+      "supports": "MiniMax、PingCAP、群核合作与2026年上市节点",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "云启团队",
+      "url": "https://yunqi.vc/team",
+      "supports": "毛丞宇与陈昱职衔",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "云启动态",
+      "url": "https://yunqi.vc/news",
+      "supports": "2026具身智能报告、WAIC等当期活动",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "checked_at": "2026-10-30"
+}

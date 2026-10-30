@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "id": "soul-capital",
+  "name": "心资本 Soul Capital",
+  "aliases": [
+    "心资本"
+  ],
+  "group": "emerging",
+  "coverage": {
+    "role": "main",
+    "reason": "团队或机构背景、具名案例和近期活动有公开出处，列入主要研究样本；不表示基金收益已核实。"
+  },
+  "founded": {
+    "year": 2022,
+    "basis": "官网明确2022年成立；团队来自光速中国及其他产业投资体系。"
+  },
+  "team": [
+    {
+      "name": "韩彦 Herry Han",
+      "role": "创始合伙人",
+      "previous_firms": [
+        "光速中国"
+      ],
+      "background": "光速中国创始合伙人及核心投资团队背景；微软工程师和麦肯锡经历见公开采访。"
+    },
+    {
+      "name": "吴炳见",
+      "role": "合伙人",
+      "previous_firms": [
+        "联想之星",
+        "险峰"
+      ],
+      "background": "有早期投资机构经验。"
+    },
+    {
+      "name": "刘艳晨",
+      "role": "合伙人",
+      "previous_firms": [
+        "阿里巴巴菜鸟战略投资"
+      ],
+      "background": "产业战略投资背景。"
+    }
+  ],
+  "focus": "中国早期科技，偏AI算力、物理AI、机器人、新能源及商业航天等。",
+  "stage": "早期。",
+  "representative_cases": [
+    {
+      "company": "小鹏汽车、满帮、沐曦等",
+      "attribution": "prior_firm",
+      "investor_or_team": "韩彦及心资本团队历史",
+      "outcome": "官网明确这些属于团队过往案例，并标注团队历史数据；不能直接算作2022年后心资本新基金的已实现回报。",
+      "evidence_source_ids": [
+        "s01"
+      ]
+    },
+    {
+      "company": "曦望 Sunrise",
+      "attribution": "current_firm",
+      "investor_or_team": "心资本",
+      "outcome": "官网新闻列2026年1月投资曦望A轮，体现AI GPU新出手。",
+      "evidence_source_ids": [
+        "s02"
+      ]
+    }
+  ],
+  "recent_activity": "官网展示2026年AI GPU、机器人与商业航天动态；2026年9月韩彦在SuperReturn Asia发言。",
+  "why_follow": "分析：团队在科技企业早期陪伴方面有可追溯经历，且2022年后方向明显转向硬科技。",
+  "difference": "分析：比锦秋的AI原生早期平台更强调从电动化、GPU、光学与航天产业链延伸；相较江远，医疗不是其主要展示方向。",
+  "contacts": {
+    "website": "https://soulcapital.com/index.html",
+    "careers_url": null,
+    "recruitment_email": null,
+    "other_email": "info@soulcapital.com",
+    "other_email_purpose": "一般联系，未标招聘"
+  },
+  "notes": "官网存在模板占位新闻及动态载入差异；不采用“x亿美元”等模板内容，也不把页面团队历史AUM、IPO数归入新GP业绩。未找到统一公开招聘入口/邮箱。另有soulcapital.vc同名家办，未混入。",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "心资本官方介绍",
+      "url": "https://soulcapital.com/index_en.html",
+      "supports": "成立年份、团队源流和历史案例性质",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "心资本中文官网",
+      "url": "https://soulcapital.com/index.html",
+      "supports": "当前投资方向、2026动态及通用邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "IT桔子新机构背景",
+      "url": "https://www.thepaper.cn/newsDetail_forward_24678632",
+      "supports": "吴炳见及刘艳晨过往机构",
+      "published_date": "2023-09-24",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "韩彦公开演讲（机构账号转载）",
+      "url": "https://elsewhere.news/zh/soulcapital/ipovoice",
+      "supports": "2026年9月活动、旧机构与新机构案例区别",
+      "published_date": "2026-09-30",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "checked_at": "2026-10-30"
+}

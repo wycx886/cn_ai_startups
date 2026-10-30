@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "id": "monolith",
+  "name": "砺思资本 Monolith",
+  "aliases": [
+    "Monolith Management"
+  ],
+  "group": "emerging",
+  "coverage": {
+    "role": "main",
+    "reason": "团队或机构背景、具名案例和近期活动有公开出处，列入主要研究样本；不表示基金收益已核实。"
+  },
+  "founded": {
+    "year": 2021,
+    "basis": "2021年11月成立投资管理机构；2023年开始公开介绍VC基金。首支基金为科技对冲基金，不能将2023年的VC首关说成机构首次成立。"
+  },
+  "team": [
+    {
+      "name": "曹曦",
+      "role": "创始管理合伙人",
+      "previous_firms": [
+        "红杉中国",
+        "腾讯"
+      ],
+      "background": "2013年加入红杉，曾参与设立2018年红杉种子基金。"
+    },
+    {
+      "name": "Tim Wang",
+      "role": "创始管理合伙人",
+      "previous_firms": [
+        "博裕资本",
+        "高盛"
+      ],
+      "background": "原博裕二级市场合伙人，公开市场科技与消费投资背景。"
+    }
+  ],
+  "focus": "技术驱动的数字产业、科技智造，同时有科技二级市场策略。",
+  "stage": "VC覆盖早期及成长期；另设公开市场策略。",
+  "representative_cases": [
+    {
+      "company": "快手、斗鱼、腾讯音乐",
+      "attribution": "prior_firm",
+      "investor_or_team": "曹曦在红杉中国时期",
+      "outcome": "官网团队履历列为其代表投资经历；均不能算作砺思新基金回报，也不在此推断退出金额。",
+      "evidence_source_ids": [
+        "s02"
+      ]
+    },
+    {
+      "company": "剂泰医药",
+      "attribution": "current_firm",
+      "investor_or_team": "Monolith",
+      "outcome": "2022年融资披露中出现Monolith，证明新机构已有实际投资；不据融资推断收益。",
+      "evidence_source_ids": [
+        "s05"
+      ]
+    }
+  ],
+  "recent_activity": "2026年7月上市公司世纪华通出资相关砺思创业基金的公告被报道，仍在募投活动中。",
+  "why_follow": "分析：具有可核对的前红杉及博裕团队履历，并在新机构阶段形成AI/硬科技出手记录。",
+  "difference": "分析：与纯早期VC不同，砺思同时覆盖一级与二级市场；曹曦的创业公司投资与Tim Wang的公开市场经验互补。",
+  "contacts": {
+    "website": "https://www.monolithmgt.com/",
+    "careers_url": "https://monolithmgt.com/contact?lan=zh",
+    "recruitment_email": "career@monolithmgt.com",
+    "other_email": null,
+    "other_email_purpose": null
+  },
+  "notes": "官网的团队代表案例含任职前机构历史；不使用未经审计的单项目倍数或基金净回报作为推荐理由。公开官网没有把单个过往项目精确分配到各只基金，个案归属须保留限定。",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "2023年砺思首次介绍VC基金及2021年成立背景",
+      "url": "https://www.thepaper.cn/newsDetail_forward_21845956",
+      "supports": "机构成立、曹曦/Tim Wang背景及2022剂泰投资",
+      "published_date": "2023-02-09",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "砺思官方团队",
+      "url": "https://monolithmgt.com/en/team/",
+      "supports": "团队履历与代表投资项目",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "砺思官方策略",
+      "url": "https://monolithmgt.com/products?lan=zh",
+      "supports": "VC与公开市场两类策略",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "砺思官方联系页",
+      "url": "https://monolithmgt.com/contact?lan=zh",
+      "supports": "Research Fellow及招聘邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "title": "剂泰融资与Monolith参与记录",
+      "url": "https://www.pharnexcloud.com/trz/institution_9fb76a0d36468237d74f899a2d30343a",
+      "supports": "2022年Monolith跟投剂泰融资；数据库转载公司融资事件",
+      "published_date": "2022-04-06",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s06",
+      "title": "世纪华通出资砺思基金报道",
+      "url": "https://finance.sina.cn/tech/2026-07-17/detail-iniiaxpe1399538.d.html?vt=4",
+      "supports": "2026年新基金活动",
+      "published_date": "2026-07-17",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "checked_at": "2026-10-30"
+}

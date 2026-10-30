@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "id": "jinqiu",
+  "name": "锦秋基金 Jinqiu Capital",
+  "aliases": [
+    "锦秋资本"
+  ],
+  "group": "emerging",
+  "coverage": {
+    "role": "main",
+    "reason": "团队或机构背景、具名案例和近期活动有公开出处，列入主要研究样本；不表示基金收益已核实。"
+  },
+  "founded": {
+    "year": 2022,
+    "basis": "官网明确2022年成立；属于新机构，不是把字节财投部门全部历史项目转为锦秋业绩。"
+  },
+  "team": [
+    {
+      "name": "杨洁",
+      "role": "创始合伙人",
+      "previous_firms": [
+        "字节跳动财务投资部",
+        "红杉中国",
+        "同创伟业",
+        "深创投"
+      ],
+      "background": "先在市场化VC任职，后任字节财务投资负责人，再创办锦秋。"
+    }
+  ],
+  "focus": "AI算力、AI应用、具身智能及推动产业跃迁的前沿技术；另有创业工作室及早期支持计划。",
+  "stage": "早期为主。",
+  "representative_cases": [
+    {
+      "company": "生数科技、宇树科技、Momenta",
+      "attribution": "current_firm",
+      "investor_or_team": "锦秋基金",
+      "outcome": "官网列为被投企业；代表投资获取能力，不据此断言已退出或基金回报。",
+      "evidence_source_ids": [
+        "s01"
+      ]
+    },
+    {
+      "company": "星尘智能",
+      "attribution": "current_firm",
+      "investor_or_team": "锦秋基金",
+      "outcome": "2025年报道确认投资方身份；企业与仙工合作的部署计划是商业进展信号，不是已实现收入。",
+      "evidence_source_ids": [
+        "s02"
+      ]
+    }
+  ],
+  "recent_activity": "官网当前持续运营锦秋Lab、Soil、Grow及开放职位；2025年星尘智能投资报道可核。",
+  "why_follow": "分析：老VC加大型CVC履历的新GP，早期AI布局与现行被投名单可直接在官网核对。",
+  "difference": "分析：比同时跨一级二级的砺思更强调早期创业支持，团队来源兼具市场化VC与字节投资经验；并非字节内部战投部门。",
+  "contacts": {
+    "website": "https://www.jinqiucapital.com/",
+    "careers_url": "https://jinqiucapital.com/contact",
+    "recruitment_email": null,
+    "other_email": "ai@jinqiucapital.com",
+    "other_email_purpose": "官网标商务合作/通用咨询，非通用招聘邮箱"
+  },
+  "notes": "官网加入我们跳转飞书职位站，联系页可作为稳定入口；未把第三方旧个人招聘邮箱当长期统一投递渠道。没有核验杨洁个人在老机构各项目的完整归因，故不制造其个人退出业绩。",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "锦秋官网",
+      "url": "https://www.jinqiucapital.com/",
+      "supports": "2022年成立、杨洁职务、当前方向及被投名单",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "每经：字节与具身智能、锦秋背景",
+      "url": "https://finance.sina.com.cn/jjxw/2025-09-08/doc-infpuwrf4437143.shtml",
+      "supports": "杨洁前字节履历、字节为LP之一、星尘投资关系",
+      "published_date": "2025-09-08",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "IT桔子：2022—2023新机构",
+      "url": "https://www.thepaper.cn/newsDetail_forward_24678632",
+      "supports": "杨洁此前深创投、同创伟业、红杉及字节履历",
+      "published_date": "2023-09-24",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "锦秋官方联系与招聘入口",
+      "url": "https://jinqiucapital.com/contact",
+      "supports": "招聘跳转与商务邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "checked_at": "2026-10-30"
+}

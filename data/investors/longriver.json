@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "id": "longriver",
+  "name": "江远投资 LongRiver Investments",
+  "aliases": [
+    "LRI江远投资",
+    "LongRiver"
+  ],
+  "group": "emerging",
+  "coverage": {
+    "role": "main",
+    "reason": "团队或机构背景、具名案例和近期活动有公开出处，列入主要研究样本；不表示基金收益已核实。"
+  },
+  "founded": {
+    "year": 2022,
+    "basis": "官网记载2022年启航；创始人从平安集团创投体系出来设立。"
+  },
+  "team": [
+    {
+      "name": "张江",
+      "role": "创始人、CEO",
+      "previous_firms": [
+        "平安创新投资基金/平安创投",
+        "平安医疗科技"
+      ],
+      "background": "在平安工作约九年，参与搭建投资平台；此前有麦肯锡和飞利浦医疗背景。"
+    }
+  ],
+  "focus": "医疗健康与科技；生物医药、AI应用、先进制造等。",
+  "stage": "早期至成长，2025年披露新增项目近六成在A轮或更早。",
+  "representative_cases": [
+    {
+      "company": "药明康德、科美诊断等",
+      "attribution": "prior_firm",
+      "investor_or_team": "张江在平安时期",
+      "outcome": "2021年采访列其过往投资中的上市公司；不归属2022年后江远基金。",
+      "evidence_source_ids": [
+        "s03"
+      ]
+    },
+    {
+      "company": "Ouro Medicines",
+      "attribution": "current_firm",
+      "investor_or_team": "LongRiver",
+      "outcome": "官方确认2025年A轮投资，2026年签订被吉利德收购的最终协议；最高交易额含条件，不等于江远实际退出收益。",
+      "evidence_source_ids": [
+        "s04"
+      ]
+    }
+  ],
+  "recent_activity": "官网展示2026年9月年度会议及10月瀚辰星泰与吉利德交易动态；张江2026年文章回顾2025年近40次出手。",
+  "why_follow": "分析：大型金融集团创投平台走出的成熟团队，新基金已有可核对的药企并购/授权案例。",
+  "difference": "分析：区别于只投AI模型与消费应用的VC，江远以医疗及硬科技产业链为投资能力圈，覆盖较长研发与国际交易周期。",
+  "contacts": {
+    "website": "https://www.lr-investments.com/?lang=cn",
+    "careers_url": "https://www.lr-investments.com/team",
+    "recruitment_email": "hr@lr-investments.com",
+    "other_email": "info@lr-investments.com",
+    "other_email_purpose": "BP投递/机构联系，非招聘邮箱"
+  },
+  "notes": "官网70+项目及近20例退出属于团队过往口径，不能全部视为江远2022年后新基金成绩；交易签约不等于交割完成及现金分配。",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "江远官网",
+      "url": "https://www.lr-investments.com/?lang=cn",
+      "supports": "2022年启航、领域、近期2026新闻与联系邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "钛媒体张江专访",
+      "url": "https://finance.sina.cn/cj/2024-07-09/detail-inccprin8384108.d.html?wm=3049_0015",
+      "supports": "创始人平安履历及新机构设立",
+      "published_date": "2024-07-09",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "经济参考网：平安时期张江访谈",
+      "url": "https://www.jjckb.cn/2021-06/04/c_139988956.htm",
+      "supports": "明确先于江远成立的代表案例",
+      "published_date": "2021-06-04",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "江远官方Ouro收购协议公告",
+      "url": "https://www.lr-investments.com/blog-detail/id-20.html",
+      "supports": "2025年A轮投资与2026年被收购协议",
+      "published_date": "2026-03-24",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "title": "江远官网团队及联系",
+      "url": "https://www.lr-investments.com/team",
+      "supports": "HR与BP邮箱分别列明",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s06",
+      "title": "张江2026年回顾文章",
+      "url": "https://www.stcn.com/article/detail/3645613.html",
+      "supports": "2025年活动和阶段偏好",
+      "published_date": "2026-02-20",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "checked_at": "2026-10-30"
+}

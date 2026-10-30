@@ -2,11 +2,17 @@
 
 # Worknet
 
-Agent-readable research on AI companies: sourced company profiles, taxonomy and public contact channels.
+Agent-readable research on AI companies and venture investors: sourced profiles, taxonomy and public contact channels.
 
-面向 Agent 阅读和持续更新的 AI 公司资料库。JSON 是唯一维护源，Markdown 和 CSV 自动生成。公司按业务分类展示，不预设求职匹配或优先级。
+面向 Agent 阅读和持续更新的 AI 公司与 VC 机构资料库。JSON 是唯一维护源，Markdown 和 CSV 自动生成。公司按业务分类展示，不预设求职匹配或优先级。
 
 目前收录 **79 家公司、10 个主赛道、269 条来源记录**；记录 76 个招聘入口、38 家公开招聘邮箱。最近公司核查日期：2026-10-30；这是历史研究快照，不保证职位仍开放。
+
+## VC 机构研究
+
+新增 **25 家机构**，区分 2024–2026 新设机构、2020–2023 新一代机构与成熟 VC。创始人原平台成绩和新机构投资分别标注。
+
+[查看机构分类与档案](investors/README.md) · [Agent 机器索引](data/investor-index.json) · [筛选方法](docs/investor-methodology.md)
 
 ## 阅读入口
 

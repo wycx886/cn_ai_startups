@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "id": "idg-capital",
+  "name": "IDG资本（IDG Capital）",
+  "aliases": [
+    "IDG Capital"
+  ],
+  "group": "established",
+  "coverage": {
+    "role": "main",
+    "reason": "团队或机构背景、具名案例和近期活动有公开出处，列入主要研究样本；不表示基金收益已核实。"
+  },
+  "founded": {
+    "year": 1993,
+    "basis": "官网说明1993年在美国成立，同年进入中国。"
+  },
+  "team": [
+    {
+      "name": "Patrick J. McGovern",
+      "role": "创始董事长（历史人物；非当前团队现职）",
+      "previous_firms": [],
+      "background": "官网About以Founding Chairman介绍其创办角色；不据此推断当前管理团队。"
+    }
+  ],
+  "focus": "消费科技、医疗健康、消费等；现有AI硬件与机器人案例。",
+  "stage": "VC、成长、并购、私募股权二级交易及公开市场等多策略。",
+  "representative_cases": [
+    {
+      "company": "腾讯",
+      "attribution": "current_firm",
+      "investor_or_team": "IDG资本",
+      "outcome": "官网列为投资案例；本条仅确认机构关联，不补造首轮年份、个人归属或回报。",
+      "evidence_source_ids": [
+        "s02"
+      ]
+    },
+    {
+      "company": "拓竹科技（Bambu Lab）",
+      "attribution": "current_firm",
+      "investor_or_team": "IDG资本",
+      "outcome": "官网列为高性能3D打印机投资案例；未据此推断退出。",
+      "evidence_source_ids": [
+        "s02"
+      ]
+    },
+    {
+      "company": "逐际动力（LimX Dynamics）",
+      "attribution": "current_firm",
+      "investor_or_team": "IDG资本",
+      "outcome": "公司2026年7月公告，IDG为接近2亿美元Pre-IPO轮的新投资人之一。",
+      "evidence_source_ids": [
+        "s03"
+      ]
+    }
+  ],
+  "recent_activity": "2026-07-14，逐际动力官方披露IDG为Pre-IPO轮新投资人之一；该轮总融资额并非IDG单家出资。",
+  "why_follow": "编辑分析：可以横向观察老牌科技投资平台如何从互联网延伸到3D打印与具身智能。",
+  "difference": "编辑分析：相比单一早期基金，其平台同时覆盖成长、并购等策略；具体机会应确认基金、阶段与投资团队。",
+  "contacts": {
+    "website": "https://idgcapital.com/",
+    "careers_url": null,
+    "recruitment_email": null,
+    "other_email": null,
+    "other_email_purpose": null
+  },
+  "notes": "当前官网未提供可核对的完整现任投资团队名单，仅录入官网明确的历史创始董事长，不视为现任职衔。官网2026年5月声明仅用于域名确认，不作为投资活跃证据。",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "About Us — IDG Capital",
+      "url": "https://idgcapital.com/about-us/",
+      "supports": "1993年设立、进入中国及多策略演进；Patrick J. McGovern为历史创始董事长",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "Portfolio — IDG Capital",
+      "url": "https://idgcapital.com/portfolio/",
+      "supports": "腾讯、拓竹科技、影石等官网案例及阶段覆盖",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "LimX Dynamics Closes US$200 Million Pre-IPO Round",
+      "url": "https://www.limxdynamics.com/en/news/BK000064",
+      "supports": "2026年IDG作为新投资方参与逐际动力融资",
+      "published_date": "2026-07-14",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "IDG Capital官方首页",
+      "url": "https://idgcapital.com/",
+      "supports": "2026年5月官方声明及唯一官方域名",
+      "published_date": "2026-05",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "checked_at": "2026-10-30"
+}

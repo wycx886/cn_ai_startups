@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "id": "gaorong",
+  "name": "高榕创投（Gaorong Ventures）",
+  "aliases": [
+    "高榕资本",
+    "Gaorong Capital",
+    "Banyan Capital"
+  ],
+  "group": "established",
+  "coverage": {
+    "role": "main",
+    "reason": "团队或机构背景、具名案例和近期活动有公开出处，列入主要研究样本；不表示基金收益已核实。"
+  },
+  "founded": {
+    "year": 2014,
+    "basis": "官网注明2014年1月由张震、高翔、岳斌创办。"
+  },
+  "team": [
+    {
+      "name": "张震",
+      "role": "创始合伙人",
+      "previous_firms": [
+        "IDG资本"
+      ],
+      "background": "36氪机构档案披露此前为IDG合伙人。"
+    },
+    {
+      "name": "高翔",
+      "role": "创始合伙人",
+      "previous_firms": [
+        "IDG资本"
+      ],
+      "background": "36氪机构档案披露此前为IDG合伙人。"
+    },
+    {
+      "name": "岳斌",
+      "role": "创始合伙人",
+      "previous_firms": [
+        "IDG资本",
+        "华兴资本"
+      ],
+      "background": "36氪机构档案披露此前任IDG副总裁。"
+    }
+  ],
+  "focus": "新科技、互联网、消费及医疗等；覆盖智能硬件与出海技术项目。",
+  "stage": "早期及成长期。",
+  "representative_cases": [
+    {
+      "company": "拼多多",
+      "attribution": "current_firm",
+      "investor_or_team": "高榕创投",
+      "outcome": "官网列为投资案例；上市不代表已退出。",
+      "evidence_source_ids": [
+        "s01"
+      ]
+    },
+    {
+      "company": "石头科技",
+      "attribution": "current_firm",
+      "investor_or_team": "高榕创投",
+      "outcome": "官网列为投资案例。",
+      "evidence_source_ids": [
+        "s01"
+      ]
+    },
+    {
+      "company": "Waffo",
+      "attribution": "current_firm",
+      "investor_or_team": "高榕创投",
+      "outcome": "Waffo公司2026年2月公告最新A轮超过1500万美元，高榕与Illuminate Financial联合领投。",
+      "evidence_source_ids": [
+        "s04"
+      ]
+    }
+  ],
+  "recent_activity": "2026-02-04，Waffo公司公告最新A轮超过1500万美元，由Illuminate Financial及老股东高榕联合领投。累计3000万美元融资并非该轮金额，亦非高榕单家出资。",
+  "why_follow": "编辑分析：它本身是资深投资人创业后经过十余年发展的机构，可与近期新成立团队做代际比较。",
+  "difference": "编辑分析：创始人来自IDG，但这里所列案例归于高榕成立后；创业者LP和早期至成长覆盖，是区别于单一技术天使基金的观察点。",
+  "contacts": {
+    "website": "https://www.gaorongvc.com/",
+    "careers_url": null,
+    "recruitment_email": null,
+    "other_email": "bp@gaorongvc.com",
+    "other_email_purpose": "商业计划书投递；非招聘邮箱"
+  },
+  "notes": "gaorongvc.com与历史banyanvc.com均承载机构官方内容；创始团队在IDG的个人业绩未混入高榕代表案例。",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "高榕创投官网",
+      "url": "https://www.gaorongvc.com/",
+      "supports": "2014年设立、领域阶段、拼多多和石头等案例及BP邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "高榕团队",
+      "url": "https://www.gaorongvc.com/team.html",
+      "supports": "三位创始合伙人",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "高榕资本 — 36氪机构档案",
+      "url": "https://pitchhub.36kr.com/organization/1678204772758533",
+      "supports": "三位创始人前机构背景",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "Waffo Secures 30 Million USD",
+      "url": "https://waffo.com/en/newsroom/waffo-secures-30m-funding-global-payment-infrastructure",
+      "supports": "2026年2月公司确认最新A轮超1500万美元，高榕为联合领投方；3000万美元为累计融资",
+      "published_date": "2026-02-04",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "checked_at": "2026-10-30"
+}

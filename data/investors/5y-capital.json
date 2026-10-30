@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "id": "5y-capital",
+  "name": "五源资本（5Y Capital）",
+  "aliases": [
+    "5Y Capital",
+    "晨兴资本",
+    "Morningside Venture Capital"
+  ],
+  "group": "established",
+  "coverage": {
+    "role": "main",
+    "reason": "团队或机构背景、具名案例和近期活动有公开出处，列入主要研究样本；不表示基金收益已核实。"
+  },
+  "founded": {
+    "year": 2008,
+    "basis": "2008年刘芹与石建明创立晨兴资本；2020年更名五源。此处采用团队/基金延续口径。"
+  },
+  "team": [
+    {
+      "name": "刘芹",
+      "role": "创始合伙人",
+      "previous_firms": [],
+      "background": null
+    },
+    {
+      "name": "石建明",
+      "role": "创始合伙人",
+      "previous_firms": [],
+      "background": null
+    }
+  ],
+  "focus": "科技驱动的产品与平台；AI、智能硬件、消费及互联网等。",
+  "stage": "以早期长期陪伴为代表，也持续跟投。",
+  "representative_cases": [
+    {
+      "company": "小米",
+      "attribution": "current_firm",
+      "investor_or_team": "五源/晨兴延续团队",
+      "outcome": "官网标注从2010年A轮起投资；上市案例，未披露本条对应基金退出。",
+      "evidence_source_ids": [
+        "s01"
+      ]
+    },
+    {
+      "company": "快手",
+      "attribution": "current_firm",
+      "investor_or_team": "五源/晨兴延续团队",
+      "outcome": "官网标注从2011年天使轮起投资。",
+      "evidence_source_ids": [
+        "s01"
+      ]
+    },
+    {
+      "company": "Dify",
+      "attribution": "current_firm",
+      "investor_or_team": "5Y Capital",
+      "outcome": "Dify 2026年官方融资公告列5Y为本轮参与方及原有投资人。",
+      "evidence_source_ids": [
+        "s04"
+      ]
+    }
+  ],
+  "recent_activity": "2026-03-10，Dify官方宣布3000万美元Pre-A轮，5Y作为老股东参与；不将该轮总金额当作5Y出资。",
+  "why_follow": "编辑分析：可观察一支长期早期团队在移动互联网、智能硬件和Agent开发平台之间如何迁移判断。",
+  "difference": "编辑分析：比全阶段大平台更适合从早期创始人合作与持续加注角度理解；2020年的名字变化不应制造一条新机构记录。",
+  "contacts": {
+    "website": "https://www.5ycap.com/",
+    "careers_url": null,
+    "recruitment_email": null,
+    "other_email": null,
+    "other_email_purpose": null
+  },
+  "notes": "晨兴名称在不同历史组织中使用，本记录特指刘芹、石建明团队延续的五源；不把所有历史晨兴投资都归到五源。",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "五源资本官网案例",
+      "url": "https://www.5ycap.com/",
+      "supports": "小米2010A轮、快手2011天使等投资起点",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "五源团队",
+      "url": "https://www.5ycap.com/team/",
+      "supports": "刘芹、石建明创始合伙人职衔",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "晨兴资本更名五源资本报道",
+      "url": "https://www.jiemian.com/article/5150477.html",
+      "supports": "2008年创立与2020年更名的延续关系",
+      "published_date": "2020-10-22",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "Dify Raises $30M",
+      "url": "https://dify.ai/blog/dify-raises-30m-tomorrow-s-organizations-will-be-built-by-people-and-agents",
+      "supports": "5Y作为老股东参与2026年Pre-A",
+      "published_date": "2026-03-10",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "title": "五源联系我们",
+      "url": "https://www.5ycap.com/contact/",
+      "supports": "官网联系入口；未核对到公开招聘邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "checked_at": "2026-10-30"
+}

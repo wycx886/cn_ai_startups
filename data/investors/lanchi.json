@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "lanchi",
+  "name": "蓝驰创投（Lanchi Ventures）",
+  "aliases": [
+    "Lanchi Ventures",
+    "BlueRun Ventures China",
+    "蓝驰中国"
+  ],
+  "group": "established",
+  "coverage": {
+    "role": "main",
+    "reason": "团队或机构背景、具名案例和近期活动有公开出处，列入主要研究样本；不表示基金收益已核实。"
+  },
+  "founded": {
+    "year": 2005,
+    "basis": "采用2023年官方品牌公告关于陈维广2005年创建中国蓝驰的口径；官网About另写2008年设立，口径冲突保留待核对。"
+  },
+  "team": [
+    {
+      "name": "陈维广（Jui Tan）",
+      "role": "管理合伙人",
+      "previous_firms": [
+        "BlueRun Ventures"
+      ],
+      "background": "官方简介：2001年加入BlueRun，2005年负责亚洲业务；此前任新加坡电信及IBM。"
+    },
+    {
+      "name": "朱天宇",
+      "role": "管理合伙人",
+      "previous_firms": [],
+      "background": null
+    }
+  ],
+  "focus": "AI、机器人、深科技、生物科技与消费科技。",
+  "stage": "早期。",
+  "representative_cases": [
+    {
+      "company": "Genspark",
+      "attribution": "current_firm",
+      "investor_or_team": "蓝驰创投",
+      "outcome": "官方称领投2024年种子轮；2025年11月项目宣布2.75亿美元B轮，未把B轮领投归给蓝驰。",
+      "evidence_source_ids": [
+        "s05"
+      ]
+    },
+    {
+      "company": "理想汽车",
+      "attribution": "current_firm",
+      "investor_or_team": "蓝驰创投",
+      "outcome": "官网列为组合案例；上市状态不等于已实现退出。",
+      "evidence_source_ids": [
+        "s06"
+      ]
+    }
+  ],
+  "recent_activity": "2025-11-20蓝驰官方发布Genspark B轮消息，说明其2024年种子轮领投经历及后续持续支持；这是近期组合融资与机构活动证据，不能仅据此认定其为B轮领投。",
+  "why_follow": "编辑分析：同时有智能电动车历史案例与AI原生创业案例，适合看早期产品团队跨周期的延续。",
+  "difference": "编辑分析：相较更偏成长资金的平台，公开打法突出早期产品、技术和创始人合作；2023年英文更名并不意味着这是一家新VC。",
+  "contacts": {
+    "website": "https://lanchiventures.com/",
+    "careers_url": null,
+    "recruitment_email": null,
+    "other_email": "info@lanchiventures.com",
+    "other_email_purpose": "一般联系；非已确认招聘邮箱"
+  },
+  "notes": "2005/2008是官方不同页面之间的年份冲突，暂不解释为具体法律主体差异。蓝驰与其他地区BlueRun的当前主体和投资记录不可混合。",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "蓝驰创投英文品牌升级官方公告",
+      "url": "https://www.lanchivc.com/7238/",
+      "supports": "2005年中国团队起步、2023年英文品牌变化",
+      "published_date": "2023-09-13",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "蓝驰中文关于",
+      "url": "https://www.lanchivc.com/about/",
+      "supports": "另一设立年份口径2008及早期定位",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "蓝驰中国团队",
+      "url": "https://www.lanchivc.com/team/",
+      "supports": "陈维广、朱天宇管理合伙人",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "Lanchi Ventures Team",
+      "url": "https://lanchiventures.com/team/",
+      "supports": "陈维广BlueRun/新加坡电信/IBM背景",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "title": "Lanchi-backed Genspark Raises $275M Series B",
+      "url": "https://lanchiventures.com/lanchi-ventures-backed-genspark-raises-275m-series-b-launches-ai-workspace-to-put-busywork-on-autopilot/",
+      "supports": "2024种子轮领投与2025年项目融资进展",
+      "published_date": "2025-11-20",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s06",
+      "title": "Lanchi Ventures官方首页",
+      "url": "https://lanchiventures.com/",
+      "supports": "领域、理想等组合与一般邮箱",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "checked_at": "2026-10-30"
+}

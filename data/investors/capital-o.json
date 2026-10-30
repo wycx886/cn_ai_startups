@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "id": "capital-o",
+  "name": "Capital O",
+  "aliases": [
+    "Capital O Fund"
+  ],
+  "group": "emerging",
+  "coverage": {
+    "role": "main",
+    "reason": "团队或机构背景、具名案例和近期活动有公开出处，列入主要研究样本；不表示基金收益已核实。"
+  },
+  "founded": {
+    "year": 2022,
+    "basis": "机构自有领英页及机构档案记载2022年成立；2022年底开始首期募资。"
+  },
+  "team": [
+    {
+      "name": "刘大卫 David Liu",
+      "role": "创始管理合伙人",
+      "previous_firms": [
+        "ZP Capital/治平资本",
+        "鼎晖投资",
+        "云九资本"
+      ],
+      "background": "MIT金融硕士，先后从事硅谷及国内前沿科技投资，公开采访详述其履历。"
+    }
+  ],
+  "focus": "前沿科技基础设施的普及化（NTIC），AI垂类应用、自动驾驶、AI药物/材料、新材料及合成生物。",
+  "stage": "早期。",
+  "representative_cases": [
+    {
+      "company": "图森未来、文远知行、晶泰科技等",
+      "attribution": "prior_firm",
+      "investor_or_team": "刘大卫在ZP、鼎晖、云九任职时期",
+      "outcome": "媒体访谈将这些列为其过往项目；具体主导份额及实际退出收益未核验，不归属Capital O首期基金。",
+      "evidence_source_ids": [
+        "s02"
+      ]
+    },
+    {
+      "company": "赋澈生物 Future Bio",
+      "attribution": "current_firm",
+      "investor_or_team": "Capital O",
+      "outcome": "交易法律顾问2025年2月官宣天使轮融资，明确Capital O参与跟投；企业为生物可再生塑料与AI材料研发，尚无此笔投资退出收益证据。",
+      "evidence_source_ids": [
+        "s07"
+      ]
+    }
+  ],
+  "recent_activity": "2025年2月赋澈生物融资由企业法律顾问公告明确Capital O跟投；2025年1月西湖阳光官方新闻显示刘大卫以Capital O身份参加活动；未找到足够依据断言2026年新投速度。",
+  "why_follow": "分析：属于年轻投资人从既有机构出来创业的样本，前沿科技履历可追溯；新GP自身退出业绩仍需继续观察。",
+  "difference": "分析：相比砺思较成熟的一二级结合、心资本硬科技产业谱系，Capital O更强调同龄创业者网络和新技术基础设施普及的进入时点。",
+  "contacts": {
+    "website": "https://capitalo.fund/",
+    "careers_url": null,
+    "recruitment_email": null,
+    "other_email": null,
+    "other_email_purpose": null
+  },
+  "notes": "创始人过往图森、文远、晶泰等案例不能作为Capital O基金净回报；赋澈生物是可归属本机构的实际投资。官网依赖JavaScript，本次未从官网读取到招聘入口或统一邮箱；通用邮箱有第三方目录来源，保留局限。MIT官网可确认当前创始合伙人身份；未确认2026具体新投事件。；第三方目录邮箱未能从官网复核，未列为已确认联系渠道。",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "Capital O机构自有领英页",
+      "url": "https://www.linkedin.com/company/capital-o",
+      "supports": "2022成立、定位与地区",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "钛媒体：Capital O刘大卫：一代人有一代人的机遇｜青年创投家",
+      "url": "https://www.tmtpost.com/6976756.html",
+      "supports": "前机构履历、代表案例与2022年底募资",
+      "published_date": "2024-03-11",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "极客公园Capital O访谈",
+      "url": "https://www.geekpark.net/news/339129",
+      "supports": "AI、新材料等方向及投资判断",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "西湖阳光2025年会官方新闻",
+      "url": "https://westlakepv.cn/%E9%BD%90%E8%81%9A%E8%A5%BF%E6%B9%96%EF%BC%8C%E9%98%B3%E5%85%89%E6%96%B0%E7%A8%8B%EF%BC%81%E8%A5%BF%E6%B9%96%E9%98%B3%E5%85%892025%E5%B9%B4%E4%BC%9A%E5%9C%86%E6%BB%A1%E8%90%BD%E5%B9%95/",
+      "supports": "2025年Capital O刘大卫以机构身份活动；不据到场推断投资关系",
+      "published_date": "2025-01-22",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "title": "MIT Sloan Alumni Board",
+      "url": "https://mitsloan.mit.edu/alumni/mit-sloan-alumni-board",
+      "supports": "David Liu现为Capital O创始合伙人",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s06",
+      "title": "PEI Capital O档案",
+      "url": "https://www.privateequityinternational.com/institution-profiles/capital-o.html",
+      "supports": "网站与通用邮箱目录信息",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s07",
+      "title": "高锐律所：助力赋澈生物完成数百万美元天使轮融资",
+      "url": "https://www.gunder.com/zh/news-insights/%E6%9C%80%E6%96%B0%E4%B8%9A%E7%BB%A9/or-yuan",
+      "supports": "作为企业法律顾问发布融资公告，确认Capital O是跟投方；属于新机构自身投资",
+      "published_date": "2025-02-28",
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "checked_at": "2026-10-30"
+}

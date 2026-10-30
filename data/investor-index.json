@@ -1,0 +1,579 @@
+{
+  "schema_version": 1,
+  "latest_checked_at": "2026-10-30",
+  "counts": {
+    "investors": 25,
+    "source_records": 118,
+    "recent": 7,
+    "new_generation": 6,
+    "established": 12,
+    "founding_unconfirmed": 0,
+    "coverage_roles": {
+      "main": 20,
+      "watchlist": 3,
+      "adjacent": 2
+    }
+  },
+  "investors": [
+    {
+      "id": "alphaist-partners",
+      "name": "Alphaist Partners",
+      "aliases": [
+        "Alphaist"
+      ],
+      "group": "emerging",
+      "coverage_role": "main",
+      "cohort": "recent",
+      "founded_year": 2024,
+      "team_names": [
+        "陈哲（Peter Chen）"
+      ],
+      "focus": "人工智能；机器人；智能硬件",
+      "stage": "早期",
+      "prior_firm_case_count": 2,
+      "current_firm_case_count": 1,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/alphaist-partners.json",
+      "markdown_path": "investors/alphaist-partners.md"
+    },
+    {
+      "id": "creek-stone",
+      "name": "Creek Stone",
+      "aliases": [
+        "CreekStone",
+        "Creekstone",
+        "Creekstone Ventures",
+        "Creekstone Venture"
+      ],
+      "group": "emerging",
+      "coverage_role": "watchlist",
+      "cohort": "recent",
+      "founded_year": 2025,
+      "team_names": [
+        "钟陆欢",
+        "李一豪"
+      ],
+      "focus": "AI应用；AI原生硬件；中国AI创业者全球化",
+      "stage": "天使轮；早期；孵化",
+      "prior_firm_case_count": 0,
+      "current_firm_case_count": 1,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/creek-stone.json",
+      "markdown_path": "investors/creek-stone.md"
+    },
+    {
+      "id": "ht-investment-yifeifan",
+      "name": "HT Investment",
+      "aliases": [
+        "HT investment（易飞凡）"
+      ],
+      "group": "emerging",
+      "coverage_role": "adjacent",
+      "cohort": "recent",
+      "founded_year": 2025,
+      "team_names": [
+        "易飞凡"
+      ],
+      "focus": "AI驱动科技；社交娱乐；全球化应用",
+      "stage": "天使轮",
+      "prior_firm_case_count": 1,
+      "current_firm_case_count": 1,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/ht-investment-yifeifan.json",
+      "markdown_path": "investors/ht-investment-yifeifan.md"
+    },
+    {
+      "id": "nebulon-ventures",
+      "name": "Nebulon Ventures",
+      "aliases": [
+        "Nebulon"
+      ],
+      "group": "emerging",
+      "coverage_role": "main",
+      "cohort": "recent",
+      "founded_year": 2026,
+      "team_names": [
+        "温永腾（Yongteng Wen）"
+      ],
+      "focus": "全球生成式AI应用；Agent及其协作网络；年轻AI创业者",
+      "stage": "早期",
+      "prior_firm_case_count": 2,
+      "current_firm_case_count": 0,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/nebulon-ventures.json",
+      "markdown_path": "investors/nebulon-ventures.md"
+    },
+    {
+      "id": "panyan-fund",
+      "name": "磐岩基金",
+      "aliases": [
+        "上海磐岩私募基金管理有限公司"
+      ],
+      "group": "emerging",
+      "coverage_role": "watchlist",
+      "cohort": "recent",
+      "founded_year": 2026,
+      "team_names": [
+        "韩锐",
+        "袁烽"
+      ],
+      "focus": null,
+      "stage": null,
+      "prior_firm_case_count": 2,
+      "current_firm_case_count": 0,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/panyan-fund.json",
+      "markdown_path": "investors/panyan-fund.md"
+    },
+    {
+      "id": "source-code-rhythm",
+      "name": "源码律动",
+      "aliases": [
+        "Source Code Rhythm"
+      ],
+      "group": "emerging",
+      "coverage_role": "main",
+      "cohort": "recent",
+      "founded_year": 2025,
+      "team_names": [
+        "黄云刚"
+      ],
+      "focus": "AI基础设施与应用；机器人与硬件；中国创新全球化",
+      "stage": "种子期；天使轮；重要的A轮",
+      "prior_firm_case_count": 2,
+      "current_firm_case_count": 2,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/source-code-rhythm.json",
+      "markdown_path": "investors/source-code-rhythm.md"
+    },
+    {
+      "id": "yueqian-capital-zhenghualiang",
+      "name": "跃迁资本（郑华良）",
+      "aliases": [
+        "杭州跃迁私募基金管理有限公司"
+      ],
+      "group": "emerging",
+      "coverage_role": "watchlist",
+      "cohort": "recent",
+      "founded_year": 2025,
+      "team_names": [
+        "郑华良"
+      ],
+      "focus": "智能终端硬件；AI硬件；机器人",
+      "stage": null,
+      "prior_firm_case_count": 0,
+      "current_firm_case_count": 1,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/yueqian-capital-zhenghualiang.json",
+      "markdown_path": "investors/yueqian-capital-zhenghualiang.md"
+    },
+    {
+      "id": "capital-o",
+      "name": "Capital O",
+      "aliases": [
+        "Capital O Fund"
+      ],
+      "group": "emerging",
+      "coverage_role": "main",
+      "cohort": "new_generation",
+      "founded_year": 2022,
+      "team_names": [
+        "刘大卫 David Liu"
+      ],
+      "focus": "前沿科技基础设施的普及化（NTIC），AI垂类应用、自动驾驶、AI药物/材料、新材料及合成生物。",
+      "stage": "早期。",
+      "prior_firm_case_count": 1,
+      "current_firm_case_count": 1,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/capital-o.json",
+      "markdown_path": "investors/capital-o.md"
+    },
+    {
+      "id": "jinqiu",
+      "name": "锦秋基金 Jinqiu Capital",
+      "aliases": [
+        "锦秋资本"
+      ],
+      "group": "emerging",
+      "coverage_role": "main",
+      "cohort": "new_generation",
+      "founded_year": 2022,
+      "team_names": [
+        "杨洁"
+      ],
+      "focus": "AI算力、AI应用、具身智能及推动产业跃迁的前沿技术；另有创业工作室及早期支持计划。",
+      "stage": "早期为主。",
+      "prior_firm_case_count": 0,
+      "current_firm_case_count": 2,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/jinqiu.json",
+      "markdown_path": "investors/jinqiu.md"
+    },
+    {
+      "id": "longriver",
+      "name": "江远投资 LongRiver Investments",
+      "aliases": [
+        "LRI江远投资",
+        "LongRiver"
+      ],
+      "group": "emerging",
+      "coverage_role": "main",
+      "cohort": "new_generation",
+      "founded_year": 2022,
+      "team_names": [
+        "张江"
+      ],
+      "focus": "医疗健康与科技；生物医药、AI应用、先进制造等。",
+      "stage": "早期至成长，2025年披露新增项目近六成在A轮或更早。",
+      "prior_firm_case_count": 1,
+      "current_firm_case_count": 1,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/longriver.json",
+      "markdown_path": "investors/longriver.md"
+    },
+    {
+      "id": "monolith",
+      "name": "砺思资本 Monolith",
+      "aliases": [
+        "Monolith Management"
+      ],
+      "group": "emerging",
+      "coverage_role": "main",
+      "cohort": "new_generation",
+      "founded_year": 2021,
+      "team_names": [
+        "曹曦",
+        "Tim Wang"
+      ],
+      "focus": "技术驱动的数字产业、科技智造，同时有科技二级市场策略。",
+      "stage": "VC覆盖早期及成长期；另设公开市场策略。",
+      "prior_firm_case_count": 1,
+      "current_firm_case_count": 1,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/monolith.json",
+      "markdown_path": "investors/monolith.md"
+    },
+    {
+      "id": "soul-capital",
+      "name": "心资本 Soul Capital",
+      "aliases": [
+        "心资本"
+      ],
+      "group": "emerging",
+      "coverage_role": "main",
+      "cohort": "new_generation",
+      "founded_year": 2022,
+      "team_names": [
+        "韩彦 Herry Han",
+        "吴炳见",
+        "刘艳晨"
+      ],
+      "focus": "中国早期科技，偏AI算力、物理AI、机器人、新能源及商业航天等。",
+      "stage": "早期。",
+      "prior_firm_case_count": 1,
+      "current_firm_case_count": 1,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/soul-capital.json",
+      "markdown_path": "investors/soul-capital.md"
+    },
+    {
+      "id": "trumed",
+      "name": "真脉投资 TruMed",
+      "aliases": [
+        "TruMed Investment Management",
+        "真脈投資"
+      ],
+      "group": "emerging",
+      "coverage_role": "adjacent",
+      "cohort": "new_generation",
+      "founded_year": 2021,
+      "team_names": [
+        "王婷 Iris Wang"
+      ],
+      "focus": "医疗健康，创新药、医疗器械、诊断与医疗服务；覆盖私募与公开市场。",
+      "stage": "私募股权及Pre-IPO至上市后投资，不能当作纯种子VC。",
+      "prior_firm_case_count": 0,
+      "current_firm_case_count": 2,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/trumed.json",
+      "markdown_path": "investors/trumed.md"
+    },
+    {
+      "id": "5y-capital",
+      "name": "五源资本（5Y Capital）",
+      "aliases": [
+        "5Y Capital",
+        "晨兴资本",
+        "Morningside Venture Capital"
+      ],
+      "group": "established",
+      "coverage_role": "main",
+      "cohort": "established",
+      "founded_year": 2008,
+      "team_names": [
+        "刘芹",
+        "石建明"
+      ],
+      "focus": "科技驱动的产品与平台；AI、智能硬件、消费及互联网等。",
+      "stage": "以早期长期陪伴为代表，也持续跟投。",
+      "prior_firm_case_count": 0,
+      "current_firm_case_count": 3,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/5y-capital.json",
+      "markdown_path": "investors/5y-capital.md"
+    },
+    {
+      "id": "gaorong",
+      "name": "高榕创投（Gaorong Ventures）",
+      "aliases": [
+        "高榕资本",
+        "Gaorong Capital",
+        "Banyan Capital"
+      ],
+      "group": "established",
+      "coverage_role": "main",
+      "cohort": "established",
+      "founded_year": 2014,
+      "team_names": [
+        "张震",
+        "高翔",
+        "岳斌"
+      ],
+      "focus": "新科技、互联网、消费及医疗等；覆盖智能硬件与出海技术项目。",
+      "stage": "早期及成长期。",
+      "prior_firm_case_count": 0,
+      "current_firm_case_count": 3,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/gaorong.json",
+      "markdown_path": "investors/gaorong.md"
+    },
+    {
+      "id": "gsr-ventures",
+      "name": "金沙江创投（GSR Ventures）",
+      "aliases": [
+        "GSR Ventures",
+        "金沙江创业投资基金"
+      ],
+      "group": "established",
+      "coverage_role": "main",
+      "cohort": "established",
+      "founded_year": 2004,
+      "team_names": [
+        "朱啸虎（Allen Zhu）",
+        "丁健"
+      ],
+      "focus": "科技初创企业，涵盖企业、消费互联网、医疗科技及AI商业应用。",
+      "stage": "以早期为主。",
+      "prior_firm_case_count": 0,
+      "current_firm_case_count": 3,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/gsr-ventures.json",
+      "markdown_path": "investors/gsr-ventures.md"
+    },
+    {
+      "id": "hongshan",
+      "name": "红杉中国（HongShan / HSG）",
+      "aliases": [
+        "HongShan",
+        "HSG",
+        "Sequoia Capital China",
+        "红杉资本中国"
+      ],
+      "group": "established",
+      "coverage_role": "main",
+      "cohort": "established",
+      "founded_year": 2005,
+      "team_names": [
+        "沈南鹏"
+      ],
+      "focus": "科技、医疗健康、消费；科技投资包括AI及机器人等。",
+      "stage": "覆盖种子、风险投资、成长及并购等阶段。",
+      "prior_firm_case_count": 0,
+      "current_firm_case_count": 2,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/hongshan.json",
+      "markdown_path": "investors/hongshan.md"
+    },
+    {
+      "id": "idg-capital",
+      "name": "IDG资本（IDG Capital）",
+      "aliases": [
+        "IDG Capital"
+      ],
+      "group": "established",
+      "coverage_role": "main",
+      "cohort": "established",
+      "founded_year": 1993,
+      "team_names": [
+        "Patrick J. McGovern"
+      ],
+      "focus": "消费科技、医疗健康、消费等；现有AI硬件与机器人案例。",
+      "stage": "VC、成长、并购、私募股权二级交易及公开市场等多策略。",
+      "prior_firm_case_count": 0,
+      "current_firm_case_count": 3,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/idg-capital.json",
+      "markdown_path": "investors/idg-capital.md"
+    },
+    {
+      "id": "lanchi",
+      "name": "蓝驰创投（Lanchi Ventures）",
+      "aliases": [
+        "Lanchi Ventures",
+        "BlueRun Ventures China",
+        "蓝驰中国"
+      ],
+      "group": "established",
+      "coverage_role": "main",
+      "cohort": "established",
+      "founded_year": 2005,
+      "team_names": [
+        "陈维广（Jui Tan）",
+        "朱天宇"
+      ],
+      "focus": "AI、机器人、深科技、生物科技与消费科技。",
+      "stage": "早期。",
+      "prior_firm_case_count": 0,
+      "current_firm_case_count": 2,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/lanchi.json",
+      "markdown_path": "investors/lanchi.md"
+    },
+    {
+      "id": "mpci",
+      "name": "经纬创投（MPCi）",
+      "aliases": [
+        "MPC Investments",
+        "Matrix Partners China",
+        "经纬中国"
+      ],
+      "group": "established",
+      "coverage_role": "main",
+      "cohort": "established",
+      "founded_year": 2008,
+      "team_names": [
+        "张颖"
+      ],
+      "focus": "软件与科技、先进制造、消费等；持续关注机器人。",
+      "stage": "早期、初创及成长；官网强调尽早接触创业者，争取成为首家机构投资人并后续追加。",
+      "prior_firm_case_count": 0,
+      "current_firm_case_count": 3,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/mpci.json",
+      "markdown_path": "investors/mpci.md"
+    },
+    {
+      "id": "qiming",
+      "name": "启明创投（Qiming Venture Partners）",
+      "aliases": [
+        "Qiming Venture Partners",
+        "Qiming"
+      ],
+      "group": "established",
+      "coverage_role": "main",
+      "cohort": "established",
+      "founded_year": 2006,
+      "team_names": [
+        "邝子平",
+        "胡旭波",
+        "周志峰"
+      ],
+      "focus": "科技与医疗创新；科技侧包括AI、自动化设备、智能硬件等。",
+      "stage": "早期及成长期。",
+      "prior_firm_case_count": 0,
+      "current_firm_case_count": 2,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/qiming.json",
+      "markdown_path": "investors/qiming.md"
+    },
+    {
+      "id": "shunwei",
+      "name": "顺为资本（Shunwei Capital）",
+      "aliases": [
+        "Shunwei Capital"
+      ],
+      "group": "established",
+      "coverage_role": "main",
+      "cohort": "established",
+      "founded_year": 2011,
+      "team_names": [
+        "雷军",
+        "许达来"
+      ],
+      "focus": "科技驱动的产品、智能硬件、互联网及机器人等。",
+      "stage": "早期及成长；可多轮跟进。",
+      "prior_firm_case_count": 0,
+      "current_firm_case_count": 3,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/shunwei.json",
+      "markdown_path": "investors/shunwei.md"
+    },
+    {
+      "id": "source-code",
+      "name": "源码资本（Source Code Capital）",
+      "aliases": [
+        "Source Code Capital"
+      ],
+      "group": "established",
+      "coverage_role": "main",
+      "cohort": "established",
+      "founded_year": 2014,
+      "team_names": [
+        "曹毅（Yi Cao）"
+      ],
+      "focus": "AI与机器人、智能制造、互联网消费、医疗与生物科技。",
+      "stage": "种子、早期及成长期。",
+      "prior_firm_case_count": 0,
+      "current_firm_case_count": 3,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/source-code.json",
+      "markdown_path": "investors/source-code.md"
+    },
+    {
+      "id": "yunqi",
+      "name": "云启资本（Yunqi Partners）",
+      "aliases": [
+        "Yunqi Partners"
+      ],
+      "group": "established",
+      "coverage_role": "main",
+      "cohort": "established",
+      "founded_year": 2014,
+      "team_names": [
+        "毛丞宇",
+        "陈昱"
+      ],
+      "focus": "AI基础设施与应用、机器人、半导体、量子科技、能源等深科技。",
+      "stage": "早中期，并延伸高校早期创业支持。",
+      "prior_firm_case_count": 0,
+      "current_firm_case_count": 3,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/yunqi.json",
+      "markdown_path": "investors/yunqi.md"
+    },
+    {
+      "id": "zhenfund",
+      "name": "真格基金（ZhenFund）",
+      "aliases": [
+        "ZhenFund"
+      ],
+      "group": "established",
+      "coverage_role": "main",
+      "cohort": "established",
+      "founded_year": 2011,
+      "team_names": [
+        "徐小平",
+        "王强",
+        "方爱之",
+        "戴雨森"
+      ],
+      "focus": "以人为起点的早期科技投资；AI模型、Agent、机器人、芯片等均有案例。",
+      "stage": "天使及早期；不将全部组合公司后续大额轮次都视为其参与。",
+      "prior_firm_case_count": 0,
+      "current_firm_case_count": 3,
+      "checked_at": "2026-10-30",
+      "json_path": "data/investors/zhenfund.json",
+      "markdown_path": "investors/zhenfund.md"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "nebulon-ventures",
+  "name": "Nebulon Ventures",
+  "aliases": [
+    "Nebulon"
+  ],
+  "group": "emerging",
+  "coverage": {
+    "role": "main",
+    "reason": "团队或机构背景、具名案例和近期活动有公开出处，列入主要研究样本；不表示基金收益已核实。"
+  },
+  "founded": {
+    "year": 2026,
+    "basis": "2026-02-24公开宣布新基金及首关；报道提及2025年底离职后启动筹建。此处采用公开官宣年份，法律主体的工商成立日期未独立核定。"
+  },
+  "team": [
+    {
+      "name": "温永腾（Yongteng Wen）",
+      "role": "创始人",
+      "previous_firms": [
+        "BV百度风投",
+        "蔚来资本",
+        "以太资本"
+      ],
+      "background": "原BV百度风投董事总经理；更早在蔚来资本从事投资，在以太资本从事科技融资业务，须区分投资与FA经历。"
+    }
+  ],
+  "focus": "全球生成式AI应用；Agent及其协作网络；年轻AI创业者",
+  "stage": "早期",
+  "representative_cases": [
+    {
+      "company": "生数科技（Vidu）",
+      "attribution": "prior_firm",
+      "investor_or_team": "温永腾／原BV百度风投时期",
+      "outcome": "媒体列为其在BV主导的投资；属于新机构成立前的履历，不把Vidu直接计为Nebulon新基金持仓。",
+      "evidence_source_ids": [
+        "s02"
+      ]
+    },
+    {
+      "company": "西湖心辰",
+      "attribution": "prior_firm",
+      "investor_or_team": "温永腾／原BV百度风投时期",
+      "outcome": "媒体列为其在BV主导的投资；未核实个人或新基金回报。",
+      "evidence_source_ids": [
+        "s02"
+      ]
+    }
+  ],
+  "recent_activity": "2026-02-24公开宣布完成数千万美元首关，官宣采访称筹资历时约四个月；官方持续展示Nebulon Research及面向创始人的工具。",
+  "why_follow": "创始人既有生成式AI投资履历、新机构已完成首关，值得持续跟踪。独立新基金的具名持仓和退出仍需补证，当前依据主要是团队与机构启动。",
+  "difference": "全球AI应用早期投资，强调Agent网络与精简的AI辅助组织；不是BV的新一期基金。",
+  "contacts": {
+    "website": "https://nebulonvc.com/",
+    "careers_url": null,
+    "recruitment_email": null,
+    "other_email": null,
+    "other_email_purpose": null
+  },
+  "notes": "2025年底筹建与2026年官宣分开记录；媒体对四个月周期的描述不能用于反推精确法定成立日期。；新闻出现HeyGen、Vidu等早期组合，但投资时间、持有主体与归属可能混合个人过往；本条未据此将其列为新基金投资。；未找到可核实的公开招聘邮箱，不猜测常见邮箱格式。；募资首关不代表业绩已兑现。",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "Why Nebulon — A letter from our founder｜官方",
+      "url": "https://nebulonvc.com/letter/",
+      "supports": "创始人身份；AI研究与建设理念；与年轻创业者合作的方向",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s02",
+      "title": "GenAI投资人温永腾旗下新基金Nebulon Ventures宣布完成首关｜商业周刊",
+      "url": "https://finance.sina.com.cn/roll/2026-02-24/doc-inhnwmhy3306991.shtml",
+      "supports": "2026年公开启动及首关；全球生成式AI应用定位；原BV及蔚来资本、以太资本履历；BV时期具名投资",
+      "published_date": "2026-02-24",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "title": "2026年第一家成立的VC｜elsewhere创始人采访",
+      "url": "https://elsewhere.news/zh/elsewhere/2026vc-1777001545421",
+      "supports": "2025年底离职与新基金启动；数千万美元首关；Agent网络与新组织策略",
+      "published_date": "2026-02-24",
+      "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "title": "Nebulon Ventures｜官方首页",
+      "url": "https://nebulonvc.com/",
+      "supports": "早期AI投资机构定位；Nebulon Research及面向创始人的工作方式",
+      "published_date": null,
+      "checked_at": "2026-10-30"
+    }
+  ],
+  "checked_at": "2026-10-30"
+}

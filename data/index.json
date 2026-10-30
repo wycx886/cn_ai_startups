@@ -1097,5 +1097,6 @@
       "json_path": "data/companies/xtalpi.json",
       "markdown_path": "companies/xtalpi.md"
     }
-  ]
+  ],
+  "investor_index_path": "data/investor-index.json"
 }
