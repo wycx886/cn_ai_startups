@@ -71,6 +71,13 @@ class WorkspaceTests(unittest.TestCase):
         self.git("add", "-f", "applications/example/log.md")
         self.assertTrue(any("Index: applications/example/log.md" in p for p in audit(self.root)))
 
+    def test_missing_nested_repository_cannot_use_parent_workspace(self):
+        nested = self.root / "shared-project"
+        nested.mkdir()
+        self.write("docs/personal-note.md", "Synthetic private parent content\n")
+        self.git("add", "docs/personal-note.md")
+        self.assertTrue(any("Repository root mismatch" in p for p in audit(nested)))
+
     def test_deleted_private_history_is_still_blocked(self):
         self.write("local/profile.md", "Synthetic private fixture\n")
         self.git("add", "-f", "local/profile.md")

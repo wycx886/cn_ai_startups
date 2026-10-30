@@ -42,7 +42,10 @@ def path_problem(name):
 
 def audit(root=ROOT):
     """Return problems without printing private contents or changing the index."""
-    root = Path(root)
+    root = Path(root).resolve()
+    actual_root = Path(git(root, "rev-parse", "--show-toplevel").decode("utf-8").strip()).resolve()
+    if actual_root != root:
+        return ["Repository root mismatch: refusing to share a parent workspace. Use this project's own Git repository."]
     problems = []
     seen_blobs = set()
     for entry in git(root, "ls-files", "--stage", "-z").split(b"\0"):
