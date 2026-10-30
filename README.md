@@ -2,9 +2,30 @@
 
 # Worknet
 
-Agent-readable research on AI companies and venture investors: sourced profiles, taxonomy and public contact channels.
+A reusable agent framework for career research and follow-up, with sourced public company and investor data. Personal workspaces stay local.
 
-面向 Agent 阅读和持续更新的 AI 公司与 VC 机构资料库。JSON 是唯一维护源，Markdown 和 CSV 自动生成。公司按业务分类展示，不预设求职匹配或优先级。
+可复用的职业研究与跟进框架：共享 Agent 规则、空白模板、工具和公开资料；每个使用者的履历、偏好、简历与投递记录只留在本地。框架不预设个人背景或求职方向。
+
+## 开始使用
+
+让 Agent 先读 [AGENTS.md](AGENTS.md)。仅浏览公开资料可直接使用下方索引；处理个人任务时，在本地运行：
+
+```bash
+python3 scripts/init_local.py
+```
+
+它从 [templates/](templates/README.md) 复制空白工作区，重复运行不覆盖已有记录。使用者按需提供自己的事实与偏好；Agent 在本地创建组织日志，记录真实进展并更新本地总览。
+
+| 共享到 GitHub | 仅在本地，已忽略 |
+| --- | --- |
+| Agent 规则、流程、空白模板、工具与检查 | `local/`：个人事实、方向、简历、草稿 |
+| 有来源的公司／机构 JSON、生成的 Markdown 与 CSV | `applications/`：联系人、投递、沟通、面试与跟进 |
+
+GitHub 不建立 `applications/` 目录；具体记录由每个使用者自己的 Agent 按需创建。详见 [本地工作流](docs/application-workflow.md) 和 [Git 同步方式](docs/git-sync.md)。仓库与模板不授予对外联系或发送权限。
+
+## 公共资料
+
+JSON 是公共资料的唯一维护源，Markdown 和 CSV 自动生成。公司按业务分类展示，不预设个人匹配或优先级，也不因个人偏好突出某个赛道。
 
 目前收录 **79 家公司、10 个主赛道、269 条来源记录**；记录 76 个招聘入口、38 家公开招聘邮箱。最近公司核查日期：2026-10-30；这是历史研究快照，不保证职位仍开放。
 
@@ -19,6 +40,9 @@ Agent-readable research on AI companies and venture investors: sourced profiles,
 | 需求 | 入口 |
 | --- | --- |
 | Agent 阅读与更新规则 | [AGENTS.md](AGENTS.md) |
+| 空白模板 | [templates/README.md](templates/README.md) |
+| 个人任务与记录流程 | [docs/application-workflow.md](docs/application-workflow.md) |
+| 本地 Git 与共享同步 | [docs/git-sync.md](docs/git-sync.md) |
 | 轻量机器索引 | [data/index.json](data/index.json) |
 | 分类边界与参考方法 | [taxonomy.md](taxonomy.md) |
 | 逐家公司 JSON | [data/companies/](data/companies/) |
@@ -91,4 +115,12 @@ python3 scripts/build.py
 
 投资背景只记录有出处的历史披露，核验状态逐家保留；同类区别属于编辑分析。公开招聘、历史/校园投递与其他联系邮箱的用途以公司备注为准。缺失字段使用 JSON `null`，不代表确定不存在。分类是编辑整理的方法，不是任何机构的官方统一标准。
 
-仓库只包含公司公开业务资料，不包含个人简历、投递记录、私人聊天或账号凭据。原有云端表保留为研究历史；后续维护以本仓库 JSON 为准。
+## 提交共享修改
+
+本地克隆本身就是 Git 仓库。保存、提交和推送是不同步骤；准备好共享修改并检查差异后，可运行：
+
+```bash
+.venv/bin/python scripts/publish.py --message "更新公共资料"
+```
+
+工具会生成、验证、检查共享边界，只暂存框架与公共资料，然后提交并推送。`applications/`、`local/` 等个人目录不会随普通提交上传。忽略目录不由 GitHub 备份；检查脚本也不能识别所有个人信息，提交前仍应查看差异。详见 [同步说明](docs/git-sync.md)。

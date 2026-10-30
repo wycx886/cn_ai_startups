@@ -1,5 +1,7 @@
 # 数据字段与维护方式
 
+本页约定共享的公开研究数据。使用者的事实、偏好和进展不加入这些 JSON，按 [本地工作流](application-workflow.md) 保存在忽略的 `local/` 与 `applications/` 中。
+
 公司记录契约见 [company.schema.json](../schemas/company.schema.json)，分类契约见 [taxonomy.schema.json](../schemas/taxonomy.schema.json)。所有原始事实只维护在 `data/companies/*.json` 和 `data/taxonomy.json`。
 
 | 字段 | 含义 |

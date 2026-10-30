@@ -4,3 +4,16 @@ __pycache__/
 .DS_Store
 .env
 .env.*
+
+# Per-user workspace: never shared with the framework repository.
+/applications/
+/application/
+/local/
+/private/
+/resumes/
+/profile.md
+/profile.json
+/preferences.md
+/preferences.json
+*.eml
+*.msg

@@ -58,7 +58,7 @@ def main():
   print('Validated %d investor institutions and %d investor source records.'%(len(investors),sum(len(c['sources']) for c in investors)))
  if args.check_generated:
   subprocess.run([sys.executable,str(ROOT/'scripts/build.py'),'--check'],check=True)
-  for path in [ROOT/'README.md',ROOT/'taxonomy.md',ROOT/'docs/data-model.md',ROOT/'docs/investor-methodology.md',*sorted((ROOT/'companies').glob('*.md')),*sorted((ROOT/'investors').glob('*.md'))]:
+  for path in [ROOT/'AGENTS.md',ROOT/'README.md',ROOT/'taxonomy.md',*sorted((ROOT/'docs').glob('*.md')),*sorted((ROOT/'templates').glob('*.md')),*sorted((ROOT/'companies').glob('*.md')),*sorted((ROOT/'investors').glob('*.md'))]:
    for target in re.findall(r'\[[^\]]+\]\(([^)]+)\)',path.read_text()):
     if target.startswith(('https://','http://','mailto:','#')):continue
     target=target.split('#',1)[0];resolved=(path.parent/target).resolve()
