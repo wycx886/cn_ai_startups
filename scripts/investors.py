@@ -65,7 +65,7 @@ def build_outputs(root):
   out['investors/'+c['id']+'.md']=page
   def case_summary(attr):return '；'.join(x['company']+'：'+x['investor_or_team']+'；'+x['outcome'] for x in c['representative_cases'] if x['attribution']==attr)
   rows.append([c['id'],c['name'],cohort(c),c['coverage']['role'],c['founded']['year'],'；'.join(x['name'] for x in c['team']),c['focus'],c['stage'],c['why_follow'],c['difference'],c['recent_activity'],case_summary('prior_firm'),case_summary('current_firm'),*[c['contacts'][k] for k in ['website','careers_url','recruitment_email','other_email','other_email_purpose']],c['notes'],c['checked_at']])
- out['investors/README.md']=overview
+ out['investors/README.md']=overview.rstrip()+'\n'
  out['exports/investors.csv']=csv_text(rows);out['exports/investor-sources.csv']=csv_text(source_rows)
  intro='## VC 机构研究\n\n新增 **'+str(len(records))+' 家机构**，区分 2024–2026 新设机构、2020–2023 新一代机构与成熟 VC。创始人原平台成绩和新机构投资分别标注。\n\n[查看机构分类与档案](investors/README.md) · [Agent 机器索引](data/investor-index.json) · [筛选方法](docs/investor-methodology.md)\n\n'
  return out,intro
