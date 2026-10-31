@@ -28,7 +28,7 @@ def module_at(name, path):
 
 
 SCAFFOLD = module_at("research_scaffold", "tools/scaffold_entity.py")
-MERGE = module_at("research_merge", "skills/find-channels/scripts/merge_layer2_inbox.py")
+MERGE = module_at("research_merge", "skills/find-channels/scripts/update_layer2.py")
 CHANNEL_AUDIT = module_at("channel_audit", "skills/find-channels/scripts/audit_channels.py")
 ENTITY_AUDIT = module_at("entity_audit", "tools/audit_entities.py")
 SEED_QUERY = module_at("seed_query", "tools/query_lists.py")
@@ -316,10 +316,10 @@ class ResearchTests(unittest.TestCase):
         original = load(self.company)
         before = self.snapshot()
         batch_path = self.write_batch(self.batch())
-        preview = json.loads(self.invoke(MERGE, "--inbox-file", batch_path))
+        preview = json.loads(self.invoke(MERGE, "--batch-file", batch_path))
         self.assertTrue(preview["dry_run"])
         self.assertEqual(before, self.snapshot())
-        applied = json.loads(self.invoke(MERGE, "--inbox-file", batch_path, "--apply"))
+        applied = json.loads(self.invoke(MERGE, "--batch-file", batch_path, "--apply"))
         self.assertFalse(applied["dry_run"])
         updated = load(self.company)
         self.assertEqual(updated["checked_at"], original["checked_at"])
@@ -329,6 +329,30 @@ class ResearchTests(unittest.TestCase):
         self.assertEqual(updated["sources"][-1]["scope"], "channel")
         self.assertEqual(updated["channels"][0]["source_ids"], [updated["sources"][-1]["id"]])
         self.assertEqual(MERGE.plan_changes(self.batch(), self.root), {})
+
+    def test_public_collection_writes_from_stdin_without_a_private_workspace(self):
+        original = load(self.company)
+        with patch.object(sys, "stdin", io.StringIO(json.dumps(self.batch()))):
+            result = json.loads(self.invoke(MERGE, "--apply"))
+        self.assertFalse(result["dry_run"])
+        self.assertEqual(result["updated_records"][0]["file"], "data/companies/hypershell.json")
+        updated = load(self.company)
+        self.assertEqual(len(updated["channels"]), 1)
+        self.assertEqual(updated["checked_at"], original["checked_at"])
+        self.assertEqual(updated["sources"][-1]["scope"], "channel")
+        self.assertFalse((self.root / "workspace").exists())
+        self.assertFalse((self.root / "workspace.local.json").exists())
+        self.assertFalse((self.root / "candidate.json").exists())
+
+    def test_unverified_stdin_cannot_write_public_company_facts(self):
+        batch = self.batch()
+        batch["entries"][0]["verification_status"] = "unverified"
+        before = self.snapshot()
+        with patch.object(sys, "stdin", io.StringIO(json.dumps(batch))):
+            with self.assertRaises(ValueError):
+                self.invoke(MERGE, "--apply")
+        self.assertEqual(self.snapshot(), before)
+        self.assertFalse((self.root / "workspace").exists())
 
     def test_merge_uses_observation_date_without_refreshing_business_date(self):
         original = load(self.company)
@@ -358,7 +382,7 @@ class ResearchTests(unittest.TestCase):
         bad["observed_name"] = "Unrelated organization"
         before = self.snapshot()
         with self.assertRaises(ValueError):
-            self.invoke(MERGE, "--inbox-file", self.write_batch(self.batch(self.entry(), bad)), "--apply")
+            self.invoke(MERGE, "--batch-file", self.write_batch(self.batch(self.entry(), bad)), "--apply")
         self.assertEqual(before, self.snapshot())
 
     def test_batch_rejects_private_fields_unverified_dates_and_unknown_ids(self):

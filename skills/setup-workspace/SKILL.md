@@ -5,7 +5,7 @@ description: Create a blank ignored private workspace or bind an existing one wi
 
 # Setup Workspace · 本地私人工作区
 
-每位使用者维护一套私人资料。先检查当前本地配置和已有资料，再选择创建空白工作区或直接绑定。只查询公共资料时，无需创建私人工作区。
+每位使用者维护一套私人资料。先检查当前本地配置和已有资料，再选择创建空白工作区或直接绑定。仅进行公开公司、招聘渠道或岗位研究时，无需创建私人工作区或 inbox，公开结果直接维护共享 `data/companies/`。
 
 ## 找到有效工作区
 

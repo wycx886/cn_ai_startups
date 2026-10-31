@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Preview or explicitly apply a reviewed public Layer 2 JSON batch, preserving evidence dates."""
+"""Update company records from verified public Layer 2 observations, without a private workspace."""
 import argparse
 import copy
 from datetime import date
@@ -97,9 +97,13 @@ def apply_changes(changes):
 
 
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--inbox-file',required=True)
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--batch-file',default='-',help='Public observations JSON; default - reads standard input without saving a batch file')
     flags=p.add_mutually_exclusive_group();flags.add_argument('--apply',action='store_true');flags.add_argument('--dry-run',action='store_true',help='Explicit preview; also the default')
-    args=p.parse_args();batch=load(Path(args.inbox_file).expanduser())
+    args=p.parse_args()
+    if args.batch_file=='-':
+        if sys.stdin.isatty():p.error('Pipe public observations as JSON or provide --batch-file PATH')
+        batch=json.load(sys.stdin)
+    else:batch=load(Path(args.batch_file).expanduser())
     changes=plan_changes(batch,ROOT)
     summary={'dry_run':not args.apply,'updated_records':[{'file':p.relative_to(ROOT.resolve()).as_posix(),'channel_count':len(json.loads(content)['channels'])} for p,(_,content) in changes.items()],
              'business_profile_dates_changed':False,'legacy_contacts_changed':False,'note':'Input asserts a public page observation; this tool validates the record contract, not the truth of a remote webpage. Review identity/evidence before --apply.'}

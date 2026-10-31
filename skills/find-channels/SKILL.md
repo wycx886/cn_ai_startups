@@ -1,70 +1,57 @@
 ---
 name: find-channels
-description: Discover and verify public organization channels across official entrypoints, recruitment-platform company pages, and professional social profiles. Use when auditing channel coverage, preparing or reviewing a Layer 2 collection batch, or maintaining sourced public channels for operating organizations and investment firms. Keep public channel records separate from personal conversations and read individual preferences only for an explicitly requested personal task.
+description: Find and verify public organization channels, including official pages, BOSS Zhipin and Liepin company profiles, and professional social profiles. Use for Layer 2 research, public recruiting-channel collection, or channel-coverage audits. Write verified observations directly into the company's public data/companies record; no personal workspace, application inbox, or separate manager handoff is required. Keep personal conversations and application progress in the private applications workflow.
 ---
 
-# Find Channels · 三类公开入口
+# Find Channels · 公开招聘与联系入口
 
-本方法由经营型机构和投资机构共用。Layer 1／2／3 是入口类别，不是固定优先顺序，也不预设个人岗位、城市、背景或某个采集工具。当前阶段只圈定第一波机构；除非后续任务明确要求，不自动采集 Layer 2／3 或触达他人。
+这是公共研究流程，由经营型机构和投资机构共用。由任何具备相应访问与写入权限的 Agent 执行，资料归属按内容判断：公开企业主页属于公司资料，已核实后直接更新 `data/companies/<id>.json`；个人聊天、简历和投递进展才属于私人 applications。公开研究不要求读取履历、求职偏好、私人工作区配置，也不先写 inbox。
+
+## 选择范围
+
+先读仓库 `AGENTS.md` 和 `data/index.json`，按任务指定的公司与平台执行，复用稳定 ID。用户要求全部公司时覆盖全部，不擅自缩成第一波；只指定 BOSS 直聘和猎聘时只查这两家，不附加脉脉或 Layer 3。
 
 | `layer` | 采集对象 |
 | --- | --- |
 | `official` | 官网、官方招聘或业务入口 |
-| `recruitment_platform` | BOSS 直聘、猎聘、脉脉上的公开企业主页 |
+| `recruitment_platform` | 任务指定平台上的公开企业主页 |
 | `professional_social` | 已核实归属的机构账号或公开专业身份主页 |
 
-公开入口存于所属机构 JSON 的 `channels` 并关联 `sources`。个人聊天、HR 私人联系方式、薪酬、简历和投递状态只存私人工作区；不能从个人沟通原文直接整批入公共库。
-
-## 审计与准备采集任务
-
-先读 `data/index.json`，按任务指定的范围选择机构；默认第一波方法不偏向特定赛道。命令从仓库根目录执行：
+可用审计工具输出覆盖情况或任务模板；模板仅在标准输出呈现，不需要保存私人批次：
 
 ```bash
-python3 skills/find-channels/scripts/audit_channels.py --entity organizations --wave first --summary
-python3 skills/find-channels/scripts/audit_channels.py --entity organizations --wave first --offset 0 --limit 20 --template
+python3 skills/find-channels/scripts/audit_channels.py --entity companies --wave all --summary
+python3 skills/find-channels/scripts/audit_channels.py --entity companies --wave all --offset 0 --limit 20 --template
 ```
 
-模板是候选采集输入，不是已经核实的数据。保存到解析出的私人工作区 `research/inbox/`，使用唯一批次名，不覆盖已有候选文件。结构化渠道覆盖率与旧 `contacts`／来源网址提示分开，不把出现某个平台域名当作已经找到机构入口。
+## 核实并直接更新公司资料
 
-## 核对入口与归属
+1. 核对平台页面中的机构名称、官网、地区和主体，区分同名公司、品牌、集团与子公司。复用正式记录的名称／别名；新发现的主体名称需先以公开证据确认，再补充别名，不绕过归属校验。
+2. 记录稳定的企业主页，实际核查日期、证据标题与来源。招聘、BP、商务、客服等用途分开，不猜邮箱。
+3. 将已核实的公开入口写入该公司 `channels`，证据写入 `sources` 并标 `scope: "channel"`。原业务 `checked_at`、其他事实与既有渠道保持原意，重复核查更新同一入口，不制造副本。
+4. 未找到、访问受限或主体无法确定时，在本次研究报告中逐公司列明平台、实际检查日期与缺口，不写成 confirmed，也不创建 application 或私人 inbox 记录。有证据的部分确认入口可按现有 `channels` 契约记录 `partial`，不能伪造来源或 URL。
+5. 具体公开岗位也属于公共研究，不属于个人投递记录；`channels` 专门存入口，不能用短期 JD 冒充企业主页。若任务另需逐条岗位明细，按所属公司公共数据契约记录，缺少适用字段时先补充契约，不以私人 inbox 代替公共字段。公开招聘薪资范围与个人期望薪酬分清。
 
-1. 确认机构 ID 与观察到的企业名称，核对官网、平台主体、地区或其他足以区分同名机构的信息。
-2. 记录稳定公开页面，Layer 2 使用企业主页；短期具体 JD 和个人申请进展不放进这个公开入口字段。
-3. 记录真实访问并确认页面的日期、证据标题与公开属性；打不开或归属不明的结果留作候选，不假装已核实。
-4. 将招聘、BP、商务、客服、技术等用途分开。`hr@` 等字符串不是用途核实依据，不按邮箱格式猜地址。
-5. Layer 3 的机构账号或公开专业人物主页要有归属证据。普通引用、转发或第三方 GitHub 项目不等于目标机构／负责人的联系渠道。
+字段见 [数据模型](../../data/README.md)。旧 `contacts.careers_url` 可能是历史帖子或平台页，不能统称官方官招；来源里出现某平台域名也不等于已核实机构归属。Layer 3 的专业人物主页需要公开身份依据，不能把私人 HR 联系方式或聊天上传。
 
-`channels` 的全部字段见 [数据模型](../../data/README.md)。旧 `contacts` 保留兼容；其中 `careers_url` 可能是招聘平台或历史帖子，不能统称官方官招。
+## 可选的直接写入工具
 
-## Layer 2 候选批次与合并
+采集 Agent 可直接编辑公司 JSON 后校验，也可把已经核实的公开观察 JSON 经标准输入交给 [update_layer2.py](scripts/update_layer2.py)，直接更新公司档案，不经过私人目录。已获授权的公开采集任务无需再等另一位管理 Agent 批准。
 
-可由任意有权限读取平台的 Agent 采集。Grok／Google Drive 等工具只是可选适配，见 [采集交接参考](references/grokbot-layer2-sop.md)，不是 Fork 使用者的依赖。
-
-合并输入为 JSON 批次：`schema_version: 1`、`public_only: true`、`entries`。每项只有以下公开字段：
-
-| 字段 | 含义 |
-| --- | --- |
-| `entity_type` | `operating_organization` 或 `investment_firm` |
-| `entity_id` | 对应正式记录的稳定 ID |
-| `platform` | `boss_zhipin`、`liepin` 或 `maimai` |
-| `url` | 已核对的公开企业主页 |
-| `observed_name` | 在该页面看到的机构名称，用于核对归属 |
-| `checked_at` | 实际页面核查日期 |
-| `evidence_title` | 能识别本次公开页面依据的标题 |
-| `verification_status` | 合并正式数据时为 `confirmed`；不确定候选不能晋升 |
-
-批次不带私人备注、薪酬或 HR 名单。先预览，复核后显式应用：
+输入契约见 [channel-batch.schema.json](../../data/schemas/channel-batch.schema.json)：顶层 `schema_version: 1`、`public_only: true`、`entries`；每项包含 `entity_type`、`entity_id`、`platform`、`url`、`observed_name`、`checked_at`、`evidence_title`、`verification_status: "confirmed"`。平台值为 `boss_zhipin`、`liepin` 或任务明确要求的 `maimai`。
 
 ```bash
-PRIVATE_WORKSPACE="$(python3 skills/setup-workspace/scripts/workspace.py)"
-.venv/bin/python skills/find-channels/scripts/merge_layer2_inbox.py --inbox-file "$PRIVATE_WORKSPACE/research/inbox/layer2-batch.json"
-.venv/bin/python skills/find-channels/scripts/merge_layer2_inbox.py --inbox-file "$PRIVATE_WORKSPACE/research/inbox/layer2-batch.json" --apply
+# 将采集程序实际观察到的 JSON 输出通过管道交给此命令，无需批次落盘：
+.venv/bin/python skills/find-channels/scripts/update_layer2.py --apply
 ```
 
-这里的文件名是调用示例，应换成实际唯一批次文件。工具应校验机构 ID、目标目录、平台主页类型、公开字段、归属和日期；默认预览，不能用畸形 ID 走出资料目录。工具不替代实际网页核验，`confirmed` 需要采集者已有真实依据。
+该命令从标准输入读取 JSON；也可传 `--batch-file PATH` 读取已有的纯公共观察文件。未带 `--apply` 时仅预览，这是本地检查选项，不是必需的人工交接。工具检查主体、平台、日期、来源和全部输入后原子写入；它不能替代真实网页核验。并行时按公司分工，避免覆盖他人的新修改。
 
-合并只更新该渠道与对应的渠道专用来源（`scope: "channel"`），保留原机构业务 `checked_at`。导入旧批次不把日期刷新为今天，重复导入不能增加重复入口或提升新鲜度。
+## 完成
 
-## 完成与个人任务
+```bash
+python3 tools/build.py
+.venv/bin/python tools/validate.py --check-generated
+```
 
-公共更新后校验、生成阅读版并检查差异。私人机会筛选只在明确任务中读取有效工作区的 `preferences.md`，不要将这些条件回写成公共批次优先级。公开入口的存在不授予发送、投递或预约权限；有明确授权时再依照本人规则执行并在私人日志记录真实动作。
+汇报已更新公司／平台与未解决项，公共资料可随仓库同步 GitHub。个人筛选、投递、聊天与真实进展另按私人 applications 规则记录；公开研究不授予发消息、投递或预约权限。通用任务提示见 [执行参考](references/layer2-research.md)。

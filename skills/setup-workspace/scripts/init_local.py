@@ -15,7 +15,7 @@ COPIES = {
 DIRECTORIES = (
     "resume", "drafts", "applications/inbox/done",
     "applications/archive", "applications/headhunters",
-    "research/inbox", "tmp",
+    "tmp",
 )
 
 

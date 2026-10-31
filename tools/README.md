@@ -54,10 +54,11 @@ git remote -v
 | 公开事实、字段约束、统一索引及阅读版 | `data/` | 是 |
 | 共用工具、依赖与测试 | `tools/`、`.github/` | 是 |
 | 个人事实、简历、草稿、聊天与投递 | 本地 `workspace/` 或绑定的外部工作区 | 否 |
-| 待核实批次 | 私人 `research/inbox/`、`drafts/research/` | 否 |
+| 个人投递／沟通待整理记录 | 私人 `applications/inbox/` | 否 |
+| 尚未核实的新机构草稿 | 私人 `drafts/research/` | 否 |
 | 私人工作区路径 | `workspace.local.json` | 否 |
 
-核实后的公共 Layer 2 字段进入所属机构的 JSON；私人对话及联系进展继续留私人工作区。共享目录只保留 `skills/`、`data/`、`tools/`、`.github/` 及根入口文件；历史旧目录仅在历史审计中兼容，具体名单以 `check_public.py` 为准。
+公开 Layer 2 采集直接更新所属公司的 `data/companies/<id>.json`，可用渠道 Skill 的 `update_layer2.py --apply` 从标准输入写入，无需私人工作区或 inbox；私人对话及联系进展继续留私人工作区。共享目录只保留 `skills/`、`data/`、`tools/`、`.github/` 及根入口文件；历史旧目录仅在历史审计中兼容，具体名单以 `check_public.py` 为准。
 
 内部 `workspace/` 和路径配置被 Git 忽略；外部工作区在 Git 根目录之外。旧个人目录的忽略规则继续保留，不用强制添加绕过。检查可拦住私人目录、常见凭据和电脑路径，但不能识别所有姓名和聊天，仍需审阅内容。忽略不清除历史；发现历史私人内容时停止推送，评估后再清理，不擅自改写历史。
 

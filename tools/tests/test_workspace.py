@@ -47,6 +47,8 @@ class WorkspaceTests(unittest.TestCase):
         self.assertTrue(all((target / name).is_dir() for name in DIRECTORIES))
         self.assertIn("待填写", (target / "profile.md").read_text())
         self.assertFalse(list((target / "applications").glob("*/log.md")))
+        self.assertTrue((target / "applications/inbox").is_dir())
+        self.assertFalse((target / "research/inbox").exists())
         self.write("workspace/profile.md", "Synthetic facts; preserve me.\n")
         self.write("workspace/applications/example/log.md", "Synthetic progress; preserve me.\n")
         before = {p.relative_to(target): p.read_bytes() for p in target.rglob("*") if p.is_file()}

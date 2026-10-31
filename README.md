@@ -27,7 +27,7 @@ tools/   共用查询、构建、校验、发布工具及测试
 
 完整公共档案统一维护在 `data/companies/`，包含经营型机构和 VC 等金融公司。参考名单在 `data/lists/vcs.json`、`data/lists/incumbents.json`，供 Skill 寻源；分类在 `data/taxonomy.json`。`data/index.json` 和 `data/views/` 自动生成，更新 JSON 后运行 `python3 tools/build.py`。
 
-Layer 1／2／3 的正式公开入口都写在所属机构 JSON 的 `channels`，关联来源和实际核查日期。待核实批次先留私人 `research/inbox/`；核实后的公共字段进入 `data/`。公开入口不表示岗位仍开放，也不授予联系权限。
+Layer 1／2／3 的正式公开入口都写在所属机构 JSON 的 `channels`，关联来源和实际核查日期。公开渠道采集直接更新 `data/companies/<id>.json`，不经过私人 inbox，也不要求初始化私人工作区；未找到或主体不明的结果在本次研究报告中说明。私人 `applications/inbox/` 仅接收个人投递和沟通记录。公开入口不表示岗位仍开放，也不授予联系权限。
 
 ## 私人工作区
 

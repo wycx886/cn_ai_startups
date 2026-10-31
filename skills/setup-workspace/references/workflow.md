@@ -30,7 +30,7 @@ workspace/
     headhunters/
 ```
 
-Fork 的 GitHub 内容只包含框架和空白模板，私人工作区由使用者的 Agent 在本地创建。仅查询公共资料时不必初始化或填写个人信息。
+Fork 的 GitHub 内容只包含框架和空白模板，私人工作区由使用者的 Agent 在本地创建。公开公司、招聘渠道与岗位研究不必初始化或填写个人信息，核实后直接维护共享 `data/companies/`，不经过私人 inbox。
 
 ## 已有私人工作区：只绑定，不复制
 
@@ -58,4 +58,4 @@ python3 skills/setup-workspace/scripts/init_local.py --workspace ../my-private-w
 
 ## 多 Agent 与同步
 
-协调 Agent 按组织分工。同一组织的并行补充分别新建唯一文件到私人 inbox，由协调 Agent 核实后合并。公共研究可独立贡献到 `data/`；从个人沟通获知的未公开事实留在私人工作区。原文、附件、薪酬、凭据与授权记录不得复制到共享文件和远端讨论。共享提交见 [../../../tools/README.md](../../../tools/README.md)。
+个人投递与沟通由协调 Agent 按组织分工，同一组织的个人进展补充写入私人 `applications/inbox/` 后合并。公开公司、招聘渠道和岗位研究直接更新共享仓库 `data/companies/`，不走私人 inbox，也无需初始化私人工作区；按公司分配一个写入者，避免并发覆盖。从个人沟通获知的未公开事实留在私人工作区。原文、附件、薪酬、凭据与授权记录不得复制到共享文件和远端讨论。共享提交见 [../../../tools/README.md](../../../tools/README.md)。
