@@ -55,4 +55,4 @@ def render(root):
         c = r["organizational_context"]
         parents = "、".join(platforms[p]["name"] for p in c["parent_platform_ids"])
         venture += "| [%s](companies/%s.md) | %s | %s | %s | %s |\n" % tuple(map(md, [r["name"], r["id"], FORMS[c["form"]], parents, RELATIONSHIPS[c["relationship_status"]], r["targeting"]["wave"]]))
-    return {"catalog/platforms.md": page, "catalog/corporate-ventures.md": venture}
+    return {"catalog/platforms.md": page.rstrip() + "\n", "catalog/corporate-ventures.md": venture.rstrip() + "\n"}

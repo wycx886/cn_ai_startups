@@ -49,4 +49,3 @@
 | 中国移动 | `china-mobile` | [官网／官方介绍](https://www.chinamobileltd.com/en/ir/reports/ar2024.pdf) | 仅检索线索 · 2026-10-31 | 公司网页访问受限，官方年报提供身份入口；专业公司和研究院另核。 |
 | 中国电信 | `china-telecom` | [官网／官方介绍](https://www.chinatelecom-h.com/en/company/company_overview.php?cat=2002) | 仅检索线索 · 2026-10-31 | 相关电信与云集团；专业子公司和创新团队分别核实。 |
 | 中国联通 | `china-unicom` | [官网／官方介绍](https://www.chinaunicom.com.hk/en/about/profile.php) | 已读取 · 2026-10-31 | 相关电信与云集团；专业子公司和创新团队分别核实。 |
-
