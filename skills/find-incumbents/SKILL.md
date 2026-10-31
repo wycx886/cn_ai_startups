@@ -36,29 +36,29 @@ description: Discover and verify established players in a specified market, incl
 
 按集团 → 法人／业务群 → 产品／实验室／团队定位实际对象。集团规模不代表每个团队的业务规模或招聘状态；一个模型、实验室与品牌也不应重复计成三家公司。
 
-组织归属遵循 [共同 SOP](../../docs/corporate-ventures.md)。若发现有明确新目标与活动证据的新孵化项目、正式拆分或新独立机构，交给 [find-startups](../find-startups/SKILL.md) 判断新进定位；母平台和具体单元可由不同方法研究，但共享同一正式事实源，不复制两套档案。成熟常规业务继续由本 Skill 研究。
+组织归属遵循 [共同 SOP](references/corporate-ventures.md)。若发现有明确新目标与活动证据的新孵化项目、正式拆分或新独立机构，交给 [find-startups](../find-startups/SKILL.md) 判断新进定位；母平台和具体单元可由不同方法研究，但共享同一正式事实源，不复制两套档案。成熟常规业务继续由本 Skill 研究。
 
 ## 5. 输出与保存
 
 每项至少包含：机构／单元、市场与地域、产业角色、已有业务依据、主题相关证据、具体组织层级、来源／公开日期／核查日期、未确认事项。按产业角色或细分市场展示；除非任务与证据支持，不强制 Top N 排名。
 
-方法通用，输出契约由项目决定。本仓库的中国 AI 示例见 [可选附录](references/china-example.md)，第三方研究方法比较见 [方法说明](../../docs/research-methods.md)。
+方法通用，输出契约由项目决定。本仓库的中国 AI 示例见 [可选附录](references/china-example.md)，第三方研究方法比较见 [方法说明](references/research-methods.md)。
 
-在本仓库内，先读取 `data/platforms.json`、`catalog/platforms.md` 和 `data/targets.json`。平台底表是发现线索，正式档案及来源在机构 JSON；底表不自动成为目标、母公司或“AI头部”证明。缺少主题证据不是证实没有相关业务。
+在本仓库内，先读取 `data/platforms.json`、`data/views/platforms.md` 和 `data/index.json`。平台底表是发现线索，正式档案及来源在机构 JSON；底表不自动成为目标、母公司或“AI头部”证明。缺少主题证据不是证实没有相关业务。
 
 ```bash
-python3 scripts/query_platforms.py --sector hardware
-python3 scripts/query_platforms.py --topic AI
-python3 scripts/query.py --entity organizations --player-group incumbent
-python3 scripts/scaffold_entity.py --entity investor --id candidate-manager --name "待核实机构" --group established --player-group incumbent
+python3 tools/query_platforms.py --sector hardware
+python3 tools/query_platforms.py --topic AI
+python3 tools/query.py --entity organizations --player-group incumbent
+python3 tools/scaffold_entity.py --entity investor --id candidate-manager --name "待核实机构" --group established --player-group incumbent
 ```
 
 当前公共数据契约以中国 AI 机会为主题。超出主题的任务先输出到私人研究工作区，或按明确任务扩充分类／契约，不虚构 AI 赛道。草稿不直接晋升正式记录；已有档案更新同一稳定 ID，成熟玩家使用相应编辑标记，不因换 Skill 就批量重分类或刷新旧事实日期。
 
 ```bash
-.venv/bin/python scripts/validate.py
-python3 scripts/build.py
-.venv/bin/python scripts/validate.py --check-generated
+.venv/bin/python tools/validate.py
+python3 tools/build.py
+.venv/bin/python tools/validate.py --check-generated
 ```
 
 不自动采集 Layer 2／3 或触达他人。公开事实与入口可以进入公共记录；个人偏好、简历、薪酬、联系人对话与投递进展只留私人工作区。渠道维护另用 [find-channels](../find-channels/SKILL.md)。

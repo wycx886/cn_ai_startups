@@ -17,7 +17,7 @@ description: Discover and verify public organization channels across official en
 
 ## 审计与准备采集任务
 
-先读 `data/targets.json`，按任务指定的范围选择机构；默认第一波方法不偏向特定赛道。命令从仓库根目录执行：
+先读 `data/index.json`，按任务指定的范围选择机构；默认第一波方法不偏向特定赛道。命令从仓库根目录执行：
 
 ```bash
 python3 skills/find-channels/scripts/audit_channels.py --entity organizations --wave first --summary
@@ -34,7 +34,7 @@ python3 skills/find-channels/scripts/audit_channels.py --entity organizations --
 4. 将招聘、BP、商务、客服、技术等用途分开。`hr@` 等字符串不是用途核实依据，不按邮箱格式猜地址。
 5. Layer 3 的机构账号或公开专业人物主页要有归属证据。普通引用、转发或第三方 GitHub 项目不等于目标机构／负责人的联系渠道。
 
-`channels` 的全部字段见 [数据模型](../../docs/data-model.md)。旧 `contacts` 保留兼容；其中 `careers_url` 可能是招聘平台或历史帖子，不能统称官方官招。
+`channels` 的全部字段见 [数据模型](../../data/README.md)。旧 `contacts` 保留兼容；其中 `careers_url` 可能是招聘平台或历史帖子，不能统称官方官招。
 
 ## Layer 2 候选批次与合并
 
@@ -56,7 +56,7 @@ python3 skills/find-channels/scripts/audit_channels.py --entity organizations --
 批次不带私人备注、薪酬或 HR 名单。先预览，复核后显式应用：
 
 ```bash
-PRIVATE_WORKSPACE="$(python3 scripts/workspace.py)"
+PRIVATE_WORKSPACE="$(python3 skills/setup-workspace/scripts/workspace.py)"
 .venv/bin/python skills/find-channels/scripts/merge_layer2_inbox.py --inbox-file "$PRIVATE_WORKSPACE/research/inbox/layer2-batch.json"
 .venv/bin/python skills/find-channels/scripts/merge_layer2_inbox.py --inbox-file "$PRIVATE_WORKSPACE/research/inbox/layer2-batch.json" --apply
 ```

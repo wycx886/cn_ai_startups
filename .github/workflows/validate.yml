@@ -13,10 +13,10 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install validation dependency
-        run: python -m pip install -r requirements-dev.txt
+        run: python -m pip install -r tools/requirements-dev.txt
       - name: Validate canonical data and generated views
-        run: python scripts/validate.py --check-generated
-      - name: Verify local workspace and sharing protections
-        run: python -m unittest discover -s tests -v
+        run: python tools/validate.py --check-generated
+      - name: Verify research workflows and sharing protections
+        run: python -m unittest discover -s tools/tests -v
       - name: Check shared files and historical paths
-        run: python scripts/check_public.py
+        run: python tools/check_public.py

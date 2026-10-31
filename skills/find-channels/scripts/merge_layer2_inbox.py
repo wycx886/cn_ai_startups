@@ -11,7 +11,7 @@ import sys
 import tempfile
 import unicodedata
 ROOT=Path(__file__).resolve().parents[3]
-sys.path.insert(0,str(ROOT/'scripts'))
+sys.path.insert(0,str(ROOT/'tools'))
 from record_checks import load, platform_url, record_path, reject_placeholders, schema_validator, today, validate_record
 
 

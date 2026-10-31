@@ -21,7 +21,7 @@ description: Discover and verify new entrants for a specified market, including 
 
 优先官网、公告、监管／登记、原始论文与官方代码、公开产品和客户材料；再用可靠报道补足。将事实、编辑判断和未确认消息分开。成立、登记、品牌启用、基金首关、内部立项和法律拆分分别注明口径。
 
-- 大厂项目与团队：按 [共同的组织归属 SOP](../../docs/corporate-ventures.md)，区分内部团队、实验室、产品项目、子公司、正式拆分与前员工创业。
+- 大厂项目与团队：按 [共同的组织归属 SOP](../find-incumbents/references/corporate-ventures.md)，区分内部团队、实验室、产品项目、子公司、正式拆分与前员工创业。
 - 新投资机构：按 [新 VC SOP](references/new-vc-spinouts.md)，核实团队原平台、当前策略、独立形成与案例归因。
 - 本仓库的分类与投资归因：见 [分类参考](references/taxonomy-and-vc-rubric.md)；其 AI 赛道只是当前数据契约，不是所有行业的通用分类。
 
@@ -35,12 +35,12 @@ description: Discover and verify new entrants for a specified market, including 
 
 ## 4. 适配本仓库
 
-先读 `data/targets.json`、`catalog/first-wave.md` 和 [数据模型](../../docs/data-model.md)。经营型记录与投资机构仍分别保存于 `data/companies/`、`data/investors/`；不是两套个人偏好名单。
+先读 `data/index.json`、`data/views/first-wave.md` 和 [数据模型](../../data/README.md)。经营型记录与投资机构仍分别保存于 `data/companies/`、`data/investors/`；不是两套个人偏好名单。
 
 ```bash
-python3 scripts/query.py --entity organizations --wave first
-python3 scripts/audit_entities.py --player-group new_entrant --summary
-python3 scripts/scaffold_entity.py --entity company --id candidate-org --name "待核实机构" --category 04
+python3 tools/query.py --entity organizations --wave first
+python3 tools/audit_entities.py --player-group new_entrant --summary
+python3 tools/scaffold_entity.py --entity company --id candidate-org --name "待核实机构" --category 04
 ```
 
 共享脚手架默认只输出未核实草稿；`--save-draft` 才保存到配置的私人工作区，不直接写入公共库。当前公共数据以中国 AI 机会为主题；若任务超出其主题或分类，先在私人工作区交付通用研究 JSON／Markdown，或按明确任务扩充契约，不强塞进某个 AI 赛道。
@@ -48,9 +48,9 @@ python3 scripts/scaffold_entity.py --entity company --id candidate-org --name "�
 正式记录用 `targeting.player_group`、`wave`、理由及来源表达编辑判断。原事实核查日期、关系核查日期和分类日期分别保留；资料不足用 `unresolved`／`watchlist`，不因导入或整理提升核验状态。生成版不可手改。
 
 ```bash
-.venv/bin/python scripts/validate.py
-python3 scripts/build.py
-.venv/bin/python scripts/validate.py --check-generated
+.venv/bin/python tools/validate.py
+python3 tools/build.py
+.venv/bin/python tools/validate.py --check-generated
 ```
 
-研究方法与第三方参考见 [方法说明](../../docs/research-methods.md)。渠道维护交给 [find-channels](../find-channels/SKILL.md)；不因完成名单而自动采集 Layer 2／3、发消息、投递或预约。个人目的、偏好和沟通只保存在私人工作区。
+研究方法与第三方参考见 [方法说明](../find-incumbents/references/research-methods.md)。渠道维护交给 [find-channels](../find-channels/SKILL.md)；不因完成名单而自动采集 Layer 2／3、发消息、投递或预约。个人目的、偏好和沟通只保存在私人工作区。

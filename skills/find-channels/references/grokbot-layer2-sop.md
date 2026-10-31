@@ -4,8 +4,8 @@
 
 ## 准备交接
 
-1. 读仓库根目录 `AGENTS.md`、渠道 Skill 和统一目标索引 `data/targets.json`。
-2. 运行 `python3 scripts/workspace.py --json`，取得本次有效私人工作区，不假定它位于仓库内部或特定私人父目录。
+1. 读仓库根目录 `AGENTS.md`、渠道 Skill 和统一目标索引 `data/index.json`。
+2. 运行 `python3 skills/setup-workspace/scripts/workspace.py --json`，取得本次有效私人工作区，不假定它位于仓库内部或特定私人父目录。
 3. 由管理 Agent 确定本次机构 ID、范围、批次数量及是否只采集公开资料。使用 `audit_channels.py` 的中性分页参数导出候选模板。
 4. 采集公开机构主页不需要先读取个人履历或求职偏好。只有明确要求个人岗位筛选时，才读有效工作区的规则、偏好、总览和不再接触要求。
 
@@ -14,7 +14,7 @@
 ```text
 任务：只核对下列机构的公开招聘平台企业主页，不发消息、不投递、不确认约见。
 仓库位置：由本次任务提供；先读其 AGENTS.md 与 skills/find-channels/SKILL.md。
-目标：由 data/targets.json / catalog/first-wave.md 选出的本次机构 ID 与名称。
+目标：由 data/index.json / data/views/first-wave.md 选出的本次机构 ID 与名称。
 私人工作区：使用管理 Agent 提供的有效位置，不猜测固定目录。
 输出：唯一名称的 research/inbox/JSON 候选批次，只包含渠道 Skill 指定的公开字段。
 核对：稳定企业主页、页面中的机构名称、平台与主体归属、实际核查日期、证据标题。
@@ -34,6 +34,6 @@
 
 ## 管理 Agent 合并
 
-先核对公开字段、机构归属、日期与证据，再运行合并工具的默认预览。明确 `--apply` 后才写入对应经营型／投资机构 JSON 的 `channels`；原始笔记留私人工作区，公开资料由 `scripts/build.py` 生成阅读版。
+先核对公开字段、机构归属、日期与证据，再运行合并工具的默认预览。明确 `--apply` 后才写入对应经营型／投资机构 JSON 的 `channels`；原始笔记留私人工作区，公开资料由 `tools/build.py` 生成阅读版。
 
 本 SOP 不替使用者决定城市、职能或目标赛道，也不授予发消息、投递或联系权限。私人筛选与真实沟通另按该工作区规则处理。

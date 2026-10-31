@@ -1,0 +1,302 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:cn-ai-startups:index",
+  "title": "Generated unified public organization index",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 3
+    },
+    "latest_checked_at": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "latest_company_check": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "latest_investor_check": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "counts": {
+      "type": "object",
+      "properties": {
+        "organizations": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "companies": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "investors": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "first": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "watchlist": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "later": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "organizations",
+        "companies",
+        "investors",
+        "first",
+        "watchlist",
+        "later"
+      ],
+      "additionalProperties": false
+    },
+    "statistics": {
+      "type": "object",
+      "properties": {
+        "companies": {
+          "type": "object"
+        },
+        "investors": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "companies",
+        "investors"
+      ],
+      "additionalProperties": false
+    },
+    "organizations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "organization_type": {
+            "enum": [
+              "operating_organization",
+              "investment_firm"
+            ]
+          },
+          "focus": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "checked_at": {
+            "type": "string",
+            "format": "date"
+          },
+          "targeting": {
+            "$ref": "urn:cn-ai-startups:targeting"
+          },
+          "json_path": {
+            "type": "string",
+            "pattern": "^data/(companies|investors)/[a-z0-9-]+\\.json$"
+          },
+          "markdown_path": {
+            "type": "string",
+            "pattern": "^data/views/(companies|investors)/[a-z0-9-]+\\.md$"
+          },
+          "category_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "category_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "investment_status": {
+            "enum": [
+              "confirmed_disclosure",
+              "partial",
+              "not_found",
+              "not_applicable"
+            ]
+          },
+          "organizational_context": {
+            "$ref": "urn:cn-ai-startups:organizational-context"
+          },
+          "group": {
+            "enum": [
+              "emerging",
+              "established"
+            ]
+          },
+          "coverage_role": {
+            "enum": [
+              "main",
+              "watchlist",
+              "adjacent"
+            ]
+          },
+          "cohort": {
+            "enum": [
+              "recent",
+              "new_generation",
+              "established",
+              "founding_unconfirmed"
+            ]
+          },
+          "founded_year": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 1900,
+                "maximum": 2100
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "previous_platforms": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "stage": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "prior_firm_case_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "current_firm_case_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "team_names": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "aliases",
+          "organization_type",
+          "focus",
+          "checked_at",
+          "targeting",
+          "json_path",
+          "markdown_path"
+        ],
+        "additionalProperties": false,
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "organization_type": {
+                  "const": "operating_organization"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "category_id",
+                "category_name",
+                "investment_status"
+              ]
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "organization_type": {
+                  "const": "investment_firm"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "group",
+                "coverage_role",
+                "cohort",
+                "founded_year",
+                "previous_platforms",
+                "team_names",
+                "stage",
+                "prior_firm_case_count",
+                "current_firm_case_count"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "latest_checked_at",
+    "latest_company_check",
+    "latest_investor_check",
+    "counts",
+    "statistics",
+    "organizations"
+  ],
+  "additionalProperties": false
+}

@@ -6,7 +6,7 @@ from pathlib import Path
 import sys
 from urllib.parse import urlsplit
 ROOT=Path(__file__).resolve().parents[3]
-sys.path.insert(0,str(ROOT/'scripts'))
+sys.path.insert(0,str(ROOT/'tools'))
 from organizations import select
 from record_checks import PLATFORMS
 
