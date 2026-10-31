@@ -1,5 +1,6 @@
 """Protect complete, source-dated discovery metadata through index consolidation."""
 import json
+import copy
 from pathlib import Path
 import sys
 import unittest
@@ -59,6 +60,14 @@ class UnifiedIndexTests(unittest.TestCase):
             self.assertIn(entry["markdown_path"], output)
         generated_index = json.loads(output["data/index.json"])
         self.assertEqual(generated_index, self.index)
+
+    def test_investment_person_can_omit_unknown_previous_employers(self):
+        record = copy.deepcopy(next(record for _, record in self.records
+                                    if record["organization_type"] == "investment_firm"))
+        for person in record["people"]:
+            person.pop("previous_firms", None)
+        index = build_index(ROOT, [("companies", record)])
+        self.assertEqual(index["organizations"][0]["previous_platforms"], [])
 
 
 if __name__ == "__main__":

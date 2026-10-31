@@ -42,7 +42,7 @@ def build_index(root, records=None):
             entry.update(group=record["group"], coverage_role=record["coverage"]["role"],
                          cohort=cohort(record), founded_year=record["founded"]["year"],
                          team_names=[p["name"] for p in record["people"]], stage=record["stage"],
-                         previous_platforms=sorted({firm for person in record["people"] for firm in person["previous_firms"]}),
+                         previous_platforms=sorted({firm for person in record["people"] for firm in person.get("previous_firms", [])}),
                          prior_firm_case_count=sum(c["attribution"] == "prior_firm" for c in record["representative_cases"]),
                          current_firm_case_count=sum(c["attribution"] == "current_firm" for c in record["representative_cases"]))
         entries.append(entry)
@@ -83,7 +83,7 @@ def render(root):
         page += f"| [{md(r['name'])}](companies/{r['id']}.md) | {r['category_id']} | {FUNDING[r['investment']['verification_status']]} | {r['checked_at']} |\n"
     page += "\n## 新进投资机构\n\n[新 VC 识别 SOP](../../skills/find-startups/references/new-vc-spinouts.md) · [新机构与原平台对照](new-vc-spinouts.md)。新GP缺少成熟退出不自动排除；原平台案例不算新机构业绩。\n\n| 机构 | 原平台／团队背景 | 圈选依据 |\n| --- | --- | --- |\n"
     for _,r in investing:
-        platforms='；'.join(p['name']+'：'+('、'.join(p['previous_firms']) or '原平台未列') for p in r['people'])
+        platforms='；'.join(p['name']+'：'+('、'.join(p.get('previous_firms', [])) or '原平台未列') for p in r['people'])
         page += f"| [{md(r['name'])}](companies/{r['id']}.md) | {md(platforms)} | {md(r['targeting']['rationale'])} |\n"
     page += "\n## 观察候选\n\n身份、边界或独立运作证据有缺口，先保留，不包装成已确认的第一波。\n\n| 机构 | 类型 | 待核实边界 |\n| --- | --- | --- |\n"
     for folder,r in records:
@@ -97,7 +97,7 @@ def render(root):
     spin=banner+'# 新进投资机构与原平台\n\n[第一波入口](first-wave.md) · [识别与核验 SOP](../../skills/find-startups/references/new-vc-spinouts.md)\n\n独立创业不自动意味着法律分拆、资产转移或原基金持仓承接。下列关系取自已有团队及来源记录；不因资料整理提升核验状态。\n\n| 机构 | 寻源状态 | 团队／原平台 | 机构成立口径 |\n| --- | --- | --- | --- |\n'
     for _,r in records:
         if r['organization_type']=='investment_firm' and r['targeting']['player_group']=='new_entrant':
-            team='；'.join(p['name']+'：'+('、'.join(p['previous_firms']) or '未列原平台') for p in r['people'])
+            team='；'.join(p['name']+'：'+('、'.join(p.get('previous_firms', [])) or '未列原平台') for p in r['people'])
             spin+=f"| [{md(r['name'])}](companies/{r['id']}.md) | {WAVES[r['targeting']['wave']]} | {md(team)} | {md(r['founded']['basis'])} |\n"
     out['data/views/new-vc-spinouts.md']=spin
     stream=io.StringIO(newline='');writer=csv.writer(stream,lineterminator='\n')

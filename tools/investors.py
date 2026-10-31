@@ -34,7 +34,7 @@ def build_outputs(root):
   if not group:continue
   overview+='## '+title+' · '+str(len(group))+' 家\n\n| 机构 | 研究位置 | 成立口径 | 团队来历 | 方向 | 案例归因 |\n| --- | --- | --- | --- | --- | --- |\n'
   for c in group:
-   team='；'.join(p['name']+'（'+('、'.join(p['previous_firms']) if p['previous_firms'] else (p['role'] or '未列原平台'))+'）' for p in c['people'])
+   team='；'.join(p['name']+'（'+('、'.join(p.get('previous_firms', [])) if p.get('previous_firms', []) else (p['role'] or '未列原平台'))+'）' for p in c['people'])
    old=sum(x['attribution']=='prior_firm' for x in c['representative_cases']);new=len(c['representative_cases'])-old
    overview+='| ['+md(c['name'])+'](companies/'+c['id']+'.md) | '+ROLES[c['coverage']['role']]+' | '+md(c['founded']['year'])+'；'+md(c['founded']['basis'])+' | '+md(team)+' | '+md(c['focus'])+' | 原平台 '+str(old)+' 条；本机构 '+str(new)+' 条 |\n'
   overview+='\n'
