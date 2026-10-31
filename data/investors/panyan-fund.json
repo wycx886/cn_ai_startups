@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "panyan-fund",
   "name": "磐岩基金",
   "aliases": [
@@ -94,5 +94,19 @@
       "checked_at": "2026-10-30"
     }
   ],
-  "checked_at": "2026-10-30"
+  "checked_at": "2026-10-30",
+  "organization_type": "investment_firm",
+  "targeting": {
+    "kind": "editorial_assessment",
+    "player_group": "new_entrant",
+    "wave": "watchlist",
+    "rationale": "高榕投资人独立设立与管理人登记有来源，正式AI策略、募集和独立投资仍有缺口，暂列观察候选。",
+    "source_ids": [
+      "s01",
+      "s02",
+      "s03"
+    ],
+    "labelled_at": "2026-10-31"
+  },
+  "channels": []
 }

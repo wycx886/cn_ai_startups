@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "alphaist-partners",
   "name": "Alphaist Partners",
   "aliases": [
@@ -100,5 +100,19 @@
       "checked_at": "2026-10-30"
     }
   ],
-  "checked_at": "2026-10-30"
+  "checked_at": "2026-10-30",
+  "organization_type": "investment_firm",
+  "targeting": {
+    "kind": "editorial_assessment",
+    "player_group": "new_entrant",
+    "wave": "first",
+    "rationale": "原五源投资人独立创立，官方方向覆盖AI、机器人和智能硬件，列为第一波独立新机构候选。",
+    "source_ids": [
+      "s01",
+      "s02",
+      "s03"
+    ],
+    "labelled_at": "2026-10-31"
+  },
+  "channels": []
 }

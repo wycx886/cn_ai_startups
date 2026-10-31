@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "aisphere",
   "name": "爱诗科技 / PixVerse",
   "aliases": [
@@ -52,5 +52,18 @@
     "original_name": "爱诗科技(PixVerse / 拍我AI)",
     "original_track": "04",
     "original_subtrack": "AI视频生成与世界模型"
-  }
+  },
+  "organization_type": "operating_organization",
+  "targeting": {
+    "kind": "editorial_assessment",
+    "player_group": "new_entrant",
+    "wave": "first",
+    "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+    "source_ids": [
+      "s01",
+      "s02"
+    ],
+    "labelled_at": "2026-10-31"
+  },
+  "channels": []
 }

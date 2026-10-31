@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "yueqian-capital-zhenghualiang",
   "name": "跃迁资本（郑华良）",
   "aliases": [
@@ -75,5 +75,19 @@
       "checked_at": "2026-10-30"
     }
   ],
-  "checked_at": "2026-10-30"
+  "checked_at": "2026-10-30",
+  "organization_type": "investment_firm",
+  "targeting": {
+    "kind": "editorial_assessment",
+    "player_group": "new_entrant",
+    "wave": "watchlist",
+    "rationale": "原敦鸿及凯泰投资人组建新管理人，AI硬件策略已有口述，但身份材料和投资交叉证据仍需补齐。",
+    "source_ids": [
+      "s01",
+      "s02",
+      "s03"
+    ],
+    "labelled_at": "2026-10-31"
+  },
+  "channels": []
 }

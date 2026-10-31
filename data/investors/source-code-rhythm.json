@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "source-code-rhythm",
   "name": "源码律动",
   "aliases": [
@@ -114,5 +114,20 @@
       "checked_at": "2026-10-30"
     }
   ],
-  "checked_at": "2026-10-30"
+  "checked_at": "2026-10-30",
+  "organization_type": "investment_firm",
+  "targeting": {
+    "kind": "editorial_assessment",
+    "player_group": "new_entrant",
+    "wave": "first",
+    "rationale": "原源码及经纬投资人组建独立运营机构，募资、决策与AI机器人策略有来源，保留与源码资本的关系说明。",
+    "source_ids": [
+      "s01",
+      "s02",
+      "s03",
+      "s04"
+    ],
+    "labelled_at": "2026-10-31"
+  },
+  "channels": []
 }

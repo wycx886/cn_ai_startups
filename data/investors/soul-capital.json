@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "soul-capital",
   "name": "心资本 Soul Capital",
   "aliases": [
@@ -108,5 +108,19 @@
       "checked_at": "2026-10-30"
     }
   ],
-  "checked_at": "2026-10-30"
+  "checked_at": "2026-10-30",
+  "organization_type": "investment_firm",
+  "targeting": {
+    "kind": "editorial_assessment",
+    "player_group": "new_entrant",
+    "wave": "first",
+    "rationale": "来自光速中国等平台的团队独立组建，当前策略覆盖AI算力、物理AI和机器人；原团队与新机构案例继续分开。",
+    "source_ids": [
+      "s01",
+      "s02",
+      "s03"
+    ],
+    "labelled_at": "2026-10-31"
+  },
+  "channels": []
 }

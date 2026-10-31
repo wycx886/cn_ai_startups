@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "latest_company_check": "2026-10-30",
   "counts": {
     "companies": 79,
@@ -20,6 +20,18 @@
       "category_name": "基础模型",
       "focus": "产业模型与企业决策AI",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/01-ai.json",
       "markdown_path": "catalog/companies/01-ai.md"
     },
@@ -34,6 +46,18 @@
       "category_name": "基础模型",
       "focus": "医疗增强模型与AI家庭医生",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/baichuan.json",
       "markdown_path": "catalog/companies/baichuan.md"
     },
@@ -48,6 +72,18 @@
       "category_name": "基础模型",
       "focus": "通用与推理基础模型、开源模型与API",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。 资本支持以现有幻方／创始人及媒体披露限定为准，不强写普通VC融资已官宣。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/deepseek.json",
       "markdown_path": "catalog/companies/deepseek.md"
     },
@@ -62,6 +98,18 @@
       "category_name": "基础模型",
       "focus": "认知模型与企业智能体",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/langboat.json",
       "markdown_path": "catalog/companies/langboat.md"
     },
@@ -76,6 +124,18 @@
       "category_name": "基础模型",
       "focus": "多模态基础模型与全球消费应用",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/minimax.json",
       "markdown_path": "catalog/companies/minimax.md"
     },
@@ -90,6 +150,18 @@
       "category_name": "基础模型",
       "focus": "高效端侧模型与多模态",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/modelbest.json",
       "markdown_path": "catalog/companies/modelbest.md"
     },
@@ -104,6 +176,18 @@
       "category_name": "基础模型",
       "focus": "通用模型、个人助手与代码Agent",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/moonshot.json",
       "markdown_path": "catalog/companies/moonshot.md"
     },
@@ -118,6 +202,18 @@
       "category_name": "基础模型",
       "focus": "多模态基座模型与AI终端",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/stepfun.json",
       "markdown_path": "catalog/companies/stepfun.md"
     },
@@ -132,6 +228,18 @@
       "category_name": "基础模型",
       "focus": "通用基座模型、模型服务与智能体",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/zhipu.json",
       "markdown_path": "catalog/companies/zhipu.md"
     },
@@ -146,6 +254,18 @@
       "category_name": "算力与基础设施",
       "focus": "异构推理与Token生产",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/approaching-ai.json",
       "markdown_path": "catalog/companies/approaching-ai.md"
     },
@@ -159,6 +279,18 @@
       "category_name": "算力与基础设施",
       "focus": "通用GPU与智算解决方案",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/biren.json",
       "markdown_path": "catalog/companies/biren.md"
     },
@@ -173,6 +305,18 @@
       "category_name": "算力与基础设施",
       "focus": "AI基础软件与智算云",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/datacanvas.json",
       "markdown_path": "catalog/companies/datacanvas.md"
     },
@@ -186,6 +330,18 @@
       "category_name": "算力与基础设施",
       "focus": "云端AI芯片及数据中心训推系统",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/enflame.json",
       "markdown_path": "catalog/companies/enflame.md"
     },
@@ -200,6 +356,18 @@
       "category_name": "算力与基础设施",
       "focus": "异构算力与AI原生基础设施",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/infinigence.json",
       "markdown_path": "catalog/companies/infinigence.md"
     },
@@ -214,6 +382,18 @@
       "category_name": "算力与基础设施",
       "focus": "智算集群与高速算力网络",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/infrawaves.json",
       "markdown_path": "catalog/companies/infrawaves.md"
     },
@@ -228,6 +408,18 @@
       "category_name": "算力与基础设施",
       "focus": "分布式训练、推理系统与算力云",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/luchentech.json",
       "markdown_path": "catalog/companies/luchentech.md"
     },
@@ -241,6 +433,18 @@
       "category_name": "算力与基础设施",
       "focus": "全栈GPU芯片与计算平台",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/metax.json",
       "markdown_path": "catalog/companies/metax.md"
     },
@@ -254,6 +458,18 @@
       "category_name": "算力与基础设施",
       "focus": "全功能GPU与软件生态",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/moore-threads.json",
       "markdown_path": "catalog/companies/moore-threads.md"
     },
@@ -268,6 +484,18 @@
       "category_name": "算力与基础设施",
       "focus": "国产算力系统软件与推理评测路由",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/qingcheng-ai.json",
       "markdown_path": "catalog/companies/qingcheng-ai.md"
     },
@@ -282,6 +510,18 @@
       "category_name": "算力与基础设施",
       "focus": "多模型API、推理服务与私有化MaaS",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/siliconflow.json",
       "markdown_path": "catalog/companies/siliconflow.md"
     },
@@ -296,6 +536,18 @@
       "category_name": "开发平台与编程工具",
       "focus": "企业级 AI 软件研发",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/aixcoder.json",
       "markdown_path": "catalog/companies/aixcoder.md"
     },
@@ -310,6 +562,18 @@
       "category_name": "开发平台与编程工具",
       "focus": "开源LLM应用开发与Agent编排平台",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/dify.json",
       "markdown_path": "catalog/companies/dify.md"
     },
@@ -323,6 +587,18 @@
       "category_name": "通用 Agent、个人应用与搜索",
       "focus": "AI天气、机器翻译与智能写作",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/caiyun.json",
       "markdown_path": "catalog/companies/caiyun.md"
     },
@@ -336,6 +612,18 @@
       "category_name": "通用 Agent、个人应用与搜索",
       "focus": "画布式AI创作与Agent工作空间",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/flowith.json",
       "markdown_path": "catalog/companies/flowith.md"
     },
@@ -350,6 +638,18 @@
       "category_name": "通用 Agent、个人应用与搜索",
       "focus": "多模型协同的AI工作空间与Agent",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/genspark.json",
       "markdown_path": "catalog/companies/genspark.md"
     },
@@ -364,6 +664,18 @@
       "category_name": "通用 Agent、个人应用与搜索",
       "focus": "通用任务执行Agent",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/manus.json",
       "markdown_path": "catalog/companies/manus.md"
     },
@@ -378,6 +690,18 @@
       "category_name": "通用 Agent、个人应用与搜索",
       "focus": "AI搜索、深度研究与专业文字工具",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/metasota.json",
       "markdown_path": "catalog/companies/metasota.md"
     },
@@ -392,6 +716,18 @@
       "category_name": "通用 Agent、个人应用与搜索",
       "focus": "主动式个人Agent与长期记忆",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/today-ai.json",
       "markdown_path": "catalog/companies/today-ai.md"
     },
@@ -406,6 +742,18 @@
       "category_name": "多模态生成与创作工具",
       "focus": "视频基础模型与创作者应用",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/aisphere.json",
       "markdown_path": "catalog/companies/aisphere.md"
     },
@@ -420,6 +768,18 @@
       "category_name": "多模态生成与创作工具",
       "focus": "二次元视频生成",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "unresolved",
+        "wave": "watchlist",
+        "rationale": "历史项目；并入MiniMax的报道未取得官方收购确认，现行独立主体及存续状态需核实。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/avolution.json",
       "markdown_path": "catalog/companies/avolution.md"
     },
@@ -434,6 +794,18 @@
       "category_name": "多模态生成与创作工具",
       "focus": "AI 原生娱乐与内容 Agent 系统",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/creativefitting.json",
       "markdown_path": "catalog/companies/creativefitting.md"
     },
@@ -448,6 +820,18 @@
       "category_name": "多模态生成与创作工具",
       "focus": "3D 资产生成、数字人与世界生成",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/deemos.json",
       "markdown_path": "catalog/companies/deemos.md"
     },
@@ -461,6 +845,19 @@
       "category_name": "多模态生成与创作工具",
       "focus": "商业视觉设计与 AI 内容工具",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "unresolved",
+        "wave": "watchlist",
+        "rationale": "现有材料主要呈现既有设计工具及相关业务，需区分新进AI机构与既有平台的AI扩展。",
+        "source_ids": [
+          "s01",
+          "s02",
+          "s03"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/gaoding.json",
       "markdown_path": "catalog/companies/gaoding.md"
     },
@@ -474,6 +871,18 @@
       "category_name": "多模态生成与创作工具",
       "focus": "AI 数字人与智能交互",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/guiji.json",
       "markdown_path": "catalog/companies/guiji.md"
     },
@@ -487,6 +896,18 @@
       "category_name": "多模态生成与创作工具",
       "focus": "UI 设计协作与 AI 设计工具",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/jsdesign.json",
       "markdown_path": "catalog/companies/jsdesign.md"
     },
@@ -501,6 +922,18 @@
       "category_name": "多模态生成与创作工具",
       "focus": "AI 创意生产平台与模型社区",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/liblib.json",
       "markdown_path": "catalog/companies/liblib.md"
     },
@@ -515,6 +948,18 @@
       "category_name": "多模态生成与创作工具",
       "focus": "视频生成与世界模型",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/shengshu.json",
       "markdown_path": "catalog/companies/shengshu.md"
     },
@@ -529,6 +974,18 @@
       "category_name": "多模态生成与创作工具",
       "focus": "3D 生成基础模型与创作工作台",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/vast.json",
       "markdown_path": "catalog/companies/vast.md"
     },
@@ -543,6 +1000,18 @@
       "category_name": "多模态生成与创作工具",
       "focus": "3D 数字人视频、直播与交互智能体",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/xmov.json",
       "markdown_path": "catalog/companies/xmov.md"
     },
@@ -557,6 +1026,18 @@
       "category_name": "企业与垂直行业软件",
       "focus": "屏幕理解与企业执行 Agent",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/ai-indeed.json",
       "markdown_path": "catalog/companies/ai-indeed.md"
     },
@@ -570,6 +1051,18 @@
       "category_name": "企业与垂直行业软件",
       "focus": "企业行动智能体与超自动化",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/cyclone.json",
       "markdown_path": "catalog/companies/cyclone.md"
     },
@@ -584,6 +1077,18 @@
       "category_name": "企业与垂直行业软件",
       "focus": "企业大模型、数据语义与智能体平台",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/deepexi.json",
       "markdown_path": "catalog/companies/deepexi.md"
     },
@@ -597,6 +1102,18 @@
       "category_name": "企业与垂直行业软件",
       "focus": "文档智能、OCR 与商业数据 AI",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "unresolved",
+        "wave": "watchlist",
+        "rationale": "现有材料呈现文档识别与商业信息平台，新进还是成熟专用AI玩家待核实，不因上市单独排除。",
+        "source_ids": [
+          "s01",
+          "s03"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/intsig.json",
       "markdown_path": "catalog/companies/intsig.md"
     },
@@ -610,6 +1127,18 @@
       "category_name": "企业与垂直行业软件",
       "focus": "智能自动化、智能文档与数字员工",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/laiye.json",
       "markdown_path": "catalog/companies/laiye.md"
     },
@@ -624,6 +1153,18 @@
       "category_name": "企业与垂直行业软件",
       "focus": "法律 AI 与合同全生命周期管理",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/powerlaw.json",
       "markdown_path": "catalog/companies/powerlaw.md"
     },
@@ -638,6 +1179,18 @@
       "category_name": "企业与垂直行业软件",
       "focus": "销售智能与对话分析",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/recurrent-ai.json",
       "markdown_path": "catalog/companies/recurrent-ai.md"
     },
@@ -652,6 +1205,18 @@
       "category_name": "企业与垂直行业软件",
       "focus": "RPA、AI 工作流与数字员工",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/yingdao.json",
       "markdown_path": "catalog/companies/yingdao.md"
     },
@@ -665,6 +1230,18 @@
       "category_name": "零售、电商与营销应用",
       "focus": "时尚商品中台与商品数字化",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "incumbent",
+        "wave": "later",
+        "rationale": "披露确认被光云科技100%收购并纳入合并，本轮不作为独立新进机构。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/deepdraw.json",
       "markdown_path": "catalog/companies/deepdraw.md"
     },
@@ -679,6 +1256,18 @@
       "category_name": "零售、电商与营销应用",
       "focus": "电商内容生成与商品数字化",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/infimind.json",
       "markdown_path": "catalog/companies/infimind.md"
     },
@@ -693,6 +1282,18 @@
       "category_name": "零售、电商与营销应用",
       "focus": "商业内容 AIGC 与广告创意自动化",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/kuaizi.json",
       "markdown_path": "catalog/companies/kuaizi.md"
     },
@@ -706,6 +1307,18 @@
       "category_name": "零售、电商与营销应用",
       "focus": "电商客服与营销 SaaS",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/leyan.json",
       "markdown_path": "catalog/companies/leyan.md"
     },
@@ -720,6 +1333,18 @@
       "category_name": "零售、电商与营销应用",
       "focus": "全球消费者互动与客服/语音 Agent",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/quickcep.json",
       "markdown_path": "catalog/companies/quickcep.md"
     },
@@ -734,6 +1359,18 @@
       "category_name": "零售、电商与营销应用",
       "focus": "跨境独立站与零售商业基础设施",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "unresolved",
+        "wave": "watchlist",
+        "rationale": "现有核心为独立站SaaS与交易系统，AI运营是其中一项，新进玩家定位需进一步确认。",
+        "source_ids": [
+          "s01",
+          "s03"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/shoplazza.json",
       "markdown_path": "catalog/companies/shoplazza.md"
     },
@@ -748,6 +1385,18 @@
       "category_name": "零售、电商与营销应用",
       "focus": "客户服务 Agent 与 VOC 消费者洞察",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/shulex.json",
       "markdown_path": "catalog/companies/shulex.md"
     },
@@ -762,6 +1411,18 @@
       "category_name": "零售、电商与营销应用",
       "focus": "TikTok 电商数据与视频内容 SaaS",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/tabcut.json",
       "markdown_path": "catalog/companies/tabcut.md"
     },
@@ -775,6 +1436,18 @@
       "category_name": "零售、电商与营销应用",
       "focus": "全球效果营销与 AI 广告内容",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/tec-do.json",
       "markdown_path": "catalog/companies/tec-do.md"
     },
@@ -788,6 +1461,18 @@
       "category_name": "零售、电商与营销应用",
       "focus": "客服 AI、商家服务与语流 Agent",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/xiaoduo.json",
       "markdown_path": "catalog/companies/xiaoduo.md"
     },
@@ -802,6 +1487,18 @@
       "category_name": "具身智能与机器人",
       "focus": "通用机器人、具身模型、量产与应用生态",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/agibot.json",
       "markdown_path": "catalog/companies/agibot.md"
     },
@@ -816,6 +1513,18 @@
       "category_name": "具身智能与机器人",
       "focus": "人形机器人与康复机器人两条业务线",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/fourier.json",
       "markdown_path": "catalog/companies/fourier.md"
     },
@@ -830,6 +1539,18 @@
       "category_name": "具身智能与机器人",
       "focus": "整机、具身基础模型与开发平台",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/galaxea.json",
       "markdown_path": "catalog/companies/galaxea.md"
     },
@@ -844,6 +1565,18 @@
       "category_name": "具身智能与机器人",
       "focus": "通用具身模型与机器人在零售、工业场景的部署",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/galbot.json",
       "markdown_path": "catalog/companies/galbot.md"
     },
@@ -858,6 +1591,18 @@
       "category_name": "具身智能与机器人",
       "focus": "全身运动控制、具身智能与模块化足式机器人",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/limx.json",
       "markdown_path": "catalog/companies/limx.md"
     },
@@ -872,6 +1617,18 @@
       "category_name": "具身智能与机器人",
       "focus": "以力为中心的具身基础模型与通用机器人大脑",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/noematrix.json",
       "markdown_path": "catalog/companies/noematrix.md"
     },
@@ -886,6 +1643,18 @@
       "category_name": "具身智能与机器人",
       "focus": "全栈人形机器人、灵巧手与具身模型",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/robotera.json",
       "markdown_path": "catalog/companies/robotera.md"
     },
@@ -900,6 +1669,18 @@
       "category_name": "具身智能与机器人",
       "focus": "具身大模型、数据与通用机器人",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/spirit-ai.json",
       "markdown_path": "catalog/companies/spirit-ai.md"
     },
@@ -914,6 +1695,18 @@
       "category_name": "具身智能与机器人",
       "focus": "物理AI、通用具身模型及软硬一体机器人",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/tars.json",
       "markdown_path": "catalog/companies/tars.md"
     },
@@ -928,6 +1721,18 @@
       "category_name": "具身智能与机器人",
       "focus": "消费级与行业级足式、人形机器人本体",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/unitree.json",
       "markdown_path": "catalog/companies/unitree.md"
     },
@@ -942,6 +1747,18 @@
       "category_name": "具身智能与机器人",
       "focus": "端到端具身基础模型及通用机器人",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/x-square.json",
       "markdown_path": "catalog/companies/x-square.md"
     },
@@ -956,6 +1773,18 @@
       "category_name": "AI 消费硬件",
       "focus": "AI玩具、语音互动与陪伴",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/haivivi.json",
       "markdown_path": "catalog/companies/haivivi.md"
     },
@@ -970,6 +1799,18 @@
       "category_name": "AI 消费硬件",
       "focus": "消费级穿戴外骨骼与户外助力",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/hypershell.json",
       "markdown_path": "catalog/companies/hypershell.md"
     },
@@ -984,6 +1825,18 @@
       "category_name": "AI 消费硬件",
       "focus": "AI录音硬件与专业人士对话智能软件",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。 公开材料有自筹、众筹及小额外部支持口径，不统一标为VC-backed。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/plaud.json",
       "markdown_path": "catalog/companies/plaud.md"
     },
@@ -998,6 +1851,18 @@
       "category_name": "AI 消费硬件",
       "focus": "消费电子、AI眼镜与智能穿戴",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "由充储电业务延伸至AI眼镜的转型型候选；按本轮AI产品圈选，不以成立年份或上市状态单独判断。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/sharge.json",
       "markdown_path": "catalog/companies/sharge.md"
     },
@@ -1012,6 +1877,18 @@
       "category_name": "AI 消费硬件",
       "focus": "AI办公耳机、录音转写及会议智能",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/viaim.json",
       "markdown_path": "catalog/companies/viaim.md"
     },
@@ -1026,6 +1903,18 @@
       "category_name": "科学智能与生物医药",
       "focus": "生命科学基础模型与蛋白质、生物系统设计",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/biomap.json",
       "markdown_path": "catalog/companies/biomap.md"
     },
@@ -1040,6 +1929,18 @@
       "category_name": "科学智能与生物医药",
       "focus": "科学智能基础设施、科学模型与研发工具",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/dp-technology.json",
       "markdown_path": "catalog/companies/dp-technology.md"
     },
@@ -1054,6 +1955,18 @@
       "category_name": "科学智能与生物医药",
       "focus": "生成式AI药物发现平台与自研创新药管线",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/insilico.json",
       "markdown_path": "catalog/companies/insilico.md"
     },
@@ -1067,6 +1980,18 @@
       "category_name": "科学智能与生物医药",
       "focus": "蛋白质设计大模型、AI生物设计及干湿实验闭环",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/matwings.json",
       "markdown_path": "catalog/companies/matwings.md"
     },
@@ -1080,6 +2005,18 @@
       "category_name": "科学智能与生物医药",
       "focus": "智慧实验室与智能制造自主智能体、自动化平台",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/megarobo.json",
       "markdown_path": "catalog/companies/megarobo.md"
     },
@@ -1094,6 +2031,18 @@
       "category_name": "科学智能与生物医药",
       "focus": "AI、量子物理与自动化实验支撑药物及材料研发",
       "checked_at": "2026-10-30",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/companies/xtalpi.json",
       "markdown_path": "catalog/companies/xtalpi.md"
     }

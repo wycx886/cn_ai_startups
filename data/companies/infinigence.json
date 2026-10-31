@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "infinigence",
   "name": "无问芯穹 Infinigence AI",
   "aliases": [
@@ -62,5 +62,18 @@
     "original_name": "无问芯穹(Infinigence)",
     "original_track": "02",
     "original_subtrack": "异构推理加速与“Token工厂” (MaaS)"
-  }
+  },
+  "organization_type": "operating_organization",
+  "targeting": {
+    "kind": "editorial_assessment",
+    "player_group": "new_entrant",
+    "wave": "first",
+    "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+    "source_ids": [
+      "s01",
+      "s02"
+    ],
+    "labelled_at": "2026-10-31"
+  },
+  "channels": []
 }

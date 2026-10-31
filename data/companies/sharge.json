@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "sharge",
   "name": "闪极科技 SHARGE",
   "aliases": [
@@ -52,5 +52,18 @@
     "original_name": "闪极科技(Sharge)",
     "original_track": "08",
     "original_subtrack": "AI穿戴/外骨骼、录音生产力与陪伴硬件"
-  }
+  },
+  "organization_type": "operating_organization",
+  "targeting": {
+    "kind": "editorial_assessment",
+    "player_group": "new_entrant",
+    "wave": "first",
+    "rationale": "由充储电业务延伸至AI眼镜的转型型候选；按本轮AI产品圈选，不以成立年份或上市状态单独判断。",
+    "source_ids": [
+      "s01",
+      "s02"
+    ],
+    "labelled_at": "2026-10-31"
+  },
+  "channels": []
 }

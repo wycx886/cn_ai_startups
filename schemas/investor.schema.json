@@ -4,7 +4,7 @@
   "type": "object",
   "properties": {
     "schema_version": {
-      "const": 1
+      "const": 2
     },
     "id": {
       "type": "string",
@@ -300,6 +300,13 @@
           "checked_at": {
             "type": "string",
             "format": "date"
+          },
+          "scope": {
+            "enum": [
+              "organization",
+              "channel"
+            ],
+            "description": "Omitted means organization; channel-only checks do not refresh the business profile date."
           }
         },
         "required": [
@@ -316,7 +323,8 @@
     },
     "checked_at": {
       "type": "string",
-      "format": "date"
+      "format": "date",
+      "description": "Date of actual business-profile verification; independent of channel checks and editorial labels."
     },
     "coverage": {
       "type": "object",
@@ -338,6 +346,18 @@
         "reason"
       ],
       "additionalProperties": false
+    },
+    "organization_type": {
+      "const": "investment_firm"
+    },
+    "targeting": {
+      "$ref": "urn:cn-ai-startups:targeting"
+    },
+    "channels": {
+      "type": "array",
+      "items": {
+        "$ref": "urn:cn-ai-startups:channel"
+      }
     }
   },
   "required": [
@@ -358,7 +378,11 @@
     "notes",
     "sources",
     "checked_at",
-    "coverage"
+    "coverage",
+    "organization_type",
+    "targeting",
+    "channels"
   ],
-  "additionalProperties": false
+  "additionalProperties": false,
+  "$id": "urn:cn-ai-startups:investor"
 }

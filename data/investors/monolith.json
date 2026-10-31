@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "monolith",
   "name": "砺思资本 Monolith",
   "aliases": [
@@ -117,5 +117,20 @@
       "checked_at": "2026-10-30"
     }
   ],
-  "checked_at": "2026-10-30"
+  "checked_at": "2026-10-30",
+  "organization_type": "investment_firm",
+  "targeting": {
+    "kind": "editorial_assessment",
+    "player_group": "new_entrant",
+    "wave": "first",
+    "rationale": "前红杉、博裕等投资团队独立组建；一级与二级策略并存，机构成立与VC基金设立分别记录，不设2022年硬门槛。",
+    "source_ids": [
+      "s01",
+      "s02",
+      "s03",
+      "s05"
+    ],
+    "labelled_at": "2026-10-31"
+  },
+  "channels": []
 }

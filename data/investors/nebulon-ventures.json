@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "nebulon-ventures",
   "name": "Nebulon Ventures",
   "aliases": [
@@ -93,5 +93,20 @@
       "checked_at": "2026-10-30"
     }
   ],
-  "checked_at": "2026-10-30"
+  "checked_at": "2026-10-30",
+  "organization_type": "investment_firm",
+  "targeting": {
+    "kind": "editorial_assessment",
+    "player_group": "new_entrant",
+    "wave": "first",
+    "rationale": "原BV等投资平台负责人独立，已有AI早期定位和新基金首关证据；缺少成熟退出或具名持仓不单独构成排除理由。",
+    "source_ids": [
+      "s01",
+      "s02",
+      "s03",
+      "s04"
+    ],
+    "labelled_at": "2026-10-31"
+  },
+  "channels": []
 }

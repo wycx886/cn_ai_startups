@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "capital-o",
   "name": "Capital O",
   "aliases": [
@@ -117,5 +117,20 @@
       "checked_at": "2026-10-30"
     }
   ],
-  "checked_at": "2026-10-30"
+  "checked_at": "2026-10-30",
+  "organization_type": "investment_firm",
+  "targeting": {
+    "kind": "editorial_assessment",
+    "player_group": "new_entrant",
+    "wave": "first",
+    "rationale": "有成熟科技投资平台履历的投资人独立组建，覆盖AI应用与前沿科技；不是纯AI基金，原平台业绩仍单列。",
+    "source_ids": [
+      "s01",
+      "s02",
+      "s03",
+      "s07"
+    ],
+    "labelled_at": "2026-10-31"
+  },
+  "channels": []
 }

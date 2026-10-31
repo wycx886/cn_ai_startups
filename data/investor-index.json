@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "latest_checked_at": "2026-10-30",
   "counts": {
     "investors": 25,
@@ -33,6 +33,19 @@
       "prior_firm_case_count": 2,
       "current_firm_case_count": 1,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "原五源投资人独立创立，官方方向覆盖AI、机器人和智能硬件，列为第一波独立新机构候选。",
+        "source_ids": [
+          "s01",
+          "s02",
+          "s03"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/alphaist-partners.json",
       "markdown_path": "catalog/investors/alphaist-partners.md"
     },
@@ -58,6 +71,19 @@
       "prior_firm_case_count": 0,
       "current_firm_case_count": 1,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "原弘毅团队独立创立，访谈及被投企业证据支持AI早期策略和当前机构投资；保留原coverage观察标记及法律主体核实缺口。",
+        "source_ids": [
+          "s01",
+          "s02",
+          "s03"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/creek-stone.json",
       "markdown_path": "catalog/investors/creek-stone.md"
     },
@@ -79,6 +105,19 @@
       "prior_firm_case_count": 1,
       "current_firm_case_count": 1,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "watchlist",
+        "rationale": "有资深投资人独立及AI项目线索，官方身份、法律主体和地区归属仍需核实，暂列观察候选。",
+        "source_ids": [
+          "s01",
+          "s02",
+          "s03"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/ht-investment-yifeifan.json",
       "markdown_path": "catalog/investors/ht-investment-yifeifan.md"
     },
@@ -100,6 +139,20 @@
       "prior_firm_case_count": 2,
       "current_firm_case_count": 0,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "原BV等投资平台负责人独立，已有AI早期定位和新基金首关证据；缺少成熟退出或具名持仓不单独构成排除理由。",
+        "source_ids": [
+          "s01",
+          "s02",
+          "s03",
+          "s04"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/nebulon-ventures.json",
       "markdown_path": "catalog/investors/nebulon-ventures.md"
     },
@@ -122,6 +175,19 @@
       "prior_firm_case_count": 2,
       "current_firm_case_count": 0,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "watchlist",
+        "rationale": "高榕投资人独立设立与管理人登记有来源，正式AI策略、募集和独立投资仍有缺口，暂列观察候选。",
+        "source_ids": [
+          "s01",
+          "s02",
+          "s03"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/panyan-fund.json",
       "markdown_path": "catalog/investors/panyan-fund.md"
     },
@@ -143,6 +209,20 @@
       "prior_firm_case_count": 2,
       "current_firm_case_count": 2,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "原源码及经纬投资人组建独立运营机构，募资、决策与AI机器人策略有来源，保留与源码资本的关系说明。",
+        "source_ids": [
+          "s01",
+          "s02",
+          "s03",
+          "s04"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/source-code-rhythm.json",
       "markdown_path": "catalog/investors/source-code-rhythm.md"
     },
@@ -164,6 +244,19 @@
       "prior_firm_case_count": 0,
       "current_firm_case_count": 1,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "watchlist",
+        "rationale": "原敦鸿及凯泰投资人组建新管理人，AI硬件策略已有口述，但身份材料和投资交叉证据仍需补齐。",
+        "source_ids": [
+          "s01",
+          "s02",
+          "s03"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/yueqian-capital-zhenghualiang.json",
       "markdown_path": "catalog/investors/yueqian-capital-zhenghualiang.md"
     },
@@ -185,6 +278,20 @@
       "prior_firm_case_count": 1,
       "current_firm_case_count": 1,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "有成熟科技投资平台履历的投资人独立组建，覆盖AI应用与前沿科技；不是纯AI基金，原平台业绩仍单列。",
+        "source_ids": [
+          "s01",
+          "s02",
+          "s03",
+          "s07"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/capital-o.json",
       "markdown_path": "catalog/investors/capital-o.md"
     },
@@ -206,6 +313,19 @@
       "prior_firm_case_count": 0,
       "current_firm_case_count": 2,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "有传统VC及字节财投经历的创始人组建新机构，官方方向覆盖AI；保留与字节的关系，不承接全部财投历史业绩。",
+        "source_ids": [
+          "s01",
+          "s02",
+          "s03"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/jinqiu.json",
       "markdown_path": "catalog/investors/jinqiu.md"
     },
@@ -228,6 +348,19 @@
       "prior_firm_case_count": 1,
       "current_firm_case_count": 1,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "创始人从平安投资体系独立，覆盖科技、AI应用及医疗，作为交叉型新机构候选，不包装成纯AI基金。",
+        "source_ids": [
+          "s01",
+          "s02",
+          "s04"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/longriver.json",
       "markdown_path": "catalog/investors/longriver.md"
     },
@@ -250,6 +383,20 @@
       "prior_firm_case_count": 1,
       "current_firm_case_count": 1,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "前红杉、博裕等投资团队独立组建；一级与二级策略并存，机构成立与VC基金设立分别记录，不设2022年硬门槛。",
+        "source_ids": [
+          "s01",
+          "s02",
+          "s03",
+          "s05"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/monolith.json",
       "markdown_path": "catalog/investors/monolith.md"
     },
@@ -273,6 +420,19 @@
       "prior_firm_case_count": 1,
       "current_firm_case_count": 1,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "来自光速中国等平台的团队独立组建，当前策略覆盖AI算力、物理AI和机器人；原团队与新机构案例继续分开。",
+        "source_ids": [
+          "s01",
+          "s02",
+          "s03"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/soul-capital.json",
       "markdown_path": "catalog/investors/soul-capital.md"
     },
@@ -295,6 +455,20 @@
       "prior_firm_case_count": 0,
       "current_firm_case_count": 2,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "watchlist",
+        "rationale": "奥博投资人独立成立有证据，但当前材料主要支持医疗及跨一二级策略，AI范围尚不充分，暂列观察候选。",
+        "source_ids": [
+          "s01",
+          "s02",
+          "s03",
+          "s04"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/trumed.json",
       "markdown_path": "catalog/investors/trumed.md"
     },
@@ -319,6 +493,18 @@
       "prior_firm_case_count": 0,
       "current_firm_case_count": 3,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "incumbent",
+        "wave": "later",
+        "rationale": "现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/5y-capital.json",
       "markdown_path": "catalog/investors/5y-capital.md"
     },
@@ -344,6 +530,18 @@
       "prior_firm_case_count": 0,
       "current_firm_case_count": 3,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "incumbent",
+        "wave": "later",
+        "rationale": "现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/gaorong.json",
       "markdown_path": "catalog/investors/gaorong.md"
     },
@@ -367,6 +565,18 @@
       "prior_firm_case_count": 0,
       "current_firm_case_count": 3,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "incumbent",
+        "wave": "later",
+        "rationale": "现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/gsr-ventures.json",
       "markdown_path": "catalog/investors/gsr-ventures.md"
     },
@@ -391,6 +601,18 @@
       "prior_firm_case_count": 0,
       "current_firm_case_count": 2,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "incumbent",
+        "wave": "later",
+        "rationale": "现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/hongshan.json",
       "markdown_path": "catalog/investors/hongshan.md"
     },
@@ -412,6 +634,18 @@
       "prior_firm_case_count": 0,
       "current_firm_case_count": 3,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "incumbent",
+        "wave": "later",
+        "rationale": "现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/idg-capital.json",
       "markdown_path": "catalog/investors/idg-capital.md"
     },
@@ -436,6 +670,18 @@
       "prior_firm_case_count": 0,
       "current_firm_case_count": 2,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "incumbent",
+        "wave": "later",
+        "rationale": "现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/lanchi.json",
       "markdown_path": "catalog/investors/lanchi.md"
     },
@@ -459,6 +705,18 @@
       "prior_firm_case_count": 0,
       "current_firm_case_count": 3,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "incumbent",
+        "wave": "later",
+        "rationale": "现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/mpci.json",
       "markdown_path": "catalog/investors/mpci.md"
     },
@@ -483,6 +741,18 @@
       "prior_firm_case_count": 0,
       "current_firm_case_count": 2,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "incumbent",
+        "wave": "later",
+        "rationale": "现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/qiming.json",
       "markdown_path": "catalog/investors/qiming.md"
     },
@@ -505,6 +775,18 @@
       "prior_firm_case_count": 0,
       "current_firm_case_count": 3,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "incumbent",
+        "wave": "later",
+        "rationale": "现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/shunwei.json",
       "markdown_path": "catalog/investors/shunwei.md"
     },
@@ -526,6 +808,18 @@
       "prior_firm_case_count": 0,
       "current_firm_case_count": 3,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "incumbent",
+        "wave": "later",
+        "rationale": "现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/source-code.json",
       "markdown_path": "catalog/investors/source-code.md"
     },
@@ -548,6 +842,18 @@
       "prior_firm_case_count": 0,
       "current_firm_case_count": 3,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "incumbent",
+        "wave": "later",
+        "rationale": "现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/yunqi.json",
       "markdown_path": "catalog/investors/yunqi.md"
     },
@@ -572,6 +878,18 @@
       "prior_firm_case_count": 0,
       "current_firm_case_count": 3,
       "checked_at": "2026-10-30",
+      "organization_type": "investment_firm",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "incumbent",
+        "wave": "later",
+        "rationale": "现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。",
+        "source_ids": [
+          "s01",
+          "s02"
+        ],
+        "labelled_at": "2026-10-31"
+      },
       "json_path": "data/investors/zhenfund.json",
       "markdown_path": "catalog/investors/zhenfund.md"
     }

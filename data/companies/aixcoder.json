@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "aixcoder",
   "name": "硅心科技 / aiXcoder",
   "aliases": [
@@ -76,5 +76,18 @@
     "original_name": "硅心科技(aiXcoder)",
     "original_track": "05",
     "original_subtrack": "法律、金融、销售与编程垂直Agent"
-  }
+  },
+  "organization_type": "operating_organization",
+  "targeting": {
+    "kind": "editorial_assessment",
+    "player_group": "new_entrant",
+    "wave": "first",
+    "rationale": "按现有AI产品、业务与资本披露列为第一波研究候选；这是编辑归类，不表示成立时间、法律独立性和当前存续状态已全项重查。",
+    "source_ids": [
+      "s01",
+      "s02"
+    ],
+    "labelled_at": "2026-10-31"
+  },
+  "channels": []
 }

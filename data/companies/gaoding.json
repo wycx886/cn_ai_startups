@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "gaoding",
   "name": "稿定科技 / 稿定设计",
   "aliases": [
@@ -59,5 +59,19 @@
     "original_name": "稿定科技",
     "original_track": "04",
     "original_subtrack": "AI 3D生成、数字人与视觉设计工作流"
-  }
+  },
+  "organization_type": "operating_organization",
+  "targeting": {
+    "kind": "editorial_assessment",
+    "player_group": "unresolved",
+    "wave": "watchlist",
+    "rationale": "现有材料主要呈现既有设计工具及相关业务，需区分新进AI机构与既有平台的AI扩展。",
+    "source_ids": [
+      "s01",
+      "s02",
+      "s03"
+    ],
+    "labelled_at": "2026-10-31"
+  },
+  "channels": []
 }

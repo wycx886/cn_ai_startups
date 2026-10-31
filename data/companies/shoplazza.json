@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "shoplazza",
   "name": "店匠科技 / Shoplazza",
   "aliases": [
@@ -68,5 +68,18 @@
     "original_name": "店匠科技(Shoplazza)",
     "original_track": "06",
     "original_subtrack": "跨境独立站Agent、AI客服与VOC洞察"
-  }
+  },
+  "organization_type": "operating_organization",
+  "targeting": {
+    "kind": "editorial_assessment",
+    "player_group": "unresolved",
+    "wave": "watchlist",
+    "rationale": "现有核心为独立站SaaS与交易系统，AI运营是其中一项，新进玩家定位需进一步确认。",
+    "source_ids": [
+      "s01",
+      "s03"
+    ],
+    "labelled_at": "2026-10-31"
+  },
+  "channels": []
 }

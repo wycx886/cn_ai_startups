@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "gsr-ventures",
   "name": "金沙江创投（GSR Ventures）",
   "aliases": [
@@ -105,5 +105,18 @@
       "checked_at": "2026-10-30"
     }
   ],
-  "checked_at": "2026-10-30"
+  "checked_at": "2026-10-30",
+  "organization_type": "investment_firm",
+  "targeting": {
+    "kind": "editorial_assessment",
+    "player_group": "incumbent",
+    "wave": "later",
+    "rationale": "现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。",
+    "source_ids": [
+      "s01",
+      "s02"
+    ],
+    "labelled_at": "2026-10-31"
+  },
+  "channels": []
 }

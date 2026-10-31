@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "avolution",
   "name": "鹿影科技 / Avolution.ai（历史项目）",
   "aliases": [
@@ -52,5 +52,18 @@
     "original_name": "鹿影科技(YOYO动漫)",
     "original_track": "04",
     "original_subtrack": "AI视频生成与世界模型"
-  }
+  },
+  "organization_type": "operating_organization",
+  "targeting": {
+    "kind": "editorial_assessment",
+    "player_group": "unresolved",
+    "wave": "watchlist",
+    "rationale": "历史项目；并入MiniMax的报道未取得官方收购确认，现行独立主体及存续状态需核实。",
+    "source_ids": [
+      "s01",
+      "s02"
+    ],
+    "labelled_at": "2026-10-31"
+  },
+  "channels": []
 }

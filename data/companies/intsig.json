@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "intsig",
   "name": "合合信息 / Intsig",
   "aliases": [
@@ -67,5 +67,18 @@
     "original_name": "合合信息",
     "original_track": "05",
     "original_subtrack": "法律、金融、销售与编程垂直Agent"
-  }
+  },
+  "organization_type": "operating_organization",
+  "targeting": {
+    "kind": "editorial_assessment",
+    "player_group": "unresolved",
+    "wave": "watchlist",
+    "rationale": "现有材料呈现文档识别与商业信息平台，新进还是成熟专用AI玩家待核实，不因上市单独排除。",
+    "source_ids": [
+      "s01",
+      "s03"
+    ],
+    "labelled_at": "2026-10-31"
+  },
+  "channels": []
 }

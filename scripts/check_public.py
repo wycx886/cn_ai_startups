@@ -10,7 +10,7 @@ PUBLIC_FILES = frozenset({
 })
 PUBLIC_DIRS = frozenset({
     ".github", "catalog", "data", "docs",
-    "schemas", "scripts", "templates", "tests",
+    "schemas", "scripts", "skills", "templates", "tests",
 })
 PRIVATE_PARTS = frozenset({
     "workspace", "workspace.local.json", "resume", "applications", "application", "local", "private", "resumes", "drafts",

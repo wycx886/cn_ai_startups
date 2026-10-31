@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "trumed",
   "name": "真脉投资 TruMed",
   "aliases": [
@@ -100,5 +100,20 @@
       "checked_at": "2026-10-30"
     }
   ],
-  "checked_at": "2026-10-30"
+  "checked_at": "2026-10-30",
+  "organization_type": "investment_firm",
+  "targeting": {
+    "kind": "editorial_assessment",
+    "player_group": "new_entrant",
+    "wave": "watchlist",
+    "rationale": "奥博投资人独立成立有证据，但当前材料主要支持医疗及跨一二级策略，AI范围尚不充分，暂列观察候选。",
+    "source_ids": [
+      "s01",
+      "s02",
+      "s03",
+      "s04"
+    ],
+    "labelled_at": "2026-10-31"
+  },
+  "channels": []
 }

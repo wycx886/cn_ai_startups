@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:cn-ai-startups:targeting",
+  "title": "Editorial target grouping",
+  "type": "object",
+  "properties": {
+    "kind": {
+      "const": "editorial_assessment"
+    },
+    "player_group": {
+      "enum": [
+        "new_entrant",
+        "incumbent",
+        "unresolved"
+      ]
+    },
+    "wave": {
+      "enum": [
+        "first",
+        "watchlist",
+        "later"
+      ]
+    },
+    "rationale": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^s[0-9]{2,}$"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "labelled_at": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "required": [
+    "kind",
+    "player_group",
+    "wave",
+    "rationale",
+    "source_ids",
+    "labelled_at"
+  ],
+  "additionalProperties": false
+}

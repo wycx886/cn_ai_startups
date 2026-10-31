@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "deepdraw",
   "name": "深绘智能 / Deepdraw",
   "aliases": [
@@ -51,5 +51,18 @@
     "original_name": "深绘智能",
     "original_track": "06",
     "original_subtrack": "电商AIGC商拍、直播切片与商业视频"
-  }
+  },
+  "organization_type": "operating_organization",
+  "targeting": {
+    "kind": "editorial_assessment",
+    "player_group": "incumbent",
+    "wave": "later",
+    "rationale": "披露确认被光云科技100%收购并纳入合并，本轮不作为独立新进机构。",
+    "source_ids": [
+      "s01",
+      "s02"
+    ],
+    "labelled_at": "2026-10-31"
+  },
+  "channels": []
 }

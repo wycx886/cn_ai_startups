@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "longriver",
   "name": "江远投资 LongRiver Investments",
   "aliases": [
@@ -109,5 +109,19 @@
       "checked_at": "2026-10-30"
     }
   ],
-  "checked_at": "2026-10-30"
+  "checked_at": "2026-10-30",
+  "organization_type": "investment_firm",
+  "targeting": {
+    "kind": "editorial_assessment",
+    "player_group": "new_entrant",
+    "wave": "first",
+    "rationale": "创始人从平安投资体系独立，覆盖科技、AI应用及医疗，作为交叉型新机构候选，不包装成纯AI基金。",
+    "source_ids": [
+      "s01",
+      "s02",
+      "s04"
+    ],
+    "labelled_at": "2026-10-31"
+  },
+  "channels": []
 }
