@@ -8,16 +8,16 @@
 
 | 机构 | 类型 | 本轮处理 |
 | --- | --- | --- |
+| [五源资本（5Y Capital）](companies/5y-capital.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |
+| [高榕创投（Gaorong Ventures）](companies/gaorong.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |
+| [金沙江创投（GSR Ventures）](companies/gsr-ventures.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |
+| [红杉中国（HongShan / HSG）](companies/hongshan.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |
+| [IDG资本（IDG Capital）](companies/idg-capital.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |
+| [蓝驰创投（Lanchi Ventures）](companies/lanchi.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |
+| [经纬创投（MPCi）](companies/mpci.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |
+| [启明创投（Qiming Venture Partners）](companies/qiming.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |
+| [顺为资本（Shunwei Capital）](companies/shunwei.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |
+| [源码资本（Source Code Capital）](companies/source-code.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |
+| [云启资本（Yunqi Partners）](companies/yunqi.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |
+| [真格基金（ZhenFund）](companies/zhenfund.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |
 | [深绘智能 / Deepdraw](companies/deepdraw.md) | 经营型机构 | 披露确认被光云科技100%收购并纳入合并，本轮不作为独立新进机构。 |
-| [五源资本（5Y Capital）](investors/5y-capital.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |
-| [高榕创投（Gaorong Ventures）](investors/gaorong.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |
-| [金沙江创投（GSR Ventures）](investors/gsr-ventures.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |
-| [红杉中国（HongShan / HSG）](investors/hongshan.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |
-| [IDG资本（IDG Capital）](investors/idg-capital.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |
-| [蓝驰创投（Lanchi Ventures）](investors/lanchi.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |
-| [经纬创投（MPCi）](investors/mpci.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |
-| [启明创投（Qiming Venture Partners）](investors/qiming.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |
-| [顺为资本（Shunwei Capital）](investors/shunwei.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |
-| [源码资本（Source Code Capital）](investors/source-code.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |
-| [云启资本（Yunqi Partners）](investors/yunqi.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |
-| [真格基金（ZhenFund）](investors/zhenfund.md) | 投资机构 | 现有材料为已持续运作的成熟投资平台；保留资料，后续按已有玩家中的AI团队研究，本轮不新增搜集。 |

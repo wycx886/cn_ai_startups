@@ -14,7 +14,7 @@ from investors import cohort
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--entity',choices=['organizations','companies','investors'],default='organizations')
+    p.add_argument('--entity',choices=['organizations','companies','operating','investors'],default='organizations')
     p.add_argument('--wave',choices=['all','first','watchlist','later'],default='all')
     p.add_argument('--category');p.add_argument('--group',choices=['emerging','established'])
     p.add_argument('--player-group',choices=['new_entrant','incumbent','unresolved'])
@@ -24,7 +24,7 @@ def main():
     records=select(ROOT,args.entity,args.wave,args.category,args.group,args.player_group)
     records=[(f,r) for f,r in records if (not args.before or date.fromisoformat(r['checked_at'])<args.before) and (not args.status or r.get('investment',{}).get('verification_status')==args.status)]
     if args.summary:
-        output={'organizations':len(records),'organization_types':dict(Counter(r['organization_type'] for _,r in records)),'waves':dict(Counter(r['targeting']['wave'] for _,r in records)),'operating_tracks':dict(Counter(r['category_id'] for f,r in records if f=='companies')),'investor_cohorts':dict(Counter(cohort(r) for f,r in records if f=='investors')),'coverage_roles':dict(Counter(r['coverage']['role'] for f,r in records if f=='investors'))}
+        output={'organizations':len(records),'organization_types':dict(Counter(r['organization_type'] for _,r in records)),'waves':dict(Counter(r['targeting']['wave'] for _,r in records)),'operating_tracks':dict(Counter(r['category_id'] for _,r in records if r['organization_type']=='operating_organization')),'investor_cohorts':dict(Counter(cohort(r) for _,r in records if r['organization_type']=='investment_firm')),'coverage_roles':dict(Counter(r['coverage']['role'] for _,r in records if r['organization_type']=='investment_firm'))}
     else:output=[{'id':r['id'],'name':r['name'],'organization_type':r['organization_type'],'targeting':r['targeting'],'checked_at':r['checked_at'],'json_path':f'data/{f}/{r["id"]}.json'} for f,r in records]
     print(json.dumps(output,ensure_ascii=False,indent=2))
 if __name__=='__main__':main()

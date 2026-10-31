@@ -2,7 +2,7 @@
 
 # 大厂项目、实验室与拆分机构
 
-[第一波名单](first-wave.md) · [平台排查清单](platforms.md) · [识别 SOP](../../skills/find-incumbents/references/corporate-ventures.md)
+[第一波名单](first-wave.md) · [平台排查清单](incumbents.md) · [识别 SOP](../../skills/find-incumbents/references/corporate-ventures.md)
 
 这里按具体研究或业务单元建档；母平台本身是否属于已有玩家，与该单元是否属于第一波候选分别判断。组织形态和母平台关系未标注的旧记录，不默认视为独立机构。
 

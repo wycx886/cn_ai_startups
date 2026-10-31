@@ -2,7 +2,7 @@
 
 # 红杉中国（HongShan / HSG）
 
-[机构索引](README.md) · [原始 JSON](../../investors/hongshan.json)
+[资料目录](../README.md) · [VC 参考名单](../vcs.md) · [原始 JSON](../../companies/hongshan.json)
 
 机构 ID：`hongshan` · 核查日期：2026-10-30
 

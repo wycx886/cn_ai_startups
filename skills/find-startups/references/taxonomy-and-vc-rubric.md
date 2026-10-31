@@ -16,7 +16,7 @@
 
 ## 投资机构归因
 
-新团队识别见 [新进 VC SOP](new-vc-spinouts.md)，完整披露边界见 [VC 方法](../../../data/investors/README.md)。
+新团队识别见 [新进 VC SOP](new-vc-spinouts.md)，完整披露边界见 [VC 方法](investment-cases.md)。
 
 - `prior_firm`：投资人／团队在原机构的案例。原平台的知名案例不能自动记成新机构业绩，参与也不自动等于主导。
 - `current_firm`：可归属于当前投资机构的案例；并不等于某一只基金的投资。

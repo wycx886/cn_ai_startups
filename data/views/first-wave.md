@@ -4,7 +4,7 @@
 
 [项目首页](../../README.md) · [机器目标索引](../index.json) · [完整资料目录](README.md)
 
-[大厂项目与拆分机构](corporate-ventures.md) · [母平台排查清单](platforms.md)。有明确目标的内部团队、实验室或项目也可单列；按组织形态和母平台关系区分，不一律视为独立公司。
+[大厂项目与拆分机构](corporate-ventures.md) · [母平台排查清单](incumbents.md)。有明确目标的内部团队、实验室或项目也可单列；按组织形态和母平台关系区分，不一律视为独立公司。
 
 当前圈选 **84 个第一波候选**：75 个经营型机构、9 个投资机构；另有 8 个观察候选。
 
@@ -100,15 +100,15 @@
 
 | 机构 | 原平台／团队背景 | 圈选依据 |
 | --- | --- | --- |
-| [Alphaist Partners](investors/alphaist-partners.md) | 陈哲（Peter Chen）：五源资本（5Y Capital） | 原五源投资人独立创立，官方方向覆盖AI、机器人和智能硬件，列为第一波独立新机构候选。 |
-| [Capital O](investors/capital-o.md) | 刘大卫 David Liu：ZP Capital/治平资本、鼎晖投资、云九资本 | 有成熟科技投资平台履历的投资人独立组建，覆盖AI应用与前沿科技；不是纯AI基金，原平台业绩仍单列。 |
-| [Creek Stone](investors/creek-stone.md) | 钟陆欢：弘毅投资；李一豪：原平台未列 | 原弘毅团队独立创立，访谈及被投企业证据支持AI早期策略和当前机构投资；保留原coverage观察标记及法律主体核实缺口。 |
-| [锦秋基金 Jinqiu Capital](investors/jinqiu.md) | 杨洁：字节跳动财务投资部、红杉中国、同创伟业、深创投 | 有传统VC及字节财投经历的创始人组建新机构，官方方向覆盖AI；保留与字节的关系，不承接全部财投历史业绩。 |
-| [江远投资 LongRiver Investments](investors/longriver.md) | 张江：平安创新投资基金/平安创投、平安医疗科技 | 创始人从平安投资体系独立，覆盖科技、AI应用及医疗，作为交叉型新机构候选，不包装成纯AI基金。 |
-| [砺思资本 Monolith](investors/monolith.md) | 曹曦：红杉中国、腾讯；Tim Wang：博裕资本、高盛 | 前红杉、博裕等投资团队独立组建；一级与二级策略并存，机构成立与VC基金设立分别记录，不设2022年硬门槛。 |
-| [Nebulon Ventures](investors/nebulon-ventures.md) | 温永腾（Yongteng Wen）：BV百度风投、蔚来资本、以太资本 | 原BV等投资平台负责人独立，已有AI早期定位和新基金首关证据；缺少成熟退出或具名持仓不单独构成排除理由。 |
-| [心资本 Soul Capital](investors/soul-capital.md) | 韩彦 Herry Han：光速中国；吴炳见：联想之星、险峰；刘艳晨：阿里巴巴菜鸟战略投资 | 来自光速中国等平台的团队独立组建，当前策略覆盖AI算力、物理AI和机器人；原团队与新机构案例继续分开。 |
-| [源码律动](investors/source-code-rhythm.md) | 黄云刚：源码资本、经纬中国 | 原源码及经纬投资人组建独立运营机构，募资、决策与AI机器人策略有来源，保留与源码资本的关系说明。 |
+| [Alphaist Partners](companies/alphaist-partners.md) | 陈哲（Peter Chen）：五源资本（5Y Capital） | 原五源投资人独立创立，官方方向覆盖AI、机器人和智能硬件，列为第一波独立新机构候选。 |
+| [Capital O](companies/capital-o.md) | 刘大卫 David Liu：ZP Capital/治平资本、鼎晖投资、云九资本 | 有成熟科技投资平台履历的投资人独立组建，覆盖AI应用与前沿科技；不是纯AI基金，原平台业绩仍单列。 |
+| [Creek Stone](companies/creek-stone.md) | 钟陆欢：弘毅投资；李一豪：原平台未列 | 原弘毅团队独立创立，访谈及被投企业证据支持AI早期策略和当前机构投资；保留原coverage观察标记及法律主体核实缺口。 |
+| [锦秋基金 Jinqiu Capital](companies/jinqiu.md) | 杨洁：字节跳动财务投资部、红杉中国、同创伟业、深创投 | 有传统VC及字节财投经历的创始人组建新机构，官方方向覆盖AI；保留与字节的关系，不承接全部财投历史业绩。 |
+| [江远投资 LongRiver Investments](companies/longriver.md) | 张江：平安创新投资基金/平安创投、平安医疗科技 | 创始人从平安投资体系独立，覆盖科技、AI应用及医疗，作为交叉型新机构候选，不包装成纯AI基金。 |
+| [砺思资本 Monolith](companies/monolith.md) | 曹曦：红杉中国、腾讯；Tim Wang：博裕资本、高盛 | 前红杉、博裕等投资团队独立组建；一级与二级策略并存，机构成立与VC基金设立分别记录，不设2022年硬门槛。 |
+| [Nebulon Ventures](companies/nebulon-ventures.md) | 温永腾（Yongteng Wen）：BV百度风投、蔚来资本、以太资本 | 原BV等投资平台负责人独立，已有AI早期定位和新基金首关证据；缺少成熟退出或具名持仓不单独构成排除理由。 |
+| [心资本 Soul Capital](companies/soul-capital.md) | 韩彦 Herry Han：光速中国；吴炳见：联想之星、险峰；刘艳晨：阿里巴巴菜鸟战略投资 | 来自光速中国等平台的团队独立组建，当前策略覆盖AI算力、物理AI和机器人；原团队与新机构案例继续分开。 |
+| [源码律动](companies/source-code-rhythm.md) | 黄云刚：源码资本、经纬中国 | 原源码及经纬投资人组建独立运营机构，募资、决策与AI机器人策略有来源，保留与源码资本的关系说明。 |
 
 ## 观察候选
 
@@ -116,14 +116,14 @@
 
 | 机构 | 类型 | 待核实边界 |
 | --- | --- | --- |
+| [HT Investment](companies/ht-investment-yifeifan.md) | 投资机构 | 有资深投资人独立及AI项目线索，官方身份、法律主体和地区归属仍需核实，暂列观察候选。 |
+| [磐岩基金](companies/panyan-fund.md) | 投资机构 | 高榕投资人独立设立与管理人登记有来源，正式AI策略、募集和独立投资仍有缺口，暂列观察候选。 |
+| [真脉投资 TruMed](companies/trumed.md) | 投资机构 | 奥博投资人独立成立有证据，但当前材料主要支持医疗及跨一二级策略，AI范围尚不充分，暂列观察候选。 |
+| [跃迁资本（郑华良）](companies/yueqian-capital-zhenghualiang.md) | 投资机构 | 原敦鸿及凯泰投资人组建新管理人，AI硬件策略已有口述，但身份材料和投资交叉证据仍需补齐。 |
 | [鹿影科技 / Avolution.ai（历史项目）](companies/avolution.md) | 经营型机构 | 历史项目；并入MiniMax的报道未取得官方收购确认，现行独立主体及存续状态需核实。 |
 | [稿定科技 / 稿定设计](companies/gaoding.md) | 经营型机构 | 现有材料主要呈现既有设计工具及相关业务，需区分新进AI机构与既有平台的AI扩展。 |
 | [合合信息 / Intsig](companies/intsig.md) | 经营型机构 | 现有材料呈现文档识别与商业信息平台，新进还是成熟专用AI玩家待核实，不因上市单独排除。 |
 | [店匠科技 / Shoplazza](companies/shoplazza.md) | 经营型机构 | 现有核心为独立站SaaS与交易系统，AI运营是其中一项，新进玩家定位需进一步确认。 |
-| [HT Investment](investors/ht-investment-yifeifan.md) | 投资机构 | 有资深投资人独立及AI项目线索，官方身份、法律主体和地区归属仍需核实，暂列观察候选。 |
-| [磐岩基金](investors/panyan-fund.md) | 投资机构 | 高榕投资人独立设立与管理人登记有来源，正式AI策略、募集和独立投资仍有缺口，暂列观察候选。 |
-| [真脉投资 TruMed](investors/trumed.md) | 投资机构 | 奥博投资人独立成立有证据，但当前材料主要支持医疗及跨一二级策略，AI范围尚不充分，暂列观察候选。 |
-| [跃迁资本（郑华良）](investors/yueqian-capital-zhenghualiang.md) | 投资机构 | 原敦鸿及凯泰投资人组建新管理人，AI硬件策略已有口述，但身份材料和投资交叉证据仍需补齐。 |
 
 ## 已有玩家
 

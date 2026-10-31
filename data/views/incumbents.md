@@ -2,7 +2,7 @@
 
 # 中国已有玩家与母平台发现底表
 
-[项目首页](../../README.md) · [机器清单](../platforms.json) · [已有玩家方法](../../skills/find-incumbents/SKILL.md) · [项目与拆分机构](corporate-ventures.md)
+[项目首页](../../README.md) · [机器清单](../lists/incumbents.json) · [已有玩家方法](../../skills/find-incumbents/SKILL.md) · [项目与拆分机构](corporate-ventures.md)
 
 当前中国AI机会研究的已有玩家／母平台发现底表：互联网优先，兼顾软件、成熟技术供应商、云与ICT、硬件芯片及跨行业集团。sectors为可交叉的编辑性业务标签；topic_evidence仅表示所列材料支持的主题活动，不是头部排名、完整能力核验或正式目标档案。底表可继续扩展，不代表完整市场全集；通用Skill本身不限中国或AI。
 

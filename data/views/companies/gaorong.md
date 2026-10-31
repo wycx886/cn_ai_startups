@@ -2,7 +2,7 @@
 
 # 高榕创投（Gaorong Ventures）
 
-[机构索引](README.md) · [原始 JSON](../../investors/gaorong.json)
+[资料目录](../README.md) · [VC 参考名单](../vcs.md) · [原始 JSON](../../companies/gaorong.json)
 
 机构 ID：`gaorong` · 核查日期：2026-10-30
 

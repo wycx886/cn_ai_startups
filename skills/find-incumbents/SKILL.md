@@ -44,11 +44,11 @@ description: Discover and verify established players in a specified market, incl
 
 方法通用，输出契约由项目决定。本仓库的中国 AI 示例见 [可选附录](references/china-example.md)，第三方研究方法比较见 [方法说明](references/research-methods.md)。
 
-在本仓库内，先读取 `data/platforms.json`、`data/views/platforms.md` 和 `data/index.json`。平台底表是发现线索，正式档案及来源在机构 JSON；底表不自动成为目标、母公司或“AI头部”证明。缺少主题证据不是证实没有相关业务。
+在本仓库内，先读取 `data/lists/incumbents.json`、`data/views/incumbents.md` 和 `data/index.json`。研究成熟基金时也读取 `data/lists/vcs.json`，按完整档案的类型与已有玩家标记筛选。两个名单是共用数据；正式档案及来源统一在 `data/companies/`。平台底表是发现线索；底表不自动成为目标、母公司或“AI头部”证明。缺少主题证据不是证实没有相关业务。
 
 ```bash
-python3 tools/query_platforms.py --sector hardware
-python3 tools/query_platforms.py --topic AI
+python3 tools/query_lists.py --sector hardware
+python3 tools/query_lists.py --topic AI
 python3 tools/query.py --entity organizations --player-group incumbent
 python3 tools/scaffold_entity.py --entity investor --id candidate-manager --name "待核实机构" --group established --player-group incumbent
 ```

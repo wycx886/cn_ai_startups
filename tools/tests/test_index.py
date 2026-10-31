@@ -13,7 +13,7 @@ from targets import build_index
 class UnifiedIndexTests(unittest.TestCase):
     def setUp(self):
         self.records = [(folder, json.loads(path.read_text()))
-                        for folder in ("companies", "investors")
+                        for folder in ("companies",)
                         for path in sorted((ROOT / "data" / folder).glob("*.json"))]
         self.index = build_index(ROOT, self.records)
 
@@ -47,9 +47,9 @@ class UnifiedIndexTests(unittest.TestCase):
                 self.assertEqual(entry["previous_platforms"], sorted({f for p in record["team"] for f in p["previous_firms"]}))
                 self.assertEqual(entry["prior_firm_case_count"] + entry["current_firm_case_count"], len(record["representative_cases"]))
                 self.assertIn("cohort", entry)
-        for folder in ("companies", "investors"):
-            self.assertEqual(self.index["statistics"][folder]["source_records"],
-                             sum(len(record["sources"]) for group, record in self.records if group == folder))
+        for label, kind in [("operating_organizations", "operating_organization"), ("investment_firms", "investment_firm")]:
+            self.assertEqual(self.index["statistics"][label]["source_records"],
+                             sum(len(record["sources"]) for _, record in self.records if record["organization_type"] == kind))
 
     def test_build_exposes_one_index_and_all_profile_views_under_data(self):
         output = build.outputs()

@@ -21,11 +21,11 @@ tools/   共用查询、构建、校验、发布工具及测试
 | 字段、来源与维护约定 | [data/README.md](data/README.md) |
 | 查询、检查与 Git 同步 | [tools/README.md](tools/README.md) |
 
-两条寻源路径共用同一份机构记录。母平台与具体单元分别判断：成熟集团的新项目可以是新进候选，成熟部门也不会因为改名自动变成 startup。具体组织关系及证据保留在档案中。
+两条寻源路径共用同一份机构记录。Skill 保存研究方法，`data/lists/` 保存共用参考名单；VC 名单通过 ID 关联完整档案，不另建一套投资机构目录。母平台与具体单元分别判断：成熟集团的新项目可以是新进候选，成熟部门也不会因为改名自动变成 startup。具体组织关系及证据保留在档案中。
 
 ## 数据如何流转
 
-正式公共事实维护在 `data/companies/`、`data/investors/`，排查底表与分类在 `data/platforms.json`、`data/taxonomy.json`。`data/index.json` 和 `data/views/` 自动生成，更新 JSON 后运行 `python3 tools/build.py`。
+完整公共档案统一维护在 `data/companies/`，包含经营型机构和 VC 等金融公司。参考名单在 `data/lists/vcs.json`、`data/lists/incumbents.json`，供 Skill 寻源；分类在 `data/taxonomy.json`。`data/index.json` 和 `data/views/` 自动生成，更新 JSON 后运行 `python3 tools/build.py`。
 
 Layer 1／2／3 的正式公开入口都写在所属机构 JSON 的 `channels`，关联来源和实际核查日期。待核实批次先留私人 `research/inbox/`；核实后的公共字段进入 `data/`。公开入口不表示岗位仍开放，也不授予联系权限。
 

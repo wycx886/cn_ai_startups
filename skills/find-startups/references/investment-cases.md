@@ -22,8 +22,8 @@
 
 ## 字段和来源
 
-机构 JSON 契约见 [investor.schema.json](../schemas/investor.schema.json)。`why_follow` 和 `difference` 属于编辑分析，应该落在团队能力、投资阶段、赛道或资源上的具体区别，不能写成未经测量的“更强”“回报更好”。
+机构 JSON 契约见 [investor.schema.json](../../../data/schemas/investor.schema.json)。`why_follow` 和 `difference` 属于编辑分析，应该落在团队能力、投资阶段、赛道或资源上的具体区别，不能写成未经测量的“更强”“回报更好”。
 
 `representative_cases[].evidence_source_ids` 必须对应本机构的 `sources[].id`，每个来源说明支持的事实。优先官网、投资公告、被投企业、监管披露；用可靠媒体补充时注明报道性质及其限制。未公开邮箱用 `null`；BP/融资项目邮箱、一般商务邮箱与招聘邮箱分别记录。
 
-Agent 入口：[机构机器索引](../index.json)。阅读版：[机构目录](../views/investors/README.md)。原始数据只维护在 `data/investors/`，再运行生成和校验命令。
+Agent 入口：[机构机器索引](../../../data/index.json)。阅读版：[机构目录](../../../data/views/vcs.md)。原始数据只维护在 `data/companies/`，再运行生成和校验命令。

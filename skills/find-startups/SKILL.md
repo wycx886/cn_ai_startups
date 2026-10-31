@@ -35,7 +35,7 @@ description: Discover and verify new entrants for a specified market, including 
 
 ## 4. 适配本仓库
 
-先读 `data/index.json`、`data/views/first-wave.md` 和 [数据模型](../../data/README.md)。经营型记录与投资机构仍分别保存于 `data/companies/`、`data/investors/`；不是两套个人偏好名单。
+先读 `data/index.json`、`data/views/first-wave.md` 和 [数据模型](../../data/README.md)。完整记录统一保存在 `data/companies/`，经营型与投资机构由 `organization_type` 区分。先读取 `data/lists/vcs.json`，按 `company_id` 关联完整档案和来源，沿公开投资组合及融资公告发现候选；同时参考 `data/lists/incumbents.json` 查找大厂新孵化或拆分单元。参考名单属于数据，不在 Skill 中维护第二份名单。
 
 ```bash
 python3 tools/query.py --entity organizations --wave first

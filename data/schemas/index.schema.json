@@ -5,7 +5,7 @@
   "type": "object",
   "properties": {
     "schema_version": {
-      "const": 3
+      "const": 4
     },
     "latest_checked_at": {
       "anyOf": [
@@ -18,7 +18,7 @@
         }
       ]
     },
-    "latest_company_check": {
+    "latest_operating_check": {
       "anyOf": [
         {
           "type": "string",
@@ -29,7 +29,7 @@
         }
       ]
     },
-    "latest_investor_check": {
+    "latest_investment_firm_check": {
       "anyOf": [
         {
           "type": "string",
@@ -51,10 +51,6 @@
           "type": "integer",
           "minimum": 0
         },
-        "investors": {
-          "type": "integer",
-          "minimum": 0
-        },
         "first": {
           "type": "integer",
           "minimum": 0
@@ -66,12 +62,21 @@
         "later": {
           "type": "integer",
           "minimum": 0
+        },
+        "operating_organizations": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "investment_firms": {
+          "type": "integer",
+          "minimum": 0
         }
       },
       "required": [
         "organizations",
         "companies",
-        "investors",
+        "operating_organizations",
+        "investment_firms",
         "first",
         "watchlist",
         "later"
@@ -81,16 +86,16 @@
     "statistics": {
       "type": "object",
       "properties": {
-        "companies": {
+        "operating_organizations": {
           "type": "object"
         },
-        "investors": {
+        "investment_firms": {
           "type": "object"
         }
       },
       "required": [
-        "companies",
-        "investors"
+        "operating_organizations",
+        "investment_firms"
       ],
       "additionalProperties": false
     },
@@ -141,11 +146,11 @@
           },
           "json_path": {
             "type": "string",
-            "pattern": "^data/(companies|investors)/[a-z0-9-]+\\.json$"
+            "pattern": "^data/companies/[a-z0-9-]+\\.json$"
           },
           "markdown_path": {
             "type": "string",
-            "pattern": "^data/views/(companies|investors)/[a-z0-9-]+\\.md$"
+            "pattern": "^data/views/companies/[a-z0-9-]+\\.md$"
           },
           "category_id": {
             "type": "string",
@@ -292,8 +297,8 @@
   "required": [
     "schema_version",
     "latest_checked_at",
-    "latest_company_check",
-    "latest_investor_check",
+    "latest_operating_check",
+    "latest_investment_firm_check",
     "counts",
     "statistics",
     "organizations"

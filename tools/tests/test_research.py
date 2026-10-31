@@ -16,6 +16,8 @@ sys.path.insert(0, str(REPO / "tools"))
 from organizations import select
 from record_checks import load, platform_url, record_path, validate_record
 from targets import render
+from validate import validate_vc_list
+from investors import build_outputs as investment_outputs
 
 
 def module_at(name, path):
@@ -29,7 +31,7 @@ SCAFFOLD = module_at("research_scaffold", "tools/scaffold_entity.py")
 MERGE = module_at("research_merge", "skills/find-channels/scripts/merge_layer2_inbox.py")
 CHANNEL_AUDIT = module_at("channel_audit", "skills/find-channels/scripts/audit_channels.py")
 ENTITY_AUDIT = module_at("entity_audit", "tools/audit_entities.py")
-SEED_QUERY = module_at("seed_query", "tools/query_platforms.py")
+SEED_QUERY = module_at("seed_query", "tools/query_lists.py")
 
 
 class ResearchTests(unittest.TestCase):
@@ -39,15 +41,18 @@ class ResearchTests(unittest.TestCase):
         self.root = Path(self.temp.name) / "repo"
         shutil.copytree(REPO / "data/schemas", self.root / "data/schemas")
         (self.root / "data/companies").mkdir(parents=True)
-        (self.root / "data/investors").mkdir()
+        (self.root / "data/lists").mkdir()
         shutil.copyfile(REPO / "data/taxonomy.json", self.root / "data/taxonomy.json")
-        shutil.copyfile(REPO / "data/platforms.json", self.root / "data/platforms.json")
+        shutil.copyfile(REPO / "data/lists/incumbents.json", self.root / "data/lists/incumbents.json")
         for folder, name in [("companies", "hypershell"), ("companies", "gaoding"),
-                             ("investors", "monolith"), ("investors", "hongshan")]:
+                             ("companies", "monolith"), ("companies", "hongshan")]:
             shutil.copyfile(REPO / "data" / folder / (name + ".json"),
                             self.root / "data" / folder / (name + ".json"))
+        vc_list = load(REPO / "data/lists/vcs.json")
+        vc_list["entries"] = [entry for entry in vc_list["entries"] if entry["company_id"] in {"monolith", "hongshan"}]
+        (self.root / "data/lists/vcs.json").write_text(json.dumps(vc_list), encoding="utf-8")
         self.company = self.root / "data/companies/hypershell.json"
-        self.investor = self.root / "data/investors/monolith.json"
+        self.investor = self.root / "data/companies/monolith.json"
 
     def invoke(self, module, *args):
         output = io.StringIO()
@@ -83,18 +88,86 @@ class ResearchTests(unittest.TestCase):
         self.assertEqual([r["id"] for _, r in select(self.root, wave="later")], ["hongshan"])
         self.assertEqual([r["id"] for _, r in select(self.root, wave="watchlist")], ["gaoding"])
 
+    def test_companies_selector_includes_financial_companies_in_one_folder(self):
+        self.assertEqual(len(select(self.root, entity="companies")), 4)
+        self.assertEqual({r["id"] for _, r in select(self.root, entity="operating")}, {"hypershell", "gaoding"})
+        self.assertEqual({r["id"] for _, r in select(self.root, entity="investors")}, {"monolith", "hongshan"})
+        self.assertTrue(all(folder == "companies" for folder, _ in select(self.root)))
+        self.assertFalse((self.root / "data/investors").exists())
+        with self.assertRaises(ValueError):
+            SCAFFOLD.make_draft(self.root, "company", "monolith", "合成重复 ID", load(self.company)["category_id"])
+
+    def test_vc_list_resolves_facts_from_company_without_a_duplicate_profile(self):
+        before = (self.root / "data/lists/vcs.json").read_bytes()
+        record = load(self.investor)
+        record["name"] = "合成的新名称"
+        self.investor.write_text(json.dumps(record), encoding="utf-8")
+        seeds = json.loads(self.invoke(SEED_QUERY, "--list", "vcs", "--id", "monolith"))
+        self.assertEqual(seeds[0]["name"], record["name"])
+        self.assertEqual(seeds[0]["checked_at"], record["checked_at"])
+        self.assertEqual(seeds[0]["official_url"], record["contacts"]["website"])
+        self.assertEqual(seeds[0]["json_path"], "data/companies/monolith.json")
+        self.assertEqual(before, (self.root / "data/lists/vcs.json").read_bytes())
+
+    def test_vc_discovery_membership_is_independent_of_full_company_profiles(self):
+        path = self.root / "data/lists/vcs.json"
+        listing = load(path)
+        listing["entries"] = [e for e in listing["entries"] if e["company_id"] != "monolith"]
+        path.write_text(json.dumps(listing), encoding="utf-8")
+        validate_vc_list(self.root)
+        self.assertEqual([r["id"] for r in SEED_QUERY.select_seeds(self.root, list_name="vcs")], ["hongshan"])
+        output, _ = investment_outputs(self.root)
+        self.assertIn("data/views/companies/monolith.md", output)
+        self.assertNotIn("](companies/monolith.md)", output["data/views/vcs.md"])
+        self.assertEqual(len(select(self.root)), 4)
+        listing["entries"] = []
+        path.write_text(json.dumps(listing), encoding="utf-8")
+        validate_vc_list(self.root)
+        self.assertEqual(SEED_QUERY.select_seeds(self.root, list_name="vcs"), [])
+        output, _ = investment_outputs(self.root)
+        self.assertIn("data/views/vcs.md", output)
+        self.assertIn("data/views/companies/monolith.md", output)
+        self.assertEqual(len(select(self.root)), 4)
+
+    def test_vc_list_rejects_wrong_type_missing_evidence_and_duplicates(self):
+        path = self.root / "data/lists/vcs.json"
+        listing = load(path)
+        cases = []
+        wrong_type = copy.deepcopy(listing)
+        wrong_type["entries"][0]["company_id"] = "hypershell"
+        cases.append(wrong_type)
+        wrong_source = copy.deepcopy(listing)
+        wrong_source["entries"][0]["source_ids"] = ["s99"]
+        cases.append(wrong_source)
+        duplicated = copy.deepcopy(listing)
+        duplicated["entries"].append(copy.deepcopy(duplicated["entries"][0]))
+        cases.append(duplicated)
+        for bad in cases:
+            with self.subTest(entry=bad["entries"][0]):
+                path.write_text(json.dumps(bad), encoding="utf-8")
+                with self.assertRaises((AssertionError, ValueError)):
+                    validate_vc_list(self.root)
+
+    def test_shared_path_does_not_allow_channel_batch_to_claim_another_type(self):
+        entry = self.entry(investor=True)
+        entry["entity_type"] = "operating_organization"
+        before = self.snapshot()
+        with self.assertRaisesRegex(ValueError, "identity"):
+            MERGE.plan_changes(self.batch(entry), self.root)
+        self.assertEqual(before, self.snapshot())
+
     def test_generated_target_index_and_views_agree(self):
         output = render(self.root)
         index = json.loads(output["data/index.json"])
-        self.assertEqual(index["counts"], {"organizations": 4, "companies": 2, "investors": 2, "first": 2, "watchlist": 1, "later": 1})
+        self.assertEqual(index["counts"], {"organizations": 4, "companies": 4, "operating_organizations": 2, "investment_firms": 2, "first": 2, "watchlist": 1, "later": 1})
         for entry in index["organizations"]:
             source = load(self.root / entry["json_path"])
             self.assertEqual(entry["checked_at"], source["checked_at"])
             self.assertEqual(entry["targeting"], source["targeting"])
-        self.assertIn("investors/monolith.md", output["data/views/first-wave.md"])
-        self.assertNotIn("investors/hongshan.md", output["data/views/first-wave.md"])
-        self.assertIn("investors/hongshan.md", output["data/views/later.md"])
-        self.assertNotIn("investors/hongshan.md", output["data/views/new-vc-spinouts.md"])
+        self.assertIn("companies/monolith.md", output["data/views/first-wave.md"])
+        self.assertNotIn("companies/hongshan.md", output["data/views/first-wave.md"])
+        self.assertIn("companies/hongshan.md", output["data/views/later.md"])
+        self.assertNotIn("companies/hongshan.md", output["data/views/new-vc-spinouts.md"])
 
     def test_entity_audit_date_filter_applies_to_investors(self):
         output = self.invoke(ENTITY_AUDIT, "--entity", "investors", "--before", "2000-01-01")
@@ -127,7 +200,7 @@ class ResearchTests(unittest.TestCase):
         self.assertNotIn("yonyou", hardware)
 
     def test_topic_query_does_not_infer_evidence_from_name_or_size(self):
-        path = self.root / "data/platforms.json"
+        path = self.root / "data/lists/incumbents.json"
         registry = load(path)
         seed = next(s for s in registry["platforms"] if s["id"] == "bytedance")
         seed.pop("topic_evidence", None)
@@ -138,7 +211,7 @@ class ResearchTests(unittest.TestCase):
         self.assertIn("iflytek", result)
 
     def test_topic_query_supports_non_ai_themes_and_case_insensitive_matching(self):
-        path = self.root / "data/platforms.json"
+        path = self.root / "data/lists/incumbents.json"
         registry = load(path)
         seed = registry["platforms"][0]
         seed["topic_evidence"] = [{"topic": "Synthetic logistics", "role": "industry_adopter", "title": "合成主题测试",

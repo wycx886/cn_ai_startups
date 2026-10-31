@@ -4,19 +4,19 @@
 
 ## 正式记录与生成内容
 
-`data/companies/`、`data/investors/`、`platforms.json` 和 `taxonomy.json` 保存正式、可维护的 JSON；`data/views/` 是由这些 JSON 生成的人类阅读版和 CSV。同一条记录不在两处分别维护。
+`data/companies/`、`data/lists/` 和 `data/taxonomy.json` 保存正式、可维护的 JSON；`data/views/` 是由这些 JSON 生成的人类阅读版和 CSV。同一条记录不在两处分别维护。
 
 例如修改 `data/companies/hypershell.json` 后运行 `python3 tools/build.py`，生成 `data/views/companies/hypershell.md`、汇总 CSV 与索引。生成的机构数量、分类和名单以当前 JSON 计算，README 不重复维护一份数字清单。
 
 | 位置 | 职责 |
 | --- | --- |
-| `data/companies/*.json` | 经营型机构的公开事实，保留原目录名兼容使用者 |
-| `data/investors/*.json` | 投资机构的团队、方向、案例与公开事实 |
+| `data/companies/*.json` | 所有完整公司／机构档案，包括经营型机构、投资机构及单列的研究单元 |
 | `data/taxonomy.json` | 经营型机构赛道的编辑分类定义 |
-| `data/platforms.json` | 当前中国 AI 的已有玩家／母平台寻源底表、行业标签与主题证据；不计入正式机构目标 |
-| `data/index.json` | 唯一自动生成的机器索引，schema version 3；`organizations` 同时收录经营型机构和投资机构 |
+| `data/lists/vcs.json` | 沿投资组合与投资公告寻找新机构的参考名单；引用 `companies/` 的稳定 ID 与来源，不复制完整档案 |
+| `data/lists/incumbents.json` | 当前中国 AI 的已有玩家／母平台寻源底表、行业标签与主题证据；不计入正式机构目标 |
+| `data/index.json` | 唯一自动生成的机器索引，schema version 4；`organizations` 同时收录经营型机构和投资机构 |
 | `data/views/first-wave.md` | 自动生成的第一波与观察候选阅读版 |
-| `data/views/platforms.md` | 自动生成的母平台排查清单；官网身份核对不等于项目核验 |
+| `data/views/incumbents.md` | 自动生成的母平台排查清单；官网身份核对不等于项目核验 |
 | `data/views/corporate-ventures.md` | 已有 `organizational_context` 标注的经营型记录阅读版 |
 | `data/views/later.md` | 已有玩家的现有资料登记；保留研究批次，不禁止后续研究 |
 | 其他 `data/views/` 与统一机器索引 | 自动生成的明细、分类、CSV 和检索入口 |
@@ -24,7 +24,15 @@
 仓库更名保留既有 schema URN 标识，兼容旧读取器；文件入口采用新名称。经营型／投资机构采用 schema version 2；契约见 [company.schema.json](schemas/company.schema.json) 和 [investor.schema.json](schemas/investor.schema.json)。分类文件保留自己的版本约定，见 [taxonomy.schema.json](schemas/taxonomy.schema.json)。
 
 
-机器索引只维护 `data/index.json`。`organizations` 中的每项用 `organization_type` 区分类型，并提供稳定 ID、名称／别名、业务、标记、实际核查日期、原始 JSON 路径与阅读版路径；保留各类型的赛道、融资状态、团队、案例归因等摘要。`counts` 汇总机构类型和研究批次。索引与阅读版均由 `tools/build.py` 生成，不手改，也不替代带完整来源的单条记录。
+机器索引只维护 `data/index.json`。`organizations` 中的每项用 `organization_type` 区分类型，并提供稳定 ID、名称／别名、业务、标记、实际核查日期、原始 JSON 路径与阅读版路径；保留各类型的赛道、融资状态、团队、案例归因等摘要。`counts.companies` 与 `counts.organizations` 都是全部档案数，`operating_organizations`／`investment_firms` 才是类型分项；`statistics` 同样按这两种类型汇总。索引与阅读版均由 `tools/build.py` 生成，不手改，也不替代带完整来源的单条记录。
+
+## 名单与完整档案
+
+`data/lists/` 放可被不同 Skill 共用的发现入口；Skill 只说明查找方法与读取路径。`vcs.json` 的每个条目包含 `company_id`、`source_ids` 和 `discovery_use`，通过 `company_id` 读取 `data/companies/<id>.json` 的名称、官网、来源和真实核查日期。作为寻源入口与作为研究目标是不同用途，同一家 VC 只维护一份完整档案。条目来源必须是所引用公司的业务证据，不能只凭招聘渠道入表。
+
+`incumbents.json` 保留已有玩家底表的 `platforms` 数组及其 ID、别名、访问范围与主题证据；这些种子不自动成为完整目标。如果需要完整研究或 Layer 2／3，为对应机构建立 `companies/` 档案，并复用可确认的稳定身份。
+
+原来 `data/investors/<id>.json` 的完整资料现统一位于 `data/companies/<id>.json`；原 `data/platforms.json` 改为 `data/lists/incumbents.json`。Agent 先读当前 `data/index.json` 获取路径，勿拼接旧目录。索引 v4 的 `counts.companies` 从经营型数量改为全部公司数量，类型分项与 `statistics` 改用 `operating_organizations`／`investment_firms`；分项日期相应为 `latest_operating_check`／`latest_investment_firm_check`。
 
 ## 第一波与机构类型
 
@@ -78,7 +86,7 @@
 | `not_found` | 已开展研究但未找到可靠披露；不是未研究，也不表示零融资 |
 | `not_applicable` | 有证据确认的内部团队、实验室或产品项目不适用独立机构股权融资字段；不表示没有内部经费 |
 
-自筹、众筹、创始人支持、产业收购、国资或战略融资等限定逐条保留，不能统一标成 VC-backed。投资机构的完整字段与案例边界见 [VC 方法](investors/README.md)。
+自筹、众筹、创始人支持、产业收购、国资或战略融资等限定逐条保留，不能统一标成 VC-backed。投资机构的完整字段与案例边界见 [VC 方法](../skills/find-startups/references/investment-cases.md)。
 
 ## 大厂关联项目与母平台底表
 
@@ -87,7 +95,7 @@
 | 字段 | 含义 |
 | --- | --- |
 | `form` | `independent_organization`、`corporate_spinout`、`corporate_subsidiary`、`internal_team`、`research_lab`、`product_project` 或 `unresolved` |
-| `parent_platform_ids` | 关联 `data/platforms.json` 的有证据的当前或历史母平台 ID；仅曾雇佣创始人不构成母平台关系，具体口径由摘要说明 |
+| `parent_platform_ids` | 关联 `data/lists/incumbents.json` 的有证据的当前或历史母平台 ID；仅曾雇佣创始人不构成母平台关系，具体口径由摘要说明 |
 | `relationship_status` | `confirmed`、`reported` 或 `unresolved`；媒体报道不升级为官方确认 |
 | `summary` | 说明组织边界、当前／历史关系及证据限制；不补造独立性或持股比例 |
 | `source_ids` | 本机构记录内支撑关系判断的业务来源 ID，不能用渠道专用证据替代 |
@@ -97,11 +105,13 @@
 
 `investment.verification_status: "not_applicable"` 仅用于 `organizational_context.form` 为 `internal_team`、`research_lab` 或 `product_project`，且 `relationship_status: "confirmed"` 并有来源支持的记录。未确认的内部归属、子公司、独立机构或报道中的拆分机构不能据此跳过融资研究；原记录状态不会因整理或新增字段而批量改变。
 
-`data/platforms.json` 保存当前中国 AI 场景的编辑性排查范围。`group` 为 `internet_platform`、`cloud_ict_adjacent`、`software_and_ai`、`hardware_and_semiconductors` 或 `industry_incumbents`；这是寻源分组，不是统一市场排名，也不将它们全部称为 hyperscaler。可选 `sectors` 为筛选标签，不替代正式档案的业务分类。
+`data/lists/incumbents.json` 保存当前中国 AI 场景的编辑性排查范围。`group` 为 `internet_platform`、`cloud_ict_adjacent`、`software_and_ai`、`hardware_and_semiconductors` 或 `industry_incumbents`；这是寻源分组，不是统一市场排名，也不将它们全部称为 hyperscaler。可选 `sectors` 为筛选标签，不替代正式档案的业务分类。
 
 官网身份入口只支持识别候选。可选 `topic_evidence` 逐条保存 `topic`、`role`、`title`、`url`、`supports`、`published_date`、`checked_at`，说明在某个主题中的具体角色及来源；发布日期未知用 `null`，核查日期按实际访问记录。存在一项主题证据不表示已确认行业领先、母子公司关系或全部业务。没有该数组表示尚未记录主题证据，不表示确定没有相关业务。
 
-`python3 tools/query_platforms.py` 可用 `--sector`、`--topic`、`--group`、`--id` 筛选底表。平台进入底表不会自动进入 `data/index.json`；确定需研究的机构或具体单元后，按正式记录核验、建档和圈选。生成的 [平台清单](views/platforms.md) 与 [大厂关联项目](views/corporate-ventures.md) 分别承担这些用途。
+`python3 tools/query_lists.py --list incumbents` 可用 `--sector`、`--topic`、`--group`、`--id` 筛选底表。平台进入底表不会自动进入 `data/index.json`；确定需研究的机构或具体单元后，按正式记录核验、建档和圈选。生成的 [平台清单](views/incumbents.md) 与 [大厂关联项目](views/corporate-ventures.md) 分别承担这些用途。
+
+`python3 tools/query_lists.py --list vcs` 将 VC 名单与完整档案关联后输出；名单增删不会自动新增或删除完整公司档案，VC 名单可以为空。`views/exports/companies.csv`／`sources.csv` 为经营型资料筛选表，`investors.csv`／`investor-sources.csv` 为投资机构筛选表；它们都是统一档案的自动生成视图。
 
 ## 通用 Skill 与当前公共契约
 

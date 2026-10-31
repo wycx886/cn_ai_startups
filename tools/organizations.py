@@ -6,11 +6,19 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def select(root=ROOT, entity="organizations", wave="all", category=None, group=None, player_group=None, form=None, parent=None):
-    folders = ("companies", "investors") if entity == "organizations" else (entity,)
+    # companies is the shared storage namespace, including financial companies.
+    # The investors selector is retained as a type filter, never a second folder.
+    kinds = {"organizations": None, "companies": None,
+             "operating": "operating_organization", "investors": "investment_firm"}
+    if entity not in kinds:
+        raise ValueError("Unknown organization selector")
+    folders = ("companies",)
     selected = []
     for folder in folders:
         for path in sorted((Path(root) / "data" / folder).glob("*.json")):
             r = json.loads(path.read_text(encoding="utf-8"))
+            if kinds[entity] and r["organization_type"] != kinds[entity]:
+                continue
             if wave != "all" and r["targeting"]["wave"] != wave:
                 continue
             if player_group and r["targeting"]["player_group"] != player_group:

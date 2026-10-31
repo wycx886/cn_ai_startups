@@ -12,13 +12,13 @@
 | 初始化／复用私人工作区 | [setup-workspace](skills/setup-workspace/SKILL.md) |
 | 当前目标与阅读版 | [data/index.json](data/index.json) · [data/views/README.md](data/views/README.md) |
 | 字段、来源、标记和数据范围 | [data/README.md](data/README.md) |
-| 投资机构案例归因 | [data/investors/README.md](data/investors/README.md) |
+| 投资机构案例归因 | [skills/find-startups/references/investment-cases.md](skills/find-startups/references/investment-cases.md) |
 | 数据查询、检查、提交与推送 | [tools/README.md](tools/README.md) |
 
 ## 数据与证据
 
-1. 正式事实只维护 `data/companies/`、`data/investors/`、`data/platforms.json`、`data/taxonomy.json`。唯一机器索引 `data/index.json` 与 `data/views/` 由工具生成，不手改。格式约束在 `data/schemas/`。
-2. 按任务市场判断新进／已有，再区分经营型／投资机构。年份、上市、规模、融资或营销口号不能单独决定；编辑标记不是质量、收益或个人适配评分。既有 `first`／`watchlist`／`later` 值不因整理路径而改写，`later` 不禁止研究。
+1. 正式事实只维护 `data/companies/`、`data/lists/`、`data/taxonomy.json`。唯一机器索引 `data/index.json` 与 `data/views/` 由工具生成，不手改。格式约束在 `data/schemas/`。
+2. 全部完整机构档案统一放 `data/companies/`，投资机构用 `organization_type: "investment_firm"` 标记，不另建目录。VC 寻源名单在 `data/lists/vcs.json`，已有玩家底表在 `data/lists/incumbents.json`；Skill 引用名单，名单不重复完整档案。按任务市场判断新进／已有，再区分经营型／投资机构。年份、上市、规模、融资或营销口号不能单独决定；编辑标记不是质量、收益或个人适配评分。既有 `first`／`watchlist`／`later` 值不因整理路径而改写，`later` 不禁止研究。
 3. 两条寻源路径共用稳定 ID 和正式记录。集团、法人、团队、实验室及项目分清层级；成熟母平台不自动决定新单元身份。缺少 `organizational_context` 不表示已确认独立，前员工履历不证明母公司孵化或法律拆分。
 4. 来源记录支持内容、公开日期和实际核查日期；未知日期用 `null`。保留事实、推断与未确认消息的区别。编辑分类、合并和迁移不刷新旧事实日期。
 5. 融资按披露原意保留，自筹、内部资源、产业资本、收购、公开市场持仓及股权融资分开。新 VC 的原平台案例与当前机构案例分开；参与不等于主导，IPO 不等于已退出，不推算未披露的 DPI／IRR。

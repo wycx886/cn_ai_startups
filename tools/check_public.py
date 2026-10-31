@@ -36,6 +36,8 @@ def path_problem(name, historical=False):
         return "private workspace or environment file"
     if PurePosixPath(name).suffix.casefold() in {".eml", ".msg", ".pem", ".key", ".p12"}:
         return "personal message or credential file"
+    if not historical and (name.startswith(('data/investors/', 'data/views/investors/')) or name == 'data/platforms.json'):
+        return "retired split layout; use companies and data/lists"
     if not historical and name in RETIRED_INDEXES:
         return "retired generated index; use data/index.json"
     if name in PUBLIC_FILES or (len(parts) > 1 and parts[0] in PUBLIC_DIRS):

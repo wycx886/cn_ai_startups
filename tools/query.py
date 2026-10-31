@@ -7,7 +7,7 @@ from corporate import FORMS
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--entity', choices=['organizations','companies','investors'], default='organizations')
+    p.add_argument('--entity', choices=['organizations','companies','operating','investors'], default='organizations', help='companies includes every company; operating/investors filter organization_type')
     p.add_argument('--wave', choices=['all','first','watchlist','later'], default='all')
     p.add_argument('--player-group', choices=['new_entrant','incumbent','unresolved'])
     p.add_argument('--group', choices=['emerging','established'])
@@ -15,7 +15,7 @@ def main():
     p.add_argument('--category')
     p.add_argument('--text')
     p.add_argument('--form', choices=list(FORMS), help='Explicitly classified organization form; missing values are unknown')
-    p.add_argument('--parent', help='Parent platform ID from data/platforms.json')
+    p.add_argument('--parent', help='Parent platform ID from data/lists/incumbents.json')
     p.add_argument('--json', action='store_true', help='Return complete selected records')
     args=p.parse_args();results=[]
     for folder,r in select(entity=args.entity,wave=args.wave,category=args.category,group=args.group,player_group=args.player_group,form=args.form,parent=args.parent):

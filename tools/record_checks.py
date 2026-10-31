@@ -9,7 +9,7 @@ from urllib.parse import unquote, urlsplit, urlunsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 ID_PATTERN = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
-ENTITY_FOLDERS = {"operating_organization": "companies", "investment_firm": "investors"}
+ENTITY_FOLDERS = {"operating_organization": "companies", "investment_firm": "companies"}
 PLATFORMS = {
     "boss_zhipin": ("zhipin.com", ("/gongsi/", "/gongsir/", "/companys/")),
     "liepin": ("liepin.com", ("/company/",)),
@@ -124,7 +124,7 @@ def validate_record(record, root=ROOT):
             raise ValueError("Organization relationship date lacks matching business evidence")
         if context["form"] in {"corporate_spinout", "corporate_subsidiary", "internal_team", "research_lab", "product_project"} and not context["parent_platform_ids"]:
             raise ValueError("Corporate units and projects need an identified parent platform")
-        platform_ids = {p["id"] for p in load(Path(root) / "data/platforms.json")["platforms"]}
+        platform_ids = {p["id"] for p in load(Path(root) / "data/lists/incumbents.json")["platforms"]}
         if not set(context["parent_platform_ids"]) <= platform_ids:
             raise ValueError("Unknown parent platform; add an evidenced discovery seed first")
     if targeting["wave"] == "first" and targeting["player_group"] != "new_entrant":

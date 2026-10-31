@@ -6,7 +6,7 @@
 
 [第一波新进机构](first-wave.md) · [新进VC与原平台](new-vc-spinouts.md) · [已有玩家后续登记](later.md)
 
-[大厂项目、实验室与拆分机构](corporate-ventures.md) · [国内母平台排查清单](platforms.md)
+[大厂项目、实验室与拆分机构](corporate-ventures.md) · [已有玩家参考名单](incumbents.md) · [VC 参考名单](vcs.md)
 
 JSON 是公开事实的唯一维护源；本目录、公司档案、机构档案和 CSV 自动生成。公司按业务分类，不预设个人求职匹配或优先级。
 
@@ -14,9 +14,9 @@ JSON 是公开事实的唯一维护源；本目录、公司档案、机构档案
 
 ## VC 机构研究
 
-新增 **25 家机构**，区分 2024–2026 新设机构、2020–2023 新一代机构与成熟 VC。创始人原平台成绩和新机构投资分别标注。
+已建档 **25 家机构**，区分 2024–2026 新设机构、2020–2023 新一代机构与成熟 VC。创始人原平台成绩和新机构投资分别标注。
 
-[查看机构分类与档案](investors/README.md) · [Agent 机器索引](../index.json) · [筛选方法](../investors/README.md)
+[查看 VC 参考名单与档案](vcs.md) · [投资机构筛选表](exports/investors.csv) · [投资机构来源表](exports/investor-sources.csv) · [Agent 机器索引](../index.json) · [筛选方法](../../skills/find-startups/references/investment-cases.md)
 
 ## 阅读入口
 
@@ -25,8 +25,8 @@ JSON 是公开事实的唯一维护源；本目录、公司档案、机构档案
 | 公司机器索引 | [data/index.json](../index.json) |
 | 分类与方法 | [taxonomy.md](taxonomy.md) |
 | 公司原始 JSON | [data/companies/](../companies/) |
-| 公司筛选表 | [companies.csv](exports/companies.csv) |
-| 公司来源表 | [sources.csv](exports/sources.csv) |
+| 经营型机构筛选表 | [companies.csv](exports/companies.csv) |
+| 经营型机构来源表 | [sources.csv](exports/sources.csv) |
 | 字段说明 | [数据模型](../README.md) |
 
 ## 按赛道找公司

@@ -30,7 +30,7 @@ def legacy_platform_reference(record):
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--entity',choices=['organizations','companies','investors'],default='organizations')
+    p.add_argument('--entity',choices=['organizations','companies','operating','investors'],default='organizations')
     p.add_argument('--wave',choices=['all','first','watchlist','later'],default='first')
     p.add_argument('--category');p.add_argument('--missing-layer',choices=['official','recruitment_platform','professional_social'])
     p.add_argument('--offset',type=int,default=0);p.add_argument('--limit',type=int)

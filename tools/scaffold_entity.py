@@ -19,7 +19,7 @@ def normalized(value):
 def make_draft(root, entity, entity_id, name, category=None, group='emerging', player_group='unresolved'):
     if not ID_PATTERN.fullmatch(entity_id):raise ValueError('Use a lowercase ASCII stable ID')
     if player_group not in {'new_entrant','incumbent','unresolved'}:raise ValueError('Unknown player group')
-    folder='companies' if entity=='company' else 'investors'
+    folder='companies'
     for path in (Path(root)/'data'/folder).glob('*.json'):
         r=json.loads(path.read_text())
         if r['id']==entity_id or normalized(name) in {normalized(n) for n in [r['name'],*r['aliases']]}:

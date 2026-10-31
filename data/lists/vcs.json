@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "scope_note": "用于沿投资组合、投资公告及团队原平台发现新进机构。仅引用当前已建档的投资机构，不代表全市场、收益排名或统一 VC 定义；跨阶段和相邻机构的适用范围以完整档案为准。此表不新增机构事实，来源与核查日期读取公司档案。",
+  "entries": [
+    {
+      "company_id": "5y-capital",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "alphaist-partners",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "capital-o",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06",
+        "s07"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "creek-stone",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "gaorong",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "gsr-ventures",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "hongshan",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "ht-investment-yifeifan",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "idg-capital",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "jinqiu",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "lanchi",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "longriver",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "monolith",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "mpci",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "nebulon-ventures",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "panyan-fund",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "qiming",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06",
+        "s07",
+        "s08"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "shunwei",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "soul-capital",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "source-code-rhythm",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "source-code",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05",
+        "s06",
+        "s07"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "trumed",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "yueqian-capital-zhenghualiang",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "yunqi",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    },
+    {
+      "company_id": "zhenfund",
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04",
+        "s05"
+      ],
+      "discovery_use": "沿公开投资组合与投资公告发现候选；原平台履历仅作团队线索，不能视为本机构投资。"
+    }
+  ]
+}

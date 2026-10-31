@@ -2,7 +2,7 @@
 
 # 源码律动
 
-[机构索引](README.md) · [原始 JSON](../../investors/source-code-rhythm.json)
+[资料目录](../README.md) · [VC 参考名单](../vcs.md) · [原始 JSON](../../companies/source-code-rhythm.json)
 
 机构 ID：`source-code-rhythm` · 核查日期：2026-10-30
 

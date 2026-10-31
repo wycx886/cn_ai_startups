@@ -143,7 +143,8 @@ class WorkspaceTests(unittest.TestCase):
 
     def test_retired_root_layout_and_duplicate_indexes_cannot_be_reintroduced(self):
         for name in ("docs/sample.md", "scripts/sample.py", "templates/sample.md", "catalog/sample.md",
-                     "schemas/sample.json", "tests/sample.py", "data/targets.json", "data/investor-index.json"):
+                     "schemas/sample.json", "tests/sample.py", "data/targets.json", "data/investor-index.json",
+                     "data/investors/sample.json", "data/views/investors/sample.md", "data/platforms.json"):
             with self.subTest(name=name):
                 self.write(name, "Synthetic obsolete-layout fixture\n")
                 self.git("add", name)

@@ -10,13 +10,14 @@
 python3 tools/query.py --entity organizations --wave first
 python3 tools/query.py --player-group incumbent
 python3 tools/query.py --entity investors --id monolith --json
-python3 tools/query_platforms.py --sector hardware
-python3 tools/query_platforms.py --topic AI
+python3 tools/query_lists.py --list incumbents --sector hardware
+python3 tools/query_lists.py --list vcs
+python3 tools/query_lists.py --list incumbents --topic AI
 python3 tools/audit_entities.py --summary
 python3 tools/scaffold_entity.py --entity company --id candidate-org --name "待核实机构" --category 04
 ```
 
-`query.py` 读取正式记录，`query_platforms.py` 读取发现底表；主题证据缺失不表示没有相关业务。脚手架默认只输出未核实草稿，显式 `--save-draft` 才写到已配置私人工作区，不直接创建公共记录。字段和适用范围见 [data/README.md](../data/README.md)。
+`query.py` 读取 `data/companies/` 中的全部正式档案；`--entity companies` 包含金融公司，`--entity operating`／`investors` 仅按类型筛选，不对应独立目录。`query_lists.py` 读取发现底表；主题证据缺失不表示没有相关业务。脚手架默认只输出未核实草稿，显式 `--save-draft` 才写到已配置私人工作区，不直接创建公共记录。字段和适用范围见 [data/README.md](../data/README.md)。
 
 ## 构建与检查
 
