@@ -4,7 +4,7 @@
 
 [返回索引](../README.md) · [原始 JSON](../../data/companies/avolution.json)
 
-公司 ID：`avolution` · 主赛道：05 多模态生成与创作工具 · 核查日期：2026-10-30
+机构／项目 ID：`avolution` · 主赛道：05 多模态生成与创作工具 · 核查日期：2026-10-30
 
 **目标标记：** 观察候选 · unresolved（编辑归类，2026-10-31）
 

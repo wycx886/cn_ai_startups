@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "counts": {
-    "organizations": 104,
-    "first": 83,
+    "organizations": 105,
+    "first": 84,
     "watchlist": 8,
     "later": 13
   },
@@ -111,6 +111,41 @@
       "checked_at": "2026-10-30",
       "category_id": "03",
       "investment_status": "partial"
+    },
+    {
+      "id": "anew-labs",
+      "name": "Anew Labs 新生实验室",
+      "organization_type": "operating_organization",
+      "targeting": {
+        "kind": "editorial_assessment",
+        "player_group": "new_entrant",
+        "wave": "first",
+        "rationale": "将具名的AI药物研发单元作为第一波机会目标；媒体报道其由字节业务拆分，保留据报仍受母公司控制及法律信息缺口，不要求母平台退出持股。",
+        "source_ids": [
+          "s01",
+          "s02",
+          "s03"
+        ],
+        "labelled_at": "2026-10-31"
+      },
+      "json_path": "data/companies/anew-labs.json",
+      "markdown_path": "catalog/companies/anew-labs.md",
+      "checked_at": "2026-10-31",
+      "category_id": "10",
+      "investment_status": "partial",
+      "organizational_context": {
+        "form": "corporate_spinout",
+        "parent_platform_ids": [
+          "bytedance"
+        ],
+        "relationship_status": "reported",
+        "summary": "路透报道由字节AI药物研发业务拆分，且据报融资后字节仍持有56%。研究来源与字节官方代码库有关联；现行控制权和法律拆分日期仍缺官方确认，不写成完全独立。",
+        "source_ids": [
+          "s02",
+          "s03"
+        ],
+        "checked_at": "2026-10-31"
+      }
     },
     {
       "id": "approaching-ai",

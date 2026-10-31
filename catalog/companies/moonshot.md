@@ -4,7 +4,7 @@
 
 [返回索引](../README.md) · [原始 JSON](../../data/companies/moonshot.json)
 
-公司 ID：`moonshot` · 主赛道：01 基础模型 · 核查日期：2026-10-30
+机构／项目 ID：`moonshot` · 主赛道：01 基础模型 · 核查日期：2026-10-30
 
 **目标标记：** 第一波候选 · new_entrant（编辑归类，2026-10-31）
 

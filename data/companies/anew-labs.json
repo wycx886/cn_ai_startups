@@ -1,0 +1,102 @@
+{
+  "schema_version": 2,
+  "organization_type": "operating_organization",
+  "id": "anew-labs",
+  "name": "Anew Labs 新生实验室",
+  "aliases": [
+    "Anew Labs",
+    "新生实验室",
+    "Anew Therapeutics",
+    "ByteDance AI Drug Discovery"
+  ],
+  "category_id": "10",
+  "focus": "科学智能与AI药物发现，覆盖生物分子结构预测、分子设计与实验反馈",
+  "products": "官网列AnewFold、AnewSampling、AnewOmni、AnewDesign、AnewMind及集成式AnewDDE。各平台开放程度不同，AnewMind标为Coming Soon；不据平台展示推断已全部商业化。",
+  "locations_text": "官网团队区列上海、旧金山、新加坡；部分职位另列San Jose，不自动将城市合并。",
+  "comparison": {
+    "kind": "editorial_analysis",
+    "summary": "分析：相较只提供通用生命科学模型的方向，本机构同时展示药物发现平台及研发管线；具体技术表现与商业化成熟度未作横向评测。",
+    "peer_names": [
+      "百图生科 BioMap",
+      "英矽智能 Insilico Medicine"
+    ]
+  },
+  "investment": {
+    "summary": "路透社2026-09-16据知情人士报道，拆分后完成2.9亿美元首次外部融资，估值15亿美元；HSG、IDG和GL Ventures领投，五源共同领投。据另一消息人士称字节融资后保留56%。公司及投资方未即时回应；以上是媒体消息人士口径，不是正式现行股东表。",
+    "verification_status": "partial"
+  },
+  "contacts": {
+    "website": "https://anewbt.com/",
+    "careers_url": null,
+    "recruitment_email": null,
+    "other_email": null,
+    "other_email_purpose": null
+  },
+  "notes": "本条是原79家样本之外的新增公开研究。历史报道中的Anew Therapeutics及ByteDance AI Drug Discovery作为别名保留，不重复建公司。官网确认当前业务；字节官方代码库支持研究来源关联，但不证明股权。尚未取得官方法律主体、准确法律拆分日及正式现行持股表。当前仅圈定机构，未逐项采集招聘与Layer 2／3渠道。",
+  "checked_at": "2026-10-31",
+  "sources": [
+    {
+      "id": "s01",
+      "title": "Anew Labs (新生实验室) | AI Drug Discovery & AI Pharmaceutical Company",
+      "url": "https://anewbt.com/",
+      "supports": "当前名称、AI制药定位、平台与AnewDDE、地点及部分平台Coming Soon状态；不单独支持字节拆分或现行股权。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s02",
+      "title": "bytedance/AnewOmni — Programming Biomolecular Interactions with All-Atom Generative Model",
+      "url": "https://github.com/bytedance/AnewOmni",
+      "supports": "字节官方组织下的研究代码及ByteDance版权，支持研究来源联系，不证明当前股权或法律独立性。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s03",
+      "title": "Reuters: ByteDance completes $290 million fundraising for AI drug unit after its spin-off, sources say",
+      "url": "https://www.streetinsider.com/Reuters/ByteDance%2Bcompletes%2B%24290%2Bmillion%2Bfundraising%2Bfor%2BAI%2Bdrug%2Bunit%2Bafter%2Bits%2Bspin-off%2C%2Bsources%2Bsay/27066461.html",
+      "supports": "路透原稿转载，匿名消息人士称拆分、融资及母公司持股；未获当事方正式确认。",
+      "published_date": "2026-09-16",
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s04",
+      "title": "ByteDance’s drug unit presents AI-designed therapies at global conferences",
+      "url": "https://www.scmp.com/tech/article/3352032/bytedances-drug-unit-presents-ai-designed-therapies-global-conferences",
+      "supports": "历史报道中的Anew Therapeutics及ByteDance AI Drug Discovery名称，保留为别名而非另建主体。",
+      "published_date": "2026-05-02",
+      "checked_at": "2026-10-31"
+    }
+  ],
+  "provenance": {
+    "original_name": "Anew Labs 新生实验室",
+    "original_track": "10",
+    "original_subtrack": "新增公开研究：大厂AI生物医药项目／拆分机构"
+  },
+  "targeting": {
+    "kind": "editorial_assessment",
+    "player_group": "new_entrant",
+    "wave": "first",
+    "rationale": "将具名的AI药物研发单元作为第一波机会目标；媒体报道其由字节业务拆分，保留据报仍受母公司控制及法律信息缺口，不要求母平台退出持股。",
+    "source_ids": [
+      "s01",
+      "s02",
+      "s03"
+    ],
+    "labelled_at": "2026-10-31"
+  },
+  "channels": [],
+  "organizational_context": {
+    "form": "corporate_spinout",
+    "parent_platform_ids": [
+      "bytedance"
+    ],
+    "relationship_status": "reported",
+    "summary": "路透报道由字节AI药物研发业务拆分，且据报融资后字节仍持有56%。研究来源与字节官方代码库有关联；现行控制权和法律拆分日期仍缺官方确认，不写成完全独立。",
+    "source_ids": [
+      "s02",
+      "s03"
+    ],
+    "checked_at": "2026-10-31"
+  }
+}

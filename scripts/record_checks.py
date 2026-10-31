@@ -111,6 +111,22 @@ def validate_record(record, root=ROOT):
         refs = set(case["evidence_source_ids"])
         if not refs <= sources.keys() or any(sources[s].get("scope", "organization") != "organization" for s in refs):
             raise ValueError("Investment cases require organization evidence, not channel-only sources")
+    context = record.get("organizational_context")
+    if record.get("investment", {}).get("verification_status") == "not_applicable":
+        if not context or context["form"] not in {"internal_team", "research_lab", "product_project"} or context["relationship_status"] != "confirmed":
+            raise ValueError("Non-applicable equity finance requires an evidenced internal unit, lab or project")
+    if context:
+        refs = set(context["source_ids"])
+        if not refs <= sources.keys() or any(sources[s].get("scope", "organization") != "organization" for s in refs):
+            raise ValueError("Organization form and parent relationships require organization evidence")
+        context_date = date.fromisoformat(context["checked_at"])
+        if context_date > latest or context_date > date.fromisoformat(record["checked_at"]) or any(context_date > date.fromisoformat(sources[s]["checked_at"]) for s in refs):
+            raise ValueError("Organization relationship date lacks matching business evidence")
+        if context["form"] in {"corporate_spinout", "corporate_subsidiary", "internal_team", "research_lab", "product_project"} and not context["parent_platform_ids"]:
+            raise ValueError("Corporate units and projects need an identified parent platform")
+        platform_ids = {p["id"] for p in load(Path(root) / "data/platforms.json")["platforms"]}
+        if not set(context["parent_platform_ids"]) <= platform_ids:
+            raise ValueError("Unknown parent platform; add an evidenced discovery seed first")
     if targeting["wave"] == "first" and targeting["player_group"] != "new_entrant":
         raise ValueError("First wave must be an editorial new-entrant candidate")
     if targeting["player_group"] == "incumbent" and targeting["wave"] != "later":

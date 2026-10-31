@@ -4,7 +4,7 @@
 
 [返回索引](../README.md) · [原始 JSON](../../data/companies/manus.json)
 
-公司 ID：`manus` · 主赛道：04 通用 Agent、个人应用与搜索 · 核查日期：2026-10-30
+机构／项目 ID：`manus` · 主赛道：04 通用 Agent、个人应用与搜索 · 核查日期：2026-10-30
 
 **目标标记：** 第一波候选 · new_entrant（编辑归类，2026-10-31）
 

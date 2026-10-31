@@ -4,7 +4,7 @@
 
 [返回索引](../README.md) · [原始 JSON](../../data/companies/haivivi.json)
 
-公司 ID：`haivivi` · 主赛道：09 AI 消费硬件 · 核查日期：2026-10-30
+机构／项目 ID：`haivivi` · 主赛道：09 AI 消费硬件 · 核查日期：2026-10-30
 
 **目标标记：** 第一波候选 · new_entrant（编辑归类，2026-10-31）
 

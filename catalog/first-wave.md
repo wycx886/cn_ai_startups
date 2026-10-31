@@ -4,7 +4,9 @@
 
 [项目首页](../README.md) · [机器目标索引](../data/targets.json) · [完整资料目录](README.md)
 
-当前圈选 **83 个第一波候选**：74 个经营型机构、9 个投资机构；另有 8 个观察候选。
+[大厂项目与拆分机构](corporate-ventures.md) · [母平台排查清单](platforms.md)。有明确目标的内部团队、实验室或项目也可单列；按组织形态和母平台关系区分，不一律视为独立公司。
+
+当前圈选 **84 个第一波候选**：75 个经营型机构、9 个投资机构；另有 8 个观察候选。
 
 这是基于现有材料的编辑性寻源名单，不是全市场清单、机构质量排名、成立年份证明或招聘承诺。不设统一成立年份门槛；上市也不单独决定新进／已有。标签整理日期与实际核查日期分开记录。
 
@@ -84,6 +86,7 @@
 | [Plaud / 机智连接](companies/plaud.md) | 09 | 部分核验／口径有限 | 2026-10-30 |
 | [闪极科技 SHARGE](companies/sharge.md) | 09 | 已核验披露 | 2026-10-30 |
 | [未来智能 viaim](companies/viaim.md) | 09 | 部分核验／口径有限 | 2026-10-30 |
+| [Anew Labs 新生实验室](companies/anew-labs.md) | 10 | 部分核验／口径有限 | 2026-10-31 |
 | [百图生科 BioMap](companies/biomap.md) | 10 | 已核验披露 | 2026-10-30 |
 | [深势科技](companies/dp-technology.md) | 10 | 已核验披露 | 2026-10-30 |
 | [英矽智能 Insilico Medicine](companies/insilico.md) | 10 | 已核验披露 | 2026-10-30 |
@@ -93,7 +96,7 @@
 
 ## 新进投资机构
 
-[新 VC 识别 SOP](../skills/find-startups/references/new-vc-spinouts.md) · [新机构与原平台对照](new-vc-spinouts.md)。新GP缺少成熟退出不自动排除；原平台案例不算新机构业绩。
+[新 VC 识别 SOP](../skills/find-company/references/new-vc-spinouts.md) · [新机构与原平台对照](new-vc-spinouts.md)。新GP缺少成熟退出不自动排除；原平台案例不算新机构业绩。
 
 | 机构 | 原平台／团队背景 | 圈选依据 |
 | --- | --- | --- |
@@ -124,4 +127,4 @@
 
 ## 已有玩家
 
-原有资料保留在[后续名单](later.md)，本轮不扩充成熟大厂或成熟VC的AI团队。
+原有资料保留在[后续名单](later.md)。成熟平台整体及常规业务团队留待后续；具名的新孵化项目、实验室和拆分机构按具体单元单独判断。

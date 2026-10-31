@@ -17,7 +17,7 @@ def main():
     p.add_argument('--entity',choices=['organizations','companies','investors'],default='organizations')
     p.add_argument('--wave',choices=['all','first','watchlist','later'],default='all')
     p.add_argument('--category');p.add_argument('--group',choices=['emerging','established'])
-    p.add_argument('--status',choices=['confirmed_disclosure','partial','not_found'],help='Applies to operating-organization capital disclosures')
+    p.add_argument('--status',choices=['confirmed_disclosure','partial','not_found','not_applicable'],help='Applies to operating-organization capital disclosures')
     p.add_argument('--before',type=date.fromisoformat,help='Business-profile check date, not label or channel date')
     p.add_argument('--summary',action='store_true');args=p.parse_args()
     records=select(ROOT,args.entity,args.wave,args.category,args.group)

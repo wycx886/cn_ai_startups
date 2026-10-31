@@ -4,7 +4,7 @@
 
 [返回索引](../README.md) · [原始 JSON](../../data/companies/shoplazza.json)
 
-公司 ID：`shoplazza` · 主赛道：07 零售、电商与营销应用 · 核查日期：2026-10-30
+机构／项目 ID：`shoplazza` · 主赛道：07 零售、电商与营销应用 · 核查日期：2026-10-30
 
 **目标标记：** 观察候选 · unresolved（编辑归类，2026-10-31）
 

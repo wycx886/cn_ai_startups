@@ -5,7 +5,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def select(root=ROOT, entity="organizations", wave="all", category=None, group=None, player_group=None):
+def select(root=ROOT, entity="organizations", wave="all", category=None, group=None, player_group=None, form=None, parent=None):
     folders = ("companies", "investors") if entity == "organizations" else (entity,)
     selected = []
     for folder in folders:
@@ -18,6 +18,11 @@ def select(root=ROOT, entity="organizations", wave="all", category=None, group=N
             if category and r.get("category_id") != category:
                 continue
             if group and r.get("group") != group:
+                continue
+            context = r.get("organizational_context", {})
+            if form and context.get("form") != form:
+                continue
+            if parent and parent not in context.get("parent_platform_ids", []):
                 continue
             selected.append((folder, r))
     return sorted(selected, key=lambda pair: (pair[1]["organization_type"], pair[1]["id"]))

@@ -25,10 +25,10 @@ def module_at(name, path):
     return module
 
 
-SCAFFOLD = module_at("research_scaffold", "skills/find-startups/scripts/scaffold_entity.py")
+SCAFFOLD = module_at("research_scaffold", "skills/find-company/scripts/scaffold_entity.py")
 MERGE = module_at("research_merge", "skills/find-channels/scripts/merge_layer2_inbox.py")
 CHANNEL_AUDIT = module_at("channel_audit", "skills/find-channels/scripts/audit_channels.py")
-ENTITY_AUDIT = module_at("entity_audit", "skills/find-startups/scripts/audit_entities.py")
+ENTITY_AUDIT = module_at("entity_audit", "skills/find-company/scripts/audit_entities.py")
 
 
 class ResearchTests(unittest.TestCase):
@@ -40,6 +40,7 @@ class ResearchTests(unittest.TestCase):
         (self.root / "data/companies").mkdir(parents=True)
         (self.root / "data/investors").mkdir()
         shutil.copyfile(REPO / "data/taxonomy.json", self.root / "data/taxonomy.json")
+        shutil.copyfile(REPO / "data/platforms.json", self.root / "data/platforms.json")
         for folder, name in [("companies", "hypershell"), ("companies", "gaoding"),
                              ("investors", "monolith"), ("investors", "hongshan")]:
             shutil.copyfile(REPO / "data" / folder / (name + ".json"),
@@ -99,6 +100,54 @@ class ResearchTests(unittest.TestCase):
         self.assertEqual(json.loads(output), [])
         all_records = json.loads(self.invoke(ENTITY_AUDIT, "--entity", "investors", "--before", "2099-01-01"))
         self.assertEqual({r["id"] for r in all_records}, {"monolith", "hongshan"})
+
+    def internal_unit(self):
+        record = load(self.company)
+        record.update(id="synthetic-unit", name="合成内部项目", aliases=["Synthetic internal unit"])
+        record["sources"] = [{"id": "s01", "title": "合成单元测试依据", "url": "https://www.bytedance.com/about",
+                              "supports": "合成测试，不代表实际项目或真实股权关系", "published_date": None,
+                              "checked_at": record["checked_at"]}]
+        record["targeting"]["source_ids"] = ["s01"]
+        record["investment"] = {"summary": "合成的已确认内部单元，不适用独立主体股权融资。", "verification_status": "not_applicable"}
+        record["organizational_context"] = {"form": "internal_team", "parent_platform_ids": ["bytedance"],
+            "relationship_status": "confirmed", "summary": "合成内部团队测试，不代表真实项目。", "source_ids": ["s01"],
+            "checked_at": record["checked_at"]}
+        return record
+
+    def test_internal_initiative_can_be_first_wave_without_independent_equity_funding(self):
+        record = self.internal_unit()
+        validate_record(record, self.root)
+        path = self.company.parent / "synthetic-unit.json"
+        path.write_text(json.dumps(record), encoding="utf-8")
+        selected = select(self.root, wave="first", form="internal_team", parent="bytedance")
+        self.assertEqual([r["id"] for _, r in selected], ["synthetic-unit"])
+        output = json.loads(render(self.root)["data/targets.json"])
+        entry = next(r for r in output["organizations"] if r["id"] == "synthetic-unit")
+        self.assertEqual(entry["organizational_context"], record["organizational_context"])
+        self.assertEqual(entry["investment_status"], "not_applicable")
+
+    def test_missing_organization_form_does_not_mean_independent(self):
+        self.assertEqual(select(self.root, form="independent_organization"), [])
+        self.assertEqual(select(self.root, parent="bytedance"), [])
+        self.assertEqual(len(select(self.root)), 4)  # Parent seeds are not targets.
+
+    def test_relationships_require_real_parent_ids_and_business_evidence(self):
+        for change in [{"parent_platform_ids": ["missing-platform"]}, {"source_ids": ["s99"]}, {"parent_platform_ids": []}]:
+            record = self.internal_unit()
+            record["organizational_context"].update(change)
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                validate_record(record, self.root)
+
+    def test_non_applicable_finance_is_not_a_fallback_for_unknown_funding(self):
+        record = load(self.company)
+        record["investment"]["verification_status"] = "not_applicable"
+        with self.assertRaises(ValueError):
+            validate_record(record, self.root)
+        for change in [{"form": "corporate_spinout"}, {"relationship_status": "reported"}]:
+            record = self.internal_unit()
+            record["organizational_context"].update(change)
+            with self.subTest(change=change), self.assertRaises(ValueError):
+                validate_record(record, self.root)
 
     def test_scaffolds_are_unverified_and_stdout_only_for_both_types(self):
         before = self.snapshot()

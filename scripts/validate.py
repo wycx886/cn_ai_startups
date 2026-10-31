@@ -6,7 +6,7 @@ import re
 import subprocess
 import sys
 from urllib.parse import unquote, urlparse
-from record_checks import load, record_path, schema_validator, today, validate_record
+from record_checks import load, record_path, reject_placeholders, schema_validator, today, validate_record
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -17,6 +17,13 @@ def iso_day(text):
 
 def validate_data(root=ROOT):
     root=Path(root).resolve()
+    platforms=load(root/'data/platforms.json')
+    schema_validator('platform-universe.schema.json',root).validate(platforms)
+    reject_placeholders(platforms)
+    assert len(platforms['platforms'])==len({p['id'] for p in platforms['platforms']}),'Duplicate platform IDs'
+    assert iso_day(platforms['checked_at'])<=today(),'Future platform-universe check'
+    for p in platforms['platforms']:
+        assert iso_day(p['checked_at'])<=iso_day(platforms['checked_at']),'Platform check is after universe date'
     tax=load(root/'data/taxonomy.json')
     schema_validator('taxonomy.schema.json',root).validate(tax)
     categories=[c['id'] for c in tax['categories']]

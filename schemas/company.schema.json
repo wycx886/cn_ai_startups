@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "cn_ai_startups company",
+  "title": "cn_ai_opp company",
   "type": "object",
   "properties": {
     "schema_version": {
@@ -82,8 +82,10 @@
           "enum": [
             "confirmed_disclosure",
             "partial",
-            "not_found"
-          ]
+            "not_found",
+            "not_applicable"
+          ],
+          "description": "not_applicable仅限有证据的内部团队、实验室或项目，不适用独立主体股权融资；不是无内部投入。"
         }
       },
       "required": [
@@ -271,6 +273,10 @@
       "items": {
         "$ref": "urn:cn-ai-startups:channel"
       }
+    },
+    "organizational_context": {
+      "$ref": "urn:cn-ai-startups:organizational-context",
+      "description": "Optional sourced form and corporate relationship; absence means not yet classified, never independence by default."
     }
   },
   "required": [

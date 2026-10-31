@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-31",
+  "scope_note": "编辑性寻源范围：主要互联网／软件平台，以及单独列出的云、ICT与终端相关集团。以公开官方身份入口维护，可继续补充；不代表市场份额排名、完整市场全集或这些平台均已有独立创业项目。",
+  "platforms": [
+    {
+      "id": "alibaba",
+      "name": "阿里巴巴集团",
+      "aliases": [
+        "Alibaba"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://www.alibabagroup.com/en-US/about-alibaba",
+      "access": "search_only",
+      "checked_at": "2026-10-31",
+      "notes": "蚂蚁集团另列；具体业务和子公司按当前证据归属。"
+    },
+    {
+      "id": "tencent",
+      "name": "腾讯",
+      "aliases": [
+        "Tencent"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://www.tencent.com/Who%20we%20are/",
+      "access": "search_only",
+      "checked_at": "2026-10-31",
+      "notes": "集团、业务部门、实验室和被投机构分别核实。"
+    },
+    {
+      "id": "baidu",
+      "name": "百度",
+      "aliases": [
+        "Baidu"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://ir.baidu.com/",
+      "access": "search_only",
+      "checked_at": "2026-10-31",
+      "notes": "不将创始人个人发起或被投机构自动当作集团拆分。"
+    },
+    {
+      "id": "bytedance",
+      "name": "字节跳动",
+      "aliases": [
+        "ByteDance"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://www.bytedance.com/about",
+      "access": "search_only",
+      "checked_at": "2026-10-31",
+      "notes": "团队、实验室、项目和拆分机构分别建档；控制权单独核实。"
+    },
+    {
+      "id": "ant-group",
+      "name": "蚂蚁集团",
+      "aliases": [
+        "Ant Group"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://www.antgroup.com/en/news-media/press-releases/1718258859000",
+      "access": "search_only",
+      "checked_at": "2026-10-31",
+      "notes": "与阿里巴巴分别作为寻源入口；不据生态联系推断子公司关系。"
+    },
+    {
+      "id": "jd",
+      "name": "京东",
+      "aliases": [
+        "JD.com"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://ir.jd.com/about-JD",
+      "access": "search_only",
+      "checked_at": "2026-10-31",
+      "notes": "使用官方IR确认集团身份；具体项目不等于整个集团。"
+    },
+    {
+      "id": "meituan",
+      "name": "美团",
+      "aliases": [
+        "Meituan"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://www.meituan.com/",
+      "access": "content_read",
+      "checked_at": "2026-10-31",
+      "notes": "内部单元、被投机构及实际拆分关系分别核实。"
+    },
+    {
+      "id": "pdd-holdings",
+      "name": "拼多多集团 PDD Holdings",
+      "aliases": [
+        "PDD Holdings"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://investor.pddholdings.com/",
+      "access": "content_read",
+      "checked_at": "2026-10-31",
+      "notes": "集团与拼多多、Temu等产品或业务层级分别核实。"
+    },
+    {
+      "id": "kuaishou",
+      "name": "快手",
+      "aliases": [
+        "Kuaishou"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://ir.kuaishou.com/",
+      "access": "content_read",
+      "checked_at": "2026-10-31",
+      "notes": "模型、创意产品、项目团队和独立机构分别识别。"
+    },
+    {
+      "id": "netease",
+      "name": "网易",
+      "aliases": [
+        "NetEase"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://ir.netease.com/",
+      "access": "content_read",
+      "checked_at": "2026-10-31",
+      "notes": "集团、旗下业务和其项目分别归属，不能仅据品牌推断独立。"
+    },
+    {
+      "id": "xiaohongshu",
+      "name": "小红书",
+      "aliases": [
+        "Xiaohongshu",
+        "RED"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://www.xiaohongshu.com/",
+      "access": "limited",
+      "checked_at": "2026-10-31",
+      "notes": "主站需登录；主体可参考官方协议，项目仍需单独证据。"
+    },
+    {
+      "id": "bilibili",
+      "name": "哔哩哔哩",
+      "aliases": [
+        "Bilibili"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://www.bilibili.com/blackboard/aboutUs.html",
+      "access": "search_only",
+      "checked_at": "2026-10-31",
+      "notes": "使用官方关于我们页面；IR访问限制不代表项目不存在。"
+    },
+    {
+      "id": "didi",
+      "name": "滴滴",
+      "aliases": [
+        "DiDi"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://ir.didiglobal.com/",
+      "access": "content_read",
+      "checked_at": "2026-10-31",
+      "notes": "内部业务、独立融资子公司与法律拆分分别核实。"
+    },
+    {
+      "id": "trip-com",
+      "name": "携程集团 Trip.com Group",
+      "aliases": [
+        "Trip.com Group"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://investors.trip.com/",
+      "access": "content_read",
+      "checked_at": "2026-10-31",
+      "notes": "集团和旅行产品品牌不作为同一层级重复计数。"
+    },
+    {
+      "id": "weibo",
+      "name": "微博",
+      "aliases": [
+        "Weibo"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://zh.ir.weibo.com/",
+      "access": "search_only",
+      "checked_at": "2026-10-31",
+      "notes": "与新浪分别看待，当前控制权不凭历史印象推断。"
+    },
+    {
+      "id": "zhihu",
+      "name": "知乎",
+      "aliases": [
+        "Zhihu"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://ir.zhihu.com/",
+      "access": "content_read",
+      "checked_at": "2026-10-31",
+      "notes": "搜索、知识产品及其团队按具体单元核实。"
+    },
+    {
+      "id": "qihoo-360",
+      "name": "三六零 360",
+      "aliases": [
+        "360",
+        "Qihoo 360"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://www.360.cn/",
+      "access": "content_read",
+      "checked_at": "2026-10-31",
+      "notes": "集团品牌、AI产品和法律主体分别核实。"
+    },
+    {
+      "id": "fifty-eight",
+      "name": "58同城／58集团",
+      "aliases": [
+        "58.com",
+        "58同城"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://about.58.com/official/HomePage",
+      "access": "search_only",
+      "checked_at": "2026-10-31",
+      "notes": "官方介绍主要可检索；JS页面访问不构成具体项目确认。"
+    },
+    {
+      "id": "ke-holdings",
+      "name": "贝壳",
+      "aliases": [
+        "KE Holdings",
+        "Beike"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://investors.ke.com/",
+      "access": "content_read",
+      "checked_at": "2026-10-31",
+      "notes": "平台、旗下品牌和孵化业务分别核实。"
+    },
+    {
+      "id": "kingsoft",
+      "name": "金山软件",
+      "aliases": [
+        "Kingsoft"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://ir.kingsoft.com/corporate-info/business-overview/",
+      "access": "search_only",
+      "checked_at": "2026-10-31",
+      "notes": "金山软件、金山办公、金山云名称不互换；项目按当期主体归属。"
+    },
+    {
+      "id": "vipshop",
+      "name": "唯品会",
+      "aliases": [
+        "Vipshop"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://ir.vip.com/",
+      "access": "content_read",
+      "checked_at": "2026-10-31",
+      "notes": "作为排查入口，不据集团规模推断已存在拆分项目。"
+    },
+    {
+      "id": "iqiyi",
+      "name": "爱奇艺",
+      "aliases": [
+        "iQIYI"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://ir.iqiyi.com/",
+      "access": "content_read",
+      "checked_at": "2026-10-31",
+      "notes": "与百度单列寻源；当前控制关系另查。"
+    },
+    {
+      "id": "tongcheng-travel",
+      "name": "同程旅行",
+      "aliases": [
+        "Tongcheng Travel"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://www.tongchengir.com/",
+      "access": "search_only",
+      "checked_at": "2026-10-31",
+      "notes": "与携程、腾讯单列寻源，不据历史关联推断控制权。"
+    },
+    {
+      "id": "autohome",
+      "name": "汽车之家",
+      "aliases": [
+        "Autohome"
+      ],
+      "group": "internet_platform",
+      "official_url": "https://ir.autohome.com.cn/",
+      "access": "content_read",
+      "checked_at": "2026-10-31",
+      "notes": "平台、新业务和当前股东关系分别核实。"
+    },
+    {
+      "id": "huawei",
+      "name": "华为",
+      "aliases": [
+        "Huawei"
+      ],
+      "group": "cloud_ict_adjacent",
+      "official_url": "https://www.huawei.com/en/corporate-information",
+      "access": "search_only",
+      "checked_at": "2026-10-31",
+      "notes": "相关ICT集团；不以此将其全部业务定义为互联网或hyperscaler。"
+    },
+    {
+      "id": "xiaomi",
+      "name": "小米",
+      "aliases": [
+        "Xiaomi"
+      ],
+      "group": "cloud_ict_adjacent",
+      "official_url": "https://www.mi.com/global/about/",
+      "access": "content_read",
+      "checked_at": "2026-10-31",
+      "notes": "相关终端集团；不因人物背景与金山合并。"
+    },
+    {
+      "id": "lenovo",
+      "name": "联想集团",
+      "aliases": [
+        "Lenovo"
+      ],
+      "group": "cloud_ict_adjacent",
+      "official_url": "https://investor.lenovo.com/en/about/profile.php",
+      "access": "search_only",
+      "checked_at": "2026-10-31",
+      "notes": "相关计算与终端集团；实验室、业务及拆分逐项核实。"
+    },
+    {
+      "id": "zte",
+      "name": "中兴通讯",
+      "aliases": [
+        "ZTE"
+      ],
+      "group": "cloud_ict_adjacent",
+      "official_url": "https://www.zte.com.cn/global/index.html",
+      "access": "content_read",
+      "checked_at": "2026-10-31",
+      "notes": "相关ICT集团，具体AI单元和法人分别核实。"
+    },
+    {
+      "id": "kingsoft-cloud",
+      "name": "金山云",
+      "aliases": [
+        "Kingsoft Cloud"
+      ],
+      "group": "cloud_ict_adjacent",
+      "official_url": "https://ir.ksyun.com/corporate-profile/",
+      "access": "search_only",
+      "checked_at": "2026-10-31",
+      "notes": "与金山软件分别列入口；不自动合并为同一法人或业务。"
+    },
+    {
+      "id": "china-mobile",
+      "name": "中国移动",
+      "aliases": [
+        "China Mobile"
+      ],
+      "group": "cloud_ict_adjacent",
+      "official_url": "https://www.chinamobileltd.com/en/ir/reports/ar2024.pdf",
+      "access": "search_only",
+      "checked_at": "2026-10-31",
+      "notes": "公司网页访问受限，官方年报提供身份入口；专业公司和研究院另核。"
+    },
+    {
+      "id": "china-telecom",
+      "name": "中国电信",
+      "aliases": [
+        "China Telecom"
+      ],
+      "group": "cloud_ict_adjacent",
+      "official_url": "https://www.chinatelecom-h.com/en/company/company_overview.php?cat=2002",
+      "access": "search_only",
+      "checked_at": "2026-10-31",
+      "notes": "相关电信与云集团；专业子公司和创新团队分别核实。"
+    },
+    {
+      "id": "china-unicom",
+      "name": "中国联通",
+      "aliases": [
+        "China Unicom"
+      ],
+      "group": "cloud_ict_adjacent",
+      "official_url": "https://www.chinaunicom.com.hk/en/about/profile.php",
+      "access": "content_read",
+      "checked_at": "2026-10-31",
+      "notes": "相关电信与云集团；专业子公司和创新团队分别核实。"
+    }
+  ]
+}

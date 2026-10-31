@@ -4,7 +4,7 @@
 
 [返回索引](../README.md) · [原始 JSON](../../data/companies/dp-technology.json)
 
-公司 ID：`dp-technology` · 主赛道：10 科学智能与生物医药 · 核查日期：2026-10-30
+机构／项目 ID：`dp-technology` · 主赛道：10 科学智能与生物医药 · 核查日期：2026-10-30
 
 **目标标记：** 第一波候选 · new_entrant（编辑归类，2026-10-31）
 

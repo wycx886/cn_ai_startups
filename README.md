@@ -1,6 +1,6 @@
-# cn_ai_startups
+# cn_ai_opp
 
-面向 Agent 的 AI 机构研究与机会发现资料库。当前先圈定这一轮 AI 发展中的**新进玩家**：经营型 AI 机构与新一代投资机构都是可独立研究的目标。样本按现有证据和编辑判断选择，不代表全市场、质量排名或统一的成立年份门槛。
+面向 Agent 的中国 AI 机构研究与机会发现资料库（China AI Opportunities，简称 `cn_ai_opp`）。当前先圈定这一轮 AI 发展中的**新进玩家**：经营型 AI 机构、新一代投资机构，以及大厂孵化的新项目、实验室和拆分团队都可单独研究。样本按现有证据和编辑判断选择，不代表全市场、质量排名或统一的成立年份门槛。
 
 ## 第一波从这里开始
 
@@ -10,14 +10,18 @@
 | 已有玩家，留待后续研究 | [后续名单](catalog/later.md) |
 | 全部机构档案、赛道与统计 | [资料目录](catalog/README.md) · [分类说明](catalog/taxonomy.md) |
 | Agent 阅读与更新规则 | [AGENTS.md](AGENTS.md) |
-| 寻找新进机构的方法 | [find-startups](skills/find-startups/SKILL.md) |
-| 从老基金／平台出来的新 VC 团队 | [新进 VC SOP](skills/find-startups/references/new-vc-spinouts.md) |
+| 寻找新进机构的方法 | [find-company](skills/find-company/SKILL.md) |
+| 大厂项目、实验室与拆分机构 | [已建档项目](catalog/corporate-ventures.md) · [识别 SOP](skills/find-company/references/corporate-ventures.md) |
+| 国内主要平台排查范围 | [平台清单](catalog/platforms.md) · [机器底表](data/platforms.json) |
+| 从老基金／平台出来的新 VC 团队 | [新进 VC SOP](skills/find-company/references/new-vc-spinouts.md) |
 | 下一阶段的渠道核验方法 | [find-channels](skills/find-channels/SKILL.md) |
 | 字段、归因与同步范围 | [数据模型](docs/data-model.md) · [VC 方法](docs/investor-methodology.md) · [Git 同步](docs/git-sync.md) |
 
-主分类是**新进玩家／已有玩家**，经营型机构／投资机构是第二个维度。新 VC 自身有团队、策略和公开入口，与经营型 AI 机构并列成为目标。成熟科技平台及成熟投资机构的 AI 团队留待后续的 Find AI incumbents 阶段；当前不扩搜这部分，也不实际采集或执行 Layer 2／3。
+主分类是**新进玩家／已有玩家**，经营型机构／投资机构是第二个维度。新 VC 自身有团队、策略和公开入口，与经营型 AI 机构并列成为目标。大厂内部有明确边界的新团队、实验室、孵化项目、子公司和正式拆分机构也在当前寻源范围；母公司是已有玩家，不妨碍其新项目成为新进候选。成熟部门和大集团整体机会留待后续 Find AI incumbents 阶段，不因带有 AI 名称就全数进入第一波。当前不实际采集或执行 Layer 2／3。
 
 `targeting` 是编辑性的寻源标记。`first` 表示第一波研究候选，`watchlist` 保留证据或定位缺口，`later` 留待后续。它不证明机构成立于某年、法律上完全独立、已获 VC 投资或具有特定投资回报。融资披露和来源限定继续逐条保留；成立年份、上市或股东背景都不单独决定是否纳入。
+
+大厂关联项目另用 `organizational_context` 标记组织形式、母平台关系及证据状态。内部项目不要求已获外部融资；离职员工创业、母公司孵化、控股子公司和正式拆分分别核实，不能互相替代。缺少这个字段也不表示已确认独立。
 
 ## data 和 catalog 的区别
 
@@ -27,6 +31,8 @@
 例如，更新 `data/companies/hypershell.json` 后运行 `python3 scripts/build.py`，对应的 `catalog/companies/hypershell.md` 和汇总视图会一起更新。不要在两个地方分别改内容。
 
 为兼容已有数据，经营型机构仍保存在 `data/companies/`，投资机构保存在 `data/investors/`；这只是资料字段和存储分组，主要名单统一从第一波入口读取。文件数量和最新统计以生成目录为准。
+
+`data/platforms.json` 是母平台的**寻源排查底表**，分组覆盖主要互联网／软件平台及相关云、ICT 集团；不是新增目标名单，也不证明某平台已有可投递项目。官网身份核对、内部新项目识别和法律拆分核实是不同步骤。这里不把所有大厂统一称为 hyperscaler；后续发现的平台可以按同一证据口径补充。
 
 ## 公开渠道与个人记录
 
