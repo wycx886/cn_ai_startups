@@ -1,25 +1,28 @@
 # cn_ai_opp
 
-面向 Agent 的中国 AI 机构研究与机会发现资料库（China AI Opportunities，简称 `cn_ai_opp`）。当前先圈定这一轮 AI 发展中的**新进玩家**：经营型 AI 机构、新一代投资机构，以及大厂孵化的新项目、实验室和拆分团队都可单独研究。样本按现有证据和编辑判断选择，不代表全市场、质量排名或统一的成立年份门槛。
+面向 Agent 的机构研究与机会发现框架，当前公共资料聚焦中国 AI 领域（China AI Opportunities，简称 `cn_ai_opp`）。寻源方法拆为 **`find-startups` 新进玩家**与 **`find-incumbents` 已有玩家**，两者都由任务指定主题、地域和行业，不将 AI 或中国写成永久筛选条件。公共样本按证据和编辑判断选择，不代表全市场、质量排名或统一的成立年份门槛。
 
-## 第一波从这里开始
+## 从两条寻源路径开始
 
 | 需求 | 入口 |
 | --- | --- |
 | 第一波目标机构与待核实候选 | [第一波名单](catalog/first-wave.md) · [统一机器索引](data/targets.json) |
-| 已有玩家，留待后续研究 | [后续名单](catalog/later.md) |
+| 已有玩家及具体业务单元 | [find-incumbents](skills/find-incumbents/SKILL.md) · [已有资料登记](catalog/later.md) |
 | 全部机构档案、赛道与统计 | [资料目录](catalog/README.md) · [分类说明](catalog/taxonomy.md) |
 | Agent 阅读与更新规则 | [AGENTS.md](AGENTS.md) |
-| 寻找新进机构的方法 | [find-company](skills/find-company/SKILL.md) |
-| 大厂项目、实验室与拆分机构 | [已建档项目](catalog/corporate-ventures.md) · [识别 SOP](skills/find-company/references/corporate-ventures.md) |
-| 国内主要平台排查范围 | [平台清单](catalog/platforms.md) · [机器底表](data/platforms.json) |
-| 从老基金／平台出来的新 VC 团队 | [新进 VC SOP](skills/find-company/references/new-vc-spinouts.md) |
+| 寻找新进机构与创业项目 | [find-startups](skills/find-startups/SKILL.md) |
+| 通用研究方法与第三方 Skill 参考 | [研究方法](docs/research-methods.md) |
+| 大厂项目、实验室与拆分机构 | [已建档项目](catalog/corporate-ventures.md) · [识别 SOP](docs/corporate-ventures.md) |
+| 当前中国 AI 已有玩家候选池 | [平台清单](catalog/platforms.md) · [机器底表](data/platforms.json) · [中国研究示例](skills/find-incumbents/references/china-example.md) |
+| 从老基金／平台出来的新 VC 团队 | [新进 VC SOP](skills/find-startups/references/new-vc-spinouts.md) |
 | 下一阶段的渠道核验方法 | [find-channels](skills/find-channels/SKILL.md) |
 | 字段、归因与同步范围 | [数据模型](docs/data-model.md) · [VC 方法](docs/investor-methodology.md) · [Git 同步](docs/git-sync.md) |
 
-主分类是**新进玩家／已有玩家**，经营型机构／投资机构是第二个维度。新 VC 自身有团队、策略和公开入口，与经营型 AI 机构并列成为目标。大厂内部有明确边界的新团队、实验室、孵化项目、子公司和正式拆分机构也在当前寻源范围；母公司是已有玩家，不妨碍其新项目成为新进候选。成熟部门和大集团整体机会留待后续 Find AI incumbents 阶段，不因带有 AI 名称就全数进入第一波。当前不实际采集或执行 Layer 2／3。
+主分类是**新进玩家／已有玩家**，经营型机构／投资机构是第二个维度。`find-startups` 寻找创业机构、新进 GP 和有明确边界的新孵化／拆分项目；`find-incumbents` 寻找在目标市场已有实质业务的成熟平台、软件或硬件厂商、行业经营者及投资机构，再定位相关业务和团队。已有玩家按具体市场中的业务证据判断，不仅看规模、年份或上市状态，也不把各行业的大公司一律叫作 hyperscaler。
 
-`targeting` 是编辑性的寻源标记。`first` 表示第一波研究候选，`watchlist` 保留证据或定位缺口，`later` 留待后续。它不证明机构成立于某年、法律上完全独立、已获 VC 投资或具有特定投资回报。融资披露和来源限定继续逐条保留；成立年份、上市或股东背景都不单独决定是否纳入。
+母平台是已有玩家，不妨碍其真正的新项目成为新进候选；成熟部门也不会仅因新命名自动变成 startup。两条路径共享同一份正式机构记录，按单元和关系交叉引用，避免重复建档。当前不实际采集或执行 Layer 2／3。
+
+`targeting` 是编辑性的寻源标记。`first` 表示第一波研究候选，`watchlist` 保留证据或定位缺口，`later` 保留已有玩家资料批次，不表示禁止研究或价值较低。它不证明机构成立于某年、法律上完全独立、已获 VC 投资或具有特定投资回报。融资披露和来源限定继续逐条保留；成立年份、上市或股东背景都不单独决定是否纳入。
 
 大厂关联项目另用 `organizational_context` 标记组织形式、母平台关系及证据状态。内部项目不要求已获外部融资；离职员工创业、母公司孵化、控股子公司和正式拆分分别核实，不能互相替代。缺少这个字段也不表示已确认独立。
 
@@ -32,7 +35,9 @@
 
 为兼容已有数据，经营型机构仍保存在 `data/companies/`，投资机构保存在 `data/investors/`；这只是资料字段和存储分组，主要名单统一从第一波入口读取。文件数量和最新统计以生成目录为准。
 
-`data/platforms.json` 是母平台的**寻源排查底表**，分组覆盖主要互联网／软件平台及相关云、ICT 集团；不是新增目标名单，也不证明某平台已有可投递项目。官网身份核对、内部新项目识别和法律拆分核实是不同步骤。这里不把所有大厂统一称为 hyperscaler；后续发现的平台可以按同一证据口径补充。
+`data/platforms.json` 是当前中国 AI 研究的**已有玩家／母平台寻源底表**，分组覆盖互联网平台、云与 ICT、软件与 AI、硬件与半导体，以及其他行业经营者。可按行业标签和有来源的主题证据筛选；它不是正式目标档案或排名，也不证明某平台已有可投递项目。官网身份核对、具体业务研究、内部项目识别和法律拆分核实分别进行。
+
+通用 Skill 可研究其他主题或地域，但当前公共数据契约仍服务于本仓库的中国 AI 资料。超出既有分类的结果先留在私人工作区 `research/`，或在明确扩展分类与 schema 后发布，不将非 AI 机构强塞进 AI 赛道。
 
 ## 公开渠道与个人记录
 
@@ -68,6 +73,8 @@ python3 scripts/init_local.py --workspace ../my-private-workspace --use-existing
 ```bash
 python3 scripts/query.py --entity organizations --wave first
 python3 scripts/query.py --entity investors --id monolith --json
+python3 scripts/query.py --player-group incumbent
+python3 scripts/query_platforms.py --id huawei
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements-dev.txt
 .venv/bin/python scripts/validate.py

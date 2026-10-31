@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "checked_at": "2026-10-31",
-  "scope_note": "编辑性寻源范围：主要互联网／软件平台，以及单独列出的云、ICT与终端相关集团。以公开官方身份入口维护，可继续补充；不代表市场份额排名、完整市场全集或这些平台均已有独立创业项目。",
+  "scope_note": "当前中国AI机会研究的已有玩家／母平台发现底表：互联网优先，兼顾软件、成熟技术供应商、云与ICT、硬件芯片及跨行业集团。sectors为可交叉的编辑性业务标签；topic_evidence仅表示所列材料支持的主题活动，不是头部排名、完整能力核验或正式目标档案。底表可继续扩展，不代表完整市场全集；通用Skill本身不限中国或AI。",
   "platforms": [
     {
       "id": "alibaba",
@@ -13,7 +13,12 @@
       "official_url": "https://www.alibabagroup.com/en-US/about-alibaba",
       "access": "search_only",
       "checked_at": "2026-10-31",
-      "notes": "蚂蚁集团另列；具体业务和子公司按当前证据归属。"
+      "notes": "蚂蚁集团另列；具体业务和子公司按当前证据归属。",
+      "sectors": [
+        "internet",
+        "software",
+        "cloud"
+      ]
     },
     {
       "id": "tencent",
@@ -25,7 +30,12 @@
       "official_url": "https://www.tencent.com/Who%20we%20are/",
       "access": "search_only",
       "checked_at": "2026-10-31",
-      "notes": "集团、业务部门、实验室和被投机构分别核实。"
+      "notes": "集团、业务部门、实验室和被投机构分别核实。",
+      "sectors": [
+        "internet",
+        "software",
+        "cloud"
+      ]
     },
     {
       "id": "baidu",
@@ -37,7 +47,12 @@
       "official_url": "https://ir.baidu.com/",
       "access": "search_only",
       "checked_at": "2026-10-31",
-      "notes": "不将创始人个人发起或被投机构自动当作集团拆分。"
+      "notes": "不将创始人个人发起或被投机构自动当作集团拆分。",
+      "sectors": [
+        "internet",
+        "software",
+        "cloud"
+      ]
     },
     {
       "id": "bytedance",
@@ -49,7 +64,12 @@
       "official_url": "https://www.bytedance.com/about",
       "access": "search_only",
       "checked_at": "2026-10-31",
-      "notes": "团队、实验室、项目和拆分机构分别建档；控制权单独核实。"
+      "notes": "团队、实验室、项目和拆分机构分别建档；控制权单独核实。",
+      "sectors": [
+        "internet",
+        "software",
+        "cloud"
+      ]
     },
     {
       "id": "ant-group",
@@ -61,7 +81,11 @@
       "official_url": "https://www.antgroup.com/en/news-media/press-releases/1718258859000",
       "access": "search_only",
       "checked_at": "2026-10-31",
-      "notes": "与阿里巴巴分别作为寻源入口；不据生态联系推断子公司关系。"
+      "notes": "与阿里巴巴分别作为寻源入口；不据生态联系推断子公司关系。",
+      "sectors": [
+        "software",
+        "financial_services"
+      ]
     },
     {
       "id": "jd",
@@ -73,7 +97,11 @@
       "official_url": "https://ir.jd.com/about-JD",
       "access": "search_only",
       "checked_at": "2026-10-31",
-      "notes": "使用官方IR确认集团身份；具体项目不等于整个集团。"
+      "notes": "使用官方IR确认集团身份；具体项目不等于整个集团。",
+      "sectors": [
+        "internet",
+        "logistics"
+      ]
     },
     {
       "id": "meituan",
@@ -85,7 +113,11 @@
       "official_url": "https://www.meituan.com/",
       "access": "content_read",
       "checked_at": "2026-10-31",
-      "notes": "内部单元、被投机构及实际拆分关系分别核实。"
+      "notes": "内部单元、被投机构及实际拆分关系分别核实。",
+      "sectors": [
+        "internet",
+        "local_services"
+      ]
     },
     {
       "id": "pdd-holdings",
@@ -97,7 +129,11 @@
       "official_url": "https://investor.pddholdings.com/",
       "access": "content_read",
       "checked_at": "2026-10-31",
-      "notes": "集团与拼多多、Temu等产品或业务层级分别核实。"
+      "notes": "集团与拼多多、Temu等产品或业务层级分别核实。",
+      "sectors": [
+        "internet",
+        "retail"
+      ]
     },
     {
       "id": "kuaishou",
@@ -109,7 +145,11 @@
       "official_url": "https://ir.kuaishou.com/",
       "access": "content_read",
       "checked_at": "2026-10-31",
-      "notes": "模型、创意产品、项目团队和独立机构分别识别。"
+      "notes": "模型、创意产品、项目团队和独立机构分别识别。",
+      "sectors": [
+        "internet",
+        "media"
+      ]
     },
     {
       "id": "netease",
@@ -121,7 +161,12 @@
       "official_url": "https://ir.netease.com/",
       "access": "content_read",
       "checked_at": "2026-10-31",
-      "notes": "集团、旗下业务和其项目分别归属，不能仅据品牌推断独立。"
+      "notes": "集团、旗下业务和其项目分别归属，不能仅据品牌推断独立。",
+      "sectors": [
+        "internet",
+        "software",
+        "media"
+      ]
     },
     {
       "id": "xiaohongshu",
@@ -134,7 +179,11 @@
       "official_url": "https://www.xiaohongshu.com/",
       "access": "limited",
       "checked_at": "2026-10-31",
-      "notes": "主站需登录；主体可参考官方协议，项目仍需单独证据。"
+      "notes": "主站需登录；主体可参考官方协议，项目仍需单独证据。",
+      "sectors": [
+        "internet",
+        "media"
+      ]
     },
     {
       "id": "bilibili",
@@ -146,7 +195,11 @@
       "official_url": "https://www.bilibili.com/blackboard/aboutUs.html",
       "access": "search_only",
       "checked_at": "2026-10-31",
-      "notes": "使用官方关于我们页面；IR访问限制不代表项目不存在。"
+      "notes": "使用官方关于我们页面；IR访问限制不代表项目不存在。",
+      "sectors": [
+        "internet",
+        "media"
+      ]
     },
     {
       "id": "didi",
@@ -158,7 +211,11 @@
       "official_url": "https://ir.didiglobal.com/",
       "access": "content_read",
       "checked_at": "2026-10-31",
-      "notes": "内部业务、独立融资子公司与法律拆分分别核实。"
+      "notes": "内部业务、独立融资子公司与法律拆分分别核实。",
+      "sectors": [
+        "internet",
+        "mobility"
+      ]
     },
     {
       "id": "trip-com",
@@ -170,7 +227,11 @@
       "official_url": "https://investors.trip.com/",
       "access": "content_read",
       "checked_at": "2026-10-31",
-      "notes": "集团和旅行产品品牌不作为同一层级重复计数。"
+      "notes": "集团和旅行产品品牌不作为同一层级重复计数。",
+      "sectors": [
+        "internet",
+        "travel"
+      ]
     },
     {
       "id": "weibo",
@@ -182,7 +243,11 @@
       "official_url": "https://zh.ir.weibo.com/",
       "access": "search_only",
       "checked_at": "2026-10-31",
-      "notes": "与新浪分别看待，当前控制权不凭历史印象推断。"
+      "notes": "与新浪分别看待，当前控制权不凭历史印象推断。",
+      "sectors": [
+        "internet",
+        "media"
+      ]
     },
     {
       "id": "zhihu",
@@ -194,7 +259,11 @@
       "official_url": "https://ir.zhihu.com/",
       "access": "content_read",
       "checked_at": "2026-10-31",
-      "notes": "搜索、知识产品及其团队按具体单元核实。"
+      "notes": "搜索、知识产品及其团队按具体单元核实。",
+      "sectors": [
+        "internet",
+        "software"
+      ]
     },
     {
       "id": "qihoo-360",
@@ -207,7 +276,11 @@
       "official_url": "https://www.360.cn/",
       "access": "content_read",
       "checked_at": "2026-10-31",
-      "notes": "集团品牌、AI产品和法律主体分别核实。"
+      "notes": "集团品牌、AI产品和法律主体分别核实。",
+      "sectors": [
+        "software",
+        "security"
+      ]
     },
     {
       "id": "fifty-eight",
@@ -220,7 +293,11 @@
       "official_url": "https://about.58.com/official/HomePage",
       "access": "search_only",
       "checked_at": "2026-10-31",
-      "notes": "官方介绍主要可检索；JS页面访问不构成具体项目确认。"
+      "notes": "官方介绍主要可检索；JS页面访问不构成具体项目确认。",
+      "sectors": [
+        "internet",
+        "local_services"
+      ]
     },
     {
       "id": "ke-holdings",
@@ -233,7 +310,11 @@
       "official_url": "https://investors.ke.com/",
       "access": "content_read",
       "checked_at": "2026-10-31",
-      "notes": "平台、旗下品牌和孵化业务分别核实。"
+      "notes": "平台、旗下品牌和孵化业务分别核实。",
+      "sectors": [
+        "internet",
+        "real_estate"
+      ]
     },
     {
       "id": "kingsoft",
@@ -245,7 +326,10 @@
       "official_url": "https://ir.kingsoft.com/corporate-info/business-overview/",
       "access": "search_only",
       "checked_at": "2026-10-31",
-      "notes": "金山软件、金山办公、金山云名称不互换；项目按当期主体归属。"
+      "notes": "金山软件、金山办公、金山云名称不互换；项目按当期主体归属。",
+      "sectors": [
+        "software"
+      ]
     },
     {
       "id": "vipshop",
@@ -257,7 +341,11 @@
       "official_url": "https://ir.vip.com/",
       "access": "content_read",
       "checked_at": "2026-10-31",
-      "notes": "作为排查入口，不据集团规模推断已存在拆分项目。"
+      "notes": "作为排查入口，不据集团规模推断已存在拆分项目。",
+      "sectors": [
+        "internet",
+        "retail"
+      ]
     },
     {
       "id": "iqiyi",
@@ -269,7 +357,11 @@
       "official_url": "https://ir.iqiyi.com/",
       "access": "content_read",
       "checked_at": "2026-10-31",
-      "notes": "与百度单列寻源；当前控制关系另查。"
+      "notes": "与百度单列寻源；当前控制关系另查。",
+      "sectors": [
+        "internet",
+        "media"
+      ]
     },
     {
       "id": "tongcheng-travel",
@@ -281,7 +373,11 @@
       "official_url": "https://www.tongchengir.com/",
       "access": "search_only",
       "checked_at": "2026-10-31",
-      "notes": "与携程、腾讯单列寻源，不据历史关联推断控制权。"
+      "notes": "与携程、腾讯单列寻源，不据历史关联推断控制权。",
+      "sectors": [
+        "internet",
+        "travel"
+      ]
     },
     {
       "id": "autohome",
@@ -293,7 +389,11 @@
       "official_url": "https://ir.autohome.com.cn/",
       "access": "content_read",
       "checked_at": "2026-10-31",
-      "notes": "平台、新业务和当前股东关系分别核实。"
+      "notes": "平台、新业务和当前股东关系分别核实。",
+      "sectors": [
+        "internet",
+        "automotive"
+      ]
     },
     {
       "id": "huawei",
@@ -305,7 +405,13 @@
       "official_url": "https://www.huawei.com/en/corporate-information",
       "access": "search_only",
       "checked_at": "2026-10-31",
-      "notes": "相关ICT集团；不以此将其全部业务定义为互联网或hyperscaler。"
+      "notes": "相关ICT集团；不以此将其全部业务定义为互联网或hyperscaler。",
+      "sectors": [
+        "hardware",
+        "software",
+        "cloud",
+        "telecom"
+      ]
     },
     {
       "id": "xiaomi",
@@ -317,7 +423,13 @@
       "official_url": "https://www.mi.com/global/about/",
       "access": "content_read",
       "checked_at": "2026-10-31",
-      "notes": "相关终端集团；不因人物背景与金山合并。"
+      "notes": "相关终端集团；不因人物背景与金山合并。",
+      "sectors": [
+        "hardware",
+        "software",
+        "consumer_devices",
+        "automotive"
+      ]
     },
     {
       "id": "lenovo",
@@ -329,7 +441,11 @@
       "official_url": "https://investor.lenovo.com/en/about/profile.php",
       "access": "search_only",
       "checked_at": "2026-10-31",
-      "notes": "相关计算与终端集团；实验室、业务及拆分逐项核实。"
+      "notes": "相关计算与终端集团；实验室、业务及拆分逐项核实。",
+      "sectors": [
+        "hardware",
+        "software"
+      ]
     },
     {
       "id": "zte",
@@ -341,7 +457,12 @@
       "official_url": "https://www.zte.com.cn/global/index.html",
       "access": "content_read",
       "checked_at": "2026-10-31",
-      "notes": "相关ICT集团，具体AI单元和法人分别核实。"
+      "notes": "相关ICT集团，具体AI单元和法人分别核实。",
+      "sectors": [
+        "hardware",
+        "software",
+        "telecom"
+      ]
     },
     {
       "id": "kingsoft-cloud",
@@ -353,7 +474,11 @@
       "official_url": "https://ir.ksyun.com/corporate-profile/",
       "access": "search_only",
       "checked_at": "2026-10-31",
-      "notes": "与金山软件分别列入口；不自动合并为同一法人或业务。"
+      "notes": "与金山软件分别列入口；不自动合并为同一法人或业务。",
+      "sectors": [
+        "cloud",
+        "software"
+      ]
     },
     {
       "id": "china-mobile",
@@ -365,7 +490,11 @@
       "official_url": "https://www.chinamobileltd.com/en/ir/reports/ar2024.pdf",
       "access": "search_only",
       "checked_at": "2026-10-31",
-      "notes": "公司网页访问受限，官方年报提供身份入口；专业公司和研究院另核。"
+      "notes": "公司网页访问受限，官方年报提供身份入口；专业公司和研究院另核。",
+      "sectors": [
+        "telecom",
+        "cloud"
+      ]
     },
     {
       "id": "china-telecom",
@@ -377,7 +506,11 @@
       "official_url": "https://www.chinatelecom-h.com/en/company/company_overview.php?cat=2002",
       "access": "search_only",
       "checked_at": "2026-10-31",
-      "notes": "相关电信与云集团；专业子公司和创新团队分别核实。"
+      "notes": "相关电信与云集团；专业子公司和创新团队分别核实。",
+      "sectors": [
+        "telecom",
+        "cloud"
+      ]
     },
     {
       "id": "china-unicom",
@@ -389,7 +522,286 @@
       "official_url": "https://www.chinaunicom.com.hk/en/about/profile.php",
       "access": "content_read",
       "checked_at": "2026-10-31",
-      "notes": "相关电信与云集团；专业子公司和创新团队分别核实。"
+      "notes": "相关电信与云集团；专业子公司和创新团队分别核实。",
+      "sectors": [
+        "telecom",
+        "cloud"
+      ]
+    },
+    {
+      "id": "iflytek",
+      "name": "科大讯飞",
+      "aliases": [
+        "iFlytek"
+      ],
+      "group": "software_and_ai",
+      "official_url": "https://cogskl.iflytek.com/about",
+      "access": "content_read",
+      "checked_at": "2026-10-31",
+      "notes": "实验室与认知智能、星火及教育／医疗研究方向；不采用营销性的性能领先结论。",
+      "sectors": [
+        "software",
+        "enterprise_services"
+      ],
+      "topic_evidence": [
+        {
+          "topic": "AI",
+          "role": "technology_provider",
+          "title": "认知智能全国重点实验室官方介绍",
+          "url": "https://cogskl.iflytek.com/about",
+          "supports": "实验室与认知智能、星火及教育／医疗研究方向；不采用营销性的性能领先结论。",
+          "published_date": null,
+          "checked_at": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "sensetime",
+      "name": "商汤 SenseTime",
+      "aliases": [
+        "SenseTime",
+        "商汤"
+      ],
+      "group": "software_and_ai",
+      "official_url": "https://www.sensetime.com/en/index",
+      "access": "content_read",
+      "checked_at": "2026-10-31",
+      "notes": "SenseNova、SenseCore及汽车等AI产品方向；不是市场排名证据。",
+      "sectors": [
+        "software",
+        "enterprise_services"
+      ],
+      "topic_evidence": [
+        {
+          "topic": "AI",
+          "role": "technology_provider",
+          "title": "SenseTime 官方产品与业务介绍",
+          "url": "https://www.sensetime.com/en/index",
+          "supports": "SenseNova、SenseCore及汽车等AI产品方向；不是市场排名证据。",
+          "published_date": null,
+          "checked_at": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "yonyou",
+      "name": "用友",
+      "aliases": [
+        "Yonyou"
+      ],
+      "group": "software_and_ai",
+      "official_url": "https://yonyou.com/YonBIP/product/YonGPT/",
+      "access": "search_only",
+      "checked_at": "2026-10-31",
+      "notes": "具名企业大模型及产品能力；本次依据官方检索内容，不等同逐项产品测试。",
+      "sectors": [
+        "software",
+        "enterprise_services"
+      ],
+      "topic_evidence": [
+        {
+          "topic": "AI",
+          "role": "technology_provider",
+          "title": "用友 YonGPT 官方产品页",
+          "url": "https://yonyou.com/YonBIP/product/YonGPT/",
+          "supports": "具名企业大模型及产品能力；本次依据官方检索内容，不等同逐项产品测试。",
+          "published_date": null,
+          "checked_at": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "kingdee",
+      "name": "金蝶",
+      "aliases": [
+        "Kingdee"
+      ],
+      "group": "software_and_ai",
+      "official_url": "https://www.kingdee.com/products/cosmic_platform.html",
+      "access": "search_only",
+      "checked_at": "2026-10-31",
+      "notes": "企业级平台与Agent产品能力；本次依据官方检索内容，不表示市场排名。",
+      "sectors": [
+        "software",
+        "enterprise_services"
+      ],
+      "topic_evidence": [
+        {
+          "topic": "AI",
+          "role": "technology_provider",
+          "title": "金蝶 AI 苍穹官方产品页",
+          "url": "https://www.kingdee.com/products/cosmic_platform.html",
+          "supports": "企业级平台与Agent产品能力；本次依据官方检索内容，不表示市场排名。",
+          "published_date": null,
+          "checked_at": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "ieit",
+      "name": "浪潮信息 IEIT",
+      "aliases": [
+        "IEIT",
+        "IEI System"
+      ],
+      "group": "hardware_and_semiconductors",
+      "official_url": "https://www.ieisystem.com/",
+      "access": "content_read",
+      "checked_at": "2026-10-31",
+      "notes": "具名AI服务器与AIStation等产品；浪潮信息与整个浪潮集团不互换。",
+      "sectors": [
+        "hardware",
+        "infrastructure"
+      ],
+      "topic_evidence": [
+        {
+          "topic": "AI",
+          "role": "infrastructure_provider",
+          "title": "浪潮信息官方产品目录",
+          "url": "https://www.ieisystem.com/",
+          "supports": "具名AI服务器与AIStation等产品；浪潮信息与整个浪潮集团不互换。",
+          "published_date": null,
+          "checked_at": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "cambricon",
+      "name": "寒武纪",
+      "aliases": [
+        "Cambricon"
+      ],
+      "group": "hardware_and_semiconductors",
+      "official_url": "https://www.cambricon.com/index.php?a=lists&c=index&catid=7&m=content",
+      "access": "search_only",
+      "checked_at": "2026-10-31",
+      "notes": "AI芯片及云边端产品定位；本次依据官方检索内容，不因成立年份或上市单独判定已有地位。",
+      "sectors": [
+        "hardware",
+        "semiconductors"
+      ],
+      "topic_evidence": [
+        {
+          "topic": "AI",
+          "role": "infrastructure_provider",
+          "title": "寒武纪官方公司介绍",
+          "url": "https://www.cambricon.com/index.php?a=lists&c=index&catid=7&m=content",
+          "supports": "AI芯片及云边端产品定位；本次依据官方检索内容，不因成立年份或上市单独判定已有地位。",
+          "published_date": null,
+          "checked_at": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "oppo",
+      "name": "OPPO",
+      "aliases": [
+        "OPPO"
+      ],
+      "group": "hardware_and_semiconductors",
+      "official_url": "https://www.oppo.com/cn/discover/technology/oppo-ai/",
+      "access": "content_read",
+      "checked_at": "2026-10-31",
+      "notes": "端侧模型、智能体与终端AI产品研究；旗下品牌及业务单元仍需去重。",
+      "sectors": [
+        "hardware",
+        "software",
+        "consumer_devices"
+      ],
+      "topic_evidence": [
+        {
+          "topic": "AI",
+          "role": "technology_provider",
+          "title": "OPPO AI 官方入口",
+          "url": "https://www.oppo.com/cn/discover/technology/oppo-ai/",
+          "supports": "端侧模型、智能体与终端AI产品研究；旗下品牌及业务单元仍需去重。",
+          "published_date": null,
+          "checked_at": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "byd",
+      "name": "比亚迪",
+      "aliases": [
+        "BYD"
+      ],
+      "group": "industry_incumbents",
+      "official_url": "https://prod2.byd.com/cn/news/2024/detail502",
+      "access": "search_only",
+      "checked_at": "2026-10-31",
+      "notes": "整车智能、璇玑架构等历史战略依据；当前开展情况须补查最新报告，不能单据此认定AI技术领先。",
+      "sectors": [
+        "automotive",
+        "hardware"
+      ],
+      "topic_evidence": [
+        {
+          "topic": "AI",
+          "role": "industry_adopter",
+          "title": "比亚迪智能化战略官方介绍",
+          "url": "https://prod2.byd.com/cn/news/2024/detail502",
+          "supports": "整车智能、璇玑架构等历史战略依据；当前开展情况须补查最新报告，不能单据此认定AI技术领先。",
+          "published_date": "2024-01-17",
+          "checked_at": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "midea",
+      "name": "美的",
+      "aliases": [
+        "Midea"
+      ],
+      "group": "industry_incumbents",
+      "official_url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0330/2026033001929_c.pdf",
+      "access": "content_read",
+      "checked_at": "2026-10-31",
+      "notes": "工业／家庭智能体及内部AI活动的正式披露；成熟工业集团不直接等同通用模型头部。",
+      "sectors": [
+        "industrial",
+        "hardware",
+        "consumer_devices"
+      ],
+      "topic_evidence": [
+        {
+          "topic": "AI",
+          "role": "industry_adopter",
+          "title": "美的2025年度报告（港交所披露）",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0330/2026033001929_c.pdf",
+          "supports": "工业／家庭智能体及内部AI活动的正式披露；成熟工业集团不直接等同通用模型头部。",
+          "published_date": "2026-03-30",
+          "checked_at": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "haier",
+      "name": "海尔（智慧家庭线索）",
+      "aliases": [
+        "Haier"
+      ],
+      "group": "industry_incumbents",
+      "official_url": "https://www.haier.com/press-events/news/20260108_284891.shtml",
+      "access": "search_only",
+      "checked_at": "2026-10-31",
+      "notes": "Uhome大模型、智慧家庭及智能体活动；品牌入口不替代集团与海尔智家法人的具体核实。",
+      "sectors": [
+        "industrial",
+        "hardware",
+        "consumer_devices"
+      ],
+      "topic_evidence": [
+        {
+          "topic": "AI",
+          "role": "industry_adopter",
+          "title": "海尔官方 Uhome 与智慧家庭介绍",
+          "url": "https://www.haier.com/press-events/news/20260108_284891.shtml",
+          "supports": "Uhome大模型、智慧家庭及智能体活动；品牌入口不替代集团与海尔智家法人的具体核实。",
+          "published_date": "2026-01-08",
+          "checked_at": "2026-10-31"
+        }
+      ]
     }
   ]
 }

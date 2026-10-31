@@ -13,12 +13,12 @@
 | `data/companies/*.json` | 经营型机构的公开事实，保留原目录名兼容使用者 |
 | `data/investors/*.json` | 投资机构的团队、方向、案例与公开事实 |
 | `data/taxonomy.json` | 经营型机构赛道的编辑分类定义 |
-| `data/platforms.json` | 互联网／软件平台及云／ICT 邻接集团的寻源底表；不计入机构目标 |
+| `data/platforms.json` | 当前中国 AI 的已有玩家／母平台寻源底表、行业标签与主题证据；不计入正式机构目标 |
 | `data/targets.json` | 自动生成的统一目标索引，主入口为第一波 |
 | `catalog/first-wave.md` | 自动生成的第一波与观察候选阅读版 |
 | `catalog/platforms.md` | 自动生成的母平台排查清单；官网身份核对不等于项目核验 |
 | `catalog/corporate-ventures.md` | 已有 `organizational_context` 标注的经营型记录阅读版 |
-| `catalog/later.md` | 已有玩家／后续研究名单，当前不扩搜 |
+| `catalog/later.md` | 已有玩家的现有资料登记；保留研究批次，不禁止后续研究 |
 | 其他 `catalog/` 与机器索引 | 自动生成的明细、分类、CSV 和检索入口 |
 
 仓库更名保留既有 schema URN 标识，兼容旧读取器；文件入口采用新名称。经营型／投资机构采用 schema version 2；契约见 [company.schema.json](../schemas/company.schema.json) 和 [investor.schema.json](../schemas/investor.schema.json)。分类文件保留自己的版本约定，见 [taxonomy.schema.json](../schemas/taxonomy.schema.json)。
@@ -27,7 +27,7 @@
 
 主分类是新进玩家与已有玩家，经营型机构／投资机构是第二个维度。新进不是固定年份阈值，也不由上市状态或 VC 融资单独判断；成熟机构品牌变化不自动成为新进机构。
 
-有明确边界的大厂内部新团队、实验室、孵化项目、子公司或正式拆分机构可以是新进候选，其母平台仍是已有玩家。离职团队创业也可研究，但不能仅凭履历认定它是母平台孵化或拆分。成熟大厂整体及普通成熟部门留待后续；实际判断按 [大厂项目 SOP](../skills/find-company/references/corporate-ventures.md) 留存证据。
+有明确边界的大厂内部新团队、实验室、孵化项目、子公司或正式拆分机构可以是新进候选，其母平台仍是已有玩家。离职团队创业也可研究，但不能仅凭履历认定它是母平台孵化或拆分。成熟平台和现有业务由 [find-incumbents](../skills/find-incumbents/SKILL.md) 研究；真正的新进单元交给 [find-startups](../skills/find-startups/SKILL.md)。实际边界按 [大厂项目 SOP](corporate-ventures.md) 留存证据，两个 Skill 不复制机构记录。
 
 `targeting` 的字段如下：
 
@@ -35,12 +35,12 @@
 | --- | --- |
 | `kind` | 固定 `editorial_assessment`，说明这是编辑性研究判断 |
 | `player_group` | `new_entrant`、`incumbent`，或证据不足的 `unresolved` |
-| `wave` | `first` 第一波研究候选、`watchlist` 待核实、`later` 留待后续 |
+| `wave` | `first` 第一波研究候选、`watchlist` 待核实、`later` 既有玩家资料批次；不是禁止研究或优劣排序 |
 | `rationale` | 纳入、观察或留待后续的具体理由，不写个人岗位偏好 |
 | `source_ids` | 本条记录内支撑判断的来源 ID |
 | `labelled_at` | 实际做分类标记的日期，不表示业务事实重新核查 |
 
-第一波不是机构质量、基金收益、法律独立性或个人适配的评分。`coverage.role` 继续表示 VC 研究范围与证据口径，不能直接替代第一波标记；例如新 GP 没有成熟退出，不因此失去寻源价值。新 VC 的判断流程见 [专门 SOP](../skills/find-company/references/new-vc-spinouts.md)。
+第一波不是机构质量、基金收益、法律独立性或个人适配的评分。`coverage.role` 继续表示 VC 研究范围与证据口径，不能直接替代第一波标记；例如新 GP 没有成熟退出，不因此失去寻源价值。新 VC 的判断流程见 [专门 SOP](../skills/find-startups/references/new-vc-spinouts.md)。
 
 ## 机构事实与来源
 
@@ -94,7 +94,15 @@
 
 `investment.verification_status: "not_applicable"` 仅用于 `organizational_context.form` 为 `internal_team`、`research_lab` 或 `product_project`，且 `relationship_status: "confirmed"` 并有来源支持的记录。未确认的内部归属、子公司、独立机构或报道中的拆分机构不能据此跳过融资研究；原记录状态不会因整理或新增字段而批量改变。
 
-`data/platforms.json` 保存编辑性排查范围，按互联网／软件平台及云／ICT 邻接集团分组，不统一将它们称为 hyperscaler。其官网与身份来源只支撑平台入口；排查主题是搜索建议，不是存在对应项目的事实。平台进入底表不会自动进入 `data/targets.json`；找到可单独识别的具体团队或项目后，按正式机构记录核验、建档和圈选。生成的 [平台清单](../catalog/platforms.md) 与 [大厂关联项目](../catalog/corporate-ventures.md) 分别承担这两个用途。
+`data/platforms.json` 保存当前中国 AI 场景的编辑性排查范围。`group` 为 `internet_platform`、`cloud_ict_adjacent`、`software_and_ai`、`hardware_and_semiconductors` 或 `industry_incumbents`；这是寻源分组，不是统一市场排名，也不将它们全部称为 hyperscaler。可选 `sectors` 为筛选标签，不替代正式档案的业务分类。
+
+官网身份入口只支持识别候选。可选 `topic_evidence` 逐条保存 `topic`、`role`、`title`、`url`、`supports`、`published_date`、`checked_at`，说明在某个主题中的具体角色及来源；发布日期未知用 `null`，核查日期按实际访问记录。存在一项主题证据不表示已确认行业领先、母子公司关系或全部业务。没有该数组表示尚未记录主题证据，不表示确定没有相关业务。
+
+`python3 scripts/query_platforms.py` 可用 `--sector`、`--topic`、`--group`、`--id` 筛选底表。平台进入底表不会自动进入 `data/targets.json`；确定需研究的机构或具体单元后，按正式记录核验、建档和圈选。生成的 [平台清单](../catalog/platforms.md) 与 [大厂关联项目](../catalog/corporate-ventures.md) 分别承担这些用途。
+
+## 通用 Skill 与当前公共契约
+
+`find-startups` 和 `find-incumbents` 的主题、地域和行业由具体任务确定；本仓库现有公共分类与 schema 则继续服务当前中国 AI 资料。通用方法不等于当前数据契约已经扩展到所有行业。超出既有分类的结果先存私人工作区 `research/`，或在明确扩展 taxonomy、schema 和生成规则后发布，不能借用一个不相符的 AI 类目来通过校验。研究流程和第三方参考见 [研究方法](research-methods.md)。
 
 ## 三类公开渠道
 

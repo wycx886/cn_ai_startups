@@ -4,7 +4,7 @@
 
 [第一波入口](first-wave.md) · [机器索引](../data/targets.json)
 
-这里仅保留已有资料，尚未开展 Find AI incumbents 的团队与机会扩充。成熟机构的AI团队需要另行核验，不能从机构整体方向推断具体岗位。
+已有玩家与新进第一波分开登记；研究方法见 [find-incumbents](../skills/find-incumbents/SKILL.md)。底表和机构整体业务不等于已完成具体团队研究，不能据此推断岗位。
 
 | 机构 | 类型 | 本轮处理 |
 | --- | --- | --- |

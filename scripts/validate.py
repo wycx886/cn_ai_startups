@@ -24,6 +24,10 @@ def validate_data(root=ROOT):
     assert iso_day(platforms['checked_at'])<=today(),'Future platform-universe check'
     for p in platforms['platforms']:
         assert iso_day(p['checked_at'])<=iso_day(platforms['checked_at']),'Platform check is after universe date'
+        for evidence in p.get('topic_evidence',[]):
+            assert iso_day(evidence['checked_at'])<=iso_day(p['checked_at']),'Topic evidence is newer than seed check'
+            if evidence['published_date']:
+                assert iso_day(evidence['published_date'])<=iso_day(evidence['checked_at']),'Topic publication is after its check'
     tax=load(root/'data/taxonomy.json')
     schema_validator('taxonomy.schema.json',root).validate(tax)
     categories=[c['id'] for c in tax['categories']]

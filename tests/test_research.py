@@ -25,10 +25,11 @@ def module_at(name, path):
     return module
 
 
-SCAFFOLD = module_at("research_scaffold", "skills/find-company/scripts/scaffold_entity.py")
+SCAFFOLD = module_at("research_scaffold", "scripts/scaffold_entity.py")
 MERGE = module_at("research_merge", "skills/find-channels/scripts/merge_layer2_inbox.py")
 CHANNEL_AUDIT = module_at("channel_audit", "skills/find-channels/scripts/audit_channels.py")
-ENTITY_AUDIT = module_at("entity_audit", "skills/find-company/scripts/audit_entities.py")
+ENTITY_AUDIT = module_at("entity_audit", "scripts/audit_entities.py")
+SEED_QUERY = module_at("seed_query", "scripts/query_platforms.py")
 
 
 class ResearchTests(unittest.TestCase):
@@ -100,6 +101,53 @@ class ResearchTests(unittest.TestCase):
         self.assertEqual(json.loads(output), [])
         all_records = json.loads(self.invoke(ENTITY_AUDIT, "--entity", "investors", "--before", "2099-01-01"))
         self.assertEqual({r["id"] for r in all_records}, {"monolith", "hongshan"})
+
+    def test_shared_audit_filters_incumbents_across_entity_types(self):
+        records = json.loads(self.invoke(ENTITY_AUDIT, "--player-group", "incumbent"))
+        self.assertEqual([r["id"] for r in records], ["hongshan"])
+
+    def test_incumbent_draft_is_private_unverified_and_not_a_startup_by_default(self):
+        before = self.snapshot()
+        draft = json.loads(self.invoke(SCAFFOLD, "--entity", "investor", "--id", "synthetic-manager", "--name", "合成成熟机构", "--group", "established", "--player-group", "incumbent"))
+        self.assertTrue(draft["draft"])
+        self.assertEqual(draft["record"]["group"], "established")
+        self.assertEqual(draft["record"]["targeting"]["player_group"], "incumbent")
+        self.assertEqual(draft["record"]["targeting"]["wave"], "later")
+        self.assertIsNone(draft["record"]["checked_at"])
+        self.assertEqual(before, self.snapshot())
+        with self.assertRaises(ValueError):
+            validate_record(draft["record"], self.root)
+
+    def test_sector_filters_allow_hardware_and_software_overlap(self):
+        hardware = {r["id"] for r in SEED_QUERY.select_seeds(self.root, sector="hardware")}
+        software = {r["id"] for r in SEED_QUERY.select_seeds(self.root, sector="software")}
+        self.assertIn("huawei", hardware & software)
+        self.assertIn("cambricon", hardware)
+        self.assertIn("yonyou", software)
+        self.assertNotIn("yonyou", hardware)
+
+    def test_topic_query_does_not_infer_evidence_from_name_or_size(self):
+        path = self.root / "data/platforms.json"
+        registry = load(path)
+        seed = next(s for s in registry["platforms"] if s["id"] == "bytedance")
+        seed.pop("topic_evidence", None)
+        seed["name"] = "合成测试：AI leading mega platform"
+        path.write_text(json.dumps(registry), encoding="utf-8")
+        result = {r["id"] for r in SEED_QUERY.select_seeds(self.root, topic="AI")}
+        self.assertNotIn("bytedance", result)
+        self.assertIn("iflytek", result)
+
+    def test_topic_query_supports_non_ai_themes_and_case_insensitive_matching(self):
+        path = self.root / "data/platforms.json"
+        registry = load(path)
+        seed = registry["platforms"][0]
+        seed["topic_evidence"] = [{"topic": "Synthetic logistics", "role": "industry_adopter", "title": "合成主题测试",
+            "url": seed["official_url"], "supports": "仅用于测试通用主题，不代表实际研究结论。", "published_date": None,
+            "checked_at": seed["checked_at"]}]
+        path.write_text(json.dumps(registry), encoding="utf-8")
+        result = json.loads(self.invoke(SEED_QUERY, "--topic", "synthetic LOGISTICS"))
+        self.assertEqual([r["id"] for r in result], [seed["id"]])
+        self.assertEqual(SEED_QUERY.select_seeds(self.root, topic="unknown-theme"), [])
 
     def internal_unit(self):
         record = load(self.company)

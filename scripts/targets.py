@@ -44,7 +44,7 @@ def render(root):
     page += "## 经营型机构\n\n融资状态只反映现有披露的核验程度；不统一写成VC-backed，创始人支持、自筹、众筹、产业资本和融资口径冲突保留在机构档案原文中。\n\n| 机构 | 赛道 | 融资披露状态 | 原资料核查日 |\n| --- | --- | --- | --- |\n"
     for _,r in sorted(operating,key=lambda item:(item[1]['category_id'],item[1]['id'])):
         page += f"| [{md(r['name'])}](companies/{r['id']}.md) | {r['category_id']} | {FUNDING[r['investment']['verification_status']]} | {r['checked_at']} |\n"
-    page += "\n## 新进投资机构\n\n[新 VC 识别 SOP](../skills/find-company/references/new-vc-spinouts.md) · [新机构与原平台对照](new-vc-spinouts.md)。新GP缺少成熟退出不自动排除；原平台案例不算新机构业绩。\n\n| 机构 | 原平台／团队背景 | 圈选依据 |\n| --- | --- | --- |\n"
+    page += "\n## 新进投资机构\n\n[新 VC 识别 SOP](../skills/find-startups/references/new-vc-spinouts.md) · [新机构与原平台对照](new-vc-spinouts.md)。新GP缺少成熟退出不自动排除；原平台案例不算新机构业绩。\n\n| 机构 | 原平台／团队背景 | 圈选依据 |\n| --- | --- | --- |\n"
     for _,r in investing:
         platforms='；'.join(p['name']+'：'+('、'.join(p['previous_firms']) or '原平台未列') for p in r['team'])
         page += f"| [{md(r['name'])}](investors/{r['id']}.md) | {md(platforms)} | {md(r['targeting']['rationale'])} |\n"
@@ -53,11 +53,11 @@ def render(root):
         if r['targeting']['wave']=='watchlist':page+=f"| [{md(r['name'])}]({folder}/{r['id']}.md) | {TYPES[r['organization_type']]} | {md(r['targeting']['rationale'])} |\n"
     page += "\n## 已有玩家\n\n原有资料保留在[后续名单](later.md)。成熟平台整体及常规业务团队留待后续；具名的新孵化项目、实验室和拆分机构按具体单元单独判断。\n"
     out['catalog/first-wave.md']=page
-    later=banner+'# 已有玩家：后续研究登记\n\n[第一波入口](first-wave.md) · [机器索引](../data/targets.json)\n\n这里仅保留已有资料，尚未开展 Find AI incumbents 的团队与机会扩充。成熟机构的AI团队需要另行核验，不能从机构整体方向推断具体岗位。\n\n| 机构 | 类型 | 本轮处理 |\n| --- | --- | --- |\n'
+    later=banner+'# 已有玩家：后续研究登记\n\n[第一波入口](first-wave.md) · [机器索引](../data/targets.json)\n\n已有玩家与新进第一波分开登记；研究方法见 [find-incumbents](../skills/find-incumbents/SKILL.md)。底表和机构整体业务不等于已完成具体团队研究，不能据此推断岗位。\n\n| 机构 | 类型 | 本轮处理 |\n| --- | --- | --- |\n'
     for folder,r in records:
         if r['targeting']['wave']=='later':later+=f"| [{md(r['name'])}]({folder}/{r['id']}.md) | {TYPES[r['organization_type']]} | {md(r['targeting']['rationale'])} |\n"
     out['catalog/later.md']=later
-    spin=banner+'# 新进投资机构与原平台\n\n[第一波入口](first-wave.md) · [识别与核验 SOP](../skills/find-company/references/new-vc-spinouts.md)\n\n独立创业不自动意味着法律分拆、资产转移或原基金持仓承接。下列关系取自已有团队及来源记录；不因资料整理提升核验状态。\n\n| 机构 | 寻源状态 | 团队／原平台 | 机构成立口径 |\n| --- | --- | --- | --- |\n'
+    spin=banner+'# 新进投资机构与原平台\n\n[第一波入口](first-wave.md) · [识别与核验 SOP](../skills/find-startups/references/new-vc-spinouts.md)\n\n独立创业不自动意味着法律分拆、资产转移或原基金持仓承接。下列关系取自已有团队及来源记录；不因资料整理提升核验状态。\n\n| 机构 | 寻源状态 | 团队／原平台 | 机构成立口径 |\n| --- | --- | --- | --- |\n'
     for _,r in records:
         if r['organization_type']=='investment_firm' and r['targeting']['player_group']=='new_entrant':
             team='；'.join(p['name']+'：'+('、'.join(p['previous_firms']) or '未列原平台') for p in r['team'])

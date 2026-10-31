@@ -8,9 +8,9 @@
 
 编辑分类不等于已核实的成立年份、当前法律独立性或投资价值结论，`labelled_at` 与原事实 `checked_at` 分开。
 
-## 经营型机构赛道
+## 当前仓库的经营型机构赛道
 
-赛道名称、边界和子类的唯一维护源是 [data/taxonomy.json](../../../data/taxonomy.json)，阅读版是 [catalog/taxonomy.md](../../../catalog/taxonomy.md)。这里不复制第二套表格，避免分类更新后分叉。
+本节只适用于当前中国AI公共契约，通用Skill不要求其他行业使用AI分类。赛道名称、边界和子类的唯一维护源是 [data/taxonomy.json](../../../data/taxonomy.json)，阅读版是 [catalog/taxonomy.md](../../../catalog/taxonomy.md)。这里不复制第二套表格，避免分类更新后分叉。
 
 现有方法参考 Sequoia、a16z 和 HongShan 的公开材料，由本资料库编辑采用具体组织方式，不是这些机构共同发布的官方 AI 分类标准。原始观点、采用范围和局限见分类 JSON 中的 `references`、`method` 和 `caveats`。
 

@@ -1,0 +1,33 @@
+# 机构发现与公开研究方法
+
+本仓库使用两条通用路径：[find-startups](../skills/find-startups/SKILL.md) 发现新进玩家，[find-incumbents](../skills/find-incumbents/SKILL.md) 发现目标市场的已有玩家。任务决定地域、主题、行业和研究目的；中国 AI 是目前公共数据的使用场景，不是两个 Skill 的永久条件。
+
+## 从市场范围到具名机构
+
+先明确研究哪个市场和什么时间范围，再找实际参与者。以已知机构、官方行业资料、公开产品和客户案例作为起点，继续查直接同行、相邻业务及跨行业进入者。互联网、软件、硬件、基础设施和行业经营者可按任务分别覆盖；不能仅因规模大就称为目标市场的头部玩家。
+
+已有玩家应有可指出的业务、产品、客户、基础设施或持续运营证据。新进机构则需要新形成的团队、主体、项目或市场进入活动依据。集团、子公司、实验室、产品品牌和拆分机构分别识别；一个成熟集团的新项目可能交接至新进路径，但不据新名称自动判断创业，也不在两条路径各复制一份档案。
+
+## 来源与判断分开
+
+优先核对监管披露、公司年报与投资者材料、当前产品或研究页面、具名项目公告和可核实的客户／合作方披露。行业图谱可用于发现名单，其编制范围、征集方式和时间应保留；入图不等于排名、完整市场覆盖或持续领先。
+
+来源支持的事实、基于证据的解释和尚未证实的线索分别记录。保留 URL、支持内容、公开日期和实际核查日期；打不开的页面说明访问限制，不能用模型记忆补成当前事实。旧资料可支持历史，但不能据此断言现行股权、团队、产品或招聘状态。
+
+按任务深度决定是否进一步看财务、产品组合、客户、研发、合作或组织变化。只圈机构时不自动收集个人渠道、进行适配评分或发送消息。更新已有记录时先比较旧资料，保留仍有用的历史来源和差异，不统一刷新核查日期。
+
+## 候选池与正式档案
+
+当前 [平台底表](../data/platforms.json) 保存中国 AI 场景的已有玩家／母平台线索和有限主题证据；它不是正式目标档案或排名。[机构数据](data-model.md) 与生成的阅读版继续分开维护。通用任务若超出现有公共分类，结果先留私人工作区 `research/`，在明确扩展数据契约后再发布。
+
+## 检索到的第三方 Skill
+
+以下比较基于 2026-10-31 查看原仓库文件，不采用 Skill 聚合站的评分或安装量作为质量证据。它们提供通用公司与市场研究方法，没有一个在本次查看范围内专门解决中国已有玩家发现。本仓库独立编写自己的规则，不要求安装这些 Skill 或依赖其工具。
+
+| 原作者与文件 | 可参考之处 | 与本仓库任务的差异 |
+| --- | --- | --- |
+| deanpeters 的 [company-intel](https://github.com/deanpeters/Product-Manager-Skills/blob/main/skills/company-intel/SKILL.md) | 从公司、行业或竞争者集合进入；以业务和产品证据组织结构化研究，并比较更新变化 | 面向产品管理的深度商业研究，输出较重；不能照用其中对人员变化等信号的强推断 |
+| browserbase 的 [company-research](https://github.com/browserbase/skills/blob/main/skills/company-research/SKILL.md) | 将公司发现与逐家核实分开；研究深度可调；不可读信息保留未知，避免把使用者偏好写成公司事实 | 偏销售线索和 ICP 评分，依赖 Browserbase API 与 CLI，原输出路径和用户档案保存方式不符合本仓库分界 |
+| hungv47 的 [market-research](https://github.com/hungv47/research-skills/blob/main/skills/market-research/SKILL.md) | 先限定范围；覆盖直接与相邻玩家；说明时效、估算方法、证据与缺口 | 偏市场进入、定位与规模研究，完整编排比圈定机构更重；仓库已归档 |
+
+许可事实也应区分：deanpeters 仓库的 [LICENSE](https://github.com/deanpeters/Product-Manager-Skills/blob/main/LICENSE) 为 CC BY-NC-SA 4.0；Browserbase 该 Skill 的 frontmatter 标 MIT，本次未见根目录独立 LICENSE；hungv47 的 [LICENSE](https://github.com/hungv47/research-skills/blob/main/LICENSE) 为 MIT。此处仅链接并独立概述方法；若以后复制代码或实质正文，应按实际文件许可处理，而非因可公开查看就直接移植。

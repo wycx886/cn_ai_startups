@@ -2,7 +2,7 @@
 
 # 新进投资机构与原平台
 
-[第一波入口](first-wave.md) · [识别与核验 SOP](../skills/find-company/references/new-vc-spinouts.md)
+[第一波入口](first-wave.md) · [识别与核验 SOP](../skills/find-startups/references/new-vc-spinouts.md)
 
 独立创业不自动意味着法律分拆、资产转移或原基金持仓承接。下列关系取自已有团队及来源记录；不因资料整理提升核验状态。
 

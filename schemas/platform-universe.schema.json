@@ -3,28 +3,156 @@
   "title": "Editorial China platform discovery universe",
   "type": "object",
   "properties": {
-    "schema_version": {"const": 1},
-    "checked_at": {"type": "string", "format": "date"},
-    "scope_note": {"type": "string", "minLength": 1},
+    "schema_version": {
+      "const": 1
+    },
+    "checked_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "scope_note": {
+      "type": "string",
+      "minLength": 1
+    },
     "platforms": {
-      "type": "array", "minItems": 1,
+      "type": "array",
+      "minItems": 1,
       "items": {
         "type": "object",
         "properties": {
-          "id": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
-          "name": {"type": "string", "minLength": 1},
-          "aliases": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
-          "group": {"enum": ["internet_platform", "cloud_ict_adjacent"]},
-          "official_url": {"type": "string", "format": "uri", "pattern": "^https?://"},
-          "access": {"enum": ["content_read", "limited", "search_only"]},
-          "checked_at": {"type": "string", "format": "date"},
-          "notes": {"type": "string", "minLength": 1}
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "group": {
+            "enum": [
+              "internet_platform",
+              "cloud_ict_adjacent",
+              "software_and_ai",
+              "hardware_and_semiconductors",
+              "industry_incumbents"
+            ]
+          },
+          "official_url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https?://"
+          },
+          "access": {
+            "enum": [
+              "content_read",
+              "limited",
+              "search_only"
+            ]
+          },
+          "checked_at": {
+            "type": "string",
+            "format": "date"
+          },
+          "notes": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sectors": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1,
+            "uniqueItems": true,
+            "description": "Editorial business-role tags; software and hardware can overlap."
+          },
+          "topic_evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "topic": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "role": {
+                  "enum": [
+                    "technology_provider",
+                    "infrastructure_provider",
+                    "industry_adopter",
+                    "unresolved"
+                  ]
+                },
+                "title": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri",
+                  "pattern": "^https?://"
+                },
+                "supports": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "published_date": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "checked_at": {
+                  "type": "string",
+                  "format": "date"
+                }
+              },
+              "required": [
+                "topic",
+                "role",
+                "title",
+                "url",
+                "supports",
+                "published_date",
+                "checked_at"
+              ],
+              "additionalProperties": false
+            }
+          }
         },
-        "required": ["id", "name", "aliases", "group", "official_url", "access", "checked_at", "notes"],
+        "required": [
+          "id",
+          "name",
+          "aliases",
+          "group",
+          "official_url",
+          "access",
+          "checked_at",
+          "notes"
+        ],
         "additionalProperties": false
       }
     }
   },
-  "required": ["schema_version", "checked_at", "scope_note", "platforms"],
+  "required": [
+    "schema_version",
+    "checked_at",
+    "scope_note",
+    "platforms"
+  ],
   "additionalProperties": false
 }

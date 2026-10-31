@@ -96,7 +96,7 @@
 
 ## 新进投资机构
 
-[新 VC 识别 SOP](../skills/find-company/references/new-vc-spinouts.md) · [新机构与原平台对照](new-vc-spinouts.md)。新GP缺少成熟退出不自动排除；原平台案例不算新机构业绩。
+[新 VC 识别 SOP](../skills/find-startups/references/new-vc-spinouts.md) · [新机构与原平台对照](new-vc-spinouts.md)。新GP缺少成熟退出不自动排除；原平台案例不算新机构业绩。
 
 | 机构 | 原平台／团队背景 | 圈选依据 |
 | --- | --- | --- |
