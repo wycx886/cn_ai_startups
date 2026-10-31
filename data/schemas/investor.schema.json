@@ -4,7 +4,7 @@
   "type": "object",
   "properties": {
     "schema_version": {
-      "const": 2
+      "const": 3
     },
     "id": {
       "type": "string",
@@ -53,56 +53,6 @@
         "basis"
       ],
       "additionalProperties": false
-    },
-    "team": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "name": {
-            "type": "string",
-            "minLength": 1
-          },
-          "role": {
-            "anyOf": [
-              {
-                "type": "string",
-                "minLength": 1
-              },
-              {
-                "type": "null"
-              }
-            ]
-          },
-          "previous_firms": {
-            "type": "array",
-            "items": {
-              "type": "string",
-              "minLength": 1
-            },
-            "minItems": 0
-          },
-          "background": {
-            "anyOf": [
-              {
-                "type": "string",
-                "minLength": 1
-              },
-              {
-                "type": "null"
-              }
-            ]
-          }
-        },
-        "required": [
-          "name",
-          "role",
-          "previous_firms",
-          "background"
-        ],
-        "additionalProperties": false
-      },
-      "minItems": 1
     },
     "focus": {
       "anyOf": [
@@ -304,7 +254,8 @@
           "scope": {
             "enum": [
               "organization",
-              "channel"
+              "channel",
+              "person"
             ],
             "description": "Omitted means organization; channel-only checks do not refresh the business profile date."
           }
@@ -358,6 +309,13 @@
       "items": {
         "$ref": "urn:cn-ai-startups:channel"
       }
+    },
+    "people": {
+      "type": "array",
+      "items": {
+        "$ref": "urn:cn-ai-startups:person"
+      },
+      "description": "Sourced key people (Partners, principals, investment team) and their public professional profiles."
     }
   },
   "required": [
@@ -367,7 +325,7 @@
     "aliases",
     "group",
     "founded",
-    "team",
+    "people",
     "focus",
     "stage",
     "representative_cases",

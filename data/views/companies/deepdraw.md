@@ -48,7 +48,12 @@ PIM商品中台、美工机器人、商品数据平台
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/c748e2cd9a3c964703d839s~.html) | 深绘智能 / Deepdraw | 2026-10-31 | confirmed / s03 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/8585060/) | 深绘智能 / Deepdraw | 2026-10-31 | confirmed / s04 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -60,3 +65,5 @@ PIM商品中台、美工机器人、商品数据平台
 | --- | --- | --- | --- | --- |
 | s01 | [深绘官网](https://www.deepdraw.cn/) | 产品和方向 | 未标明 | 2026-10-30 |
 | s02 | [光云科技2021财报附注](https://static.sse.com.cn/stock/disclosure/announcement/c/202208/688365_20220805_6WXN.pdf) | 收购并表与股权 | 2022-08-05 | 2026-10-30 |
+| s03 | [「深绘智能招聘」-BOSS直聘](https://www.zhipin.com/gongsi/c748e2cd9a3c964703d839s~.html) | 公开企业主页主体：深绘智能；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s04 | [【深绘智能招聘】-猎聘](https://www.liepin.com/company/8585060/) | 公开企业主页主体：深绘智能；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

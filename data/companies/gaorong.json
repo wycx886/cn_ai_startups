@@ -1,11 +1,12 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "gaorong",
   "name": "高榕创投（Gaorong Ventures）",
   "aliases": [
     "高榕资本",
     "Gaorong Capital",
-    "Banyan Capital"
+    "Banyan Capital",
+    "高榕创投"
   ],
   "group": "established",
   "coverage": {
@@ -16,33 +17,6 @@
     "year": 2014,
     "basis": "官网注明2014年1月由张震、高翔、岳斌创办。"
   },
-  "team": [
-    {
-      "name": "张震",
-      "role": "创始合伙人",
-      "previous_firms": [
-        "IDG资本"
-      ],
-      "background": "36氪机构档案披露此前为IDG合伙人。"
-    },
-    {
-      "name": "高翔",
-      "role": "创始合伙人",
-      "previous_firms": [
-        "IDG资本"
-      ],
-      "background": "36氪机构档案披露此前为IDG合伙人。"
-    },
-    {
-      "name": "岳斌",
-      "role": "创始合伙人",
-      "previous_firms": [
-        "IDG资本",
-        "华兴资本"
-      ],
-      "background": "36氪机构档案披露此前任IDG副总裁。"
-    }
-  ],
   "focus": "新科技、互联网、消费及医疗等；覆盖智能硬件与出海技术项目。",
   "stage": "早期及成长期。",
   "representative_cases": [
@@ -117,6 +91,15 @@
       "supports": "2026年2月公司确认最新A轮超1500万美元，高榕为联合领投方；3000万美元为累计融资",
       "published_date": "2026-02-04",
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "「高榕创投招聘」-BOSS直聘",
+      "url": "https://www.zhipin.com/gongsi/ed4f653e22d766de1nN_2ti8.html",
+      "supports": "公开企业主页主体：高榕创投；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "checked_at": "2026-10-30",
@@ -132,5 +115,75 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-5d3b6ae980d1803b",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/ed4f653e22d766de1nN_2ti8.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "高榕创投（Gaorong Ventures）",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    }
+  ],
+  "people": [
+    {
+      "name": "张震",
+      "role": "创始合伙人",
+      "previous_firms": [
+        "IDG资本"
+      ],
+      "background": "36氪机构档案披露此前为IDG合伙人。",
+      "profiles": [],
+      "source_ids": [
+        "s02",
+        "s03"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    },
+    {
+      "name": "高翔",
+      "role": "创始合伙人",
+      "previous_firms": [
+        "IDG资本"
+      ],
+      "background": "36氪机构档案披露此前为IDG合伙人。",
+      "profiles": [],
+      "source_ids": [
+        "s02",
+        "s03"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    },
+    {
+      "name": "岳斌",
+      "role": "创始合伙人",
+      "previous_firms": [
+        "IDG资本",
+        "华兴资本"
+      ],
+      "background": "36氪机构档案披露此前任IDG副总裁。",
+      "profiles": [],
+      "source_ids": [
+        "s02",
+        "s03"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    }
+  ]
 }

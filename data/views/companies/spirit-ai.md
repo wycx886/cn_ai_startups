@@ -48,7 +48,11 @@
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/c5a3fedbe7332abf1Hd_0t67EVc~.html) | 千寻智能 | 2026-10-31 | confirmed / s04 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -61,3 +65,4 @@
 | s01 | [顺为资本动态](https://shunwei.com/?taxonomy=&term=) | 千寻投资方与数据路线 | 未标明 | 2026-10-30 |
 | s02 | [千寻关于我们](https://www.spirit-ai.com/about) | 办公地及商业邮箱 | 未标明 | 2026-10-30 |
 | s03 | [千寻加入我们](https://www.spirit-ai.com/career) | 模型与机器人招聘方向 | 未标明 | 2026-10-30 |
+| s04 | [千寻智能招聘-BOSS直聘 公司页(工商信息已核对)](https://www.zhipin.com/gongsi/c5a3fedbe7332abf1Hd_0t67EVc~.html) | 公开企业主页主体：千寻智能；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

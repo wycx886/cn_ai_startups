@@ -38,10 +38,7 @@
       "type": "object",
       "properties": {
         "scope": {
-          "enum": [
-            "organization",
-            "person"
-          ]
+          "const": "organization"
         },
         "name": {
           "anyOf": [

@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "panyan-fund",
   "name": "磐岩基金",
   "aliases": [
@@ -14,27 +14,6 @@
     "year": 2026,
     "basis": "投中嘉川／36氪与创业邦独立报道均指向2026年2月成立，2026年8月完成管理人登记。登记与基金募集、投资、业绩分别看待。"
   },
-  "team": [
-    {
-      "name": "韩锐",
-      "role": "创始人、总经理兼投资负责人",
-      "previous_firms": [
-        "高榕资本",
-        "中国投资有限责任公司"
-      ],
-      "background": "原高榕合伙人，早年在中投公司私募股权投资部负责TMT直接投资；新机构实控人。"
-    },
-    {
-      "name": "袁烽",
-      "role": "合伙人",
-      "previous_firms": [
-        "高榕资本",
-        "中芯国际",
-        "中国科学院微电子研究所"
-      ],
-      "background": "原高榕主管先进制造及半导体投资，具有芯片产业与工程师经历。"
-    }
-  ],
   "focus": null,
   "stage": null,
   "representative_cases": [
@@ -108,5 +87,44 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [],
+  "people": [
+    {
+      "name": "韩锐",
+      "role": "创始人、总经理兼投资负责人",
+      "previous_firms": [
+        "高榕资本",
+        "中国投资有限责任公司"
+      ],
+      "background": "原高榕合伙人，早年在中投公司私募股权投资部负责TMT直接投资；新机构实控人。",
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    },
+    {
+      "name": "袁烽",
+      "role": "合伙人",
+      "previous_firms": [
+        "高榕资本",
+        "中芯国际",
+        "中国科学院微电子研究所"
+      ],
+      "background": "原高榕主管先进制造及半导体投资，具有芯片产业与工程师经历。",
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    }
+  ]
 }

@@ -1,10 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "datacanvas",
   "name": "九章云极 DataCanvas",
   "aliases": [
     "九章云极(DataCanvas)",
-    "DataCanvas"
+    "DataCanvas",
+    "九章云极"
   ],
   "category_id": "02",
   "focus": "AI基础软件与智算云",
@@ -56,6 +57,24 @@
       "supports": "历史投资方",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "scope": "channel",
+      "title": "「九章云极招聘」-BOSS直聘",
+      "url": "https://www.zhipin.com/gongsi/34b673b79b565e071nJ_2ty_.html",
+      "supports": "公开企业主页主体：九章云极；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "【九章云极招聘】-猎聘",
+      "url": "https://www.liepin.com/company/5072181/",
+      "supports": "公开企业主页主体：九章云极；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -75,5 +94,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-cb1da1b5dee2b70b",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/34b673b79b565e071nJ_2ty_.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "九章云极 DataCanvas",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s04"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-a241495dab89f8bb",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/5072181/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "九章云极 DataCanvas",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    }
+  ]
 }

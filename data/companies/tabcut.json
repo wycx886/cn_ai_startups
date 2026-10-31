@@ -1,10 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "tabcut",
   "name": "特看科技 / Tabcut",
   "aliases": [
     "特看科技(Tabcut)",
-    "Tabcut"
+    "Tabcut",
+    "特看科技"
   ],
   "category_id": "07",
   "focus": "TikTok 电商数据与视频内容 SaaS",
@@ -62,6 +63,15 @@
       "supports": "招聘渠道与公司/品牌身份",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "特看科技招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/5344ded464abd0e91XZ-39y5E1M~.html",
+      "supports": "公开企业主页主体：特看科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -81,5 +91,24 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-d98ddb51b2a35436",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/5344ded464abd0e91XZ-39y5E1M~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "特看科技 / Tabcut",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    }
+  ]
 }

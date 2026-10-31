@@ -1,10 +1,12 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "infinigence",
   "name": "无问芯穹 Infinigence AI",
   "aliases": [
     "无问芯穹(Infinigence)",
-    "Infinigence"
+    "Infinigence",
+    "北京无问芯穹科技",
+    "上海无问芯穹智能科技股份有限公司"
   ],
   "category_id": "02",
   "focus": "异构算力与AI原生基础设施",
@@ -56,6 +58,24 @@
       "supports": "2026年10月投资方名单",
       "published_date": "2026-10-12",
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "scope": "channel",
+      "title": "北京无问芯穹科技招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/75e9c4e4f7940ab41XNz2dm-FVI~.html",
+      "supports": "公开企业主页主体：北京无问芯穹科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "【上海无问芯穹智能科技股份有限公司招聘】-猎聘",
+      "url": "https://www.liepin.com/company/13818039/",
+      "supports": "公开企业主页主体：上海无问芯穹智能科技股份有限公司；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -75,5 +95,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-b043c7c9749db1c5",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/75e9c4e4f7940ab41XNz2dm-FVI~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "无问芯穹 Infinigence AI",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s04"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-faf2f851a16c5559",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/13818039/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "无问芯穹 Infinigence AI",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    }
+  ]
 }

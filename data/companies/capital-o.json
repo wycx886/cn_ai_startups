@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "capital-o",
   "name": "Capital O",
   "aliases": [
@@ -14,18 +14,6 @@
     "year": 2022,
     "basis": "机构自有领英页及机构档案记载2022年成立；2022年底开始首期募资。"
   },
-  "team": [
-    {
-      "name": "刘大卫 David Liu",
-      "role": "创始管理合伙人",
-      "previous_firms": [
-        "ZP Capital/治平资本",
-        "鼎晖投资",
-        "云九资本"
-      ],
-      "background": "MIT金融硕士，先后从事硅谷及国内前沿科技投资，公开采访详述其履历。"
-    }
-  ],
   "focus": "前沿科技基础设施的普及化（NTIC），AI垂类应用、自动驾驶、AI药物/材料、新材料及合成生物。",
   "stage": "早期。",
   "representative_cases": [
@@ -132,5 +120,26 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [],
+  "people": [
+    {
+      "name": "刘大卫 David Liu",
+      "role": "创始管理合伙人",
+      "previous_firms": [
+        "ZP Capital/治平资本",
+        "鼎晖投资",
+        "云九资本"
+      ],
+      "background": "MIT金融硕士，先后从事硅谷及国内前沿科技投资，公开采访详述其履历。",
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s02",
+        "s05"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    }
+  ]
 }

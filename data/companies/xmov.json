@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "xmov",
   "name": "魔珐科技 / Xmov",
   "aliases": [
@@ -62,6 +62,15 @@
       "supports": "招聘渠道与公司主体",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "魔珐科技Xmov招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/6641c9a76c022a8703F409q5GQ~~.html",
+      "supports": "公开企业主页主体：魔珐科技Xmov；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -81,5 +90,24 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-c40dc25595454336",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/6641c9a76c022a8703F409q5GQ~~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "魔珐科技 / Xmov",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    }
+  ]
 }

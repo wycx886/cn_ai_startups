@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "longriver",
   "name": "江远投资 LongRiver Investments",
   "aliases": [
@@ -15,17 +15,6 @@
     "year": 2022,
     "basis": "官网记载2022年启航；创始人从平安集团创投体系出来设立。"
   },
-  "team": [
-    {
-      "name": "张江",
-      "role": "创始人、CEO",
-      "previous_firms": [
-        "平安创新投资基金/平安创投",
-        "平安医疗科技"
-      ],
-      "background": "在平安工作约九年，参与搭建投资平台；此前有麦肯锡和飞利浦医疗背景。"
-    }
-  ],
   "focus": "医疗健康与科技；生物医药、AI应用、先进制造等。",
   "stage": "早期至成长，2025年披露新增项目近六成在A轮或更早。",
   "representative_cases": [
@@ -123,5 +112,25 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [],
+  "people": [
+    {
+      "name": "张江",
+      "role": "创始人、CEO",
+      "previous_firms": [
+        "平安创新投资基金/平安创投",
+        "平安医疗科技"
+      ],
+      "background": "在平安工作约九年，参与搭建投资平台；此前有麦肯锡和飞利浦医疗背景。",
+      "profiles": [],
+      "source_ids": [
+        "s02",
+        "s03",
+        "s05"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    }
+  ]
 }

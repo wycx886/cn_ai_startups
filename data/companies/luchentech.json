@@ -1,10 +1,12 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "luchentech",
   "name": "潞晨科技 Colossal-AI",
   "aliases": [
     "潞晨科技(Colossal-AI)",
-    "Colossal-AI"
+    "Colossal-AI",
+    "潞晨科技",
+    "北京潞晨科技有限公司"
   ],
   "category_id": "02",
   "focus": "分布式训练、推理系统与算力云",
@@ -48,6 +50,24 @@
       "supports": "历轮投资背景",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "scope": "channel",
+      "title": "潞晨科技招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/c547103fed7ec7641n1z2d20FFY~.html",
+      "supports": "公开企业主页主体：潞晨科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s04",
+      "scope": "channel",
+      "title": "【北京潞晨科技有限公司招聘】-猎聘",
+      "url": "https://www.liepin.com/company/12879599/",
+      "supports": "公开企业主页主体：北京潞晨科技有限公司；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -67,5 +87,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-2779895b32db4be9",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/c547103fed7ec7641n1z2d20FFY~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "潞晨科技 Colossal-AI",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s03"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-5559242258b1b869",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/12879599/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "潞晨科技 Colossal-AI",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s04"
+      ],
+      "notes": null
+    }
+  ]
 }

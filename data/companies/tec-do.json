@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "tec-do",
   "name": "钛动科技 / Tec-Do",
   "aliases": [
@@ -61,6 +61,24 @@
       "supports": "当前官方Moka招聘链接",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "钛动科技招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/08cb1a1a6e6b5e271HR809i6Fg~~.html",
+      "supports": "公开企业主页主体：钛动科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s06",
+      "scope": "channel",
+      "title": "【钛动科技招聘】-猎聘",
+      "url": "https://www.liepin.com/company/8922908/",
+      "supports": "公开企业主页主体：钛动科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -80,5 +98,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-803019d49c3d5bb9",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/08cb1a1a6e6b5e271HR809i6Fg~~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "钛动科技 / Tec-Do",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-936aa759ba2968e3",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/8922908/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "钛动科技 / Tec-Do",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s06"
+      ],
+      "notes": null
+    }
+  ]
 }

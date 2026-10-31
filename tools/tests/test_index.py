@@ -43,8 +43,8 @@ class UnifiedIndexTests(unittest.TestCase):
                 self.assertEqual(entry["stage"], record["stage"])
                 self.assertEqual(entry["coverage_role"], record["coverage"]["role"])
                 self.assertEqual(entry["founded_year"], record["founded"]["year"])
-                self.assertEqual(entry["team_names"], [p["name"] for p in record["team"]])
-                self.assertEqual(entry["previous_platforms"], sorted({f for p in record["team"] for f in p["previous_firms"]}))
+                self.assertEqual(entry["team_names"], [p["name"] for p in record["people"]])
+                self.assertEqual(entry["previous_platforms"], sorted({f for p in record["people"] for f in p["previous_firms"]}))
                 self.assertEqual(entry["prior_firm_case_count"] + entry["current_firm_case_count"], len(record["representative_cases"]))
                 self.assertIn("cohort", entry)
         for label, kind in [("operating_organizations", "operating_organization"), ("investment_firms", "investment_firm")]:

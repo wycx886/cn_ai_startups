@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：沐曦股份
+别名与原表名称：沐曦股份；沐曦集成电路；沐曦集成电路(上海)股份有限公司
 
 ## 业务与产品
 
@@ -48,7 +48,12 @@ GPU芯片、AI训练推理、图形渲染及AI4S计算平台
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/9efce839f9c116fd1nd639m7FVc~.html) | 沐曦股份 MetaX | 2026-10-31 | confirmed / s05 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/12451581/) | 沐曦股份 MetaX | 2026-10-31 | confirmed / s06 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -62,3 +67,5 @@ GPU芯片、AI训练推理、图形渲染及AI4S计算平台
 | s02 | [沐曦官方介绍](https://www.metax-tech.com/en/about/about.html) | 产品、上市、办公城市 | 未标明 | 2026-10-30 |
 | s03 | [沐曦官方联系](https://www.metax-tech.com/contact.html) | 商务邮箱 | 未标明 | 2026-10-30 |
 | s04 | [沐曦官方招聘](https://www.metax-tech.com/join) | 社招入口 | 未标明 | 2026-10-30 |
+| s05 | [沐曦集成电路招聘-BOSS直聘](https://www.zhipin.com/gongsi/9efce839f9c116fd1nd639m7FVc~.html) | 公开企业主页主体：沐曦集成电路；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s06 | [【沐曦集成电路(上海)股份有限公司招聘】-猎聘](https://www.liepin.com/company/12451581/) | 公开企业主页主体：沐曦集成电路(上海)股份有限公司；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

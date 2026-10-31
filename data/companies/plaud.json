@@ -1,10 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "plaud",
   "name": "Plaud / 机智连接",
   "aliases": [
     "机智连接(Plaud.ai)",
-    "Plaud.ai"
+    "Plaud.ai",
+    "Plaud"
   ],
   "category_id": "09",
   "focus": "AI录音硬件与专业人士对话智能软件",
@@ -70,6 +71,24 @@
       "supports": "官方招聘入口",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s06",
+      "scope": "channel",
+      "title": "Plaud招聘-BOSS直聘",
+      "url": "https://www.zhipin.com/gongsi/fe2eb5ce48f3cab603d90tm5FFA~.html",
+      "supports": "公开企业主页主体：Plaud；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s07",
+      "scope": "channel",
+      "title": "【Plaud招聘】-猎聘",
+      "url": "https://www.liepin.com/company/21321599/",
+      "supports": "公开企业主页主体：Plaud；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -89,5 +108,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-b509dbf9f3127482",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/fe2eb5ce48f3cab603d90tm5FFA~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "Plaud / 机智连接",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s06"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-d72b4b0ae342c7df",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/21321599/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "Plaud / 机智连接",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s07"
+      ],
+      "notes": null
+    }
+  ]
 }

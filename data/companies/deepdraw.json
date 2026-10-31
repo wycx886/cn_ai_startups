@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "deepdraw",
   "name": "深绘智能 / Deepdraw",
   "aliases": [
@@ -45,6 +45,24 @@
       "supports": "收购并表与股权",
       "published_date": "2022-08-05",
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "scope": "channel",
+      "title": "「深绘智能招聘」-BOSS直聘",
+      "url": "https://www.zhipin.com/gongsi/c748e2cd9a3c964703d839s~.html",
+      "supports": "公开企业主页主体：深绘智能；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s04",
+      "scope": "channel",
+      "title": "【深绘智能招聘】-猎聘",
+      "url": "https://www.liepin.com/company/8585060/",
+      "supports": "公开企业主页主体：深绘智能；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -64,5 +82,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-073270e8b8b86044",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/c748e2cd9a3c964703d839s~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "深绘智能 / Deepdraw",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s03"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-34552a83cf4fe871",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/8585060/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "深绘智能 / Deepdraw",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s04"
+      ],
+      "notes": null
+    }
+  ]
 }

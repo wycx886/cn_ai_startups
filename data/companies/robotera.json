@@ -1,10 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "robotera",
   "name": "星动纪元",
   "aliases": [
     "星动纪元(Robot Era)",
-    "Robot Era"
+    "Robot Era",
+    "北京星动纪元科技有限公司"
   ],
   "category_id": "08",
   "focus": "全栈人形机器人、灵巧手与具身模型",
@@ -46,6 +47,24 @@
       "supports": "招聘入口及城市",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "scope": "channel",
+      "title": "星动纪元招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/21a13d36251e40d41X152ti1ElQ~.html",
+      "supports": "公开企业主页主体：星动纪元；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s04",
+      "scope": "channel",
+      "title": "【北京星动纪元科技有限公司招聘】-猎聘",
+      "url": "https://www.liepin.com/company/13746241/",
+      "supports": "公开企业主页主体：北京星动纪元科技有限公司；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -65,5 +84,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-3c6bfc8eae95957c",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/21a13d36251e40d41X152ti1ElQ~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "星动纪元",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s03"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-a8d59acd4151cc31",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/13746241/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "星动纪元",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s04"
+      ],
+      "notes": null
+    }
+  ]
 }

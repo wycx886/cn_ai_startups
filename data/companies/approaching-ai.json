@@ -1,10 +1,12 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "approaching-ai",
   "name": "趋境科技 Approaching.AI",
   "aliases": [
     "趋境科技(KTransformers)",
-    "KTransformers"
+    "KTransformers",
+    "北京趋境科技",
+    "趋境科技"
   ],
   "category_id": "02",
   "focus": "异构推理与Token生产",
@@ -64,6 +66,24 @@
       "supports": "公开招聘入口与岗位城市",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "「北京趋境科技招聘」-BOSS直聘",
+      "url": "https://www.zhipin.com/gongsi/4f0a4238ff013fd71HF62dW9E1I~.html",
+      "supports": "公开企业主页主体：北京趋境科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s06",
+      "scope": "channel",
+      "title": "【趋境科技招聘】-猎聘",
+      "url": "https://www.liepin.com/company/13900641/",
+      "supports": "公开企业主页主体：趋境科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -83,5 +103,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-de5c559ba5756b0e",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/4f0a4238ff013fd71HF62dW9E1I~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "趋境科技 Approaching.AI",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-37a5e698a19bc530",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/13900641/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "趋境科技 Approaching.AI",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s06"
+      ],
+      "notes": null
+    }
+  ]
 }

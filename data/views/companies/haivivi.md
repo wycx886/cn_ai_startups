@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：跃然创新(Haivivi)；Haivivi
+别名与原表名称：跃然创新(Haivivi)；Haivivi；深圳跃然创新科技有限公司
 
 ## 业务与产品
 
@@ -48,7 +48,12 @@ BubblePal；CocoMate；Haivivi App
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/8bb3ae416db67d351nx93t-6F1o~.html) | 跃然创新 Haivivi | 2026-10-31 | confirmed / s05 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/21354707/) | 跃然创新 Haivivi | 2026-10-31 | confirmed / s06 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -62,3 +67,5 @@ BubblePal；CocoMate；Haivivi App
 | s02 | [Haivivi官网](https://www.haivivi.cn/) | 产品与业务方向 | 未标明 | 2026-10-30 |
 | s03 | [Haivivi联系我们](https://www.haivivi.cn/contact-us) | 总部与商务邮箱 | 未标明 | 2026-10-30 |
 | s04 | [BOSS直聘：深圳跃然创新科技有限公司](https://m.zhipin.com/companys/ff637f836e8ccf6b03B43N69FlE~.html) | HAIVIVI品牌与招聘者、投递入口 | 未标明 | 2026-10-30 |
+| s05 | [HAIVIVI招聘-BOSS直聘 公司页(工商信息已核对)](https://www.zhipin.com/gongsi/8bb3ae416db67d351nx93t-6F1o~.html) | 公开企业主页主体：HAIVIVI；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s06 | [【深圳跃然创新科技有限公司招聘】-猎聘](https://www.liepin.com/company/21354707/) | 公开企业主页主体：深圳跃然创新科技有限公司；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

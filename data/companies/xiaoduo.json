@@ -1,9 +1,10 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "xiaoduo",
   "name": "晓多科技 / Xiaoduo AI",
   "aliases": [
-    "晓多科技"
+    "晓多科技",
+    "成都晓多科技有限公司"
   ],
   "category_id": "07",
   "focus": "客服 AI、商家服务与语流 Agent",
@@ -53,6 +54,24 @@
       "supports": "历史轮次",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "scope": "channel",
+      "title": "晓多科技招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/7a6c3a5ab18fb8f81HZ729-6FA~~.html",
+      "supports": "公开企业主页主体：晓多科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "【成都晓多科技有限公司招聘】-猎聘",
+      "url": "https://www.liepin.com/company/9726000/",
+      "supports": "公开企业主页主体：成都晓多科技有限公司；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -72,5 +91,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-75e834e79b900573",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/7a6c3a5ab18fb8f81HZ729-6FA~~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "晓多科技 / Xiaoduo AI",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s04"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-81472992b271ff78",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/9726000/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "晓多科技 / Xiaoduo AI",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    }
+  ]
 }

@@ -1,10 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "creativefitting",
   "name": "井英科技 / CreativeFitting",
   "aliases": [
     "井英科技(Reel.Ai)",
-    "Reel.Ai"
+    "Reel.Ai",
+    "井英科技"
   ],
   "category_id": "05",
   "focus": "AI 原生娱乐与内容 Agent 系统",
@@ -54,6 +55,15 @@
       "supports": "招聘渠道与公司/品牌身份",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "scope": "channel",
+      "title": "「井英科技招聘」-BOSS直聘",
+      "url": "https://www.zhipin.com/gongsi/88fc98c02751f6c51nN739m6E1M~.html",
+      "supports": "公开企业主页主体：井英科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -73,5 +83,24 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-5b22e2288bd7a8b2",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/88fc98c02751f6c51nN739m6E1M~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "井英科技 / CreativeFitting",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s04"
+      ],
+      "notes": null
+    }
+  ]
 }

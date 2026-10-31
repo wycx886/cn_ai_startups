@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：彩云科技
+别名与原表名称：彩云科技；彩云科技AI
 
 ## 业务与产品
 
@@ -48,7 +48,12 @@
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/ee270ba65ab755ca03Zz2dm7Fg~~.html) | 彩云科技 | 2026-10-31 | confirmed / s04 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/9497504/) | 彩云科技 | 2026-10-31 | confirmed / s05 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -61,3 +66,5 @@
 | s01 | [彩云官方主页](https://www.caiyunapp.com/?lang=zh) | 产品与开放平台联系 | 未标明 | 2026-10-30 |
 | s02 | [彩云官方招聘](https://www.caiyunapp.com/jobs/) | hr邮箱、岗位城市与B1轮 | 未标明 | 2026-10-30 |
 | s03 | [钛媒体创始人采访转载](https://finance.sina.com.cn/cj/2024-11-17/doc-incwinct8191921.shtml) | 历史投资方 | 2024-11-17 | 2026-10-30 |
+| s04 | [「彩云科技招聘」-BOSS直聘](https://www.zhipin.com/gongsi/ee270ba65ab755ca03Zz2dm7Fg~~.html) | 公开企业主页主体：彩云科技；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s05 | [【彩云科技AI招聘】-猎聘](https://www.liepin.com/company/9497504/) | 公开企业主页主体：彩云科技AI；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

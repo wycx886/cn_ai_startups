@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "gsr-ventures",
   "name": "金沙江创投（GSR Ventures）",
   "aliases": [
@@ -15,20 +15,6 @@
     "year": 2004,
     "basis": "机构官网简介。"
   },
-  "team": [
-    {
-      "name": "朱啸虎（Allen Zhu）",
-      "role": "主管合伙人",
-      "previous_firms": [],
-      "background": "创办易保网络技术有限公司，曾任麦肯锡咨询顾问。"
-    },
-    {
-      "name": "丁健",
-      "role": "主管合伙人",
-      "previous_firms": [],
-      "background": null
-    }
-  ],
   "focus": "科技初创企业，涵盖企业、消费互联网、医疗科技及AI商业应用。",
   "stage": "以早期为主。",
   "representative_cases": [
@@ -118,5 +104,35 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [],
+  "people": [
+    {
+      "name": "朱啸虎（Allen Zhu）",
+      "role": "主管合伙人",
+      "previous_firms": [],
+      "background": "创办易保网络技术有限公司，曾任麦肯锡咨询顾问。",
+      "profiles": [],
+      "source_ids": [
+        "s02",
+        "s03"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    },
+    {
+      "name": "丁健",
+      "role": "主管合伙人",
+      "previous_firms": [],
+      "background": null,
+      "profiles": [],
+      "source_ids": [
+        "s02",
+        "s03"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    }
+  ]
 }

@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：硅基智能
+别名与原表名称：硅基智能；南京硅基智能；南京硅基智能科技有限公司 (page title)
 
 ## 业务与产品
 
@@ -48,7 +48,12 @@ Dealroom记录2019年B轮腾讯参与，2025年D轮扬州杭集高新区产业�
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/e23cbde28317a54303R40tS0ElE~.html) | 硅基智能（南京） | 2026-10-31 | confirmed / s04 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/9410150/) | 硅基智能（南京） | 2026-10-31 | confirmed / s05 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -61,3 +66,5 @@ Dealroom记录2019年B轮腾讯参与，2025年D轮扬州杭集高新区产业�
 | s01 | [Dealroom硅基智能](https://app.dealroom.co/companies/silicon_based_intelligent_technology) | 历史融资与官网、总部 | 未标明 | 2026-10-30 |
 | s02 | [华为云合作企业资料](https://marketplace.huaweicloud.com/seller/9bfa23d1461f4a6cacfdcad8715edbe7) | guiji.ai对应的产品和主体关联 | 未标明 | 2026-10-30 |
 | s03 | [BOSS南京硅基智能职位检索页](https://www.zhipin.com/zhaopin/0e02877ac64324b81ndz3Nm6/) | 招聘渠道与公司主体 | 未标明 | 2026-10-30 |
+| s04 | [「南京硅基智能招聘」-BOSS直聘](https://www.zhipin.com/gongsi/e23cbde28317a54303R40tS0ElE~.html) | 公开企业主页主体：南京硅基智能；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s05 | [【南京硅基智能科技有限公司招聘】-猎聘](https://www.liepin.com/company/9410150/) | 公开企业主页主体：南京硅基智能科技有限公司 (page title)；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

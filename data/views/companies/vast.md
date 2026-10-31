@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：VAST(Tripo 3D)；Tripo 3D
+别名与原表名称：VAST(Tripo 3D)；Tripo 3D；VAST
 
 ## 业务与产品
 
@@ -48,7 +48,12 @@ Tripo 基础模型、Tripo Studio、API
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/027f673ab6c1992e1HJy39q6GFQ~.html) | VAST / Tripo | 2026-10-31 | confirmed / s04 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/21156495/) | VAST / Tripo | 2026-10-31 | confirmed / s05 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -61,3 +66,5 @@ Tripo 基础模型、Tripo Studio、API
 | s01 | [VAST官方联系页](https://www.vastworld.ai/contact) | 官网、城市、商务及招聘邮箱 | 未标明 | 2026-10-30 |
 | s02 | [恒旭伙伴 VAST融资](https://www.hengxucapital.com/index.php?c=show&id=729) | B/B+轮投资背景 | 2026-09-02 | 2026-10-30 |
 | s03 | [VAST官网导航](https://www.vastworld.ai/) | 当前Careers跳转至官方research页面 | 未标明 | 2026-10-30 |
+| s04 | [VAST招聘-BOSS直聘 公司页(工商信息已核对)](https://www.zhipin.com/gongsi/027f673ab6c1992e1HJy39q6GFQ~.html) | 公开企业主页主体：VAST；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s05 | [【VAST招聘】-猎聘](https://www.liepin.com/company/21156495/) | 公开企业主页主体：VAST；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

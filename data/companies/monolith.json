@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "monolith",
   "name": "砺思资本 Monolith",
   "aliases": [
@@ -14,26 +14,6 @@
     "year": 2021,
     "basis": "2021年11月成立投资管理机构；2023年开始公开介绍VC基金。首支基金为科技对冲基金，不能将2023年的VC首关说成机构首次成立。"
   },
-  "team": [
-    {
-      "name": "曹曦",
-      "role": "创始管理合伙人",
-      "previous_firms": [
-        "红杉中国",
-        "腾讯"
-      ],
-      "background": "2013年加入红杉，曾参与设立2018年红杉种子基金。"
-    },
-    {
-      "name": "Tim Wang",
-      "role": "创始管理合伙人",
-      "previous_firms": [
-        "博裕资本",
-        "高盛"
-      ],
-      "background": "原博裕二级市场合伙人，公开市场科技与消费投资背景。"
-    }
-  ],
   "focus": "技术驱动的数字产业、科技智造，同时有科技二级市场策略。",
   "stage": "VC覆盖早期及成长期；另设公开市场策略。",
   "representative_cases": [
@@ -132,5 +112,41 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [],
+  "people": [
+    {
+      "name": "曹曦",
+      "role": "创始管理合伙人",
+      "previous_firms": [
+        "红杉中国",
+        "腾讯"
+      ],
+      "background": "2013年加入红杉，曾参与设立2018年红杉种子基金。",
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s02"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    },
+    {
+      "name": "Tim Wang",
+      "role": "创始管理合伙人",
+      "previous_firms": [
+        "博裕资本",
+        "高盛"
+      ],
+      "background": "原博裕二级市场合伙人，公开市场科技与消费投资背景。",
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s02"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    }
+  ]
 }

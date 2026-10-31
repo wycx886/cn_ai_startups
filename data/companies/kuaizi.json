@@ -1,10 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "kuaizi",
   "name": "筷子科技 / Kuaizi",
   "aliases": [
     "筷子科技(Kuaizi.ai)",
-    "Kuaizi.ai"
+    "Kuaizi.ai",
+    "筷子科技"
   ],
   "category_id": "07",
   "focus": "商业内容 AIGC 与广告创意自动化",
@@ -62,6 +63,15 @@
       "supports": "招聘渠道与公司主体",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "筷子科技招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/3ed6a6a8aef43fcd1nZ72N0~.html",
+      "supports": "公开企业主页主体：筷子科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -81,5 +91,24 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-7d2f752501a6967f",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/3ed6a6a8aef43fcd1nZ72N0~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "筷子科技 / Kuaizi",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    }
+  ]
 }

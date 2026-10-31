@@ -1,11 +1,12 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "lanchi",
   "name": "蓝驰创投（Lanchi Ventures）",
   "aliases": [
     "Lanchi Ventures",
     "BlueRun Ventures China",
-    "蓝驰中国"
+    "蓝驰中国",
+    "蓝驰创投"
   ],
   "group": "established",
   "coverage": {
@@ -16,22 +17,6 @@
     "year": 2005,
     "basis": "采用2023年官方品牌公告关于陈维广2005年创建中国蓝驰的口径；官网About另写2008年设立，口径冲突保留待核对。"
   },
-  "team": [
-    {
-      "name": "陈维广（Jui Tan）",
-      "role": "管理合伙人",
-      "previous_firms": [
-        "BlueRun Ventures"
-      ],
-      "background": "官方简介：2001年加入BlueRun，2005年负责亚洲业务；此前任新加坡电信及IBM。"
-    },
-    {
-      "name": "朱天宇",
-      "role": "管理合伙人",
-      "previous_firms": [],
-      "background": null
-    }
-  ],
   "focus": "AI、机器人、深科技、生物科技与消费科技。",
   "stage": "早期。",
   "representative_cases": [
@@ -113,6 +98,15 @@
       "supports": "领域、理想等组合与一般邮箱",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s07",
+      "scope": "channel",
+      "title": "【蓝驰创投招聘】-猎聘",
+      "url": "https://www.liepin.com/company/13769731/",
+      "supports": "公开企业主页主体：蓝驰创投；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "checked_at": "2026-10-30",
@@ -128,5 +122,58 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-b8e709ba8522c086",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/13769731/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "蓝驰创投（Lanchi Ventures）",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s07"
+      ],
+      "notes": null
+    }
+  ],
+  "people": [
+    {
+      "name": "陈维广（Jui Tan）",
+      "role": "管理合伙人",
+      "previous_firms": [
+        "BlueRun Ventures"
+      ],
+      "background": "官方简介：2001年加入BlueRun，2005年负责亚洲业务；此前任新加坡电信及IBM。",
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s03",
+        "s04"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    },
+    {
+      "name": "朱天宇",
+      "role": "管理合伙人",
+      "previous_firms": [],
+      "background": null,
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s03",
+        "s04"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    }
+  ]
 }

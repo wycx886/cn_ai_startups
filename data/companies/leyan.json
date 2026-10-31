@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "leyan",
   "name": "乐言科技",
   "aliases": [
@@ -53,6 +53,24 @@
       "supports": "方向与覆盖区域",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "scope": "channel",
+      "title": "乐言科技招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/bfb355f61045ec851ndy39S_GFs~.html",
+      "supports": "公开企业主页主体：乐言科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "【乐言科技招聘】-猎聘",
+      "url": "https://www.liepin.com/company/8826410/",
+      "supports": "公开企业主页主体：乐言科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -72,5 +90,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-eef12a1bac106851",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/bfb355f61045ec851ndy39S_GFs~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "乐言科技",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s04"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-f072b5491707fa58",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/8826410/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "乐言科技",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    }
+  ]
 }

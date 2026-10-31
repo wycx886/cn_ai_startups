@@ -48,7 +48,12 @@ Scilia药研智慧工厂；Labillion；CellVue；实验室及制造自动化
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/2b2b68bf418ec0241nd_29y_F1M~.html) | 镁伽科技 MEGAROBO | 2026-10-31 | confirmed / s04 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/10138129/) | 镁伽科技 MEGAROBO | 2026-10-31 | confirmed / s05 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -61,3 +66,5 @@ Scilia药研智慧工厂；Labillion；CellVue；实验室及制造自动化
 | s01 | [镁伽C轮公司公告](https://www.megarobo.com/news/255) | 投资背景 | 2022-06-15 | 2026-10-30 |
 | s02 | [镁伽当前官网](https://www.megarobo.com/) | 产品定位及合作邮箱 | 未标明 | 2026-10-30 |
 | s03 | [镁伽2027校招](https://career.nankai.edu.cn/correcruit/content/id/118191.html) | 招聘邮箱、摩卡/智业入口及城市 | 2026-09-08 | 2026-10-30 |
+| s04 | [镁伽科技招聘-BOSS直聘 公司页(工商信息已核对)](https://www.zhipin.com/gongsi/2b2b68bf418ec0241nd_29y_F1M~.html) | 公开企业主页主体：镁伽科技；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s05 | [【镁伽科技招聘】-猎聘](https://www.liepin.com/company/10138129/) | 公开企业主页主体：镁伽科技；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

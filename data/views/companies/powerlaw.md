@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：幂律智能(PowerLaw AI)；PowerLaw AI
+别名与原表名称：幂律智能(PowerLaw AI)；PowerLaw AI；幂律科技；北京幂律智能科技有限责任公司
 
 ## 业务与产品
 
@@ -48,7 +48,12 @@ MeCheck、MeFlow、无忧吾律、PowerLawGLM
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/25a357d750036d3e1XV53du7FA~~.html) | 幂律智能 / PowerLaw AI | 2026-10-31 | confirmed / s04 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/13286763/) | 幂律智能 / PowerLaw AI | 2026-10-31 | confirmed / s05 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -61,3 +66,5 @@ MeCheck、MeFlow、无忧吾律、PowerLawGLM
 | s01 | [幂律官方站](https://www.milvai.cn/) | 产品、一般合作邮箱 | 未标明 | 2026-10-30 |
 | s02 | [蓝驰幂律融资公告](https://www.lanchivc.com/7296/) | 投资方与产品 | 2023-12-07 | 2026-10-30 |
 | s03 | [幂律官网加入我们导航](https://www.milvai.cn/) | 直接跳转BOSS官方公司职位页 | 未标明 | 2026-10-30 |
+| s04 | [幂律科技招聘-BOSS直聘 公司页(工商信息已核对)](https://www.zhipin.com/gongsi/25a357d750036d3e1XV53du7FA~~.html) | 公开企业主页主体：幂律科技；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s05 | [【北京幂律智能科技有限责任公司招聘】-猎聘](https://www.liepin.com/company/13286763/) | 公开企业主页主体：北京幂律智能科技有限责任公司；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

@@ -1,9 +1,10 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "gaoding",
   "name": "稿定科技 / 稿定设计",
   "aliases": [
-    "稿定科技"
+    "稿定科技",
+    "稿定(厦门)科技有限公司"
   ],
   "category_id": "05",
   "focus": "商业视觉设计与 AI 内容工具",
@@ -53,6 +54,24 @@
       "supports": "公司与Moka招聘入口",
       "published_date": "2021-07-12",
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "scope": "channel",
+      "title": "「稿定科技招聘」-BOSS直聘",
+      "url": "https://www.zhipin.com/gongsi/7f1a5bdc1c58bddd1XZ429-_GQ~~.html",
+      "supports": "公开企业主页主体：稿定科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "【稿定(厦门)科技有限公司招聘】-猎聘",
+      "url": "https://www.liepin.com/company/9641589/",
+      "supports": "公开企业主页主体：稿定(厦门)科技有限公司；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -73,5 +92,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-2b578da2f9a650bd",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/7f1a5bdc1c58bddd1XZ429-_GQ~~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "稿定科技 / 稿定设计",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s04"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-08e4c9c0300f607f",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/9641589/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "稿定科技 / 稿定设计",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    }
+  ]
 }

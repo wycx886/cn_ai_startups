@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：智谱华章(02513.HK)；02513.HK
+别名与原表名称：智谱华章(02513.HK)；02513.HK；智谱华章
 
 ## 业务与产品
 
@@ -48,7 +48,11 @@ GLM、BigModel、智谱清言、CogAgent、CodeGeeX
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/18815b858c0b88250nd72N66Fw~~.html) | 智谱 Z.ai | 2026-10-31 | confirmed / s05 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -62,3 +66,4 @@ GLM、BigModel、智谱清言、CogAgent、CodeGeeX
 | s02 | [GLM技术团队公开招聘](https://developer.volcengine.com/articles/7329842394735034418) | talent@zhipuai.cn | 2024-01-30 | 2026-10-30 |
 | s03 | [智谱投资者关系](https://www.zhipuai.cn/investor_relations/) | 年报、招股书与IR邮箱 | 未标明 | 2026-10-30 |
 | s04 | [36氪智谱档案](https://pitchhub.36kr.com/project/1958565851436035) | 历史融资方（非完整当前股东） | 未标明 | 2026-10-30 |
+| s05 | [智谱华章招聘-BOSS直聘 公司页(工商信息已核对)](https://www.zhipin.com/gongsi/18815b858c0b88250nd72N66Fw~~.html) | 公开企业主页主体：智谱华章；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

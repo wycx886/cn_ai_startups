@@ -1,12 +1,13 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "hongshan",
   "name": "红杉中国（HongShan / HSG）",
   "aliases": [
     "HongShan",
     "HSG",
     "Sequoia Capital China",
-    "红杉资本中国"
+    "红杉资本中国",
+    "红杉中国"
   ],
   "group": "established",
   "coverage": {
@@ -17,14 +18,6 @@
     "year": 2005,
     "basis": "官网机构介绍的创立年份；后续品牌变化不作为新设年份。"
   },
-  "team": [
-    {
-      "name": "沈南鹏",
-      "role": "创始及执行合伙人",
-      "previous_firms": [],
-      "background": null
-    }
-  ],
   "focus": "科技、医疗健康、消费；科技投资包括AI及机器人等。",
   "stage": "覆盖种子、风险投资、成长及并购等阶段。",
   "representative_cases": [
@@ -106,6 +99,15 @@
       "supports": "官方链接到飞书职位入口",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s07",
+      "scope": "channel",
+      "title": "【红杉中国招聘】-猎聘",
+      "url": "https://www.liepin.com/company/9114275/",
+      "supports": "公开企业主页主体：红杉中国；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "checked_at": "2026-10-30",
@@ -121,5 +123,39 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-ca560351293a3e1b",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/9114275/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "红杉中国（HongShan / HSG）",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s07"
+      ],
+      "notes": null
+    }
+  ],
+  "people": [
+    {
+      "name": "沈南鹏",
+      "role": "创始及执行合伙人",
+      "previous_firms": [],
+      "background": null,
+      "profiles": [],
+      "source_ids": [
+        "s02"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    }
+  ]
 }

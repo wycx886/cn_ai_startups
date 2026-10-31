@@ -48,7 +48,12 @@
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/4810d76a541af10b1HZ73Nq-Flc~.html) | 燧原科技 Enflame | 2026-10-31 | confirmed / s05 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/9609962/) | 燧原科技 Enflame | 2026-10-31 | confirmed / s06 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -62,3 +67,5 @@
 | s02 | [上交所官方公司页](https://www.sse.com.cn/star/market/stocklist/info/overview/index.shtml?COMPANY_CODE=688801) | 公司身份与上市日期 | 未标明 | 2026-10-30 |
 | s03 | [燧原官方LinkedIn招聘帖](https://www.linkedin.com/posts/enflame_燧原科技-社招岗位-更多职位及相关信息咨询请联系企业hr-hrenflame-techcom-activity-6534314198002958336-LiFW) | hr招聘邮箱（历史帖子） | 未标明 | 2026-10-30 |
 | s04 | [上交所披露文件](https://static.sse.com.cn/stock/disclosure/announcement/c/202601/002175_20260122_654W.pdf) | IR邮箱与公司业务 | 2026-01-22 | 2026-10-30 |
+| s05 | [「燧原科技招聘」-BOSS直聘](https://www.zhipin.com/gongsi/4810d76a541af10b1HZ73Nq-Flc~.html) | 公开企业主页主体：燧原科技；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s06 | [【燧原科技招聘】-猎聘](https://www.liepin.com/company/9609962/) | 公开企业主页主体：燧原科技；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

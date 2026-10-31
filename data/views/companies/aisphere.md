@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：爱诗科技(PixVerse / 拍我AI)；PixVerse / 拍我AI
+别名与原表名称：爱诗科技(PixVerse / 拍我AI)；PixVerse / 拍我AI；爱诗科技；北京爱诗科技有限公司
 
 ## 业务与产品
 
@@ -48,7 +48,12 @@ PixVerse / 拍我AI；视频生成 API
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/846753040df0fa341XJ83NS0FFQ~.html) | 爱诗科技 / PixVerse | 2026-10-31 | confirmed / s03 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/13967181/) | 爱诗科技 / PixVerse | 2026-10-31 | confirmed / s04 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -60,3 +65,5 @@ PixVerse / 拍我AI；视频生成 API
 | --- | --- | --- | --- | --- |
 | s01 | [爱诗科技官网](https://aishiai.com/) | 产品、公司动态、加入我们；C轮领投方 | 2026-01-12 | 2026-10-30 |
 | s02 | [PixVerse官方Join Us](https://pixverse.ai/en/careers?trk=public_post_comment-text) | 招聘入口与开放团队 | 未标明 | 2026-10-30 |
+| s03 | [「爱诗科技招聘」-BOSS直聘](https://www.zhipin.com/gongsi/846753040df0fa341XJ83NS0FFQ~.html) | 公开企业主页主体：爱诗科技；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s04 | [【北京爱诗科技有限公司招聘】-猎聘](https://www.liepin.com/company/13967181/) | 公开企业主页主体：北京爱诗科技有限公司；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

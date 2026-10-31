@@ -1,10 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "deemos",
   "name": "影眸科技 / Deemos / Hyper3D",
   "aliases": [
     "影眸科技(Rodin 3D)",
-    "Rodin 3D"
+    "Rodin 3D",
+    "影眸科技"
   ],
   "category_id": "05",
   "focus": "3D 资产生成、数字人与世界生成",
@@ -54,6 +55,15 @@
       "supports": "官方产品域名及客服邮箱",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "scope": "channel",
+      "title": "「影眸科技招聘」-BOSS直聘",
+      "url": "https://www.zhipin.com/gongsi/c2648e580dbca8e51XV929q5GFY~.html",
+      "supports": "公开企业主页主体：影眸科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -73,5 +83,24 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-68035957b40a3a8e",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/c2648e580dbca8e51XV929q5GFY~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "影眸科技 / Deemos / Hyper3D",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s04"
+      ],
+      "notes": null
+    }
+  ]
 }

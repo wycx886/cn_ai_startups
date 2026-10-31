@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：九章云极(DataCanvas)；DataCanvas
+别名与原表名称：九章云极(DataCanvas)；DataCanvas；九章云极
 
 ## 业务与产品
 
@@ -48,7 +48,12 @@
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/34b673b79b565e071nJ_2ty_.html) | 九章云极 DataCanvas | 2026-10-31 | confirmed / s04 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/5072181/) | 九章云极 DataCanvas | 2026-10-31 | confirmed / s05 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -61,3 +66,5 @@
 | s01 | [DataCanvas官方介绍](https://www.datacanvas.com/about/) | 城市、业务与招聘/商务邮箱 | 未标明 | 2026-10-30 |
 | s02 | [官方D1轮融资公告](https://www.datacanvas.com/news/338.html) | 投资方 | 未标明 | 2026-10-30 |
 | s03 | [官方C+轮融资公告](https://www.datacanvas.com/news/468.html) | 历史投资方 | 未标明 | 2026-10-30 |
+| s04 | [「九章云极招聘」-BOSS直聘](https://www.zhipin.com/gongsi/34b673b79b565e071nJ_2ty_.html) | 公开企业主页主体：九章云极；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s05 | [【九章云极招聘】-猎聘](https://www.liepin.com/company/5072181/) | 公开企业主页主体：九章云极；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

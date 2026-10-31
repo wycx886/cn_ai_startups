@@ -1,10 +1,12 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "metasota",
   "name": "秘塔科技 MetaSota",
   "aliases": [
     "秘塔科技(秘塔AI搜索)",
-    "秘塔AI搜索"
+    "秘塔AI搜索",
+    "秘塔科技",
+    "上海秘塔网络科技有限公司"
   ],
   "category_id": "04",
   "focus": "AI搜索、深度研究与专业文字工具",
@@ -72,6 +74,24 @@
       "supports": "备用平台招聘入口，直接读取遇验证码，搜索索引可辨主体",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s06",
+      "scope": "channel",
+      "title": "秘塔科技招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/61d379287be645371nFz39u8Ew~~.html",
+      "supports": "公开企业主页主体：秘塔科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s07",
+      "scope": "channel",
+      "title": "【上海秘塔网络科技有限公司招聘】-猎聘",
+      "url": "https://www.liepin.com/company/9596565/",
+      "supports": "公开企业主页主体：上海秘塔网络科技有限公司；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -91,5 +111,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-5368a1cc5e6ec8f9",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/61d379287be645371nFz39u8Ew~~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "秘塔科技 MetaSota",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s06"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-42dad9d3e72170d2",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/9596565/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "秘塔科技 MetaSota",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s07"
+      ],
+      "notes": null
+    }
+  ]
 }

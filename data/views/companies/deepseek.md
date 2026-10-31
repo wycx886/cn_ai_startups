@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：深度求索(DeepSeek)；DeepSeek
+别名与原表名称：深度求索(DeepSeek)；DeepSeek；深度求索
 
 ## 业务与产品
 
@@ -48,7 +48,12 @@ DeepSeek模型、聊天应用、开发者API
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/ffd531b0cbd4133f1XN92Nm0EFU~.html) | 深度求索 DeepSeek | 2026-10-31 | confirmed / s06 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/21147967/) | 深度求索 DeepSeek | 2026-10-31 | confirmed / s07 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -63,3 +68,5 @@ DeepSeek模型、聊天应用、开发者API
 | s03 | [DeepSeek官方招聘](https://talent.deepseek.com/) | 招聘入口 | 未标明 | 2026-10-30 |
 | s04 | [DeepSeek官方API文档](https://api-docs.deepseek.com/) | 产品/API入口 | 未标明 | 2026-10-30 |
 | s05 | [DeepSeek官方API参考](https://api-docs.deepseek.com/api/deepseek-api/) | 明确列api-service@deepseek.com为DeepSeek Support | 未标明 | 2026-10-30 |
+| s06 | [「深度求索招聘」-BOSS直聘](https://www.zhipin.com/gongsi/ffd531b0cbd4133f1XN92Nm0EFU~.html) | 公开企业主页主体：深度求索；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s07 | [【DeepSeek招聘】-猎聘](https://www.liepin.com/company/21147967/) | 公开企业主页主体：DeepSeek；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

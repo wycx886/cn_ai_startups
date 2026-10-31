@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：此间无限(Today AI)；Today AI
+别名与原表名称：此间无限(Today AI)；Today AI；此间无限
 
 ## 业务与产品
 
@@ -48,7 +48,11 @@ Today个人助手、日程/邮件/文档连接、主动提醒
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/f2a3062321b01da303x73Nm8FVM~.html) | 此间无限 Today AI | 2026-10-31 | confirmed / s05 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -62,3 +66,4 @@ careersUrl为官方微博招聘帖，并非独立招聘站；未把支持邮箱�
 | s02 | [Today_AI官方招募](https://weibo.com/2/detail/5348624412445354) | hr@today.ai公开招聘 | 2026-09-29 | 2026-10-30 |
 | s03 | [Today官方产品介绍](https://today.ai/articles/blog/what-is-today) | 长期记忆/主动Agent | 未标明 | 2026-10-30 |
 | s04 | [Today官方支持](https://today.ai/support?language=en) | support邮箱 | 未标明 | 2026-10-30 |
+| s05 | [此间无限招聘-BOSS直聘 公司页(工商信息已核对)](https://www.zhipin.com/gongsi/f2a3062321b01da303x73Nm8FVM~.html) | 公开企业主页主体：此间无限；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

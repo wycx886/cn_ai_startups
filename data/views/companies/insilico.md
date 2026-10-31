@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：英矽智能(Insilico)；Insilico
+别名与原表名称：英矽智能(Insilico)；Insilico；Insilico Medicine
 
 ## 业务与产品
 
@@ -48,7 +48,11 @@ Pharma.AI；PandaOmics；Chemistry42；inClinico
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/12523917/) | 英矽智能 Insilico Medicine | 2026-10-31 | confirmed / s04 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -61,3 +65,4 @@ Pharma.AI；PandaOmics；Chemistry42；inClinico
 | s01 | [英矽关于我们](https://insilico.com/about/) | 业务模式及投资者名单 | 未标明 | 2026-10-30 |
 | s02 | [英矽联系我们](https://insilico.com/contact_sc) | 招聘、商务邮箱及城市 | 未标明 | 2026-10-30 |
 | s03 | [英矽加入我们](https://insilico.com/careers_sc) | 招聘投递邮箱 | 未标明 | 2026-10-30 |
+| s04 | [【Insilico Medicine招聘】-猎聘](https://www.liepin.com/company/12523917/) | 公开企业主页主体：Insilico Medicine；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

@@ -21,7 +21,7 @@
 | `data/views/later.md` | 已有玩家的现有资料登记；保留研究批次，不禁止后续研究 |
 | 其他 `data/views/` 与统一机器索引 | 自动生成的明细、分类、CSV 和检索入口 |
 
-仓库更名保留既有 schema URN 标识，兼容旧读取器；文件入口采用新名称。经营型／投资机构采用 schema version 2；契约见 [company.schema.json](schemas/company.schema.json) 和 [investor.schema.json](schemas/investor.schema.json)。分类文件保留自己的版本约定，见 [taxonomy.schema.json](schemas/taxonomy.schema.json)。
+仓库更名保留既有 schema URN 标识，兼容旧读取器；文件入口采用新名称。经营型／投资机构采用 schema version 3；契约见 [company.schema.json](schemas/company.schema.json) 和 [investor.schema.json](schemas/investor.schema.json)。分类文件保留自己的版本约定，见 [taxonomy.schema.json](schemas/taxonomy.schema.json)。
 
 
 机器索引只维护 `data/index.json`。`organizations` 中的每项用 `organization_type` 区分类型，并提供稳定 ID、名称／别名、业务、标记、实际核查日期、原始 JSON 路径与阅读版路径；保留各类型的赛道、融资状态、团队、案例归因等摘要。`counts.companies` 与 `counts.organizations` 都是全部档案数，`operating_organizations`／`investment_firms` 才是类型分项；`statistics` 同样按这两种类型汇总。索引与阅读版均由 `tools/build.py` 生成，不手改，也不替代带完整来源的单条记录。
@@ -64,7 +64,8 @@
 | `comparison` | 编辑分析和比较对象，不表示性能排名或完整竞争清单 |
 | `investment` | 经营型机构的历史投资披露、未确认范围与核验状态 |
 | `organizational_context` | 经营型记录可选的组织形式、母平台关系及核验信息；缺失不表示独立 |
-| `founded`、`team` | 投资机构的成立口径、团队与原平台 |
+| `founded` | 投资机构的成立口径 |
+| `people` | 所有机构的公开人物身份、职务、背景、原平台、身份来源与日期及 `profiles`；原 VC `team` 已迁入此处 |
 | `representative_cases` | 投资机构案例；`prior_firm` 与 `current_firm` 归因分开 |
 | `contacts` | 既有公开入口，保留用途与备注，兼容旧消费者 |
 | `channels` | 有明确归属、用途、来源和独立核查日期的结构化公开渠道 |
@@ -75,7 +76,7 @@
 
 来源的 `published_date` 可为年、年月或年月日；未知用 `null`，不能用抓取或合并日期代替。业务来源和渠道来源的核查日期分别保留，不自动为未访问的网页刷新日期。
 
-`sources[].scope` 为 `organization` 或 `channel`；兼容旧记录时，省略表示 `organization`。仅核验渠道的新增来源写 `channel`，不能用它支撑投资案例或刷新整条机构业务资料的日期。
+`sources[].scope` 为 `organization`、`channel` 或 `person`；兼容旧来源时，省略表示 `organization`。机构渠道新增证据写 `channel`，人物身份与主页新增证据写 `person`。后两种来源都不能支撑机构分类、投资案例或刷新业务事实日期；每条专用来源必须被相应渠道或人物引用。
 
 融资披露状态：
 
@@ -134,13 +135,23 @@
 | `id` | 本机构内稳定渠道 ID |
 | `layer`／`platform` | 渠道类别及具体平台 |
 | `url`／`purpose` | 公开入口及用途；招聘、BP、商务等目的分开 |
-| `owner.scope`、`owner.name`、`owner.role` | 归属机构或公开专业人物；未知项不猜测 |
+| `owner.scope`、`owner.name`、`owner.role` | `scope` 固定 `organization`；人物主页使用 `people[].profiles` |
 | `verification_status` | `confirmed`、`partial` 或 `historical`；不是招聘开放状态 |
 | `checked_at` | 实际核对该页面和归属的日期 |
 | `source_ids` | 本机构内对应证据来源 ID |
 | `notes` | 适用范围、历史性或其他公开事实限定 |
 
 `contacts.careers_url` 可能是官方页、招聘平台或历史帖子，不能一律计为 Layer 1。`sources` 中引用了 GitHub、X 或领英网址，也不能由域名推断它就是该机构或负责人的渠道。结构化覆盖率按已核实的 `channels` 计算，既有未结构化信息另作提示。
+
+## 人物资料与公开主页
+
+人物统一放 `people[]`，契约见 [person.schema.json](schemas/person.schema.json)。`name`、`role`、`background`、`previous_firms` 是身份事实；`source_ids`、`checked_at`、`verification_status`、`notes` 记录其核验依据和限制。`profiles[]` 独立记录平台、URL、核验状态、来源与日期；替换身份依据时，旧依据用 `historical_source_ids` 保留，不参与当前核查日期判断；不在 `channels[]` 或 VC 的 `team[]` 复制人物。
+
+原有 42 条 VC 团队人物已迁入 `people[]`：姓名、职务、履历和原平台完整保留，使用原机构核查日期与既有来源包，标 `partial` 并注明尚未逐人重新核查、来源范围待细化。没有新增或猜测个人主页，也不把迁移日期当作新核查日期。公司 JSON schema 升至 v3；索引的 `team_names` 仅作为兼容摘要字段，由 `people[]` 生成，不是第二份人物维护源。
+
+`confirmed` 身份与主页需有至少两处不同 URL 的真实交叉依据，包括个人主页与支持身份／现职的公开资料。URL 数量和校验通过不等于已核实内容；采集者须实际读页确认。同名、改任或历史履历应保留限定。GitHub 个人主页另需 `account_type: "User"` 及对应 `api.github.com/users/<handle>` 的真实公开观察，机构账号留在 `channels[]`。
+
+人物工具输入契约见 [person-batch.schema.json](schemas/person-batch.schema.json)。`update_people.py` 支持标准输入及默认预览；`--apply` 将全部输入校验后写入公司档案，拒绝旧日期覆盖较新身份、主页或来源，失败时条件回滚并保留其他写入者的新改动。相关方法见 [find-person](../skills/find-person/SKILL.md)。
 
 ## 从候选到正式记录
 

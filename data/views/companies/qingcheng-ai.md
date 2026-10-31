@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：清程极智(赤兔/八卦炉)；赤兔/八卦炉
+别名与原表名称：清程极智(赤兔/八卦炉)；赤兔/八卦炉；清程极智；北京清程极智科技有限公司
 
 ## 业务与产品
 
@@ -48,7 +48,12 @@
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/b97152d54ced29ea1HZ-3Nq5F1M~.html) | 清程极智 Qingcheng.AI | 2026-10-31 | confirmed / s05 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/13844083/) | 清程极智 Qingcheng.AI | 2026-10-31 | confirmed / s06 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -62,3 +67,5 @@
 | s02 | [清程官方介绍](https://www.qc-ai.cn/about) | 系统软件路线 | 未标明 | 2026-10-30 |
 | s03 | [科创板日报融资报道](https://api3.cls.cn/share/article/2502686?app=stib&os=stibWeb&sv=143) | A轮投资方 | 2026-10-12 | 2026-10-30 |
 | s04 | [CCF会议手册企业招聘页](https://ccf-tc.oss-cn-beijing.aliyuncs.com/ConferenceManual-CCFHPCChina2024.pdf) | career邮箱与办公城市 | 2024 | 2026-10-30 |
+| s05 | [清程极智招聘-BOSS直聘 公司页(工商信息已核对)](https://www.zhipin.com/gongsi/b97152d54ced29ea1HZ-3Nq5F1M~.html) | 公开企业主页主体：清程极智；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s06 | [【北京清程极智科技有限公司招聘】-猎聘](https://www.liepin.com/company/13844083/) | 公开企业主页主体：北京清程极智科技有限公司；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

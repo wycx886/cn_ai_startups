@@ -14,10 +14,13 @@ python3 tools/query_lists.py --list incumbents --sector hardware
 python3 tools/query_lists.py --list vcs
 python3 tools/query_lists.py --list incumbents --topic AI
 python3 tools/audit_entities.py --summary
+python3 skills/find-person/scripts/audit_people.py --wave all --summary
 python3 tools/scaffold_entity.py --entity company --id candidate-org --name "待核实机构" --category 04
 ```
 
 `query.py` 读取 `data/companies/` 中的全部正式档案；`--entity companies` 包含金融公司，`--entity operating`／`investors` 仅按类型筛选，不对应独立目录。`query_lists.py` 读取发现底表；主题证据缺失不表示没有相关业务。脚手架默认只输出未核实草稿，显式 `--save-draft` 才写到已配置私人工作区，不直接创建公共记录。字段和适用范围见 [data/README.md](../data/README.md)。
+
+人物统一维护公司 `people[]`，机构入口维护 `channels[]`；人物写入工具为 `skills/find-person/scripts/update_people.py`，输入契约见 [人物批次](../data/schemas/person-batch.schema.json)。两个写入工具共用 `record_writes.py` 的并发检查、临时文件清理与条件回滚，人物平台校验在 `person_checks.py`。
 
 ## 构建与检查
 

@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "megarobo",
   "name": "镁伽科技 MEGAROBO",
   "aliases": [
@@ -53,6 +53,24 @@
       "supports": "招聘邮箱、摩卡/智业入口及城市",
       "published_date": "2026-09-08",
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "scope": "channel",
+      "title": "镁伽科技招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/2b2b68bf418ec0241nd_29y_F1M~.html",
+      "supports": "公开企业主页主体：镁伽科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "【镁伽科技招聘】-猎聘",
+      "url": "https://www.liepin.com/company/10138129/",
+      "supports": "公开企业主页主体：镁伽科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -72,5 +90,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-dbd7a58cc7ae11a9",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/2b2b68bf418ec0241nd_29y_F1M~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "镁伽科技 MEGAROBO",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s04"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-87d6f6f8591d8d40",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/10138129/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "镁伽科技 MEGAROBO",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    }
+  ]
 }

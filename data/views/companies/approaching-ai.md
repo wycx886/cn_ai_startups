@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：趋境科技(KTransformers)；KTransformers
+别名与原表名称：趋境科技(KTransformers)；KTransformers；北京趋境科技；趋境科技
 
 ## 业务与产品
 
@@ -48,7 +48,12 @@ KTransformers、Mooncake、ATaaS、Token Machine、AI Studio
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/4f0a4238ff013fd71HF62dW9E1I~.html) | 趋境科技 Approaching.AI | 2026-10-31 | confirmed / s05 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/13900641/) | 趋境科技 Approaching.AI | 2026-10-31 | confirmed / s06 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -62,3 +67,5 @@ KTransformers、Mooncake、ATaaS、Token Machine、AI Studio
 | s02 | [Approaching-AI公开组织介绍](https://github.com/Approaching-AI) | 种子背景、联系邮箱、技术 | 未标明 | 2026-10-30 |
 | s03 | [上证报：趋境B轮](https://finance.eastmoney.com/a/202610263907819429.html) | B轮融资报道 | 2026-10-26 | 2026-10-30 |
 | s04 | [BOSS趋境企业页](https://m.zhipin.com/companys/bd7696840f41eea403By3d66EFc~.html) | 公开招聘入口与岗位城市 | 未标明 | 2026-10-30 |
+| s05 | [「北京趋境科技招聘」-BOSS直聘](https://www.zhipin.com/gongsi/4f0a4238ff013fd71HF62dW9E1I~.html) | 公开企业主页主体：北京趋境科技；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s06 | [【趋境科技招聘】-猎聘](https://www.liepin.com/company/13900641/) | 公开企业主页主体：趋境科技；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

@@ -1,9 +1,10 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "idg-capital",
   "name": "IDG资本（IDG Capital）",
   "aliases": [
-    "IDG Capital"
+    "IDG Capital",
+    "IDG资本"
   ],
   "group": "established",
   "coverage": {
@@ -14,14 +15,6 @@
     "year": 1993,
     "basis": "官网说明1993年在美国成立，同年进入中国。"
   },
-  "team": [
-    {
-      "name": "Patrick J. McGovern",
-      "role": "创始董事长（历史人物；非当前团队现职）",
-      "previous_firms": [],
-      "background": "官网About以Founding Chairman介绍其创办角色；不据此推断当前管理团队。"
-    }
-  ],
   "focus": "消费科技、医疗健康、消费等；现有AI硬件与机器人案例。",
   "stage": "VC、成长、并购、私募股权二级交易及公开市场等多策略。",
   "representative_cases": [
@@ -96,6 +89,15 @@
       "supports": "2026年5月官方声明及唯一官方域名",
       "published_date": "2026-05",
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "【IDG资本招聘】-猎聘",
+      "url": "https://www.liepin.com/company/7876103/",
+      "supports": "公开企业主页主体：IDG资本；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "checked_at": "2026-10-30",
@@ -111,5 +113,39 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-05eb4f3b420318f0",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/7876103/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "IDG资本（IDG Capital）",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    }
+  ],
+  "people": [
+    {
+      "name": "Patrick J. McGovern",
+      "role": "创始董事长（历史人物；非当前团队现职）",
+      "previous_firms": [],
+      "background": "官网About以Founding Chairman介绍其创办角色；不据此推断当前管理团队。",
+      "profiles": [],
+      "source_ids": [
+        "s01"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    }
+  ]
 }

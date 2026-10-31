@@ -48,7 +48,12 @@ R1 Pro / Lite；G0系列；A1机械臂；EDP
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/da0d0fc9657d8f8503J82tu4F1A~.html) | 星海图 | 2026-10-31 | confirmed / s06 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/13784555/) | 星海图 | 2026-10-31 | confirmed / s07 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -63,3 +68,5 @@ R1 Pro / Lite；G0系列；A1机械臂；EDP
 | s03 | [加入星海图](https://www.galaxea-ai.com/zh/jobs.html) | 招聘岗位与城市 | 未标明 | 2026-10-30 |
 | s04 | [星海图官方招聘站](https://galaxea.zhiye.com/campus/jobs) | hr@galaxea.ai | 未标明 | 2026-10-30 |
 | s05 | [星海图申请页](https://galaxea-ai.com/zh/apply.html) | 产品联系邮箱 | 未标明 | 2026-10-30 |
+| s06 | [「星海图招聘」-BOSS直聘](https://www.zhipin.com/gongsi/da0d0fc9657d8f8503J82tu4F1A~.html) | 公开企业主页主体：星海图；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s07 | [【星海图招聘】-猎聘](https://www.liepin.com/company/13784555/) | 公开企业主页主体：星海图；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

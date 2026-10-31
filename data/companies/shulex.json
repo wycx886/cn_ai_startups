@@ -1,10 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "shulex",
   "name": "Shulex / 杭州数里行间科技有限公司",
   "aliases": [
     "笃行科技(Shulex VOC)",
-    "Shulex VOC"
+    "Shulex VOC",
+    "数里行间"
   ],
   "category_id": "07",
   "focus": "客户服务 Agent 与 VOC 消费者洞察",
@@ -78,6 +79,15 @@
       "supports": "招聘渠道与公司/品牌身份",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s07",
+      "scope": "channel",
+      "title": "数里行间招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/32c0cc606c28738a1n1-2d24FVI~.html",
+      "supports": "公开企业主页主体：数里行间；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -97,5 +107,24 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-653f5c5ca463c4cf",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/32c0cc606c28738a1n1-2d24FVI~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "Shulex / 杭州数里行间科技有限公司",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s07"
+      ],
+      "notes": null
+    }
+  ]
 }

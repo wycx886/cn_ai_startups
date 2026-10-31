@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "mpci",
   "name": "经纬创投（MPCi）",
   "aliases": [
@@ -16,17 +16,6 @@
     "year": 2008,
     "basis": "官网机构介绍；2024年英文品牌调整并非新成立机构。"
   },
-  "team": [
-    {
-      "name": "张颖",
-      "role": "创始合伙人",
-      "previous_firms": [
-        "中经合集团",
-        "荷兰银行创投业务部"
-      ],
-      "background": "投资界人物页披露此前任中经合中国区首席代表及荷兰银行高级投资经理。"
-    }
-  ],
   "focus": "软件与科技、先进制造、消费等；持续关注机器人。",
   "stage": "早期、初创及成长；官网强调尽早接触创业者，争取成为首家机构投资人并后续追加。",
   "representative_cases": [
@@ -133,5 +122,24 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [],
+  "people": [
+    {
+      "name": "张颖",
+      "role": "创始合伙人",
+      "previous_firms": [
+        "中经合集团",
+        "荷兰银行创投业务部"
+      ],
+      "background": "投资界人物页披露此前任中经合中国区首席代表及荷兰银行高级投资经理。",
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s04"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    }
+  ]
 }

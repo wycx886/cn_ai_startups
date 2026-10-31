@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：极壳科技(Hypershell)；Hypershell
+别名与原表名称：极壳科技(Hypershell)；Hypershell；极壳科技
 
 ## 业务与产品
 
@@ -48,7 +48,12 @@ Hypershell X系列；Hypershell Halo髋膝助力外骨骼
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/080d7abb4ba64b261XRy2d-5FlY~.html) | 极壳科技 Hypershell | 2026-10-31 | confirmed / s06 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/21135601/) | 极壳科技 Hypershell | 2026-10-31 | confirmed / s07 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -63,3 +68,5 @@ Hypershell X系列；Hypershell Halo髋膝助力外骨骼
 | s03 | [Hypershell官方公司页](https://www.linkedin.com/company/hypershell-tech) | 产品定位与深圳总部 | 未标明 | 2026-10-30 |
 | s04 | [极壳中国官网](https://hypershell.cn/) | 当前产品与加入我们跳转 | 未标明 | 2026-10-30 |
 | s05 | [极壳官方招聘站](https://career.hypershell.cn/) | 官方投递入口 | 未标明 | 2026-10-30 |
+| s06 | [极壳科技招聘-BOSS直聘 公司页(工商信息已核对)](https://www.zhipin.com/gongsi/080d7abb4ba64b261XRy2d-5FlY~.html) | 公开企业主页主体：极壳科技；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s07 | [【极壳科技招聘】-猎聘](https://www.liepin.com/company/21135601/) | 公开企业主页主体：极壳科技；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

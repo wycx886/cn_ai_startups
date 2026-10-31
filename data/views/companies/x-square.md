@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：自变量机器人(X Square)；X Square
+别名与原表名称：自变量机器人(X Square)；X Square；自变量机器人科技(深圳)有限公司
 
 ## 业务与产品
 
@@ -48,7 +48,12 @@ WALL-B世界统一模型；量子系列机器人与数据基础设施
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/859fcb4d7a9bef4a1HZ43dy4ElQ~.html) | 自变量机器人 | 2026-10-31 | confirmed / s04 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/13737447/) | 自变量机器人 | 2026-10-31 | confirmed / s05 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -61,3 +66,5 @@ WALL-B世界统一模型；量子系列机器人与数据基础设施
 | s01 | [自变量公司融资公告](https://www.prnewswire.com/news-releases/x-square-robot-secures-four-consecutive-financing-rounds-surpasses-us2-8-billion-valuation-in-push-for-physical-ai-foundation-models-302813091.html) | 投资背景、业务与城市 | 2026-06-29 | 2026-10-30 |
 | s02 | [自变量加入我们](https://x2robot.com/join) | 官网、产品及招聘跳转 | 未标明 | 2026-10-30 |
 | s03 | [自变量社会招聘](https://x2-robot.jobs.feishu.cn/) | 招聘邮箱与商务邮箱 | 未标明 | 2026-10-30 |
+| s04 | [自变量机器人招聘-BOSS直聘 公司页(工商信息已核对)](https://www.zhipin.com/gongsi/859fcb4d7a9bef4a1HZ43dy4ElQ~.html) | 公开企业主页主体：自变量机器人；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s05 | [【自变量机器人科技(深圳)有限公司招聘】-猎聘](https://www.liepin.com/company/13737447/) | 公开企业主页主体：自变量机器人科技(深圳)有限公司；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "agibot",
   "name": "智元机器人",
   "aliases": [
@@ -54,6 +54,24 @@
       "supports": "招聘入口及公司业务",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "scope": "channel",
+      "title": "「智元机器人招聘」-BOSS直聘",
+      "url": "https://www.zhipin.com/gongsi/07b072ef03f6aac71XN629m-E1M~.html",
+      "supports": "公开企业主页主体：智元机器人；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "【智元机器人招聘】-猎聘",
+      "url": "https://www.liepin.com/company/13530971/",
+      "supports": "公开企业主页主体：智元机器人；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -73,5 +91,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-1ba18b5f4ed65900",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/07b072ef03f6aac71XN629m-E1M~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "智元机器人",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s04"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-1bda6382fcf74a02",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/13530971/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "智元机器人",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    }
+  ]
 }

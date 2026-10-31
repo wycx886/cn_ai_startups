@@ -1,10 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "shoplazza",
   "name": "店匠科技 / Shoplazza",
   "aliases": [
     "店匠科技(Shoplazza)",
-    "Shoplazza"
+    "Shoplazza",
+    "店匠科技"
   ],
   "category_id": "07",
   "focus": "跨境独立站与零售商业基础设施",
@@ -62,6 +63,24 @@
       "supports": "公开客户支持邮箱",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "店匠科技招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/3b06f8258c8d70971nd60ty0EQ~~.html",
+      "supports": "公开企业主页主体：店匠科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s06",
+      "scope": "channel",
+      "title": "【Shoplazza招聘】-猎聘",
+      "url": "https://www.liepin.com/company/9397306/",
+      "supports": "公开企业主页主体：Shoplazza；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -81,5 +100,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-687e33f527dec131",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/3b06f8258c8d70971nd60ty0EQ~~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "店匠科技 / Shoplazza",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-8a75f3219d9310a9",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/9397306/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "店匠科技 / Shoplazza",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s06"
+      ],
+      "notes": null
+    }
+  ]
 }

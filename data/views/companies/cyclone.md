@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：弘玑Cyclone
+别名与原表名称：弘玑Cyclone；CYCLONE RPA；上海弘玑信息技术有限公司
 
 ## 业务与产品
 
@@ -48,7 +48,12 @@
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/025511600cbce33b03Ry2NW4Fg~~.html) | 弘玑 Cyclone | 2026-10-31 | confirmed / s05 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/10040025/) | 弘玑 Cyclone | 2026-10-31 | confirmed / s06 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -62,3 +67,5 @@ HR邮箱来源于2021年校招公开材料，现行有效性需确认；市场�
 | s02 | [弘玑智联公司页](https://www.zhaopin.com/companydetail/CZ284680080.htm) | 投资方、总部与招聘 | 未标明 | 2026-10-30 |
 | s03 | [上海交大弘玑宣讲会](https://xsb.seiee.sjtu.edu.cn/xsb/detail/2494_2422.htm?nocache=1) | 公开投递邮箱 | 2021-10-11 | 2026-10-30 |
 | s04 | [弘玑官方关于我们](https://www.cyclone-robotics.com/h-col-222.html) | 包含当前加入我们栏目；邮箱仍是历史高校公开入口 | 未标明 | 2026-10-30 |
+| s05 | [「CYCLONE RPA招聘」-BOSS直聘](https://www.zhipin.com/gongsi/025511600cbce33b03Ry2NW4Fg~~.html) | 公开企业主页主体：CYCLONE RPA；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s06 | [【上海弘玑信息技术有限公司招聘】-猎聘](https://www.liepin.com/company/10040025/) | 公开企业主页主体：上海弘玑信息技术有限公司；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

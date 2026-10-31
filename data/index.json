@@ -16,13 +16,13 @@
     "operating_organizations": {
       "organizations": 80,
       "categories": 10,
-      "source_records": 273,
+      "source_records": 399,
       "recruitment_links": 76,
       "public_recruitment_emails": 38
     },
     "investment_firms": {
       "organizations": 25,
-      "source_records": 118,
+      "source_records": 132,
       "recent": 7,
       "new_generation": 6,
       "established": 12,
@@ -41,7 +41,8 @@
       "aliases": [
         "5Y Capital",
         "晨兴资本",
-        "Morningside Venture Capital"
+        "Morningside Venture Capital",
+        "五源资本(原晨兴资本)"
       ],
       "organization_type": "investment_firm",
       "focus": "科技驱动的产品与平台；AI、智能硬件、消费及互联网等。",
@@ -196,7 +197,8 @@
       "aliases": [
         "高榕资本",
         "Gaorong Capital",
-        "Banyan Capital"
+        "Banyan Capital",
+        "高榕创投"
       ],
       "organization_type": "investment_firm",
       "focus": "新科技、互联网、消费及医疗等；覆盖智能硬件与出海技术项目。",
@@ -274,7 +276,8 @@
         "HongShan",
         "HSG",
         "Sequoia Capital China",
-        "红杉资本中国"
+        "红杉资本中国",
+        "红杉中国"
       ],
       "organization_type": "investment_firm",
       "focus": "科技、医疗健康、消费；科技投资包括AI及机器人等。",
@@ -346,7 +349,8 @@
       "id": "idg-capital",
       "name": "IDG资本（IDG Capital）",
       "aliases": [
-        "IDG Capital"
+        "IDG Capital",
+        "IDG资本"
       ],
       "organization_type": "investment_firm",
       "focus": "消费科技、医疗健康、消费等；现有AI硬件与机器人案例。",
@@ -380,7 +384,8 @@
       "id": "jinqiu",
       "name": "锦秋基金 Jinqiu Capital",
       "aliases": [
-        "锦秋资本"
+        "锦秋资本",
+        "锦秋基金"
       ],
       "organization_type": "investment_firm",
       "focus": "AI算力、AI应用、具身智能及推动产业跃迁的前沿技术；另有创业工作室及早期支持计划。",
@@ -422,7 +427,8 @@
       "aliases": [
         "Lanchi Ventures",
         "BlueRun Ventures China",
-        "蓝驰中国"
+        "蓝驰中国",
+        "蓝驰创投"
       ],
       "organization_type": "investment_firm",
       "focus": "AI、机器人、深科技、生物科技与消费科技。",
@@ -699,7 +705,8 @@
       "id": "shunwei",
       "name": "顺为资本（Shunwei Capital）",
       "aliases": [
-        "Shunwei Capital"
+        "Shunwei Capital",
+        "顺为资本"
       ],
       "organization_type": "investment_firm",
       "focus": "科技驱动的产品、智能硬件、互联网及机器人等。",
@@ -776,7 +783,8 @@
       "id": "source-code",
       "name": "源码资本（Source Code Capital）",
       "aliases": [
-        "Source Code Capital"
+        "Source Code Capital",
+        "源码资本"
       ],
       "organization_type": "investment_firm",
       "focus": "AI与机器人、智能制造、互联网消费、医疗与生物科技。",
@@ -891,7 +899,8 @@
       "id": "yueqian-capital-zhenghualiang",
       "name": "跃迁资本（郑华良）",
       "aliases": [
-        "杭州跃迁私募基金管理有限公司"
+        "杭州跃迁私募基金管理有限公司",
+        "杭州跃迁私募基金管理"
       ],
       "organization_type": "investment_firm",
       "focus": "智能终端硬件；AI硬件；机器人",
@@ -929,7 +938,8 @@
       "id": "yunqi",
       "name": "云启资本（Yunqi Partners）",
       "aliases": [
-        "Yunqi Partners"
+        "Yunqi Partners",
+        "云启资本"
       ],
       "organization_type": "investment_firm",
       "focus": "AI基础设施与应用、机器人、半导体、量子科技、能源等深科技。",
@@ -964,7 +974,9 @@
       "id": "zhenfund",
       "name": "真格基金（ZhenFund）",
       "aliases": [
-        "ZhenFund"
+        "ZhenFund",
+        "西藏真格天祥投资管理",
+        "真格基金"
       ],
       "organization_type": "investment_firm",
       "focus": "以人为起点的早期科技投资；AI模型、Agent、机器人、芯片等均有案例。",
@@ -1002,7 +1014,9 @@
       "name": "零一万物 01.AI",
       "aliases": [
         "零一万物(ToB转型)",
-        "ToB转型"
+        "ToB转型",
+        "北京零一万物信息技术",
+        "零一万物"
       ],
       "organization_type": "operating_organization",
       "focus": "产业模型与企业决策AI",
@@ -1083,7 +1097,9 @@
       "name": "爱诗科技 / PixVerse",
       "aliases": [
         "爱诗科技(PixVerse / 拍我AI)",
-        "PixVerse / 拍我AI"
+        "PixVerse / 拍我AI",
+        "爱诗科技",
+        "北京爱诗科技有限公司"
       ],
       "organization_type": "operating_organization",
       "focus": "视频基础模型与创作者应用",
@@ -1110,7 +1126,8 @@
       "name": "硅心科技 / aiXcoder",
       "aliases": [
         "硅心科技(aiXcoder)",
-        "aiXcoder"
+        "aiXcoder",
+        "北京硅心科技有限公司"
       ],
       "organization_type": "operating_organization",
       "focus": "企业级 AI 软件研发",
@@ -1180,7 +1197,9 @@
       "name": "趋境科技 Approaching.AI",
       "aliases": [
         "趋境科技(KTransformers)",
-        "KTransformers"
+        "KTransformers",
+        "北京趋境科技",
+        "趋境科技"
       ],
       "organization_type": "operating_organization",
       "focus": "异构推理与Token生产",
@@ -1234,7 +1253,8 @@
       "name": "百川智能 Baichuan",
       "aliases": [
         "百川智能(AI医疗转型)",
-        "AI医疗转型"
+        "AI医疗转型",
+        "百川智能"
       ],
       "organization_type": "operating_organization",
       "focus": "医疗增强模型与AI家庭医生",
@@ -1261,7 +1281,8 @@
       "name": "百图生科 BioMap",
       "aliases": [
         "百图生科(BioMap)",
-        "BioMap"
+        "BioMap",
+        "百图生科"
       ],
       "organization_type": "operating_organization",
       "focus": "生命科学基础模型与蛋白质、生物系统设计",
@@ -1287,7 +1308,8 @@
       "id": "biren",
       "name": "壁仞科技 Biren",
       "aliases": [
-        "壁仞科技"
+        "壁仞科技",
+        "上海壁仞智能科技有限公司 (page title); registered 上海壁仞科技股份有限公司"
       ],
       "organization_type": "operating_organization",
       "focus": "通用GPU与智算解决方案",
@@ -1313,7 +1335,8 @@
       "id": "caiyun",
       "name": "彩云科技",
       "aliases": [
-        "彩云科技"
+        "彩云科技",
+        "彩云科技AI"
       ],
       "organization_type": "operating_organization",
       "focus": "AI天气、机器翻译与智能写作",
@@ -1340,7 +1363,8 @@
       "name": "井英科技 / CreativeFitting",
       "aliases": [
         "井英科技(Reel.Ai)",
-        "Reel.Ai"
+        "Reel.Ai",
+        "井英科技"
       ],
       "organization_type": "operating_organization",
       "focus": "AI 原生娱乐与内容 Agent 系统",
@@ -1366,7 +1390,9 @@
       "id": "cyclone",
       "name": "弘玑 Cyclone",
       "aliases": [
-        "弘玑Cyclone"
+        "弘玑Cyclone",
+        "CYCLONE RPA",
+        "上海弘玑信息技术有限公司"
       ],
       "organization_type": "operating_organization",
       "focus": "企业行动智能体与超自动化",
@@ -1393,7 +1419,8 @@
       "name": "九章云极 DataCanvas",
       "aliases": [
         "九章云极(DataCanvas)",
-        "DataCanvas"
+        "DataCanvas",
+        "九章云极"
       ],
       "organization_type": "operating_organization",
       "focus": "AI基础软件与智算云",
@@ -1420,7 +1447,8 @@
       "name": "影眸科技 / Deemos / Hyper3D",
       "aliases": [
         "影眸科技(Rodin 3D)",
-        "Rodin 3D"
+        "Rodin 3D",
+        "影眸科技"
       ],
       "organization_type": "operating_organization",
       "focus": "3D 资产生成、数字人与世界生成",
@@ -1473,7 +1501,8 @@
       "name": "滴普科技 / Deepexi",
       "aliases": [
         "滴普科技(Deepexi, 港股上市)",
-        "Deepexi, 港股上市"
+        "Deepexi, 港股上市",
+        "滴普科技"
       ],
       "organization_type": "operating_organization",
       "focus": "企业大模型、数据语义与智能体平台",
@@ -1500,7 +1529,8 @@
       "name": "深度求索 DeepSeek",
       "aliases": [
         "深度求索(DeepSeek)",
-        "DeepSeek"
+        "DeepSeek",
+        "深度求索"
       ],
       "organization_type": "operating_organization",
       "focus": "通用与推理基础模型、开源模型与API",
@@ -1527,7 +1557,8 @@
       "name": "Dify / LangGenius",
       "aliases": [
         "Dify.AI(苏州语灵)",
-        "苏州语灵"
+        "苏州语灵",
+        "Dify"
       ],
       "organization_type": "operating_organization",
       "focus": "开源LLM应用开发与Agent编排平台",
@@ -1633,7 +1664,8 @@
       "name": "傅利叶",
       "aliases": [
         "傅利叶智能(Fourier)",
-        "Fourier"
+        "Fourier",
+        "傅利叶智能"
       ],
       "organization_type": "operating_organization",
       "focus": "人形机器人与康复机器人两条业务线",
@@ -1687,7 +1719,9 @@
       "name": "银河通用",
       "aliases": [
         "银河通用(Galbot)",
-        "Galbot"
+        "Galbot",
+        "银河通用机器人",
+        "北京银河通用机器人有限公司 (page title)"
       ],
       "organization_type": "operating_organization",
       "focus": "通用具身模型与机器人在零售、工业场景的部署",
@@ -1713,7 +1747,8 @@
       "id": "gaoding",
       "name": "稿定科技 / 稿定设计",
       "aliases": [
-        "稿定科技"
+        "稿定科技",
+        "稿定(厦门)科技有限公司"
       ],
       "organization_type": "operating_organization",
       "focus": "商业视觉设计与 AI 内容工具",
@@ -1767,7 +1802,9 @@
       "id": "guiji",
       "name": "硅基智能（南京）",
       "aliases": [
-        "硅基智能"
+        "硅基智能",
+        "南京硅基智能",
+        "南京硅基智能科技有限公司 (page title)"
       ],
       "organization_type": "operating_organization",
       "focus": "AI 数字人与智能交互",
@@ -1794,7 +1831,8 @@
       "name": "跃然创新 Haivivi",
       "aliases": [
         "跃然创新(Haivivi)",
-        "Haivivi"
+        "Haivivi",
+        "深圳跃然创新科技有限公司"
       ],
       "organization_type": "operating_organization",
       "focus": "AI玩具、语音互动与陪伴",
@@ -1821,7 +1859,8 @@
       "name": "极壳科技 Hypershell",
       "aliases": [
         "极壳科技(Hypershell)",
-        "Hypershell"
+        "Hypershell",
+        "极壳科技"
       ],
       "organization_type": "operating_organization",
       "focus": "消费级穿戴外骨骼与户外助力",
@@ -1848,7 +1887,8 @@
       "name": "极睿科技 / Infimind",
       "aliases": [
         "极睿科技(Infimind)",
-        "Infimind"
+        "Infimind",
+        "北京极睿科技有限责任公司"
       ],
       "organization_type": "operating_organization",
       "focus": "电商内容生成与商品数字化",
@@ -1875,7 +1915,9 @@
       "name": "无问芯穹 Infinigence AI",
       "aliases": [
         "无问芯穹(Infinigence)",
-        "Infinigence"
+        "Infinigence",
+        "北京无问芯穹科技",
+        "上海无问芯穹智能科技股份有限公司"
       ],
       "organization_type": "operating_organization",
       "focus": "异构算力与AI原生基础设施",
@@ -1929,7 +1971,8 @@
       "name": "英矽智能 Insilico Medicine",
       "aliases": [
         "英矽智能(Insilico)",
-        "Insilico"
+        "Insilico",
+        "Insilico Medicine"
       ],
       "organization_type": "operating_organization",
       "focus": "生成式AI药物发现平台与自研创新药管线",
@@ -2008,7 +2051,8 @@
       "name": "筷子科技 / Kuaizi",
       "aliases": [
         "筷子科技(Kuaizi.ai)",
-        "Kuaizi.ai"
+        "Kuaizi.ai",
+        "筷子科技"
       ],
       "organization_type": "operating_organization",
       "focus": "商业内容 AIGC 与广告创意自动化",
@@ -2061,7 +2105,8 @@
       "name": "澜舟科技 Langboat",
       "aliases": [
         "澜舟科技(孟子大模型)",
-        "孟子大模型"
+        "孟子大模型",
+        "澜舟科技"
       ],
       "organization_type": "operating_organization",
       "focus": "认知模型与企业智能体",
@@ -2114,7 +2159,8 @@
       "name": "LiblibAI / 哩布哩布",
       "aliases": [
         "LiblibAI(哩布哩布)",
-        "哩布哩布"
+        "哩布哩布",
+        "LiblibAI"
       ],
       "organization_type": "operating_organization",
       "focus": "AI 创意生产平台与模型社区",
@@ -2141,7 +2187,8 @@
       "name": "逐际动力",
       "aliases": [
         "逐际动力(LimX)",
-        "LimX"
+        "LimX",
+        "深圳逐际动力科技股份有限公司"
       ],
       "organization_type": "operating_organization",
       "focus": "全身运动控制、具身智能与模块化足式机器人",
@@ -2168,7 +2215,9 @@
       "name": "潞晨科技 Colossal-AI",
       "aliases": [
         "潞晨科技(Colossal-AI)",
-        "Colossal-AI"
+        "Colossal-AI",
+        "潞晨科技",
+        "北京潞晨科技有限公司"
       ],
       "organization_type": "operating_organization",
       "focus": "分布式训练、推理系统与算力云",
@@ -2274,7 +2323,9 @@
       "name": "秘塔科技 MetaSota",
       "aliases": [
         "秘塔科技(秘塔AI搜索)",
-        "秘塔AI搜索"
+        "秘塔AI搜索",
+        "秘塔科技",
+        "上海秘塔网络科技有限公司"
       ],
       "organization_type": "operating_organization",
       "focus": "AI搜索、深度研究与专业文字工具",
@@ -2300,7 +2351,9 @@
       "id": "metax",
       "name": "沐曦股份 MetaX",
       "aliases": [
-        "沐曦股份"
+        "沐曦股份",
+        "沐曦集成电路",
+        "沐曦集成电路(上海)股份有限公司"
       ],
       "organization_type": "operating_organization",
       "focus": "全栈GPU芯片与计算平台",
@@ -2354,7 +2407,8 @@
       "name": "面壁智能 ModelBest",
       "aliases": [
         "面壁智能(ModelBest)",
-        "ModelBest"
+        "ModelBest",
+        "面壁智能"
       ],
       "organization_type": "operating_organization",
       "focus": "高效端侧模型与多模态",
@@ -2381,7 +2435,8 @@
       "name": "月之暗面 Kimi",
       "aliases": [
         "月之暗面(Kimi)",
-        "Kimi"
+        "Kimi",
+        "月之暗面"
       ],
       "organization_type": "operating_organization",
       "focus": "通用模型、个人助手与代码Agent",
@@ -2434,7 +2489,9 @@
       "name": "穹彻智能",
       "aliases": [
         "穹彻智能(Noematrix)",
-        "Noematrix"
+        "Noematrix",
+        "上海穹彻智能科技",
+        "上海穹彻智能科技有限公司"
       ],
       "organization_type": "operating_organization",
       "focus": "以力为中心的具身基础模型与通用机器人大脑",
@@ -2461,7 +2518,8 @@
       "name": "Plaud / 机智连接",
       "aliases": [
         "机智连接(Plaud.ai)",
-        "Plaud.ai"
+        "Plaud.ai",
+        "Plaud"
       ],
       "organization_type": "operating_organization",
       "focus": "AI录音硬件与专业人士对话智能软件",
@@ -2488,7 +2546,9 @@
       "name": "幂律智能 / PowerLaw AI",
       "aliases": [
         "幂律智能(PowerLaw AI)",
-        "PowerLaw AI"
+        "PowerLaw AI",
+        "幂律科技",
+        "北京幂律智能科技有限责任公司"
       ],
       "organization_type": "operating_organization",
       "focus": "法律 AI 与合同全生命周期管理",
@@ -2515,7 +2575,9 @@
       "name": "清程极智 Qingcheng.AI",
       "aliases": [
         "清程极智(赤兔/八卦炉)",
-        "赤兔/八卦炉"
+        "赤兔/八卦炉",
+        "清程极智",
+        "北京清程极智科技有限公司"
       ],
       "organization_type": "operating_organization",
       "focus": "国产算力系统软件与推理评测路由",
@@ -2542,7 +2604,8 @@
       "name": "快牛智营 / QuickCEP",
       "aliases": [
         "快牛智营(QuickCEP)",
-        "QuickCEP"
+        "QuickCEP",
+        "快牛智营"
       ],
       "organization_type": "operating_organization",
       "focus": "全球消费者互动与客服/语音 Agent",
@@ -2569,7 +2632,8 @@
       "name": "循环智能 / Recurrent AI",
       "aliases": [
         "循环智能(Recurrent AI)",
-        "Recurrent AI"
+        "Recurrent AI",
+        "循环智能"
       ],
       "organization_type": "operating_organization",
       "focus": "销售智能与对话分析",
@@ -2596,7 +2660,8 @@
       "name": "星动纪元",
       "aliases": [
         "星动纪元(Robot Era)",
-        "Robot Era"
+        "Robot Era",
+        "北京星动纪元科技有限公司"
       ],
       "organization_type": "operating_organization",
       "focus": "全栈人形机器人、灵巧手与具身模型",
@@ -2623,7 +2688,8 @@
       "name": "闪极科技 SHARGE",
       "aliases": [
         "闪极科技(Sharge)",
-        "Sharge"
+        "Sharge",
+        "闪极科技"
       ],
       "organization_type": "operating_organization",
       "focus": "消费电子、AI眼镜与智能穿戴",
@@ -2650,7 +2716,8 @@
       "name": "生数科技 / Vidu",
       "aliases": [
         "生数科技(Vidu)",
-        "Vidu"
+        "Vidu",
+        "生数科技"
       ],
       "organization_type": "operating_organization",
       "focus": "视频生成与世界模型",
@@ -2677,7 +2744,8 @@
       "name": "店匠科技 / Shoplazza",
       "aliases": [
         "店匠科技(Shoplazza)",
-        "Shoplazza"
+        "Shoplazza",
+        "店匠科技"
       ],
       "organization_type": "operating_organization",
       "focus": "跨境独立站与零售商业基础设施",
@@ -2704,7 +2772,8 @@
       "name": "Shulex / 杭州数里行间科技有限公司",
       "aliases": [
         "笃行科技(Shulex VOC)",
-        "Shulex VOC"
+        "Shulex VOC",
+        "数里行间"
       ],
       "organization_type": "operating_organization",
       "focus": "客户服务 Agent 与 VOC 消费者洞察",
@@ -2731,7 +2800,8 @@
       "name": "硅基流动 SiliconFlow",
       "aliases": [
         "硅基流动(SiliconFlow)",
-        "SiliconFlow"
+        "SiliconFlow",
+        "硅基流动"
       ],
       "organization_type": "operating_organization",
       "focus": "多模型API、推理服务与私有化MaaS",
@@ -2785,7 +2855,9 @@
       "name": "阶跃星辰 StepFun",
       "aliases": [
         "阶跃星辰(StepFun)",
-        "StepFun"
+        "StepFun",
+        "上海阶跃星辰智能科技",
+        "阶跃星辰"
       ],
       "organization_type": "operating_organization",
       "focus": "多模态基座模型与AI终端",
@@ -2812,7 +2884,8 @@
       "name": "特看科技 / Tabcut",
       "aliases": [
         "特看科技(Tabcut)",
-        "Tabcut"
+        "Tabcut",
+        "特看科技"
       ],
       "organization_type": "operating_organization",
       "focus": "TikTok 电商数据与视频内容 SaaS",
@@ -2892,7 +2965,8 @@
       "name": "此间无限 Today AI",
       "aliases": [
         "此间无限(Today AI)",
-        "Today AI"
+        "Today AI",
+        "此间无限"
       ],
       "organization_type": "operating_organization",
       "focus": "主动式个人Agent与长期记忆",
@@ -2946,7 +3020,8 @@
       "name": "VAST / Tripo",
       "aliases": [
         "VAST(Tripo 3D)",
-        "Tripo 3D"
+        "Tripo 3D",
+        "VAST"
       ],
       "organization_type": "operating_organization",
       "focus": "3D 生成基础模型与创作工作台",
@@ -3000,7 +3075,8 @@
       "name": "自变量机器人",
       "aliases": [
         "自变量机器人(X Square)",
-        "X Square"
+        "X Square",
+        "自变量机器人科技(深圳)有限公司"
       ],
       "organization_type": "operating_organization",
       "focus": "端到端具身基础模型及通用机器人",
@@ -3026,7 +3102,8 @@
       "id": "xiaoduo",
       "name": "晓多科技 / Xiaoduo AI",
       "aliases": [
-        "晓多科技"
+        "晓多科技",
+        "成都晓多科技有限公司"
       ],
       "organization_type": "operating_organization",
       "focus": "客服 AI、商家服务与语流 Agent",
@@ -3080,7 +3157,8 @@
       "name": "晶泰科技 XtalPi",
       "aliases": [
         "晶泰科技(XtalPi, 2228.HK)",
-        "XtalPi, 2228.HK"
+        "XtalPi, 2228.HK",
+        "晶泰科技"
       ],
       "organization_type": "operating_organization",
       "focus": "AI、量子物理与自动化实验支撑药物及材料研发",
@@ -3107,7 +3185,9 @@
       "name": "影刀 / 杭州分叉智能",
       "aliases": [
         "影刀RPA(分叉智能)",
-        "分叉智能"
+        "分叉智能",
+        "分叉智能科技",
+        "影刀RPA"
       ],
       "organization_type": "operating_organization",
       "focus": "RPA、AI 工作流与数字员工",
@@ -3134,7 +3214,8 @@
       "name": "智谱 Z.ai",
       "aliases": [
         "智谱华章(02513.HK)",
-        "02513.HK"
+        "02513.HK",
+        "智谱华章"
       ],
       "organization_type": "operating_organization",
       "focus": "通用基座模型、模型服务与智能体",

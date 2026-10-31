@@ -41,8 +41,8 @@ def build_index(root, records=None):
         else:
             entry.update(group=record["group"], coverage_role=record["coverage"]["role"],
                          cohort=cohort(record), founded_year=record["founded"]["year"],
-                         team_names=[p["name"] for p in record["team"]], stage=record["stage"],
-                         previous_platforms=sorted({firm for person in record["team"] for firm in person["previous_firms"]}),
+                         team_names=[p["name"] for p in record["people"]], stage=record["stage"],
+                         previous_platforms=sorted({firm for person in record["people"] for firm in person["previous_firms"]}),
                          prior_firm_case_count=sum(c["attribution"] == "prior_firm" for c in record["representative_cases"]),
                          current_firm_case_count=sum(c["attribution"] == "current_firm" for c in record["representative_cases"]))
         entries.append(entry)
@@ -77,13 +77,13 @@ def render(root):
     page = banner + "# 第一波：新进 AI 机构\n\n[项目首页](../../README.md) · [机器目标索引](../index.json) · [完整资料目录](README.md)\n\n"
     page += "[大厂项目与拆分机构](corporate-ventures.md) · [母平台排查清单](incumbents.md)。有明确目标的内部团队、实验室或项目也可单列；按组织形态和母平台关系区分，不一律视为独立公司。\n\n"
     page += f"当前圈选 **{len(first)} 个第一波候选**：{len(operating)} 个经营型机构、{len(investing)} 个投资机构；另有 {counts['watchlist']} 个观察候选。\n\n"
-    page += "这是基于现有材料的编辑性寻源名单，不是全市场清单、机构质量排名、成立年份证明或招聘承诺。不设统一成立年份门槛；上市也不单独决定新进／已有。标签整理日期与实际核查日期分开记录。\n\n本阶段先圈机构，Layer 2／3 的实际采集和个人 pitch 在后续按需开展。\n\n"
+    page += "这是基于现有材料的编辑性寻源名单，不是全市场清单、机构质量排名、成立年份证明或招聘承诺。不设统一成立年份门槛；上市也不单独决定新进／已有。标签整理日期与实际核查日期分开记录。\n\n本名单用于圈定机构；公开渠道与人物资料按任务逐项核查，个人 pitch 另按本人明确授权开展。\n\n"
     page += "## 经营型机构\n\n融资状态只反映现有披露的核验程度；不统一写成VC-backed，创始人支持、自筹、众筹、产业资本和融资口径冲突保留在机构档案原文中。\n\n| 机构 | 赛道 | 融资披露状态 | 原资料核查日 |\n| --- | --- | --- | --- |\n"
     for _,r in sorted(operating,key=lambda item:(item[1]['category_id'],item[1]['id'])):
         page += f"| [{md(r['name'])}](companies/{r['id']}.md) | {r['category_id']} | {FUNDING[r['investment']['verification_status']]} | {r['checked_at']} |\n"
     page += "\n## 新进投资机构\n\n[新 VC 识别 SOP](../../skills/find-startups/references/new-vc-spinouts.md) · [新机构与原平台对照](new-vc-spinouts.md)。新GP缺少成熟退出不自动排除；原平台案例不算新机构业绩。\n\n| 机构 | 原平台／团队背景 | 圈选依据 |\n| --- | --- | --- |\n"
     for _,r in investing:
-        platforms='；'.join(p['name']+'：'+('、'.join(p['previous_firms']) or '原平台未列') for p in r['team'])
+        platforms='；'.join(p['name']+'：'+('、'.join(p['previous_firms']) or '原平台未列') for p in r['people'])
         page += f"| [{md(r['name'])}](companies/{r['id']}.md) | {md(platforms)} | {md(r['targeting']['rationale'])} |\n"
     page += "\n## 观察候选\n\n身份、边界或独立运作证据有缺口，先保留，不包装成已确认的第一波。\n\n| 机构 | 类型 | 待核实边界 |\n| --- | --- | --- |\n"
     for folder,r in records:
@@ -97,7 +97,7 @@ def render(root):
     spin=banner+'# 新进投资机构与原平台\n\n[第一波入口](first-wave.md) · [识别与核验 SOP](../../skills/find-startups/references/new-vc-spinouts.md)\n\n独立创业不自动意味着法律分拆、资产转移或原基金持仓承接。下列关系取自已有团队及来源记录；不因资料整理提升核验状态。\n\n| 机构 | 寻源状态 | 团队／原平台 | 机构成立口径 |\n| --- | --- | --- | --- |\n'
     for _,r in records:
         if r['organization_type']=='investment_firm' and r['targeting']['player_group']=='new_entrant':
-            team='；'.join(p['name']+'：'+('、'.join(p['previous_firms']) or '未列原平台') for p in r['team'])
+            team='；'.join(p['name']+'：'+('、'.join(p['previous_firms']) or '未列原平台') for p in r['people'])
             spin+=f"| [{md(r['name'])}](companies/{r['id']}.md) | {WAVES[r['targeting']['wave']]} | {md(team)} | {md(r['founded']['basis'])} |\n"
     out['data/views/new-vc-spinouts.md']=spin
     stream=io.StringIO(newline='');writer=csv.writer(stream,lineterminator='\n')

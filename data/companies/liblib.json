@@ -1,10 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "liblib",
   "name": "LiblibAI / 哩布哩布",
   "aliases": [
     "LiblibAI(哩布哩布)",
-    "哩布哩布"
+    "哩布哩布",
+    "LiblibAI"
   ],
   "category_id": "05",
   "focus": "AI 创意生产平台与模型社区",
@@ -46,6 +47,15 @@
       "supports": "客服邮箱",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "scope": "channel",
+      "title": "【LiblibAI招聘】-猎聘",
+      "url": "https://www.liepin.com/company/21341713/",
+      "supports": "公开企业主页主体：LiblibAI；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -65,5 +75,24 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-47e02c3b9686f24a",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/21341713/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "LiblibAI / 哩布哩布",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s03"
+      ],
+      "notes": null
+    }
+  ]
 }

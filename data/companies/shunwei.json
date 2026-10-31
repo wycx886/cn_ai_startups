@@ -1,9 +1,10 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "shunwei",
   "name": "顺为资本（Shunwei Capital）",
   "aliases": [
-    "Shunwei Capital"
+    "Shunwei Capital",
+    "顺为资本"
   ],
   "group": "established",
   "coverage": {
@@ -14,20 +15,6 @@
     "year": 2011,
     "basis": "官方创始人访谈确认2011年雷军与许达来共同创立。"
   },
-  "team": [
-    {
-      "name": "雷军",
-      "role": "创始合伙人",
-      "previous_firms": [],
-      "background": "科技企业创业者，联合创立顺为。"
-    },
-    {
-      "name": "许达来",
-      "role": "创始合伙人",
-      "previous_firms": [],
-      "background": "与雷军于2011年共同创立顺为；官方2020年访谈称其为CEO，本条不据旧访谈断言当前CEO。"
-    }
-  ],
   "focus": "科技驱动的产品、智能硬件、互联网及机器人等。",
   "stage": "早期及成长；可多轮跟进。",
   "representative_cases": [
@@ -94,6 +81,24 @@
       "supports": "官方2026年8月回顾：破壳机器人Pre-A由顺为与经纬联合领投；顺为于2026年4月投其天使轮，宇树于2021年A轮领投及B轮追加",
       "published_date": "2026-09-03",
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "scope": "channel",
+      "title": "顺为资本招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/e1dfa6883ddc3db31Xd63di_.html",
+      "supports": "公开企业主页主体：顺为资本；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "【顺为资本招聘】-猎聘",
+      "url": "https://www.liepin.com/company/9112220/",
+      "supports": "公开企业主页主体：顺为资本；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "checked_at": "2026-10-30",
@@ -109,5 +114,74 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-39188568080d248e",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/e1dfa6883ddc3db31Xd63di_.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "顺为资本（Shunwei Capital）",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s04"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-8e211bb508ad38bf",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/9112220/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "顺为资本（Shunwei Capital）",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    }
+  ],
+  "people": [
+    {
+      "name": "雷军",
+      "role": "创始合伙人",
+      "previous_firms": [],
+      "background": "科技企业创业者，联合创立顺为。",
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    },
+    {
+      "name": "许达来",
+      "role": "创始合伙人",
+      "previous_firms": [],
+      "background": "与雷军于2011年共同创立顺为；官方2020年访谈称其为CEO，本条不据旧访谈断言当前CEO。",
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    }
+  ]
 }

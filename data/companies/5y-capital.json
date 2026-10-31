@@ -1,11 +1,12 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "5y-capital",
   "name": "五源资本（5Y Capital）",
   "aliases": [
     "5Y Capital",
     "晨兴资本",
-    "Morningside Venture Capital"
+    "Morningside Venture Capital",
+    "五源资本(原晨兴资本)"
   ],
   "group": "established",
   "coverage": {
@@ -16,20 +17,6 @@
     "year": 2008,
     "basis": "2008年刘芹与石建明创立晨兴资本；2020年更名五源。此处采用团队/基金延续口径。"
   },
-  "team": [
-    {
-      "name": "刘芹",
-      "role": "创始合伙人",
-      "previous_firms": [],
-      "background": null
-    },
-    {
-      "name": "石建明",
-      "role": "创始合伙人",
-      "previous_firms": [],
-      "background": null
-    }
-  ],
   "focus": "科技驱动的产品与平台；AI、智能硬件、消费及互联网等。",
   "stage": "以早期长期陪伴为代表，也持续跟投。",
   "representative_cases": [
@@ -112,6 +99,15 @@
       "supports": "官网联系入口；未核对到公开招聘邮箱",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s06",
+      "scope": "channel",
+      "title": "【五源资本(原晨兴资本)招聘】-猎聘",
+      "url": "https://www.liepin.com/company/8523363/",
+      "supports": "公开企业主页主体：五源资本(原晨兴资本)；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "checked_at": "2026-10-30",
@@ -127,5 +123,52 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-ba18b9f6cb454131",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/8523363/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "五源资本（5Y Capital）",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s06"
+      ],
+      "notes": null
+    }
+  ],
+  "people": [
+    {
+      "name": "刘芹",
+      "role": "创始合伙人",
+      "previous_firms": [],
+      "background": null,
+      "profiles": [],
+      "source_ids": [
+        "s02"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    },
+    {
+      "name": "石建明",
+      "role": "创始合伙人",
+      "previous_firms": [],
+      "background": null,
+      "profiles": [],
+      "source_ids": [
+        "s02"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    }
+  ]
 }

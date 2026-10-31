@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "soul-capital",
   "name": "心资本 Soul Capital",
   "aliases": [
@@ -14,33 +14,6 @@
     "year": 2022,
     "basis": "官网明确2022年成立；团队来自光速中国及其他产业投资体系。"
   },
-  "team": [
-    {
-      "name": "韩彦 Herry Han",
-      "role": "创始合伙人",
-      "previous_firms": [
-        "光速中国"
-      ],
-      "background": "光速中国创始合伙人及核心投资团队背景；微软工程师和麦肯锡经历见公开采访。"
-    },
-    {
-      "name": "吴炳见",
-      "role": "合伙人",
-      "previous_firms": [
-        "联想之星",
-        "险峰"
-      ],
-      "background": "有早期投资机构经验。"
-    },
-    {
-      "name": "刘艳晨",
-      "role": "合伙人",
-      "previous_firms": [
-        "阿里巴巴菜鸟战略投资"
-      ],
-      "background": "产业战略投资背景。"
-    }
-  ],
   "focus": "中国早期科技，偏AI算力、物理AI、机器人、新能源及商业航天等。",
   "stage": "早期。",
   "representative_cases": [
@@ -122,5 +95,56 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [],
+  "people": [
+    {
+      "name": "韩彦 Herry Han",
+      "role": "创始合伙人",
+      "previous_firms": [
+        "光速中国"
+      ],
+      "background": "光速中国创始合伙人及核心投资团队背景；微软工程师和麦肯锡经历见公开采访。",
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s03"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    },
+    {
+      "name": "吴炳见",
+      "role": "合伙人",
+      "previous_firms": [
+        "联想之星",
+        "险峰"
+      ],
+      "background": "有早期投资机构经验。",
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s03"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    },
+    {
+      "name": "刘艳晨",
+      "role": "合伙人",
+      "previous_firms": [
+        "阿里巴巴菜鸟战略投资"
+      ],
+      "background": "产业战略投资背景。",
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s03"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    }
+  ]
 }

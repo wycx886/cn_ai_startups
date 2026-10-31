@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：滴普科技(Deepexi, 港股上市)；Deepexi, 港股上市
+别名与原表名称：滴普科技(Deepexi, 港股上市)；Deepexi, 港股上市；滴普科技
 
 ## 业务与产品
 
@@ -48,7 +48,12 @@ Deepexi企业大模型、Deepology、DeepWorks、DeepexiOS
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/cac78b09c82e4f6d0nJ539W0FA~~.html) | 滴普科技 / Deepexi | 2026-10-31 | confirmed / s05 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/21242291/) | 滴普科技 / Deepexi | 2026-10-31 | confirmed / s06 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -62,3 +67,5 @@ Deepexi企业大模型、Deepology、DeepWorks、DeepexiOS
 | s02 | [天津大学滴普2027招聘简章](https://job.tju.edu.cn/recruitment/content/type/2/id/6673.html) | 产品框架、城市和投递邮箱 | 2026-10 | 2026-10-30 |
 | s03 | [滴普官方招聘职位](https://www.deepexi.com/join-us/campus/c5) | 招聘入口 | 未标明 | 2026-10-30 |
 | s04 | [21财经滴普A轮融资](https://m.21jingji.com/article/20190924/herald/55cdc0794c1004069ea3d54a60d20f6a.html) | 历史轮次和投资方 | 2019-09-24 | 2026-10-30 |
+| s05 | [「滴普科技招聘」-BOSS直聘](https://www.zhipin.com/gongsi/cac78b09c82e4f6d0nJ539W0FA~~.html) | 公开企业主页主体：滴普科技；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s06 | [【滴普科技招聘】-猎聘](https://www.liepin.com/company/21242291/) | 公开企业主页主体：滴普科技；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

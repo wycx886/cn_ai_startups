@@ -1,9 +1,10 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "yueqian-capital-zhenghualiang",
   "name": "跃迁资本（郑华良）",
   "aliases": [
-    "杭州跃迁私募基金管理有限公司"
+    "杭州跃迁私募基金管理有限公司",
+    "杭州跃迁私募基金管理"
   ],
   "group": "emerging",
   "coverage": {
@@ -14,17 +15,6 @@
     "year": 2025,
     "basis": "IT桔子报道管理公司成立于2025-07-08；创始人2026年公开演讲确认新机构于2025年下半年取得展业牌照。"
   },
-  "team": [
-    {
-      "name": "郑华良",
-      "role": "创始合伙人",
-      "previous_firms": [
-        "敦鸿资产",
-        "凯泰资本"
-      ],
-      "background": "原敦鸿资产董事总经理、凯泰资本执行总裁；2017年中国新闻网报道可独立核实凯泰时期职位。"
-    }
-  ],
   "focus": "智能终端硬件；AI硬件；机器人",
   "stage": null,
   "representative_cases": [
@@ -73,6 +63,15 @@
       "supports": "2017年已任凯泰资本执行总裁；此前人工智能及医疗投资机构管理经验",
       "published_date": "2017-09-26",
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "scope": "channel",
+      "title": "杭州跃迁私募基金管理招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/f6a4a1398cc0816503Z929S4ElY~.html",
+      "supports": "公开企业主页主体：杭州跃迁私募基金管理；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "checked_at": "2026-10-30",
@@ -89,5 +88,43 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-6792eaa49590dc65",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/f6a4a1398cc0816503Z929S4ElY~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "跃迁资本（郑华良）",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s04"
+      ],
+      "notes": null
+    }
+  ],
+  "people": [
+    {
+      "name": "郑华良",
+      "role": "创始合伙人",
+      "previous_firms": [
+        "敦鸿资产",
+        "凯泰资本"
+      ],
+      "background": "原敦鸿资产董事总经理、凯泰资本执行总裁；2017年中国新闻网报道可独立核实凯泰时期职位。",
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s02"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    }
+  ]
 }

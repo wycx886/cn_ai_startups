@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "galaxea",
   "name": "星海图",
   "aliases": [
@@ -70,6 +70,24 @@
       "supports": "产品联系邮箱",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s06",
+      "scope": "channel",
+      "title": "「星海图招聘」-BOSS直聘",
+      "url": "https://www.zhipin.com/gongsi/da0d0fc9657d8f8503J82tu4F1A~.html",
+      "supports": "公开企业主页主体：星海图；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s07",
+      "scope": "channel",
+      "title": "【星海图招聘】-猎聘",
+      "url": "https://www.liepin.com/company/13784555/",
+      "supports": "公开企业主页主体：星海图；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -89,5 +107,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-4359ba594bec743a",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/da0d0fc9657d8f8503J82tu4F1A~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "星海图",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s06"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-34b9c10192c68838",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/13784555/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "星海图",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s07"
+      ],
+      "notes": null
+    }
+  ]
 }

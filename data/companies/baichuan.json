@@ -1,10 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "baichuan",
   "name": "百川智能 Baichuan",
   "aliases": [
     "百川智能(AI医疗转型)",
-    "AI医疗转型"
+    "AI医疗转型",
+    "百川智能"
   ],
   "category_id": "01",
   "focus": "医疗增强模型与AI家庭医生",
@@ -64,6 +65,15 @@
       "supports": "bd商务邮箱（第三方）",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "「百川智能招聘」-BOSS直聘",
+      "url": "https://www.zhipin.com/gongsi/8d42a94fe13be56c03N43t-7GVU~.html",
+      "supports": "公开企业主页主体：百川智能；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -83,5 +93,24 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-cc5439899fdf55c9",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/8d42a94fe13be56c03N43t-7GVU~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "百川智能 Baichuan",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    }
+  ]
 }

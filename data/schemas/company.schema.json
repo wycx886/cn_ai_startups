@@ -4,7 +4,7 @@
   "type": "object",
   "properties": {
     "schema_version": {
-      "const": 2
+      "const": 3
     },
     "id": {
       "type": "string",
@@ -222,7 +222,8 @@
           "scope": {
             "enum": [
               "organization",
-              "channel"
+              "channel",
+              "person"
             ],
             "description": "Omitted means organization; channel-only checks do not refresh the business profile date."
           }
@@ -273,6 +274,13 @@
       "items": {
         "$ref": "urn:cn-ai-startups:channel"
       }
+    },
+    "people": {
+      "type": "array",
+      "items": {
+        "$ref": "urn:cn-ai-startups:person"
+      },
+      "description": "Sourced key people (Founders, executives, core leads) and their public professional profiles."
     },
     "organizational_context": {
       "$ref": "urn:cn-ai-startups:organizational-context",

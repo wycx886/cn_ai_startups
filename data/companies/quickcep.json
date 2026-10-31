@@ -1,10 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "quickcep",
   "name": "快牛智营 / QuickCEP",
   "aliases": [
     "快牛智营(QuickCEP)",
-    "QuickCEP"
+    "QuickCEP",
+    "快牛智营"
   ],
   "category_id": "07",
   "focus": "全球消费者互动与客服/语音 Agent",
@@ -70,6 +71,15 @@
       "supports": "招聘渠道与公司主体",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s06",
+      "scope": "channel",
+      "title": "快牛智营招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/2d2c761c14eec83b1XR72tu5F1E~.html",
+      "supports": "公开企业主页主体：快牛智营；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -89,5 +99,24 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-27ec8025a578f069",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/2d2c761c14eec83b1XR72tu5F1E~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "快牛智营 / QuickCEP",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s06"
+      ],
+      "notes": null
+    }
+  ]
 }

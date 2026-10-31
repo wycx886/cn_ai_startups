@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "ht-investment-yifeifan",
   "name": "HT Investment",
   "aliases": [
@@ -14,17 +14,6 @@
     "year": 2025,
     "basis": "IT桔子将其列入2025年资深VC投资人独立创业样本；未找到官方品牌成立日及法律主体注册信息，年份可信度低于官方明确声明的机构。"
   },
-  "team": [
-    {
-      "name": "易飞凡",
-      "role": "创始合伙人",
-      "previous_firms": [
-        "达晨创投",
-        "光远资本"
-      ],
-      "background": "曾任达晨投资总监、娱乐媒体基金合伙人及光远资本董事总经理；这些职位来自公开媒体梳理，未取得新机构官方履历页。"
-    }
-  ],
   "focus": "AI驱动科技；社交娱乐；全球化应用",
   "stage": "天使轮",
   "representative_cases": [
@@ -99,5 +88,23 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [],
+  "people": [
+    {
+      "name": "易飞凡",
+      "role": "创始合伙人",
+      "previous_firms": [
+        "达晨创投",
+        "光远资本"
+      ],
+      "background": "曾任达晨投资总监、娱乐媒体基金合伙人及光远资本董事总经理；这些职位来自公开媒体梳理，未取得新机构官方履历页。",
+      "profiles": [],
+      "source_ids": [
+        "s01"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    }
+  ]
 }

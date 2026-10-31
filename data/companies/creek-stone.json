@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "creek-stone",
   "name": "Creek Stone",
   "aliases": [
@@ -17,22 +17,6 @@
     "year": 2025,
     "basis": "2025年钟陆欢访谈确认已从弘毅独立；2025-12-20合伙人李一豪在采访中说明当年共同成立早期AI美元基金。品牌成立与具体法律主体注册日期未等同。"
   },
-  "team": [
-    {
-      "name": "钟陆欢",
-      "role": "创始合伙人",
-      "previous_firms": [
-        "弘毅投资"
-      ],
-      "background": "访谈介绍其原为弘毅投资美元基金负责人；独立后创立美元天使基金。"
-    },
-    {
-      "name": "李一豪",
-      "role": "合伙人",
-      "previous_firms": [],
-      "background": "公开采访确认与钟陆欢共同创立新基金，参与AI早期投资与孵化；原机构履历未充分交叉核实。"
-    }
-  ],
   "focus": "AI应用；AI原生硬件；中国AI创业者全球化",
   "stage": "天使轮；早期；孵化",
   "representative_cases": [
@@ -98,5 +82,35 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [],
+  "people": [
+    {
+      "name": "钟陆欢",
+      "role": "创始合伙人",
+      "previous_firms": [
+        "弘毅投资"
+      ],
+      "background": "访谈介绍其原为弘毅投资美元基金负责人；独立后创立美元天使基金。",
+      "profiles": [],
+      "source_ids": [
+        "s02"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    },
+    {
+      "name": "李一豪",
+      "role": "合伙人",
+      "previous_firms": [],
+      "background": "公开采访确认与钟陆欢共同创立新基金，参与AI早期投资与孵化；原机构履历未充分交叉核实。",
+      "profiles": [],
+      "source_ids": [
+        "s02"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    }
+  ]
 }

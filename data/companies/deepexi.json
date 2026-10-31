@@ -1,10 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "deepexi",
   "name": "滴普科技 / Deepexi",
   "aliases": [
     "滴普科技(Deepexi, 港股上市)",
-    "Deepexi, 港股上市"
+    "Deepexi, 港股上市",
+    "滴普科技"
   ],
   "category_id": "06",
   "focus": "企业大模型、数据语义与智能体平台",
@@ -62,6 +63,24 @@
       "supports": "历史轮次和投资方",
       "published_date": "2019-09-24",
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "「滴普科技招聘」-BOSS直聘",
+      "url": "https://www.zhipin.com/gongsi/cac78b09c82e4f6d0nJ539W0FA~~.html",
+      "supports": "公开企业主页主体：滴普科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s06",
+      "scope": "channel",
+      "title": "【滴普科技招聘】-猎聘",
+      "url": "https://www.liepin.com/company/21242291/",
+      "supports": "公开企业主页主体：滴普科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -81,5 +100,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-99f3b9bcb2994190",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/cac78b09c82e4f6d0nJ539W0FA~~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "滴普科技 / Deepexi",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-7c7ff798d2862b8a",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/21242291/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "滴普科技 / Deepexi",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s06"
+      ],
+      "notes": null
+    }
+  ]
 }

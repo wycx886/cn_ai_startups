@@ -1,10 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "hypershell",
   "name": "极壳科技 Hypershell",
   "aliases": [
     "极壳科技(Hypershell)",
-    "Hypershell"
+    "Hypershell",
+    "极壳科技"
   ],
   "category_id": "09",
   "focus": "消费级穿戴外骨骼与户外助力",
@@ -70,6 +71,24 @@
       "supports": "官方投递入口",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s06",
+      "scope": "channel",
+      "title": "极壳科技招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/080d7abb4ba64b261XRy2d-5FlY~.html",
+      "supports": "公开企业主页主体：极壳科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s07",
+      "scope": "channel",
+      "title": "【极壳科技招聘】-猎聘",
+      "url": "https://www.liepin.com/company/21135601/",
+      "supports": "公开企业主页主体：极壳科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -89,5 +108,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-ab3d291e644be17f",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/080d7abb4ba64b261XRy2d-5FlY~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "极壳科技 Hypershell",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s06"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-3e36b4c899265d3e",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/21135601/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "极壳科技 Hypershell",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s07"
+      ],
+      "notes": null
+    }
+  ]
 }

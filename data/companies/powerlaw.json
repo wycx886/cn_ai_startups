@@ -1,10 +1,12 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "powerlaw",
   "name": "幂律智能 / PowerLaw AI",
   "aliases": [
     "幂律智能(PowerLaw AI)",
-    "PowerLaw AI"
+    "PowerLaw AI",
+    "幂律科技",
+    "北京幂律智能科技有限责任公司"
   ],
   "category_id": "06",
   "focus": "法律 AI 与合同全生命周期管理",
@@ -54,6 +56,24 @@
       "supports": "直接跳转BOSS官方公司职位页",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "scope": "channel",
+      "title": "幂律科技招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/25a357d750036d3e1XV53du7FA~~.html",
+      "supports": "公开企业主页主体：幂律科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "【北京幂律智能科技有限责任公司招聘】-猎聘",
+      "url": "https://www.liepin.com/company/13286763/",
+      "supports": "公开企业主页主体：北京幂律智能科技有限责任公司；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -73,5 +93,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-6b12e10f0a0de85f",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/25a357d750036d3e1XV53du7FA~~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "幂律智能 / PowerLaw AI",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s04"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-e01d1f5e315887c2",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/13286763/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "幂律智能 / PowerLaw AI",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    }
+  ]
 }

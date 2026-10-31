@@ -34,7 +34,7 @@ def build_outputs(root):
   if not group:continue
   overview+='## '+title+' · '+str(len(group))+' 家\n\n| 机构 | 研究位置 | 成立口径 | 团队来历 | 方向 | 案例归因 |\n| --- | --- | --- | --- | --- | --- |\n'
   for c in group:
-   team='；'.join(p['name']+'（'+('、'.join(p['previous_firms']) if p['previous_firms'] else (p['role'] or '未列原平台'))+'）' for p in c['team'])
+   team='；'.join(p['name']+'（'+('、'.join(p['previous_firms']) if p['previous_firms'] else (p['role'] or '未列原平台'))+'）' for p in c['people'])
    old=sum(x['attribution']=='prior_firm' for x in c['representative_cases']);new=len(c['representative_cases'])-old
    overview+='| ['+md(c['name'])+'](companies/'+c['id']+'.md) | '+ROLES[c['coverage']['role']]+' | '+md(c['founded']['year'])+'；'+md(c['founded']['basis'])+' | '+md(team)+' | '+md(c['focus'])+' | 原平台 '+str(old)+' 条；本机构 '+str(new)+' 条 |\n'
   overview+='\n'
@@ -42,10 +42,8 @@ def build_outputs(root):
   page=banner+'# '+c['name']+'\n\n[资料目录](../README.md) · [VC 参考名单](../vcs.md) · [原始 JSON](../../companies/'+c['id']+'.json)\n\n'
   page+='机构 ID：`'+c['id']+'` · 核查日期：'+c['checked_at']+'\n\n'
   page+=target_markdown(c)
-  page+='## 成立与团队\n\n成立年份：'+md(c['founded']['year'])+'。口径：'+c['founded']['basis']+'\n\n'
+  page+='## 成立与资料范围\n\n成立年份：'+md(c['founded']['year'])+'。口径：'+c['founded']['basis']+'\n\n'
   page+=ROLES[c['coverage']['role']]+' -- '+c['coverage']['reason']+'\n\n'
-  for person in c['team']:
-   page+='- **'+person['name']+'**'+(' · '+person['role'] if person['role'] else '')+'；原平台：'+('、'.join(person['previous_firms']) or '未列')+'。'+md(person['background'])+'\n'
   page+='\n## 投资方向与阶段\n\n'+md(c['focus'])+'\n\n阶段：'+md(c['stage'])+'\n\n'
   page+='## 案例与成绩归因\n\n'
   for attr,title in [('prior_firm','创始人或团队在原平台的案例'),('current_firm','本机构的案例')]:
@@ -70,7 +68,7 @@ def build_outputs(root):
    source_rows.append([c['id'],c['name'],s['id'],s['title'],s['url'],s['supports'],s['published_date'],s['checked_at']])
   out['data/views/companies/'+c['id']+'.md']=page
   def case_summary(attr):return '；'.join(x['company']+'：'+x['investor_or_team']+'；'+x['outcome'] for x in c['representative_cases'] if x['attribution']==attr)
-  rows.append([c['id'],c['name'],cohort(c),c['coverage']['role'],c['founded']['year'],'；'.join(x['name'] for x in c['team']),c['focus'],c['stage'],c['why_follow'],c['difference'],c['recent_activity'],case_summary('prior_firm'),case_summary('current_firm'),*[c['contacts'][k] for k in ['website','careers_url','recruitment_email','other_email','other_email_purpose']],c['notes'],c['checked_at']])
+  rows.append([c['id'],c['name'],cohort(c),c['coverage']['role'],c['founded']['year'],'；'.join(x['name'] for x in c['people']),c['focus'],c['stage'],c['why_follow'],c['difference'],c['recent_activity'],case_summary('prior_firm'),case_summary('current_firm'),*[c['contacts'][k] for k in ['website','careers_url','recruitment_email','other_email','other_email_purpose']],c['notes'],c['checked_at']])
  out['data/views/vcs.md']=overview.rstrip()+'\n'
  out['data/views/exports/investors.csv']=csv_text(rows);out['data/views/exports/investor-sources.csv']=csv_text(source_rows)
  intro='## VC 机构研究\n\n已建档 **'+str(len(records))+' 家机构**，区分 2024–2026 新设机构、2020–2023 新一代机构与成熟 VC。创始人原平台成绩和新机构投资分别标注。\n\n[查看 VC 参考名单与档案](vcs.md) · [投资机构筛选表](exports/investors.csv) · [投资机构来源表](exports/investor-sources.csv) · [Agent 机器索引](../index.json) · [筛选方法](../../skills/find-startups/references/investment-cases.md)\n\n'

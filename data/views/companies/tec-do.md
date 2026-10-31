@@ -48,7 +48,12 @@ Tec-Creative；全球广告营销与AI投放服务
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/08cb1a1a6e6b5e271HR809i6Fg~~.html) | 钛动科技 / Tec-Do | 2026-10-31 | confirmed / s05 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/8922908/) | 钛动科技 / Tec-Do | 2026-10-31 | confirmed / s06 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -62,3 +67,5 @@ Tec-Creative；全球广告营销与AI投放服务
 | s02 | [钛动官方发布新闻稿](https://www.globenewswire.com/news-release/2026/08/20/3348067/0/zh-hans/%E9%92%9B%E5%8A%A8%E7%A7%91%E6%8A%80%E5%AE%A3%E5%B8%83%E5%AE%8C%E6%88%90%E6%96%B0%E4%B8%80%E8%BD%AE%E8%9E%8D%E8%B5%84.html) | 投资背景 | 2026-08-20 | 2026-10-30 |
 | s03 | [钛动领英职位页](https://cn.linkedin.com/company/tecdocn/jobs) | 公开招聘入口 | 未标明 | 2026-10-30 |
 | s04 | [钛动官网加入我们](https://www.tec-do.com/) | 当前官方Moka招聘链接 | 未标明 | 2026-10-30 |
+| s05 | [钛动科技招聘-BOSS直聘 公司页(工商信息已核对)](https://www.zhipin.com/gongsi/08cb1a1a6e6b5e271HR809i6Fg~~.html) | 公开企业主页主体：钛动科技；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s06 | [【钛动科技招聘】-猎聘](https://www.liepin.com/company/8922908/) | 公开企业主页主体：钛动科技；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

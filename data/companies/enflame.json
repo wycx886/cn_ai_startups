@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "enflame",
   "name": "燧原科技 Enflame",
   "aliases": [
@@ -63,6 +63,24 @@
       "supports": "IR邮箱与公司业务",
       "published_date": "2026-01-22",
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "「燧原科技招聘」-BOSS直聘",
+      "url": "https://www.zhipin.com/gongsi/4810d76a541af10b1HZ73Nq-Flc~.html",
+      "supports": "公开企业主页主体：燧原科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s06",
+      "scope": "channel",
+      "title": "【燧原科技招聘】-猎聘",
+      "url": "https://www.liepin.com/company/9609962/",
+      "supports": "公开企业主页主体：燧原科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -82,5 +100,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-6bf4837704f259bd",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/4810d76a541af10b1HZ73Nq-Flc~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "燧原科技 Enflame",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-cdb8e36f2d55fe10",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/9609962/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "燧原科技 Enflame",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s06"
+      ],
+      "notes": null
+    }
+  ]
 }

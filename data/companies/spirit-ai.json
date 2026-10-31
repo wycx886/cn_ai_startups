@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "spirit-ai",
   "name": "千寻智能",
   "aliases": [
@@ -54,6 +54,15 @@
       "supports": "模型与机器人招聘方向",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "scope": "channel",
+      "title": "千寻智能招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/c5a3fedbe7332abf1Hd_0t67EVc~.html",
+      "supports": "公开企业主页主体：千寻智能；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -73,5 +82,24 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-f797cdb679e1d83b",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/c5a3fedbe7332abf1Hd_0t67EVc~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "千寻智能",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s04"
+      ],
+      "notes": null
+    }
+  ]
 }

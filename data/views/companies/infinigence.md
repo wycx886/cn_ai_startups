@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：无问芯穹(Infinigence)；Infinigence
+别名与原表名称：无问芯穹(Infinigence)；Infinigence；北京无问芯穹科技；上海无问芯穹智能科技股份有限公司
 
 ## 业务与产品
 
@@ -48,7 +48,12 @@ M×N软硬协同、训推优化、Agent服务平台
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/75e9c4e4f7940ab41XNz2dm-FVI~.html) | 无问芯穹 Infinigence AI | 2026-10-31 | confirmed / s04 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/13818039/) | 无问芯穹 Infinigence AI | 2026-10-31 | confirmed / s05 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -61,3 +66,5 @@ M×N软硬协同、训推优化、Agent服务平台
 | s01 | [无问芯穹官方公司介绍](https://www.infinigence-ai.com/about-us.html) | 产品、城市、HR与业务邮箱 | 未标明 | 2026-10-30 |
 | s02 | [启明官方被投访谈](https://www.qimingvc.com/cn/news/启明星-无问芯穹夏立雪：打造“最高效的token工厂”) | 启明投资关系与融资 | 2026-05 | 2026-10-30 |
 | s03 | [投资界C轮记录](https://vc.pedaily.cn/invest/427290.html) | 2026年10月投资方名单 | 2026-10-12 | 2026-10-30 |
+| s04 | [北京无问芯穹科技招聘-BOSS直聘 公司页(工商信息已核对)](https://www.zhipin.com/gongsi/75e9c4e4f7940ab41XNz2dm-FVI~.html) | 公开企业主页主体：北京无问芯穹科技；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s05 | [【上海无问芯穹智能科技股份有限公司招聘】-猎聘](https://www.liepin.com/company/13818039/) | 公开企业主页主体：上海无问芯穹智能科技股份有限公司；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

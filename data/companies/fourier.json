@@ -1,10 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "fourier",
   "name": "傅利叶",
   "aliases": [
     "傅利叶智能(Fourier)",
-    "Fourier"
+    "Fourier",
+    "傅利叶智能"
   ],
   "category_id": "08",
   "focus": "人形机器人与康复机器人两条业务线",
@@ -62,6 +63,24 @@
       "supports": "招聘邮箱及官方摩卡入口",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "「傅利叶智能招聘」-BOSS直聘",
+      "url": "https://www.zhipin.com/gongsi/d26254c33e8b964d03R_2965Fg~~.html",
+      "supports": "公开企业主页主体：傅利叶智能；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s06",
+      "scope": "channel",
+      "title": "【傅利叶智能招聘】-猎聘",
+      "url": "https://www.liepin.com/company/9311236/",
+      "supports": "公开企业主页主体：傅利叶智能；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -81,5 +100,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-275bcb9b9c51aa4d",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/d26254c33e8b964d03R_2965Fg~~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "傅利叶",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-723d2cd7087edbdf",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/9311236/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "傅利叶",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s06"
+      ],
+      "notes": null
+    }
+  ]
 }

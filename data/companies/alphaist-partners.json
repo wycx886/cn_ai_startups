@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "alphaist-partners",
   "name": "Alphaist Partners",
   "aliases": [
@@ -14,16 +14,6 @@
     "year": 2024,
     "basis": "创始人陈哲个人官网明确为2024年底成立；机构官方招聘页亦写established in 2024。部分2025年媒体报道写成2025年成立，本条采用两处官方口径。"
   },
-  "team": [
-    {
-      "name": "陈哲（Peter Chen）",
-      "role": "创始人",
-      "previous_firms": [
-        "五源资本（5Y Capital）"
-      ],
-      "background": "原五源资本董事总经理；曾在Google、BlackBerry任软件工程师，有电子工程与机器人相关投资背景。"
-    }
-  ],
   "focus": "人工智能；机器人；智能硬件",
   "stage": "早期",
   "representative_cases": [
@@ -114,5 +104,23 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [],
+  "people": [
+    {
+      "name": "陈哲（Peter Chen）",
+      "role": "创始人",
+      "previous_firms": [
+        "五源资本（5Y Capital）"
+      ],
+      "background": "原五源资本董事总经理；曾在Google、BlackBerry任软件工程师，有电子工程与机器人相关投资背景。",
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s02"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    }
+  ]
 }

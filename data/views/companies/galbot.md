@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：银河通用(Galbot)；Galbot
+别名与原表名称：银河通用(Galbot)；Galbot；银河通用机器人；北京银河通用机器人有限公司 (page title)
 
 ## 业务与产品
 
@@ -48,7 +48,12 @@ Galbot G1 / S1 / ET1；银河星脑 AstraBrain
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/274adc549f8801231Xxy2Nq4GVY~.html) | 银河通用 | 2026-10-31 | confirmed / s05 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/13921475/) | 银河通用 | 2026-10-31 | confirmed / s06 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -62,3 +67,5 @@ hr@galbot.com 见高校发布的公司校招材料；社会招聘使用官网跳
 | s02 | [银河通用完成11亿元融资](https://finance.people.com.cn/n1/2025/0623/c1004-40507025.html) | 投资背景 | 2025-06-23 | 2026-10-30 |
 | s03 | [银河通用再融25亿元](https://companies.caixin.com/m/2026-03-02/102418622.html) | 2026轮投资方 | 2026-03-02 | 2026-10-30 |
 | s04 | [银河通用2027校招](https://career.nankai.edu.cn/correcruit/content/id/116497.html) | 招聘邮箱及工作地域 | 2026-07-27 | 2026-10-30 |
+| s05 | [「银河通用机器人招聘」-BOSS直聘](https://www.zhipin.com/gongsi/274adc549f8801231Xxy2Nq4GVY~.html) | 公开企业主页主体：银河通用机器人；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s06 | [【北京银河通用机器人有限公司招聘】-猎聘](https://www.liepin.com/company/13921475/) | 公开企业主页主体：北京银河通用机器人有限公司 (page title)；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

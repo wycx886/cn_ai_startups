@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：逐际动力(LimX)；LimX
+别名与原表名称：逐际动力(LimX)；LimX；深圳逐际动力科技股份有限公司
 
 ## 业务与产品
 
@@ -48,7 +48,12 @@ Oli / Luna；TRON 1/2；COSA；FluxVLA Engine
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/f175c119152444b31XZ_39W8E1I~.html) | 逐际动力 | 2026-10-31 | confirmed / s03 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/13423055/) | 逐际动力 | 2026-10-31 | confirmed / s04 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -60,3 +65,5 @@ Oli / Luna；TRON 1/2；COSA；FluxVLA Engine
 | --- | --- | --- | --- | --- |
 | s01 | [逐际Pre-IPO融资公告](https://www.limxdynamics.com/en/news/BK000064) | 投资方与产品 | 2026-07-14 | 2026-10-30 |
 | s02 | [逐际FAQ](https://www.limxdynamics.com/en/faq) | 技术定位、总部、招聘及商务邮箱 | 未标明 | 2026-10-30 |
+| s03 | [逐际动力招聘-BOSS直聘 公司页(工商信息已核对)](https://www.zhipin.com/gongsi/f175c119152444b31XZ_39W8E1I~.html) | 公开企业主页主体：逐际动力；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s04 | [【深圳逐际动力科技股份有限公司招聘】-猎聘](https://www.liepin.com/company/13423055/) | 公开企业主页主体：深圳逐际动力科技股份有限公司；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

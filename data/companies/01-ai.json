@@ -1,10 +1,12 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "01-ai",
   "name": "零一万物 01.AI",
   "aliases": [
     "零一万物(ToB转型)",
-    "ToB转型"
+    "ToB转型",
+    "北京零一万物信息技术",
+    "零一万物"
   ],
   "category_id": "01",
   "focus": "产业模型与企业决策AI",
@@ -56,6 +58,24 @@
       "supports": "产业联合实验室与路线调整",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "scope": "channel",
+      "title": "「北京零一万物信息技术招聘」-BOSS直聘",
+      "url": "https://www.zhipin.com/gongsi/6604fa28d0b480c11X1y09-6FFc~.html",
+      "supports": "公开企业主页主体：北京零一万物信息技术；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "【零一万物招聘】-猎聘",
+      "url": "https://www.liepin.com/company/13948001/",
+      "supports": "公开企业主页主体：零一万物；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -75,5 +95,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-d390edf10fb7bd12",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/6604fa28d0b480c11X1y09-6FFc~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "零一万物 01.AI",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s04"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-82f85d40b09a77ae",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/13948001/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "零一万物 01.AI",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    }
+  ]
 }

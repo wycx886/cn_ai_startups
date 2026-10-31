@@ -1,10 +1,12 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "noematrix",
   "name": "穹彻智能",
   "aliases": [
     "穹彻智能(Noematrix)",
-    "Noematrix"
+    "Noematrix",
+    "上海穹彻智能科技",
+    "上海穹彻智能科技有限公司"
   ],
   "category_id": "08",
   "focus": "以力为中心的具身基础模型与通用机器人大脑",
@@ -54,6 +56,24 @@
       "supports": "招聘邮箱、岗位及城市",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "scope": "channel",
+      "title": "上海穹彻智能科技招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/5c10d1143d91fc941Hx50tu7FlA~.html",
+      "supports": "公开企业主页主体：上海穹彻智能科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "【上海穹彻智能科技有限公司招聘】-猎聘",
+      "url": "https://www.liepin.com/company/21172769/",
+      "supports": "公开企业主页主体：上海穹彻智能科技有限公司；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -73,5 +93,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-45508cc150e3f82c",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/5c10d1143d91fc941Hx50tu7FlA~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "穹彻智能",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s04"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-dc974fb861486cb3",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/21172769/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "穹彻智能",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    }
+  ]
 }

@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：影眸科技(Rodin 3D)；Rodin 3D
+别名与原表名称：影眸科技(Rodin 3D)；Rodin 3D；影眸科技
 
 ## 业务与产品
 
@@ -48,7 +48,11 @@ Rodin、Hyper3D；研究覆盖生成与机器人交互环境
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/c2648e580dbca8e51XV929q5GFY~.html) | 影眸科技 / Deemos / Hyper3D | 2026-10-31 | confirmed / s04 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -61,3 +65,4 @@ Rodin、Hyper3D；研究覆盖生成与机器人交互环境
 | s01 | [泰伯影眸企业档案](https://www.taibo.cn/company/1327) | 早期投资背景 | 未标明 | 2026-10-30 |
 | s02 | [影眸团队研究与招聘介绍](https://finance.sina.com.cn/stock/t/2026-07-23/doc-iniiuwti2117525.shtml) | 研究方向与公开投递邮箱 | 2026-07-23 | 2026-10-30 |
 | s03 | [Hyper3D官方链接与联络说明](https://hyper3d.ai/es/help/articles/official-hyper3d-links-and-scam-safety) | 官方产品域名及客服邮箱 | 未标明 | 2026-10-30 |
+| s04 | [「影眸科技招聘」-BOSS直聘](https://www.zhipin.com/gongsi/c2648e580dbca8e51XV929q5GFY~.html) | 公开企业主页主体：影眸科技；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

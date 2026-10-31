@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "tars",
   "name": "它石智航",
   "aliases": [
@@ -46,6 +46,24 @@
       "supports": "官方投递入口、产品及公司信息",
       "published_date": "2026-08-17",
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "scope": "channel",
+      "title": "它石智航招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/b5d335b06c1161fd1HNy3tW_F1Y~.html",
+      "supports": "公开企业主页主体：它石智航；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s04",
+      "scope": "channel",
+      "title": "【它石智航招聘】-猎聘",
+      "url": "https://www.liepin.com/company/21147939/",
+      "supports": "公开企业主页主体：它石智航；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -65,5 +83,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-b2b355f2860a7b7e",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/b5d335b06c1161fd1HNy3tW_F1Y~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "它石智航",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s03"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-d6edf4146f734ec4",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/21147939/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "它石智航",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s04"
+      ],
+      "notes": null
+    }
+  ]
 }

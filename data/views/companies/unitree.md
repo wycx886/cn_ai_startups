@@ -48,7 +48,12 @@ Go / B系列四足；G1 / H系列人形；机械臂
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/fb3f028badcf880b1nZ409u5FVc~.html) | 宇树科技 | 2026-10-31 | confirmed / s04 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/9328741/) | 宇树科技 | 2026-10-31 | confirmed / s05 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -61,3 +66,5 @@ Go / B系列四足；G1 / H系列人形；机械臂
 | s01 | [宇树公司介绍](https://www.unitree.com/operate/company/) | 业务及历史投资方 | 未标明 | 2026-10-30 |
 | s02 | [宇树联系我们](https://www.unitree.com/cn/contact/) | 招聘和商务邮箱及地址 | 未标明 | 2026-10-30 |
 | s03 | [宇树加入我们](https://www.unitree.com/position/) | 招聘入口与产品研发方向 | 未标明 | 2026-10-30 |
+| s04 | [宇树科技招聘-BOSS直聘 公司页(工商信息已核对)](https://www.zhipin.com/gongsi/fb3f028badcf880b1nZ409u5FVc~.html) | 公开企业主页主体：宇树科技；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s05 | [【宇树科技招聘】-猎聘](https://www.liepin.com/company/9328741/) | 公开企业主页主体：宇树科技；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

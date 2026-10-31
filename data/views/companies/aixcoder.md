@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：硅心科技(aiXcoder)；aiXcoder
+别名与原表名称：硅心科技(aiXcoder)；aiXcoder；北京硅心科技有限公司
 
 ## 业务与产品
 
@@ -48,7 +48,12 @@ CodeAgent、TestAgent、CodeWiki、企业智能体管控
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/b297b80edb5510881nd439i6Eg~~.html) | 硅心科技 / aiXcoder | 2026-10-31 | confirmed / s06 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/9604580/) | 硅心科技 / aiXcoder | 2026-10-31 | confirmed / s07 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -63,3 +68,5 @@ CodeAgent、TestAgent、CodeWiki、企业智能体管控
 | s03 | [动点科技A轮报道](https://cn.technode.com/post/2022-03-22/aixcoder-a/) | 高瓴创投投资 | 2022-03-22 | 2026-10-30 |
 | s04 | [BOSS硅心科技公司招聘页](https://m.zhipin.com/companys/b214b9e6761d3a150HR-2964GA~~.html) | 北京硅心科技、aiXcoder品牌、官网与职位 | 未标明 | 2026-10-30 |
 | s05 | [aiXcoder官网联系页](https://www.aixcoder.com/zh/contact) | 商务联系邮箱 | 未标明 | 2026-10-30 |
+| s06 | [「aiXcoder招聘」-BOSS直聘](https://www.zhipin.com/gongsi/b297b80edb5510881nd439i6Eg~~.html) | 公开企业主页主体：aiXcoder；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s07 | [【北京硅心科技有限公司招聘】-猎聘](https://www.liepin.com/company/9604580/) | 公开企业主页主体：北京硅心科技有限公司；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

@@ -1,9 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "zhenfund",
   "name": "真格基金（ZhenFund）",
   "aliases": [
-    "ZhenFund"
+    "ZhenFund",
+    "西藏真格天祥投资管理",
+    "真格基金"
   ],
   "group": "established",
   "coverage": {
@@ -14,32 +16,6 @@
     "year": 2011,
     "basis": "官网中文机构介绍及团队自述。"
   },
-  "team": [
-    {
-      "name": "徐小平",
-      "role": "创始人",
-      "previous_firms": [],
-      "background": "新东方联合创始人；新东方上市后开展天使投资。"
-    },
-    {
-      "name": "王强",
-      "role": "联合创始人",
-      "previous_firms": [],
-      "background": "新东方联合创始人。"
-    },
-    {
-      "name": "方爱之",
-      "role": "创始合伙人",
-      "previous_firms": [],
-      "background": null
-    },
-    {
-      "name": "戴雨森",
-      "role": "管理合伙人",
-      "previous_firms": [],
-      "background": "聚美优品联合创始人，2017年加入真格；官网自述关注AI。"
-    }
-  ],
   "focus": "以人为起点的早期科技投资；AI模型、Agent、机器人、芯片等均有案例。",
   "stage": "天使及早期；不将全部组合公司后续大额轮次都视为其参与。",
   "representative_cases": [
@@ -122,6 +98,24 @@
       "supports": "官方链接到真格飞书招聘入口",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s06",
+      "scope": "channel",
+      "title": "西藏真格天祥投资管理招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/9b7fb2301039b9421X1609u7GVA~.html",
+      "supports": "公开企业主页主体：西藏真格天祥投资管理；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s07",
+      "scope": "channel",
+      "title": "【真格基金招聘】-猎聘",
+      "url": "https://www.liepin.com/company/8852540/",
+      "supports": "公开企业主页主体：真格基金；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "checked_at": "2026-10-30",
@@ -137,5 +131,100 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-03dfb81b8c0951fa",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/9b7fb2301039b9421X1609u7GVA~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "真格基金（ZhenFund）",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s06"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-4e44acca8ed87f0b",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/8852540/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "真格基金（ZhenFund）",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s07"
+      ],
+      "notes": null
+    }
+  ],
+  "people": [
+    {
+      "name": "徐小平",
+      "role": "创始人",
+      "previous_firms": [],
+      "background": "新东方联合创始人；新东方上市后开展天使投资。",
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s02"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    },
+    {
+      "name": "王强",
+      "role": "联合创始人",
+      "previous_firms": [],
+      "background": "新东方联合创始人。",
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s02"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    },
+    {
+      "name": "方爱之",
+      "role": "创始合伙人",
+      "previous_firms": [],
+      "background": null,
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s02"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    },
+    {
+      "name": "戴雨森",
+      "role": "管理合伙人",
+      "previous_firms": [],
+      "background": "聚美优品联合创始人，2017年加入真格；官网自述关注AI。",
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s02"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    }
+  ]
 }

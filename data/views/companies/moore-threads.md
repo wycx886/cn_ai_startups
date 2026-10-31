@@ -48,7 +48,12 @@ MTT GPU、MUSA、训推与图形计算平台
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/2f230e94edc2a9da1nZ93NS7Fls~.html) | 摩尔线程 Moore Threads | 2026-10-31 | confirmed / s04 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/12566499/) | 摩尔线程 Moore Threads | 2026-10-31 | confirmed / s05 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -61,3 +66,5 @@ MTT GPU、MUSA、训推与图形计算平台
 | s01 | [摩尔线程官方招聘](https://www.mthreads.com/jobs) | 官网招聘与GPU业务 | 未标明 | 2026-10-30 |
 | s02 | [科创板日报：摩尔线程融资](https://www.cls.cn/detail/1523388) | 历史五源、红杉、厚雪投资 | 2023 | 2026-10-30 |
 | s03 | [摩尔线程官方招聘门户](https://mthreads.zhiye.com/campus) | 校园投递入口 | 未标明 | 2026-10-30 |
+| s04 | [摩尔线程招聘-BOSS直聘 公司页(工商信息已核对)](https://www.zhipin.com/gongsi/2f230e94edc2a9da1nZ93NS7Fls~.html) | 公开企业主页主体：摩尔线程；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s05 | [【摩尔线程招聘】-猎聘](https://www.liepin.com/company/12566499/) | 公开企业主页主体：摩尔线程；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

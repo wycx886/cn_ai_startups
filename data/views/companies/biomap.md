@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：百图生科(BioMap)；BioMap
+别名与原表名称：百图生科(BioMap)；BioMap；百图生科
 
 ## 业务与产品
 
@@ -48,7 +48,12 @@ xTrimo体系；生命科学AI模型与蛋白设计平台
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/227a8969b14846fc1nd43t60E1o~.html) | 百图生科 BioMap | 2026-10-31 | confirmed / s04 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/12415567/) | 百图生科 BioMap | 2026-10-31 | confirmed / s05 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -61,3 +66,5 @@ xTrimo体系；生命科学AI模型与蛋白设计平台
 | s01 | [百图生科项目资料](https://pitchhub.36kr.com/project/1679649196921600) | 发起背景及A轮投资方 | 2021-07 | 2026-10-30 |
 | s02 | [百图公司官网](https://www.biomap.com/company) | 联系方式、招聘邮箱、办公地 | 未标明 | 2026-10-30 |
 | s03 | [百图官方招聘材料转载](https://hub.baai.ac.cn/view/44767) | 生命科学基础模型定位 | 未标明 | 2026-10-30 |
+| s04 | [「百图生科招聘」-BOSS直聘](https://www.zhipin.com/gongsi/227a8969b14846fc1nd43t60E1o~.html) | 公开企业主页主体：百图生科；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s05 | [【百图生科BioMap招聘】-猎聘](https://www.liepin.com/company/12415567/) | 公开企业主页主体：百图生科BioMap；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

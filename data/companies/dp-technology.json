@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "dp-technology",
   "name": "深势科技",
   "aliases": [
@@ -62,6 +62,24 @@
       "supports": "招聘与商务邮箱及办公地",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "「深势科技招聘」-BOSS直聘",
+      "url": "https://www.zhipin.com/gongsi/ba52f78a29ea7d5103J909S8F1Q~.html",
+      "supports": "公开企业主页主体：深势科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s06",
+      "scope": "channel",
+      "title": "【深势科技招聘】-猎聘",
+      "url": "https://www.liepin.com/company/12376395/",
+      "supports": "公开企业主页主体：深势科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -81,5 +99,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-8529228fc72203d6",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/ba52f78a29ea7d5103J909S8F1Q~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "深势科技",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-5ad67d6833e1cf3e",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/12376395/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "深势科技",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s06"
+      ],
+      "notes": null
+    }
+  ]
 }

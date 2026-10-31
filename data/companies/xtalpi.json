@@ -1,10 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "xtalpi",
   "name": "晶泰科技 XtalPi",
   "aliases": [
     "晶泰科技(XtalPi, 2228.HK)",
-    "XtalPi, 2228.HK"
+    "XtalPi, 2228.HK",
+    "晶泰科技"
   ],
   "category_id": "10",
   "focus": "AI、量子物理与自动化实验支撑药物及材料研发",
@@ -62,6 +63,24 @@
       "supports": "投递入口",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "晶泰科技XtalPi招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/a089b45a941615801nB62Nm7.html",
+      "supports": "公开企业主页主体：晶泰科技XtalPi；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s06",
+      "scope": "channel",
+      "title": "【晶泰科技招聘】-猎聘",
+      "url": "https://www.liepin.com/company/8644570/",
+      "supports": "公开企业主页主体：晶泰科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -81,5 +100,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-1d4948520379b7e1",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/a089b45a941615801nB62Nm7.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "晶泰科技 XtalPi",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-d8c873b5c5f1109d",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/8644570/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "晶泰科技 XtalPi",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s06"
+      ],
+      "notes": null
+    }
+  ]
 }

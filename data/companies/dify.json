@@ -1,10 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "dify",
   "name": "Dify / LangGenius",
   "aliases": [
     "Dify.AI(苏州语灵)",
-    "苏州语灵"
+    "苏州语灵",
+    "Dify"
   ],
   "category_id": "03",
   "focus": "开源LLM应用开发与Agent编排平台",
@@ -56,6 +57,15 @@
       "supports": "business邮箱与服务伙伴定位",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "scope": "channel",
+      "title": "「Dify招聘」-BOSS直聘",
+      "url": "https://www.zhipin.com/gongsi/0add7ea9160d6a401XN_2Nq5GFU~.html",
+      "supports": "公开企业主页主体：Dify；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -75,5 +85,24 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-11d9c7cd5008b544",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/0add7ea9160d6a401XN_2Nq5GFU~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "Dify / LangGenius",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s04"
+      ],
+      "notes": null
+    }
+  ]
 }

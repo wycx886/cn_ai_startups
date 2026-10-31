@@ -1,10 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "langboat",
   "name": "澜舟科技 Langboat",
   "aliases": [
     "澜舟科技(孟子大模型)",
-    "孟子大模型"
+    "孟子大模型",
+    "澜舟科技"
   ],
   "category_id": "01",
   "focus": "认知模型与企业智能体",
@@ -56,6 +57,24 @@
       "supports": "Pre-A投资方",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "scope": "channel",
+      "title": "澜舟科技招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/f769f690e846c59e1XR70968FFc~.html",
+      "supports": "公开企业主页主体：澜舟科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "【澜舟科技招聘】-猎聘",
+      "url": "https://www.liepin.com/company/13173687/",
+      "supports": "公开企业主页主体：澜舟科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -75,5 +94,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-977edbb32ad87be6",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/f769f690e846c59e1XR70968FFc~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "澜舟科技 Langboat",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s04"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-ceb593e687189a66",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/13173687/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "澜舟科技 Langboat",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    }
+  ]
 }

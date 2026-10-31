@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "qiming",
   "name": "启明创投（Qiming Venture Partners）",
   "aliases": [
@@ -15,28 +15,6 @@
     "year": 2006,
     "basis": "官网机构介绍。"
   },
-  "team": [
-    {
-      "name": "邝子平",
-      "role": "创始主管合伙人",
-      "previous_firms": [
-        "英特尔投资"
-      ],
-      "background": "创立启明前任英特尔投资部中国区总监；此前在思科任职，早年为软件工程师。"
-    },
-    {
-      "name": "胡旭波",
-      "role": "主管合伙人",
-      "previous_firms": [],
-      "background": null
-    },
-    {
-      "name": "周志峰",
-      "role": "主管合伙人",
-      "previous_firms": [],
-      "background": null
-    }
-  ],
   "focus": "科技与医疗创新；科技侧包括AI、自动化设备、智能硬件等。",
   "stage": "早期及成长期。",
   "representative_cases": [
@@ -149,5 +127,57 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [],
+  "people": [
+    {
+      "name": "邝子平",
+      "role": "创始主管合伙人",
+      "previous_firms": [
+        "英特尔投资"
+      ],
+      "background": "创立启明前任英特尔投资部中国区总监；此前在思科任职，早年为软件工程师。",
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s08"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    },
+    {
+      "name": "胡旭波",
+      "role": "主管合伙人",
+      "previous_firms": [],
+      "background": null,
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s08"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    },
+    {
+      "name": "周志峰",
+      "role": "主管合伙人",
+      "previous_firms": [],
+      "background": null,
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s08"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    }
+  ]
 }

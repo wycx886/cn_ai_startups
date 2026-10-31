@@ -1,10 +1,12 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "yingdao",
   "name": "影刀 / 杭州分叉智能",
   "aliases": [
     "影刀RPA(分叉智能)",
-    "分叉智能"
+    "分叉智能",
+    "分叉智能科技",
+    "影刀RPA"
   ],
   "category_id": "06",
   "focus": "RPA、AI 工作流与数字员工",
@@ -62,6 +64,24 @@
       "supports": "现行招聘入口",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "分叉智能科技(影刀)招聘-BOSS直聘",
+      "url": "https://www.zhipin.com/gongsi/17a964cf8a8f963c0XZ83N-8FQ~~.html",
+      "supports": "公开企业主页主体：分叉智能科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s06",
+      "scope": "channel",
+      "title": "【影刀RPA招聘】-猎聘",
+      "url": "https://www.liepin.com/company/10239799/",
+      "supports": "公开企业主页主体：影刀RPA；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -81,5 +101,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-b14499edcdb510ea",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/17a964cf8a8f963c0XZ83N-8FQ~~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "影刀 / 杭州分叉智能",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-1e0032758550aa49",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/10239799/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "影刀 / 杭州分叉智能",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s06"
+      ],
+      "notes": null
+    }
+  ]
 }

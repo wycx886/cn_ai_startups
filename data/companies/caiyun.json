@@ -1,9 +1,10 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "caiyun",
   "name": "彩云科技",
   "aliases": [
-    "彩云科技"
+    "彩云科技",
+    "彩云科技AI"
   ],
   "category_id": "04",
   "focus": "AI天气、机器翻译与智能写作",
@@ -55,6 +56,24 @@
       "supports": "历史投资方",
       "published_date": "2024-11-17",
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "scope": "channel",
+      "title": "「彩云科技招聘」-BOSS直聘",
+      "url": "https://www.zhipin.com/gongsi/ee270ba65ab755ca03Zz2dm7Fg~~.html",
+      "supports": "公开企业主页主体：彩云科技；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "【彩云科技AI招聘】-猎聘",
+      "url": "https://www.liepin.com/company/9497504/",
+      "supports": "公开企业主页主体：彩云科技AI；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -74,5 +93,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-600b444d1550ec8c",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/ee270ba65ab755ca03Zz2dm7Fg~~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "彩云科技",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s04"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-96943d49c60db8ca",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/9497504/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "彩云科技",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    }
+  ]
 }

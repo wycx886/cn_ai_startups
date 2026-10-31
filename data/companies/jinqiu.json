@@ -1,9 +1,10 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "jinqiu",
   "name": "锦秋基金 Jinqiu Capital",
   "aliases": [
-    "锦秋资本"
+    "锦秋资本",
+    "锦秋基金"
   ],
   "group": "emerging",
   "coverage": {
@@ -14,19 +15,6 @@
     "year": 2022,
     "basis": "官网明确2022年成立；属于新机构，不是把字节财投部门全部历史项目转为锦秋业绩。"
   },
-  "team": [
-    {
-      "name": "杨洁",
-      "role": "创始合伙人",
-      "previous_firms": [
-        "字节跳动财务投资部",
-        "红杉中国",
-        "同创伟业",
-        "深创投"
-      ],
-      "background": "先在市场化VC任职，后任字节财务投资负责人，再创办锦秋。"
-    }
-  ],
   "focus": "AI算力、AI应用、具身智能及推动产业跃迁的前沿技术；另有创业工作室及早期支持计划。",
   "stage": "早期为主。",
   "representative_cases": [
@@ -92,6 +80,15 @@
       "supports": "招聘跳转与商务邮箱",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "锦秋基金招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/66690f125ed0154a1XZ43tu4FFY~.html",
+      "supports": "公开企业主页主体：锦秋基金；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "checked_at": "2026-10-30",
@@ -108,5 +105,46 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-9f0a59b030b4abd9",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/66690f125ed0154a1XZ43tu4FFY~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "锦秋基金 Jinqiu Capital",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    }
+  ],
+  "people": [
+    {
+      "name": "杨洁",
+      "role": "创始合伙人",
+      "previous_firms": [
+        "字节跳动财务投资部",
+        "红杉中国",
+        "同创伟业",
+        "深创投"
+      ],
+      "background": "先在市场化VC任职，后任字节财务投资负责人，再创办锦秋。",
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    }
+  ]
 }

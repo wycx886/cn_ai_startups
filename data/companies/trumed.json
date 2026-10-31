@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "trumed",
   "name": "真脉投资 TruMed",
   "aliases": [
@@ -15,16 +15,6 @@
     "year": 2021,
     "basis": "官网称2021年成立；2022年公开报道和牌照/境内主体出现，二者不是同一设立时间。"
   },
-  "team": [
-    {
-      "name": "王婷 Iris Wang",
-      "role": "创始人、首席投资官",
-      "previous_firms": [
-        "OrbiMed奥博资本"
-      ],
-      "background": "曾任奥博亚洲区公共股权投资总监并晋升全球合伙人；离职后建立真脉。"
-    }
-  ],
   "focus": "医疗健康，创新药、医疗器械、诊断与医疗服务；覆盖私募与公开市场。",
   "stage": "私募股权及Pre-IPO至上市后投资，不能当作纯种子VC。",
   "representative_cases": [
@@ -115,5 +105,23 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [],
+  "people": [
+    {
+      "name": "王婷 Iris Wang",
+      "role": "创始人、首席投资官",
+      "previous_firms": [
+        "OrbiMed奥博资本"
+      ],
+      "background": "曾任奥博亚洲区公共股权投资总监并晋升全球合伙人；离职后建立真脉。",
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s05"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    }
+  ]
 }

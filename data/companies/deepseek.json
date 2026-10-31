@@ -1,10 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "deepseek",
   "name": "深度求索 DeepSeek",
   "aliases": [
     "深度求索(DeepSeek)",
-    "DeepSeek"
+    "DeepSeek",
+    "深度求索"
   ],
   "category_id": "01",
   "focus": "通用与推理基础模型、开源模型与API",
@@ -72,6 +73,24 @@
       "supports": "明确列api-service@deepseek.com为DeepSeek Support",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s06",
+      "scope": "channel",
+      "title": "「深度求索招聘」-BOSS直聘",
+      "url": "https://www.zhipin.com/gongsi/ffd531b0cbd4133f1XN92Nm0EFU~.html",
+      "supports": "公开企业主页主体：深度求索；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s07",
+      "scope": "channel",
+      "title": "【DeepSeek招聘】-猎聘",
+      "url": "https://www.liepin.com/company/21147967/",
+      "supports": "公开企业主页主体：DeepSeek；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -91,5 +110,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-4480bb8e73eb98a5",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/ffd531b0cbd4133f1XN92Nm0EFU~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "深度求索 DeepSeek",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s06"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-acd6a6cea0912f8a",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/21147967/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "深度求索 DeepSeek",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s07"
+      ],
+      "notes": null
+    }
+  ]
 }

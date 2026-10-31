@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：Dify.AI(苏州语灵)；苏州语灵
+别名与原表名称：Dify.AI(苏州语灵)；苏州语灵；Dify
 
 ## 业务与产品
 
@@ -48,7 +48,11 @@ Dify Workflow、Agent、RAG、模型管理、企业版
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/0add7ea9160d6a401XN_2Nq5GFU~.html) | Dify / LangGenius | 2026-10-31 | confirmed / s04 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -61,3 +65,4 @@ Dify Workflow、Agent、RAG、模型管理、企业版
 | s01 | [Dify官方融资公告](https://dify.ai/blog/dify-raises-30m-tomorrow-s-organizations-will-be-built-by-people-and-agents) | 2026年Pre-A投资方 | 2026-03 | 2026-10-30 |
 | s02 | [Dify官方招聘](https://join.dify.ai/) | joinus邮箱、城市、总部与岗位 | 未标明 | 2026-10-30 |
 | s03 | [Dify官方伙伴计划](https://dify.ai/partners) | business邮箱与服务伙伴定位 | 未标明 | 2026-10-30 |
+| s04 | [「Dify招聘」-BOSS直聘](https://www.zhipin.com/gongsi/0add7ea9160d6a401XN_2Nq5GFU~.html) | 公开企业主页主体：Dify；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

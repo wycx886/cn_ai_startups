@@ -46,8 +46,14 @@ class ResearchTests(unittest.TestCase):
         shutil.copyfile(REPO / "data/lists/incumbents.json", self.root / "data/lists/incumbents.json")
         for folder, name in [("companies", "hypershell"), ("companies", "gaoding"),
                              ("companies", "monolith"), ("companies", "hongshan")]:
-            shutil.copyfile(REPO / "data" / folder / (name + ".json"),
-                            self.root / "data" / folder / (name + ".json"))
+            record = load(REPO / "data" / folder / (name + ".json"))
+            # Channel-workflow fixtures start before collection, regardless of
+            # how much real production research has subsequently been added.
+            record["channels"] = []
+            record["sources"] = [source for source in record["sources"]
+                                 if source.get("scope") != "channel"]
+            (self.root / "data" / folder / (name + ".json")).write_text(
+                json.dumps(record, ensure_ascii=False), encoding="utf-8")
         vc_list = load(REPO / "data/lists/vcs.json")
         vc_list["entries"] = [entry for entry in vc_list["entries"] if entry["company_id"] in {"monolith", "hongshan"}]
         (self.root / "data/lists/vcs.json").write_text(json.dumps(vc_list), encoding="utf-8")

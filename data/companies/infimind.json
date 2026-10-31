@@ -1,10 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "infimind",
   "name": "极睿科技 / Infimind",
   "aliases": [
     "极睿科技(Infimind)",
-    "Infimind"
+    "Infimind",
+    "北京极睿科技有限责任公司"
   ],
   "category_id": "07",
   "focus": "电商内容生成与商品数字化",
@@ -46,6 +47,15 @@
       "supports": "历史公开求职邮箱",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s03",
+      "scope": "channel",
+      "title": "【北京极睿科技有限责任公司招聘】-猎聘",
+      "url": "https://www.liepin.com/company/9960391/",
+      "supports": "公开企业主页主体：北京极睿科技有限责任公司；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -65,5 +75,24 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-23eb699242dd40c4",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/9960391/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "极睿科技 / Infimind",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s03"
+      ],
+      "notes": null
+    }
+  ]
 }

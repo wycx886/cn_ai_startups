@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：月之暗面(Kimi)；Kimi
+别名与原表名称：月之暗面(Kimi)；Kimi；月之暗面
 
 ## 业务与产品
 
@@ -48,7 +48,11 @@ Kimi、Kimi Code、模型API
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/f0fe9220123c051b03152d-4FVI~.html) | 月之暗面 Kimi | 2026-10-31 | confirmed / s05 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -62,3 +66,4 @@ Kimi、Kimi Code、模型API
 | s02 | [Kimi官方招聘](https://careers.kimi.com/about-us) | 公司招聘入口 | 未标明 | 2026-10-30 |
 | s03 | [每经：月之暗面融资](https://www.nbd.com.cn/articles/2024-02-19/3247754.html) | 2024年2月历史投资方 | 2024-02-19 | 2026-10-30 |
 | s04 | [官方Kimi Code仓库招聘帖](https://github.com/MoonshotAI/kimi-code/issues/2628) | 代码Agent与北京/上海 | 未标明 | 2026-10-30 |
+| s05 | [月之暗面招聘-BOSS直聘 公司页(工商信息已核对)](https://www.zhipin.com/gongsi/f0fe9220123c051b03152d-4FVI~.html) | 公开企业主页主体：月之暗面；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

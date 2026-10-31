@@ -1,10 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "vast",
   "name": "VAST / Tripo",
   "aliases": [
     "VAST(Tripo 3D)",
-    "Tripo 3D"
+    "Tripo 3D",
+    "VAST"
   ],
   "category_id": "05",
   "focus": "3D 生成基础模型与创作工作台",
@@ -54,6 +55,24 @@
       "supports": "当前Careers跳转至官方research页面",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s04",
+      "scope": "channel",
+      "title": "VAST招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/027f673ab6c1992e1HJy39q6GFQ~.html",
+      "supports": "公开企业主页主体：VAST；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "【VAST招聘】-猎聘",
+      "url": "https://www.liepin.com/company/21156495/",
+      "supports": "公开企业主页主体：VAST；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -73,5 +92,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-cb0872859efcb222",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/027f673ab6c1992e1HJy39q6GFQ~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "VAST / Tripo",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s04"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-f7dac295a98f0271",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/21156495/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "VAST / Tripo",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    }
+  ]
 }

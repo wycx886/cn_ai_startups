@@ -28,12 +28,12 @@ def make_draft(root, entity, entity_id, name, category=None, group='emerging', p
         categories={r['id'] for r in json.loads((Path(root)/'data/taxonomy.json').read_text())['categories']}
         if category not in categories:raise ValueError('Choose an existing taxonomy category')
     kind='operating_organization' if entity=='company' else 'investment_firm'
-    r={'schema_version':2,'organization_type':kind,'id':entity_id,'name':name,'aliases':[],
+    r={'schema_version':3,'organization_type':kind,'id':entity_id,'name':name,'aliases':[],
        'targeting':{'kind':'editorial_assessment','player_group':player_group,'wave':'later' if player_group=='incumbent' else 'watchlist','rationale':None,'source_ids':[],'labelled_at':None},
        'channels':[],'contacts':{k:None for k in ['website','careers_url','recruitment_email','other_email','other_email_purpose']},
        'checked_at':None,'sources':[],'notes':None}
     if entity=='company':r.update(category_id=category,focus=None,products=None,locations_text=None,comparison={'kind':'editorial_analysis','summary':None,'peer_names':[]},investment={'summary':None,'verification_status':None},provenance={'original_name':name,'original_track':category,'original_subtrack':'新增研究候选'})
-    else:r.update(group=group,founded={'year':None,'basis':None},team=[],focus=None,stage=None,representative_cases=[],recent_activity=None,why_follow=None,difference=None,coverage={'role':'watchlist','reason':None})
+    else:r.update(group=group,founded={'year':None,'basis':None},people=[],focus=None,stage=None,representative_cases=[],recent_activity=None,why_follow=None,difference=None,coverage={'role':'watchlist','reason':None})
     return {'draft':True,'entity_type':kind,'research_required':['主体、组织形态与归属','业务或投资策略','来源与实际核查日期','新进／已有及圈选依据','资本披露与案例归因'],'record':r}
 
 

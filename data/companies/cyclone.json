@@ -1,9 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "cyclone",
   "name": "弘玑 Cyclone",
   "aliases": [
-    "弘玑Cyclone"
+    "弘玑Cyclone",
+    "CYCLONE RPA",
+    "上海弘玑信息技术有限公司"
   ],
   "category_id": "06",
   "focus": "企业行动智能体与超自动化",
@@ -61,6 +63,24 @@
       "supports": "包含当前加入我们栏目；邮箱仍是历史高校公开入口",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "「CYCLONE RPA招聘」-BOSS直聘",
+      "url": "https://www.zhipin.com/gongsi/025511600cbce33b03Ry2NW4Fg~~.html",
+      "supports": "公开企业主页主体：CYCLONE RPA；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s06",
+      "scope": "channel",
+      "title": "【上海弘玑信息技术有限公司招聘】-猎聘",
+      "url": "https://www.liepin.com/company/10040025/",
+      "supports": "公开企业主页主体：上海弘玑信息技术有限公司；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -80,5 +100,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-563c13050a75949a",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/025511600cbce33b03Ry2NW4Fg~~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "弘玑 Cyclone",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-fd70083f51bebd42",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/10040025/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "弘玑 Cyclone",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s06"
+      ],
+      "notes": null
+    }
+  ]
 }

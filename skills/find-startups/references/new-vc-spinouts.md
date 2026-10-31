@@ -25,7 +25,7 @@
 
 ## 3. 将团队历史与新机构成绩分开
 
-`team[].previous_firms` 保留有证据的原平台，`representative_cases` 中的每笔案例写明归属与来源 ID：
+`people[].previous_firms` 保留有证据的原平台，`representative_cases` 中的每笔案例写明归属与来源 ID：
 
 - 原平台期间的案例标 `prior_firm`。
 - 当前机构的案例标 `current_firm`；该字段归因到机构，不是某一只基金。

@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：快牛智营(QuickCEP)；QuickCEP
+别名与原表名称：快牛智营(QuickCEP)；QuickCEP；快牛智营
 
 ## 业务与产品
 
@@ -48,7 +48,11 @@ QuickCEP AI Agent、Voice Agent、工单与CDP
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/2d2c761c14eec83b1XR72tu5F1E~.html) | 快牛智营 / QuickCEP | 2026-10-31 | confirmed / s06 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -63,3 +67,4 @@ QuickCEP AI Agent、Voice Agent、工单与CDP
 | s03 | [复星锐正融资动态](https://www.frzcapital.cn/news/index_7.html) | 新轮次投资背景 | 2025-11-28 | 2026-10-30 |
 | s04 | [36氪QuickCEP档案](https://pitchhub.36kr.com/project/1958431415880964) | 历史投资方 | 未标明 | 2026-10-30 |
 | s05 | [鱼泡快牛智营公司招聘页](https://www.yupao.com/qiye/202334541.html) | 招聘渠道与公司主体 | 未标明 | 2026-10-30 |
+| s06 | [快牛智营招聘-BOSS直聘 公司页(工商信息已核对)](https://www.zhipin.com/gongsi/2d2c761c14eec83b1XR72tu5F1E~.html) | 公开企业主页主体：快牛智营；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

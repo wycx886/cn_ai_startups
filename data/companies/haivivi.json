@@ -1,10 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "haivivi",
   "name": "跃然创新 Haivivi",
   "aliases": [
     "跃然创新(Haivivi)",
-    "Haivivi"
+    "Haivivi",
+    "深圳跃然创新科技有限公司"
   ],
   "category_id": "09",
   "focus": "AI玩具、语音互动与陪伴",
@@ -62,6 +63,24 @@
       "supports": "HAIVIVI品牌与招聘者、投递入口",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "HAIVIVI招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/8bb3ae416db67d351nx93t-6F1o~.html",
+      "supports": "公开企业主页主体：HAIVIVI；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
+    },
+    {
+      "id": "s06",
+      "scope": "channel",
+      "title": "【深圳跃然创新科技有限公司招聘】-猎聘",
+      "url": "https://www.liepin.com/company/21354707/",
+      "supports": "公开企业主页主体：深圳跃然创新科技有限公司；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -81,5 +100,42 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-3a72f489a7044f38",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/8bb3ae416db67d351nx93t-6F1o~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "跃然创新 Haivivi",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    },
+    {
+      "id": "ch-9961c6da8b16e3d1",
+      "layer": "recruitment_platform",
+      "platform": "liepin",
+      "url": "https://www.liepin.com/company/21354707/",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "跃然创新 Haivivi",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s06"
+      ],
+      "notes": null
+    }
+  ]
 }

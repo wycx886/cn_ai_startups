@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "source-code-rhythm",
   "name": "源码律动",
   "aliases": [
@@ -14,17 +14,6 @@
     "year": 2025,
     "basis": "源码官网黄云刚个人页明确其于2025年创立；36氪报道2025年5月独立运营。这里指独立机构品牌及运作，不等同于单个管理主体的工商设立日期。"
   },
-  "team": [
-    {
-      "name": "黄云刚",
-      "role": "管理合伙人",
-      "previous_firms": [
-        "源码资本",
-        "经纬中国"
-      ],
-      "background": "原源码资本管理合伙人，曾任经纬中国董事总经理；源码官方个人页列示其在原平台主导的科技与消费投资经历。"
-    }
-  ],
   "focus": "AI基础设施与应用；机器人与硬件；中国创新全球化",
   "stage": "种子期；天使轮；重要的A轮",
   "representative_cases": [
@@ -129,5 +118,23 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [],
+  "people": [
+    {
+      "name": "黄云刚",
+      "role": "管理合伙人",
+      "previous_firms": [
+        "源码资本",
+        "经纬中国"
+      ],
+      "background": "原源码资本管理合伙人，曾任经纬中国董事总经理；源码官方个人页列示其在原平台主导的科技与消费投资经历。",
+      "profiles": [],
+      "source_ids": [
+        "s01"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    }
+  ]
 }

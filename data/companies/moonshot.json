@@ -1,10 +1,11 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "moonshot",
   "name": "月之暗面 Kimi",
   "aliases": [
     "月之暗面(Kimi)",
-    "Kimi"
+    "Kimi",
+    "月之暗面"
   ],
   "category_id": "01",
   "focus": "通用模型、个人助手与代码Agent",
@@ -64,6 +65,15 @@
       "supports": "代码Agent与北京/上海",
       "published_date": null,
       "checked_at": "2026-10-30"
+    },
+    {
+      "id": "s05",
+      "scope": "channel",
+      "title": "月之暗面招聘-BOSS直聘 公司页(工商信息已核对)",
+      "url": "https://www.zhipin.com/gongsi/f0fe9220123c051b03152d-4FVI~.html",
+      "supports": "公开企业主页主体：月之暗面；只核验入口归属，不表示具体岗位开放。",
+      "published_date": null,
+      "checked_at": "2026-10-31"
     }
   ],
   "provenance": {
@@ -83,5 +93,24 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [
+    {
+      "id": "ch-e42426b39737c7b6",
+      "layer": "recruitment_platform",
+      "platform": "boss_zhipin",
+      "url": "https://www.zhipin.com/gongsi/f0fe9220123c051b03152d-4FVI~.html",
+      "purpose": "recruitment",
+      "owner": {
+        "scope": "organization",
+        "name": "月之暗面 Kimi",
+        "role": null
+      },
+      "verification_status": "confirmed",
+      "checked_at": "2026-10-31",
+      "source_ids": [
+        "s05"
+      ],
+      "notes": null
+    }
+  ]
 }

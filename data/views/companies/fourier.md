@@ -12,7 +12,7 @@
 
 标记依据：s01, s02。标记日期不更新业务事实核查日。
 
-别名与原表名称：傅利叶智能(Fourier)；Fourier
+别名与原表名称：傅利叶智能(Fourier)；Fourier；傅利叶智能
 
 ## 业务与产品
 
@@ -48,7 +48,12 @@ GR-3系列；GRW；RehabHub康复港
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/d26254c33e8b964d03R_2965Fg~~.html) | 傅利叶 | 2026-10-31 | confirmed / s05 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/9311236/) | 傅利叶 | 2026-10-31 | confirmed / s06 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -62,3 +67,5 @@ GR-3系列；GRW；RehabHub康复港
 | s02 | [傅利叶完成近8亿元E轮](https://www.yicai.com/news/102430454.html) | 投资方 | 2025-01-07 | 2026-10-30 |
 | s03 | [傅利叶产品资料](https://www.fftai.com/uploads/upload/files/20250519/9367c1adcb832047765641f301645c90.pdf) | 商务邮箱 | 未标明 | 2026-10-30 |
 | s04 | [傅利叶校招材料转载](https://www.91-tanhua.net/news/detail/103) | 招聘邮箱及官方摩卡入口 | 未标明 | 2026-10-30 |
+| s05 | [「傅利叶智能招聘」-BOSS直聘](https://www.zhipin.com/gongsi/d26254c33e8b964d03R_2965Fg~~.html) | 公开企业主页主体：傅利叶智能；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s06 | [【傅利叶智能招聘】-猎聘](https://www.liepin.com/company/9311236/) | 公开企业主页主体：傅利叶智能；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

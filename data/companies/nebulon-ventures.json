@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "id": "nebulon-ventures",
   "name": "Nebulon Ventures",
   "aliases": [
@@ -14,18 +14,6 @@
     "year": 2026,
     "basis": "2026-02-24公开宣布新基金及首关；报道提及2025年底离职后启动筹建。此处采用公开官宣年份，法律主体的工商成立日期未独立核定。"
   },
-  "team": [
-    {
-      "name": "温永腾（Yongteng Wen）",
-      "role": "创始人",
-      "previous_firms": [
-        "BV百度风投",
-        "蔚来资本",
-        "以太资本"
-      ],
-      "background": "原BV百度风投董事总经理；更早在蔚来资本从事投资，在以太资本从事科技融资业务，须区分投资与FA经历。"
-    }
-  ],
   "focus": "全球生成式AI应用；Agent及其协作网络；年轻AI创业者",
   "stage": "早期",
   "representative_cases": [
@@ -108,5 +96,27 @@
     ],
     "labelled_at": "2026-10-31"
   },
-  "channels": []
+  "channels": [],
+  "people": [
+    {
+      "name": "温永腾（Yongteng Wen）",
+      "role": "创始人",
+      "previous_firms": [
+        "BV百度风投",
+        "蔚来资本",
+        "以太资本"
+      ],
+      "background": "原BV百度风投董事总经理；更早在蔚来资本从事投资，在以太资本从事科技融资业务，须区分投资与FA经历。",
+      "profiles": [],
+      "source_ids": [
+        "s01",
+        "s02",
+        "s03",
+        "s04"
+      ],
+      "checked_at": "2026-10-30",
+      "verification_status": "partial",
+      "notes": "从原有 VC 团队资料迁移，沿用机构原核查日期与来源；未逐人重新核实当前职务、履历或主页，来源范围待细化。"
+    }
+  ]
 }

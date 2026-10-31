@@ -48,7 +48,12 @@
 
 ## 结构化公开渠道
 
-尚未逐项建立结构化渠道；上方旧入口及来源引用不等于 Layer 2／3 已核验。本阶段先圈定机构，后续再补采集。
+| 类别 | 平台与用途 | 公开链接 | 归属 | 核查日期 | 状态／来源 |
+| --- | --- | --- | --- | --- | --- |
+| Layer 2 招聘平台 | boss_zhipin / recruitment | [入口](https://www.zhipin.com/gongsi/e03c7ed68d03ead61XR92tS6.html) | 合合信息 / Intsig | 2026-10-31 | confirmed / s05 |
+| Layer 2 招聘平台 | liepin / recruitment | [入口](https://www.liepin.com/company/7862267/) | 合合信息 / Intsig | 2026-10-31 | confirmed / s06 |
+
+核验的是公开入口与主体归属，不表示岗位仍开放，也不授权发送或投递。
 
 ## 核查备注
 
@@ -62,3 +67,5 @@
 | s02 | [合合信息官网加入我们](https://www.intsig.com/join) | 当前社招、校招、实习入口 | 未标明 | 2026-10-30 |
 | s03 | [合合信息2025年年度报告](https://static.cninfo.com.cn/finalpage/2026-03-17/1225013125.PDF) | 机构股东法定名称 | 2026-03-17 | 2026-10-30 |
 | s04 | [合合信息招股说明书](https://star.sse.com.cn/disclosure/listedinfo/announcement/c/new/2024-09-23/688615_20240923_A0D6.pdf) | 历史投资方与股权 | 2024-09-23 | 2026-10-30 |
+| s05 | [合合信息招聘-BOSS直聘 公司页(工商信息已核对)](https://www.zhipin.com/gongsi/e03c7ed68d03ead61XR92tS6.html) | 公开企业主页主体：合合信息；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |
+| s06 | [【合合信息招聘】-猎聘](https://www.liepin.com/company/7862267/) | 公开企业主页主体：合合信息；只核验入口归属，不表示具体岗位开放。 | 未标明 | 2026-10-31 |

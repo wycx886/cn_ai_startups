@@ -1,0 +1,174 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:cn-ai-startups:person",
+  "title": "Sourced key person and public professional profiles",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "role": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "background": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "previous_firms": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "profiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "platform": {
+            "enum": [
+              "linkedin",
+              "x",
+              "github",
+              "scholar",
+              "jike",
+              "zhihu",
+              "personal_site",
+              "other"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https?://"
+          },
+          "verification_status": {
+            "enum": [
+              "confirmed",
+              "partial",
+              "historical"
+            ]
+          },
+          "checked_at": {
+            "type": "string",
+            "format": "date"
+          },
+          "source_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^s[0-9]{2,}$"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "notes": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "account_type": {
+            "const": "User",
+            "description": "For GitHub: observed API account type; Organization is not a personal profile."
+          }
+        },
+        "required": [
+          "platform",
+          "url",
+          "verification_status",
+          "checked_at",
+          "source_ids",
+          "notes"
+        ],
+        "additionalProperties": false,
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "platform": {
+                  "const": "github"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "account_type"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "source_ids": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^s[0-9]{2,}$"
+      }
+    },
+    "checked_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "verification_status": {
+      "enum": [
+        "confirmed",
+        "partial",
+        "historical"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "historical_source_ids": {
+      "type": "array",
+      "minItems": 0,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^s[0-9]{2,}$"
+      },
+      "description": "Preserved prior evidence; not used to claim the current identity check date."
+    }
+  },
+  "required": [
+    "name",
+    "role",
+    "background",
+    "profiles",
+    "source_ids",
+    "checked_at",
+    "verification_status",
+    "notes"
+  ],
+  "additionalProperties": false
+}
